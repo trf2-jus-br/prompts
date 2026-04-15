@@ -1,0 +1,58 @@
+#!/bin/sh
+# pre-commit — Valida arquivos .md staged antes do commit
+# Dependências: curl + perl (ambos inclusos no Git for Windows)
+
+APOIA_URL="${APOIA_VALIDATE_URL:-http://localhost:8081/api/v1/sync/validate}"
+
+staged=$(git diff --cached --name-only --diff-filter=ACM -- "*.md")
+[ -z "$staged" ] && exit 0
+
+# Envia TODOS os .md rastreados (não só staged) para detectar UUIDs duplicados
+all_md=$(git ls-files -- "*.md")
+count=$(echo "$all_md" | wc -l | tr -d ' ')
+changed=$(echo "$staged" | wc -l | tr -d ' ')
+
+# Monta o JSON usando perl (incluso no Git for Windows e em Linux/macOS)
+payload=$(echo "$all_md" | perl -e '
+  my @entries;
+  while (<STDIN>) {
+    chomp; my $p = $_;
+    my $c = `git show ":$p"`;
+    for my $s (\$p, \$c) {
+      $$s =~ s/\\/\\\\/g;
+      $$s =~ s/"/\\"/g;
+      $$s =~ s/\t/\\t/g;
+      $$s =~ s/\r/\\r/g;
+      $$s =~ s/\n/\\n/g;
+    }
+    push @entries, qq({"path":"$p","content":"$c"});
+  }
+  print q({"files":[) . join(",", @entries) . q(]});
+')
+
+tmpfile=$(mktemp)
+trap "rm -f $tmpfile $tmpfile.req" EXIT
+
+# Grava payload em arquivo para evitar limite de tamanho de argumento do OS
+echo "$payload" > "$tmpfile.req"
+
+http_code=$(curl -s -o "$tmpfile" -w '%{http_code}' \
+  -X POST "$APOIA_URL" \
+  -H "Content-Type: application/json" \
+  -d @"$tmpfile.req")
+
+if [ "$http_code" = "200" ]; then
+  echo "Validacao OK."
+  exit 0
+fi
+
+perl -e '
+  local $/; my $j = <STDIN>;
+  while ($j =~ /"path"\s*:\s*"([^"]+)"[^}]*?"errors"\s*:\s*\[([^\]]*)\]/gs) {
+    my ($p, $e) = ($1, $2);
+    my @errs = $e =~ /"((?:[^"\\]|\\.)*)"/g;
+    next unless @errs;
+    print "  $p: $_\n" for @errs;
+  }
+' < "$tmpfile" 2>/dev/null || cat "$tmpfile"
+exit 1
