@@ -4,7 +4,7 @@ uuid: 25488061-64a7-4f54-8fc6-6c750f111937
 name: Relatório Cível de 1ª Instância (do github)
 author: Caroline Tauk/JFRJ
 sort: 3
-share: publico
+share: padrao
 piece_strategy: mais-relevantes
 
 # SYSTEM PROMPT
