@@ -46,11 +46,20 @@ Se você localizar o leading case, ou seja, o caso paradigmático que deu origem
   - Nr_Tema esteja vazio;
   - Nr_Tema seja 0;
   - Tx_Tribunal esteja vazio.
-- Preencher com um prefixo em letras minúsculas imediatamente por um hifem e pelo número do tema, sem espaços, caso Lo_Tema seja true. Por exemplo, "stf-rg-123" ou "stj-rr-456" ou "tnu-789". Os prefixos possíveis são:
+- Preencher com um prefixo em letras minúsculas imediatamente por um hifem e pelo número do tema, sem espaços, caso Lo_Tema seja true. Por exemplo, "stf-rg-123" ou "stj-rr-456" ou "tnu-pu-789". Os prefixos possíveis são:
   - stf-rg para Recurso Extraordinário com Repercussão Geral
   - stj-rr para Recurso Especial Repetitivo
-  - tnu para temas julgados pela TNU
-  - irdr para Incidente de Resolução de Demandas Repetitivas (IRDR)
+  - tnu-pu para temas julgados pela TNU
+  - trf4-gr para Grupo de Recursos do TRF4
+  - ADI para Ação Direta de Inconstitucionalidade
+  - stj-iac para Incidente de Assunção de Competência (IAC) do STJ
+  - stf-sirdr para Suspensão de Incidente de Resolução de Demandas Repetitivas (SIRD) do STF
+  - stj-sirdr para Suspensão de Incidente de Resolução de Demandas Repetitivas (SIRD) do STJ
+  - trf2-irdr para Incidente de Resolução de Demandas Repetitivas (IRDR)
+  - adpf para Arguição de Descumprimento de Preceito Fundamental (ADPF)
+  - adc para Ação Declaratória de Constitucionalidade (ADC)
+  - trf2-iac para Incidente de Assunção de Competência (IAC) do TRF2
+
 
 Leia os documentos abaixo e preencha o JSON de saída.
 
