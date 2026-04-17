@@ -272,6 +272,9 @@ O primeiro caracter da resposta deve ser '{'.
         "dispositivo": {
             "type": "string"
         },
+        "tese": {
+            "type": "string"
+        },
         "dispositivosRelevantesCitados": {
             "type": "array",
             "items": {
@@ -291,6 +294,7 @@ O primeiro caracter da resposta deve ser '{'.
         "questaoEmDiscussao",
         "decisoes",
         "dispositivo",
+        "tese",
         "dispositivosRelevantesCitados",
         "jurisprudenciaRelevanteCitada"
     ],
