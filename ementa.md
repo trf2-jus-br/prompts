@@ -157,7 +157,7 @@ Exemplo: Embargos de declaração rejeitados.
 
 # Tese
 
-Conteúdo: Enunciação da tese, quando for o caso. A tese pode ser composta de um ou mais itens.
+Conteúdo: Enunciação da tese, quando for o caso. A tese pode ser composta de um ou mais itens. Quando houver mais de um item, deve-se numerar cada um deles, usando números arábicos seguidos de ponto (ex: 1. (...); 2. (...); etc.).
 
 
 ## Dispositivos relevantes citados
