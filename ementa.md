@@ -316,9 +316,12 @@ _**Ementa:**_ <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}
 {% for d in decisoes %}
 {{loop.index + 2}}. {{ d.decisaoEFundamentos }}
 {% endfor %}{% endif %}
-{% if dispositivo %}<h4 style="font-variant: small-caps slashed-zero;">IV. Dispositivo</h4>
+{% if dispositivo %}<h4 style="font-variant: small-caps slashed-zero;">IV. Dispositivo{% if tese %} e tese{% endif %}</h4>
 
 {{decisoes | length + 3}}. {{dispositivo}}{% endif %}
+
+{% if tese %}<span style="font-variant: italic;">Tese de julgamento:</span> {{tese}}{% endif %}
+
 {% if dispositivosRelevantesCitados %}
 ---
 
