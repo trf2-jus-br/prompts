@@ -31,6 +31,9 @@ Por favor, leia com atenção os textos a seguir:
 Formate sua análise de acordo com o modelo a seguir, demarcado por <modelo> e </modelo>:
 
 <modelo>
+# Resumos das Peças Processuais
+[Faça um resumo conciso e objetivo de cada peça processual, destacando os pontos mais relevantes. O resumo deve ser claro e direto, sem incluir detalhes desnecessários. Use uma linguagem formal e técnica, adequada ao contexto jurídico. Antes do resumo de cada peça, indique com um título de nível 2 (##) o tipo da peça processual, por exemplo: "Sentença", "Recurso Inominado", "Contestação", etc.]
+
 # Questão Central
 [Estabeleça com clareza a questão central]
 
