@@ -17,9 +17,27 @@ Você é um assistente de magistrado altamente experiente, especialista em Direi
 # PROMPT
 
 ## OBJETIVO
-Leia o conteúdo da peça processual fornecida abaixo e tente idenficar se ela sugere alguma suspensão por Recurso Especial Repetitivo, ou Recurso Extraordinário com Repercussão Geral, ou Tema da Turma Nacional de Uniformização (TNU) ou Incidente de Resolução de Demandas Repetitivas (IRDR). Caso haja indícios claros de que a peça se refere a um desses casos, informe isso no JSON de saída.
+Leia o conteúdo da peça processual fornecida abaixo e tente idenficar se ela sugere alguma suspensão por Recurso Especial Repetitivo, ou Recurso Extraordinário com Repercussão Geral, ou outros. A lista completa de tipos de casos que devem ser identificados é a seguinte:
 
-Se você localizar o leading case, ou seja, o caso paradigmático que deu origem à suspensão, mas não localizar o número do tema, utilize a ferramenta (tool) getLeadingCaseSearch para tentar localizar o número do tema a partir do leading case. Se você localizar o número do tema, preencha o campo Nr_Tema com esse número. Caso contrário, deixe o campo Nr_Tema zerado.
+| Tipo de Caso | Tribunal | Prefixo |
+|---|---|---|
+| Recurso Extraordinário com Repercussão Geral | STF | `stf-rg` |
+| Recurso Especial Repetitivo | STJ | `stj-rr` |
+| Temas julgados pela TNU | TNU | `tnu-pu` |
+| Grupo de Recursos do TRF4 | TRF4 | `trf4-gr` |
+| Ação Direta de Inconstitucionalidade | STF | `adi` |
+| Incidente de Assunção de Competência (IAC) do STJ | STJ | `stj-iac` |
+| Suspensão de IRDR do STF | STF | `stf-sirdr` |
+| Suspensão de IRDR do STJ | STJ | `stj-sirdr` |
+| Incidente de Resolução de Demandas Repetitivas (IRDR) | TRF2 | `trf2-irdr` |
+| Arguição de Descumprimento de Preceito Fundamental (ADPF)| STF | `adpf` |
+| Ação Declaratória de Constitucionalidade (ADC) | STF | `adc` |
+| Incidente de Assunção de Competência (IAC) do TRF2 | TRF2 | `trf2-iac` |
+
+Caso haja indícios claros de que a peça se refere a um desses casos, informe isso no JSON de saída.
+
+**Instrução de Ferramenta (Tool):**
+Se você localizar o *leading case* (o caso paradigmático que deu origem à suspensão), mas não o número do tema, utilize a ferramenta `getLeadingCaseSearch` para tentar localizá-lo. Se encontrar o número, preencha o campo `Nr_Tema`. Se não encontrar, preencha o campo `Nr_Tema` com `0`.
 
 ## FIELDS READONLY
 
@@ -32,13 +50,14 @@ Se você localizar o leading case, ou seja, o caso paradigmático que deu origem
 - Caso não tenha sido fornecida uma peça processual, deixe esse campo em branco.
 
 ### Lo_Tema - Tema Presente
-- Informe true, caso haja indícios claros de que a peça se refere a um desses casos: Recurso Especial Repetitivo, Recurso Extraordinário com Repercussão Geral, ou Tema da Turma Nacional de Uniformização (TNU) ou Incidente de Resolução de Demandas Repetitivas (IRDR). Caso contrário, informe false.
+- Informe true, caso haja indícios claros de que a peça se refere a um desses casos previstos na tabela acima. Caso contrário, informe false.
 
 ### Nr_Tema - Número do Tema
-- Se a peça processual indicar que o recurso é um Recurso Especial Repetitivo, informe o número do Tema do STJ relacionado a esse Recurso Especial Repetitivo, por exemplo "123".
+- Se a peça processual indicar o número do caso que provocou a suspensão, informe-o, por exemplo "123".
+- Se não houver número identificado, retorne "0".
 
 ### Tx_Tribunal - Tribunal do Tema
-- Informe "STJ", "STF", "TNU" ou "IRDR", conforme o caso, caso haja indícios claros de que a peça se refere a um desses casos. Caso contrário, deixe esse campo em branco.
+- Informe "STJ", "STF", "TNU", etc, conforme o caso, caso haja indícios claros de que a peça se refere a um desses casos. Caso contrário, deixe esse campo em branco.
 
 ### triagem - Triagem
 - Deixar em branco se qualquer das opções abaixo for verdadeira:
@@ -46,19 +65,13 @@ Se você localizar o leading case, ou seja, o caso paradigmático que deu origem
   - Nr_Tema esteja vazio;
   - Nr_Tema seja 0;
   - Tx_Tribunal esteja vazio.
-- Preencher com um prefixo em letras minúsculas imediatamente por um hifem e pelo número do tema, sem espaços, caso Lo_Tema seja true. Por exemplo, "stf-rg-123" ou "stj-rr-456" ou "tnu-pu-789". Os prefixos possíveis são:
-  - stf-rg para Recurso Extraordinário com Repercussão Geral
-  - stj-rr para Recurso Especial Repetitivo
-  - tnu-pu para temas julgados pela TNU
-  - trf4-gr para Grupo de Recursos do TRF4
-  - ADI para Ação Direta de Inconstitucionalidade
-  - stj-iac para Incidente de Assunção de Competência (IAC) do STJ
-  - stf-sirdr para Suspensão de Incidente de Resolução de Demandas Repetitivas (SIRD) do STF
-  - stj-sirdr para Suspensão de Incidente de Resolução de Demandas Repetitivas (SIRD) do STJ
-  - trf2-irdr para Incidente de Resolução de Demandas Repetitivas (IRDR)
-  - adpf para Arguição de Descumprimento de Preceito Fundamental (ADPF)
-  - adc para Ação Declaratória de Constitucionalidade (ADC)
-  - trf2-iac para Incidente de Assunção de Competência (IAC) do TRF2
+- Preencher com um prefixo em letras minúsculas imediatamente por um hifem e pelo número do tema, sem espaços, caso Lo_Tema seja true. Por exemplo, "stf-rg-123" ou "stj-rr-456" ou "tnu-pu-789". Os prefixos possíveis foram listados na tabela acima. Tudo em minúsculas e sem espaços.
+
+### Tx_Triagem_Alternativa - Triagem Alternativa
+- Caso haja indícios inequívocos de que a suspensão se refira a mais de um tema, preencha este campo com o prefixo e número dos temas adicionais, seguindo o mesmo formato do campo `triagem` e separando-os por vírgula. Caso contrário, deixe este campo em branco.
+
+### Tx_Justificativa - Justificativa
+- Informe uma breve justificativa para a identificação do tema de suspensão, mencionando os trechos da peça processual que levaram à conclusão. Caso não tenha sido possível identificar um tema de suspensão, informe os motivos para isso.
 
 
 Leia os documentos abaixo e preencha o JSON de saída.
@@ -66,4 +79,6 @@ Leia os documentos abaixo e preencha o JSON de saída.
 {{textos}}
 
 # FORMAT
-{% if Lo_Tema %}Tema identificado: {{ Nr_Tema if Nr_Tema !== 0 else '?'}} ({{ Tx_Tribunal }}){% else %}Não foi identificado tema de suspensão.{% endif %}
+<p>{% if triagem %}Tema identificado: ({{ triagem }}){% else %}Não foi identificado tema de suspensão.{% endif %}
+{% if Tx_Triagem_Alternativa %}<br/>Há indícios de outros temas de suspensão: ({{ Tx_Triagem_Alternativa }}){% endif %}</p>
+<p>Justificativa: {{ Tx_Justificativa }}</p>
