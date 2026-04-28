@@ -1,11 +1,11 @@
-# METADATA
-
+---
 uuid: d11a35f1-ec87-4a52-b74c-2e8b43a55012
 name: Relatório de Análise de Petição Inicial e Resposta do Réu
 sort: 3
 share: oculto
 piece_strategy: mais-relevantes
-  
+---
+
 # SYSTEM PROMPT
 
 Você conhece profundamente o direito brasileiro e está completamente atualizado juridicamente. 

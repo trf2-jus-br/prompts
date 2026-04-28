@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: ee53509d-777b-4a88-8277-ebf240ba04da
 name: Relatorio de Apelacao e Triagem
 sort: 1
@@ -10,6 +9,7 @@ context:
   instance: segundo-grau
 successors:
   - path: chat
+---
 
 # SYSTEM PROMPT
 

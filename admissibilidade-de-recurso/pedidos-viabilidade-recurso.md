@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: bb4f02ef-a5f4-458e-bac2-551acb361414
 name: Pedidos de Viabilidade de Recurso
 sort: 3
@@ -8,8 +7,8 @@ piece_strategy: viabilidade-recurso-especial
 grupo:
   slug: decisao-de-viabilidade
   titulo: Admissibilidade de Recursos
+---
 
-  
 # SYSTEM PROMPT
 
 Você conhece profundamente o direito brasileiro e está completamente atualizado juridicamente. 

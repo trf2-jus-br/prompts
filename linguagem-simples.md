@@ -1,10 +1,10 @@
-# METADATA
-
+---
 uuid: 8e02b5c1-4b3a-481f-936c-4d740441ce60
 name: Linguagem Simples
 target: texto
 successors:
   - path: chat
+---
 
 # PROMPT
 

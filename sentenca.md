@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: 5b3d1c81-7a5b-453b-ad26-67b9936603da
 name: Sentença
 piece_strategy: mais-relevantes-primeira-instancia
@@ -12,6 +11,7 @@ predecessors:
   - path: pedidos-fundamentacoes-e-dispositivos
 successors:
   - path: chat
+---
 
 # SYSTEM PROMPT
 

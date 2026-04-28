@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: 9c8f98fb-0679-4f2a-9722-91c2e1b35600
 name: Resumos e analise
 sort: 2
@@ -8,6 +7,7 @@ context:
   action: processo-selecionar
 successors:
   - path: chat
+---
 
 # SYSTEM PROMPT
 

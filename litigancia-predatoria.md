@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: acfa3a3c-fc1f-4952-ac6b-0e2766c5c1e5
 name: Litigância Predatória
 sort: 5
@@ -7,6 +6,7 @@ share: beta-teste
 piece_strategy: peticao-inicial-e-anexos
 successors:
   - path: chat
+---
 
 # PROMPT
 

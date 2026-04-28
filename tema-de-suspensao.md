@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: 118bac70-1aaa-46fc-90fc-328b19906307
 name: Identificação de Tema de Suspensão
 sort: 3
@@ -8,6 +7,7 @@ plugins:
   - triagem-json
 successors:
   - path: chat
+---
 
 # SYSTEM PROMPT
 

@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: cd41d8e9-a79e-41be-8702-6d63659d79ea
 name: Pedidos
 sort: 6
@@ -7,6 +6,7 @@ share: beta-teste
 piece_strategy: peticao-inicial
 successors:
   - path: chat
+---
 
 # SYSTEM PROMPT
 

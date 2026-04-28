@@ -1,6 +1,6 @@
-# METADATA
-
+---
 uuid: bd772e5b-5683-4813-b167-e180f6e3976c
+---
 
 # SYSTEM PROMPT
 

@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: 0d5dfcc0-01d9-42f5-8f02-9f50c051d0df
 name: Perfil Profissiografico Previdenciario - PPP
 sort: 1000
@@ -7,6 +6,7 @@ share: beta-teste
 piece_strategy: PPP
 successors:
   - path: chat
+---
 
 # PROMPT
 

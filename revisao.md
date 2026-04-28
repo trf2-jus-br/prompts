@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: 3d899f27-fdb0-43a1-9103-0566d6b5f6db
 name: Revisao Ortografica
 sort: 1001
@@ -8,6 +7,7 @@ context:
   action: minuta-editar
 successors:
   - path: revisao
+---
 
 # SYSTEM PROMPT
 {{semPromptPadrao}}

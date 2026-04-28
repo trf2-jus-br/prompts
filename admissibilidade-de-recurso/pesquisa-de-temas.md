@@ -1,5 +1,4 @@
-# METADATA
-
+---
 uuid: 18d2d945-137d-4388-88f7-13832cca7a72
 name: Pesquisa de Temas e Súmulas para Viabilidade de Recurso
 sort: 3
@@ -8,6 +7,7 @@ piece_strategy: viabilidade-recurso-especial
 grupo:
   slug: decisao-de-viabilidade
   titulo: Admissibilidade de Recursos
+---
 
 # SYSTEM PROMPT
 
