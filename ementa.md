@@ -320,7 +320,7 @@ _**Ementa:**_ <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}
 
 {{decisoes | length + 3}}. {{dispositivo}}{% endif %}
 
-{% if tese %}<span style="font-variant: italic;">Tese de julgamento:</span> {{tese}}{% endif %}
+{% if tese %}_Tese de julgamento_: {{tese}}{% endif %}
 
 {% if dispositivosRelevantesCitados %}
 ---
