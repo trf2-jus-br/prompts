@@ -4,6 +4,7 @@ name: Chat Padrão
 sort: 7
 target: chat
 context: {}
+share: oculto
 ---
 
 # SYSTEM PROMPT

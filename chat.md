@@ -5,6 +5,7 @@ sort: 7
 piece_strategy: mais-relevantes
 target: chat
 context: {}
+share: oculto
 ---
 
 # SYSTEM PROMPT

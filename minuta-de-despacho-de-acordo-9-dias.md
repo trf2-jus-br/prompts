@@ -1,5 +1,6 @@
 ---
 uuid: 54423da8-799b-46e0-a000-e8c523cbb4ad
+share: oculto
 ---
 
 # SYSTEM PROMPT
