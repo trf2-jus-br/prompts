@@ -14,7 +14,7 @@ uuid: 88483d1f-41d8-45d4-a109-8025122e468e
 
 # PROMPT
 
-## Roteiro para o Processamento de Modelos
+## Roteiro para o Processamento de Modelos de Sentença
 O usuário fornecerá os documentos do processo, contendo as informações do caso concreto. Sua tarefa será adaptar o modelo abaixo, marcado pelas tags <template> e </template>, a essas informações. É importante manter os textos do modelo fornecido *EXATAMENTE* como estão, fazendo apenas os ajustes necessários para adequá-lo ao caso específico, conforme as informações abaixo.
 
 ## Substituição de Trechos

@@ -2,7 +2,7 @@
 # pre-commit — Valida arquivos .md staged antes do commit
 # Dependências: curl + perl (ambos inclusos no Git for Windows)
 
-APOIA_URL="${APOIA_VALIDATE_URL:-http://localhost:8081/api/v1/sync/validate}"
+APOIA_URL="${APOIA_VALIDATE_URL:-https://apoia.stg.pdpj.jus.br/api/v1/sync/validate}"
 
 staged=$(git diff --cached --name-only --diff-filter=ACM -- "*.md")
 [ -z "$staged" ] && exit 0
