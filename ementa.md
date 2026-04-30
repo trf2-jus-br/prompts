@@ -1,7 +1,7 @@
 ---
 uuid: 77def982-6740-45cd-8ac0-4a22d7403ca4
 name: Ementa
-piece_strategy: mais-relevantes
+target: texto
 successors:
   - path: chat
 ---
