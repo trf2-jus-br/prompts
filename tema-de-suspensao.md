@@ -37,7 +37,9 @@ Leia o conteúdo da peça processual fornecida abaixo e tente idenficar se ela s
 Caso haja indícios claros de que a peça se refere a um desses casos, informe isso no JSON de saída.
 
 **Instrução de Ferramenta (Tool):**
-Se você localizar o *leading case* (o caso paradigmático que deu origem à suspensão), mas não o número do tema, utilize a ferramenta `getLeadingCaseSearch` para tentar localizá-lo. Se encontrar o número, preencha o campo `Nr_Tema`. Se não encontrar, preencha o campo `Nr_Tema` com `0`.
+Se você localizar o *leading case* (o caso paradigmático que deu origem à suspensão), mas não o número do tema, utilize a ferramenta `getLeadingCaseSearch` para tentar localizá-lo. Se encontrar o número, preencha o campo `Nr_Tema`. Se não encontrar, preencha o campo `Nr_Tema` com `0`. Caso encontre um resultado relevante, pode confiar que ele está correto, pois essa base é muito confiável.
+
+Atenção, para realizar essa tarefa, as ferramentas `getSemanticSearch`, `getPangea` e `getPrecedent` são proibidas. O objetivo é identificar a suspensão com base no conteúdo da peça processual, e não por meio de pesquisa de teses ou súmulas. Portanto, utilize exclusivamente a leitura e análise do texto da peça processual para identificar os indícios de suspensão.
 
 ## FIELDS READONLY
 
