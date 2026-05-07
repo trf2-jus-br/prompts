@@ -157,7 +157,7 @@ Exemplo: Embargos de declaração rejeitados.
 
 # Tese
 
-Conteúdo: Enunciação da tese, quando for o caso. A tese pode ser composta de um ou mais itens. Quando houver mais de um item, deve-se numerar cada um deles, usando números arábicos seguidos de ponto (ex: 1. (...); 2. (...); etc.).
+Conteúdo: Enunciação da tese. A tese pode ser composta de um ou mais itens. Quando houver mais de um item, deve-se numerar cada um deles, usando números arábicos seguidos de ponto (ex: 1. (...); 2. (...); etc.).
 
 
 ## Dispositivos relevantes citados
@@ -208,7 +208,7 @@ A resposta deve ser formatada em JSON, conforme o modelo abaixo, demarcado por <
         }
     ],
     "dispositivo": "Incluir o Dispositivo",
-    "tese": "Incluir a Tese, se houver",
+    "tese": "Incluir a Tese",
     "dispositivosRelevantesCitados": ["Incluir os Dispositivos relevantes citados"],
     "jurisprudenciaRelevanteCitada": ["Incluir a Jurisprudência relevante citada"]
 }
