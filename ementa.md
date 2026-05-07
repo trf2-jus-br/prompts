@@ -1,6 +1,6 @@
 ---
-uuid: 77def982-6740-45cd-8ac0-4a22d7403ca4
-name: Ementa
+uuid: 6f5066e1-d6b9-4b79-b7ce-7f6da8812fc1
+name: Ementa Copy
 target: texto
 successors:
   - path: chat
@@ -16,6 +16,10 @@ Adote um tom PROFISSIONAL e AUTORITATIVO, sem jargões desnecessários
 Escreva de modo CONCISO, mas completo e abrangente, sem redundância
 
 # PROMPT
+
+Leia cuidadosamente os textos abaixo e produza a ementa conforme o explicado a seguir.
+
+{{textos}}
 
 # ORIENTAÇÕES GERAIS DE REDAÇÃO DAS EMENTAS
 
@@ -93,10 +97,13 @@ As ementas devem ser divididas nos seguintes itens:
 - Cabeçalho;
 - Caso em exame;
 - Decisões;
-- Dispositivo.
+- Dispositivo
+- Teses de julgamento;
+- Dispositivos relevantes citados;
 
+## FIELDS READONLY
 
-## Cabeçalho
+### cabecalho - Cabeçalho
 
 Conteúdo: o cabeçalho deverá conter as seguintes informações sequenciais, preferencialmente com um máximo de quatro linhas:
 - o ramo do Direito (ex: Direito constitucional e administrativo);
@@ -111,7 +118,7 @@ Limitação de tamanho: a indexação da ementa deve ter, preferencialmente, at�
 Exemplo: Direito administrativo e previdenciário. Embargos de declaração em agravo interno em recurso extraordinário. Recurso protelatório. Embargos rejeitados.
 
 
-## Caso em exame
+### casoEmExame - Caso em exame
 
 Conteúdo: deve conter qual é a ação, o recurso ou o incidente que é objeto da decisão ou voto, com a sumária descrição do caso.
 
@@ -119,7 +126,7 @@ O item deve apresentar o caso de forma direta, sem a expressão "trata-se de" (e
 
 Exemplo: Embargos de declaração opostos em face de acórdão que negou provimento a agravo interno, mantendo a decisão que havia concedido a liminar para permitir a participação do embargado no concurso para analista do TRF da Segunda Região.
 
-## Questão em discussão
+### questaoEmDiscussao - Questão em discussão
 
 Conteúdo: breve relato da(s) questão(ões) em discussão, com a descrição objetiva de fundamentos jurídicos e, se houver, de fatos que caracterizam a controvérsia. 
 
@@ -129,40 +136,34 @@ Deve-se incluir todas as questões, com os seus respectivos fatos e fundamentos.
 
 Exemplo: A questão em discussão consiste em saber se há obscuridade, contradição ou omissão que justifique (i) o afastamento de multa prevista no § 4º do art. 1.021 do CPC e (ii) a redução de honorários fixados por ocasião do julgamento do agravo interno.
 
+### fundamentos[] - Fundamentos
 
-## Decisões
+Conteúdo: Apresente cada fundamento que foi usado para decisão, extraídos da fundamentação. Utilize quantos itens forem necessários para contemplar todos os fundamentos.
 
-Conteúdo: uma lista de alegações com fundamentos, decisão e citações de normas e jurisprudência. As informações serão dispostas nos campos abaixo. As razões de decidir devem ser bem detalhadas.
-
-### Campo alegacao
-- Vá lendo o voto e, crie um item na lista para cada alegação. Quando uma alegação for dividida em vários subtópicos, inclua um item para cada um dos subtópicos.
-
-### Campo fundamentos (array de strings)
-- Para cada alegação, inclua uma lista com cada um dos fundamentos jurídicos que foram apresentados para sustentar a decisão. 
+###### fundamento - Fundamento
 - Atenção: se for citada norma ou jurisprudência no fundamento jurídico, inclua isso no texto, mesmo que a norma ou jurisprudência já tenha sido citada anteriormente, ou vá ser citada mais a frente.
+- NA VOZ ATIVA, de forma concisa, objetiva. Escreva o verbo no presente, de modo a apresentar as razões em tese. 
 
-### Campo decisao
-- Informe a decisão praticada.
-
-### Campo decisaoEFundamentos
-- Por fim, escreva um texto descrevendo a decisão e incluindo cada um dos fundamentos que a motivaram, inclua citação de normas e jurisprudência, se houver.
-- Para não ficar repetitivo, em alguns caso começe citando a decisão e em outros comece pelos fundamentos.
-
-
-## Dispositivo
+### dispositivo - Dispositivo
 
 Conteúdo: Conclusão da decisão/julgamento (provimento do recurso, desprovimento do recurso). O dispositivo deve ser objetivo.
 
 Exemplo: Embargos de declaração rejeitados.
 
-# Tese
+### teses[] - Teses
 
-Conteúdo: Enunciação da tese. A tese pode ser composta de um ou mais itens. Quando houver mais de um item, deve-se numerar cada um deles, usando números arábicos seguidos de ponto (ex: 1. (...); 2. (...); etc.).
+Conteúdo: Apresente cada tese de julgamento. Utilize quantos itens forem necessários para contemplar todas as teses de julgamento.
+
+###### tese - Tese
+
+Enunciação da tese em texto corrido. 
 
 
-## Dispositivos relevantes citados
+### dispositivosRelevantesCitados[] - Dispositivos relevantes citados
 
 Conteúdo: remissão à toda a legislação citada no texto que for relevante para a solução do caso.
+
+###### dispositivo - Dispositivo
 - Dispositivo: A citação deve conter o diploma normativo abreviado (ex: CF/1988, CPC, CC, CP, CPP, Lei nº  9.099/1995), seguido do dispositivo (ex: art. 1º, I, § 1º).
 
 Formatação:
@@ -173,9 +174,11 @@ Formatação:
 Exemplo: 
 - CPC, arts. 1.021, § 4º, e 1.022
 
-## Jurisprudência relevante citada
+### jurisprudenciaRelevanteCitada[] - Jurisprudência relevante citada
 
 Conteúdo: remissão a toda a jurisprudência citada no texto que for relevante para a solução do caso.
+
+###### jurisprudencia - Jurisprudência
 
 A citação deve conter as seguintes informações:
 - nome da corte ou tribunal abreviado (ex: STF, STJ, TJSP, TRF1, TRT4);
@@ -189,121 +192,9 @@ Exemplo:
 - STF, AgR no ARE 822.641, Rel. Min. Edson Fachin, 1ª Turma, j. 23.10.2015
 
 
-
-# Modelo da Resposta
-
-A resposta deve ser formatada em JSON, conforme o modelo abaixo, demarcado por <modelo> e </modelo>:
-
-<modelo>
-{
-    "cabecalho": "Incluir o Cabeçalho",
-    "casoEmExame": "Incluir o Caso em exame",
-    "questaoEmDiscussao": "Incluir a Questão em discussão",
-    "decisoes": [
-        {
-            "alegacao": "campo alegacao"
-            "fundamentos": ["campo fundamentos"],
-            "decisao": "campo decisao",
-            "decisaoEFundamentos": "campo decisaoEFundamentos"
-        }
-    ],
-    "dispositivo": "Incluir o Dispositivo",
-    "tese": "Incluir a Tese",
-    "dispositivosRelevantesCitados": ["Incluir os Dispositivos relevantes citados"],
-    "jurisprudenciaRelevanteCitada": ["Incluir a Jurisprudência relevante citada"]
-}
-</modelo>
-
-
-# Tarefa principal
-
-Leia cuidadosamente os textos abaixo e produza a ementa conforme o modelo acima.
-
-Não prefixe a resposta com crases triplas.
-Sua resposta deve ser um JSON válido.
-O primeiro caracter da resposta deve ser '{'. 
-
-{{textos}}
-
-# JSON SCHEMA
-
-{
-    "type": "object",
-    "properties": {
-        "cabecalho": {
-            "type": "string"
-        },
-        "casoEmExame": {
-            "type": "string"
-        },
-        "questaoEmDiscussao": {
-            "type": "string"
-        },
-        "decisoes": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "alegacao": {
-                        "type": "string"
-                    },
-                    "fundamentos": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
-                    },
-                    "decisao": {
-                        "type": "string"
-                    },
-                    "decisaoEFundamentos": {
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "alegacao",
-                    "fundamentos",
-                    "decisao",
-                    "decisaoEFundamentos"
-                ],
-                "additionalProperties": false
-            }
-        },
-        "dispositivo": {
-            "type": "string"
-        },
-        "tese": {
-            "type": "string"
-        },
-        "dispositivosRelevantesCitados": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "jurisprudenciaRelevanteCitada": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        }
-    },
-    "required": [
-        "cabecalho",
-        "casoEmExame",
-        "questaoEmDiscussao",
-        "decisoes",
-        "dispositivo",
-        "tese",
-        "dispositivosRelevantesCitados",
-        "jurisprudenciaRelevanteCitada"
-    ],
-    "additionalProperties": false
-}
-
 # FORMAT
 
-_**Ementa:**_ <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}</span>
+<p class="ementa"><b><i>Ementa:</i></b> <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}</span></p>
 
 {% if casoEmExame %}<h4 style="font-variant: small-caps slashed-zero;">I. Caso em exame</h4>
 
@@ -311,21 +202,21 @@ _**Ementa:**_ <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}
 {% if questaoEmDiscussao %}<h4 style="font-variant: small-caps slashed-zero;">II. Questão em discussão</h4>
 
 2. {{questaoEmDiscussao}}{% endif %}
-{% if decisoes %}<h4 style="font-variant: small-caps slashed-zero;">III. Razões de decidir</h4>
+{% if fundamentos %}<h4 style="font-variant: small-caps slashed-zero;">III. Razões de decidir</h4>
 
-{% for d in decisoes %}
-{{loop.index + 2}}. {{ d.decisaoEFundamentos }}
+{% for d in fundamentos %}
+{{loop.index + 2}}. {{ d.fundamento }}
 {% endfor %}{% endif %}
 {% if dispositivo %}<h4 style="font-variant: small-caps slashed-zero;">IV. Dispositivo{% if tese %} e tese{% endif %}</h4>
 
 {{decisoes | length + 3}}. {{dispositivo}}{% endif %}
 
-{% if tese %}_Tese de julgamento_: {{tese}}{% endif %}
+{% if teses %}_Tese{% if teses | length > 1 %}s{% endif %} de julgamento_: "{% for t in teses %}{{loop.index}}. {% if not loop.last %}{{ t.tese | replace(r/\.$/, "") }}; {% else %}{{ t.tese | replace(r/\.$/, "") }}{% endif %}{% endfor %}".{% endif %}
 
 {% if dispositivosRelevantesCitados %}
 ---
 
-_Dispositivos relevantes citados_: {% for d in dispositivosRelevantesCitados %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d }}{{"." if loop.last else ""}}{% endfor %}{% endif %}
+_Dispositivos relevantes citados_: {% for d in dispositivosRelevantesCitados %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d.dispositivo }}{{"." if loop.last else ""}}{% endfor %}{% endif %}
 {% if jurisprudenciaRelevanteCitada %}
-_Jurisprudência relevante citada_: {% for d in jurisprudenciaRelevanteCitada %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d }}{{"." if loop.last else ""}}{% endfor %}
+_Jurisprudência relevante citada_: {% for d in jurisprudenciaRelevanteCitada %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d.jurisprudencia }}{{"." if loop.last else ""}}{% endfor %}
 {% endif %}
