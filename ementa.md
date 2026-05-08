@@ -194,29 +194,29 @@ Exemplo:
 
 # FORMAT
 
-<p class="ementa"><b><i>Ementa:</i></b> <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}</span></p>
+<p class="caputEmenta"><b><i>Ementa:</i></b> <span style="font-variant: small-caps slashed-zero;">{{cabecalho}}</span></p>
 
-{% if casoEmExame %}<h4 style="font-variant: small-caps slashed-zero;">I. Caso em exame</h4>
+{% if casoEmExame %}<p class="paragrafoComRecuo" style="font-variant: small-caps slashed-zero;">I. Caso em exame</p>
 
-1. {{casoEmExame}}{% endif %}
-{% if questaoEmDiscussao %}<h4 style="font-variant: small-caps slashed-zero;">II. Questão em discussão</h4>
+<p class="paragrafoComRecuo">1. {{casoEmExame}}</p>{% endif %}
+{% if questaoEmDiscussao %}<p class="paragrafoComRecuo" style="font-variant: small-caps slashed-zero;">II. Questão em discussão</p>
 
-2. {{questaoEmDiscussao}}{% endif %}
-{% if fundamentos %}<h4 style="font-variant: small-caps slashed-zero;">III. Razões de decidir</h4>
+<p class="paragrafoComRecuo">2. {{questaoEmDiscussao}}</p>{% endif %}
+{% if fundamentos %}<p class="paragrafoComRecuo" style="font-variant: small-caps slashed-zero;"><strong>III. Razões de decidir</strong></p>
 
 {% for d in fundamentos %}
-{{loop.index + 2}}. {{ d.fundamento }}
+<p class="paragrafoComRecuo">{{loop.index + 2}}. {{ d.fundamento }}</p>
 {% endfor %}{% endif %}
-{% if dispositivo %}<h4 style="font-variant: small-caps slashed-zero;">IV. Dispositivo{% if tese %} e tese{% endif %}</h4>
+{% if dispositivo %}<p class="paragrafoComRecuo" style="font-variant: small-caps slashed-zero;"><strong>IV. Dispositivo{% if tese %} e tese{% endif %}</strong></p>
 
-{{decisoes | length + 3}}. {{dispositivo}}{% endif %}
+<p class="paragrafoComRecuo">{{fundamentos | length + 3}}. {{dispositivo}}</p>{% endif %}
 
-{% if teses %}_Tese{% if teses | length > 1 %}s{% endif %} de julgamento_: "{% for t in teses %}{{loop.index}}. {% if not loop.last %}{{ t.tese | replace(r/\.$/, "") }}; {% else %}{{ t.tese | replace(r/\.$/, "") }}{% endif %}{% endfor %}".{% endif %}
+{% if teses %}<p class="paragrafoComRecuo"><i>Tese{% if teses | length > 1 %}s{% endif %} de julgamento</i>: "{% for t in teses %}{{loop.index}}. {% if not loop.last %}{{ t.tese | replace(r/\.$/, "") }}; {% else %}{{ t.tese | replace(r/\.$/, "") }}{% endif %}{% endfor %}".</p>{% endif %}
 
 {% if dispositivosRelevantesCitados %}
 ---
 
-_Dispositivos relevantes citados_: {% for d in dispositivosRelevantesCitados %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d.dispositivo }}{{"." if loop.last else ""}}{% endfor %}{% endif %}
+<p class="paragrafoComRecuo"><i>Dispositivos relevantes citados</i>: {% for d in dispositivosRelevantesCitados %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d.dispositivo }}{{"." if loop.last else ""}}{% endfor %}{% endif %}</p>
 {% if jurisprudenciaRelevanteCitada %}
-_Jurisprudência relevante citada_: {% for d in jurisprudenciaRelevanteCitada %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d.jurisprudencia }}{{"." if loop.last else ""}}{% endfor %}
+<p class="paragrafoComRecuo"><i>Jurisprudência relevante citada</i>: {% for d in jurisprudenciaRelevanteCitada %}{{ "" if loop.first else ("; e " if loop.last else "; ") }}{{ d.jurisprudencia }}{{"." if loop.last else ""}}{% endfor %}</p>
 {% endif %}
