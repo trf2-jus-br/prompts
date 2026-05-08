@@ -1,6 +1,6 @@
 ---
-uuid: 6f5066e1-d6b9-4b79-b7ce-7f6da8812fc1
-name: Ementa Copy
+uuid: 77def982-6740-45cd-8ac0-4a22d7403ca4
+name: Ementa
 target: texto
 successors:
   - path: chat
