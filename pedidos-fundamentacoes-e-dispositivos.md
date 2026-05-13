@@ -114,10 +114,13 @@ Identifique os pedidos que ainda não foram decididos pelo magistrado nas peças
                 ],
                 "additionalProperties": false
             }
+        },
+        "errorMessage": {
+            "type": "string"
         }
     },
     "required": [
-        "proximoPrompt", "pedidos"
+        "proximoPrompt", "pedidos", "errorMessage"
     ],
     "additionalProperties": false
 }
