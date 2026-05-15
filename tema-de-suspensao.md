@@ -34,7 +34,9 @@ Leia o conteúdo da peça processual fornecida abaixo e tente idenficar se ela s
 | Ação Declaratória de Constitucionalidade (ADC) | STF | `adc` |
 | Incidente de Assunção de Competência (IAC) do TRF2 | TRF2 | `trf2-iac` |
 
-Caso haja indícios claros de que a peça se refere a um desses casos, informe isso no JSON de saída.
+Caso haja indícios claros de que suspensão do processo se deu por conta de um desses temas, informe isso no JSON de saída.
+
+Caso seja citado algum tema, mas ele não seja o motivo da suspensão, ele não deve ser considerado como tema de suspensão. O tema de suspensão precisa ser um tema que ainda não havia sido julgado no momento da suspensão.
 
 **Instrução de Ferramenta (Tool):**
 Se você localizar o *leading case* (o caso paradigmático que deu origem à suspensão), mas não o número do tema, utilize a ferramenta `getLeadingCaseSearch` para tentar localizá-lo. Se encontrar o número, preencha o campo `Nr_Tema`. Se não encontrar, preencha o campo `Nr_Tema` com `0`. Caso encontre um resultado relevante, pode confiar que ele está correto, pois essa base é muito confiável.
