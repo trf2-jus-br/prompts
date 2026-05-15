@@ -87,21 +87,29 @@ O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superi
 *Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo. Para os demais casos, use os modelos a seguir:*
 
 **Caminho 1: Para ADMITIR o Recurso**
-> "Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
-> Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
-> Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [INSERIR BREVE DESCRIÇÃO DA TESE JURÍDICA]."
+```
+Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
+Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
+Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [INSERIR BREVE DESCRIÇÃO DA TESE JURÍDICA].
+```
 
 **Caminho 2: Para SUSPENDER (Sobrestamento por Tema)**
-> "Discute-se, no presente caso, [RESUMO DA CONTROVÉRSIA EM UMA LINHA].
-> A controvérsia é objeto do Tema [NÚMERO] dos recursos repetitivos/repercussão geral, tendo o [STJ/STF] determinado a suspensão do processamento de todos os processos que versem sobre a mesma matéria."
+```
+Discute-se, no presente caso, [RESUMO DA CONTROVÉRSIA EM UMA LINHA].
+A controvérsia é objeto do Tema [NÚMERO] dos recursos repetitivos/repercussão geral, tendo o [STJ/STF] determinado a suspensão do processamento de todos os processos que versem sobre a mesma matéria.
+```
 
 **Caminho 3: Para NEGAR SEGUIMENTO (Tema Julgado)**
-> "O acórdão recorrido coincide com a orientação firmada pelo [STJ/STF] no Tema [NÚMERO] ([TESE]). Aplica-se o regime dos recursos repetitivos/repercussão geral."
+```
+O acórdão recorrido coincide com a orientação firmada pelo [STJ/STF] no Tema [NÚMERO] ([TESE]). Aplica-se o regime dos recursos repetitivos/repercussão geral.
+```
 
 **Caminho 4: Para JUÍZO DE RETRATAÇÃO**
-> "O item [X] da tese fixada no Tema [NÚMERO] estabelece que: '[CITAR TESE DO TEMA ENTRE ASPAS]'.
+```
+O item [X] da tese fixada no Tema [NÚMERO] estabelece que: '[CITAR TESE DO TEMA ENTRE ASPAS]'.
 > O órgão julgador considerou [CITAR O QUE O ACÓRDÃO DECIDIU].
-> Dessa forma, ao validar entendimento diverso, o acórdão recorrido parece destoar do entendimento firmado no Tema [NÚMERO]."
+> Dessa forma, ao validar entendimento diverso, o acórdão recorrido parece destoar do entendimento firmado no Tema [NÚMERO].
+```
 
 ### 3. Dispositivo (Encerramento do Texto)
 O texto deve terminar **exatamente** em uma das frases abaixo.
@@ -160,7 +168,8 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 
 
 #### *IRREGULARIDADE_REPRESENTACAO*: Irregularidade da representação processual
-`O recurso não reúne condições de admissibilidade.
+```
+O recurso não reúne condições de admissibilidade.
 É consolidado o entendimento jurisprudencial no sentido de que os pressupostos processuais devem estar presentes durante todo o trâmite processual, inclusive na esfera recursal. Nos termos do art. 76, §2º, inciso I, do Código de Processo Civil, a não regularização da representação processual em sede recursal implica o não conhecimento do recurso, quando a providência couber ao recorrente.
 No caso em análise, {{descricaoVicio — ex: "verificou-se que o advogado subscritor do recurso especial renunciou ao mandato após a interposição do recurso" / "constatou-se a ausência de procuração válida nos autos em nome do advogado signatário do recurso especial" / "identificou-se que os poderes outorgados na procuração juntada aos autos não abrangem a prática de atos em sede recursal especial"}}.
 Regularmente intimada {{referenciaEventoIntimacao — ex: "(evento XX)"}} para sanar o vício no prazo de 5 (cinco) dias, nos termos do art. 932, parágrafo único, do Código de Processo Civil, a parte recorrente {{descricaoCondutaRecorrente — ex: "deixou decorrer o prazo in albis" / "não providenciou a juntada de nova procuração" / "não apresentou qualquer manifestação"}}, sem regularizar sua representação processual.
@@ -169,7 +178,6 @@ A propósito, confira-se:
 Assim, não tendo a parte recorrente regularizado sua representação processual no prazo assinalado, o presente recurso não pode ser admitido, por ausência de pressuposto processual.
 Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
-
 
 #### *INTEMPESTIVIDADE*: Intempestividade
 
