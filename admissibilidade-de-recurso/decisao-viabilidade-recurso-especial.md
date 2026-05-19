@@ -138,7 +138,6 @@ O recurso deve ser inadmitido ante a ausência de requisito essencial, qual seja
 Nos termos do art. 1.007, §4º, do Código de Processo Civil, o recorrente que não comprovar o recolhimento do preparo no ato de interposição do recurso será intimado, na pessoa de seu advogado, para realizá-lo em dobro, sob pena de deserção. No caso em tela, não tendo a parte recorrente comprovado o recolhimento do preparo quando da interposição do recurso, foi regularmente intimada {{referenciaEventoIntimacao}} para efetuar o recolhimento em dobro no prazo de 5 (cinco) dias úteis.
 Todavia, o prazo decorreu in albis, conforme certificado {{referenciaEventoCertidao}}, sem que o recolhimento fosse providenciado.
 Assim, não tendo o recurso especial sido regularmente preparado, impõe-se reconhecer sua deserção, nos termos da Súmula n. 187 do Superior Tribunal de Justiça, segundo a qual: "É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos".
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Preparo insuficiente
@@ -147,7 +146,6 @@ O recurso deve ser inadmitido ante a ausência de requisito essencial, qual seja
 Nos termos do art. 1.007, §2º, do Código de Processo Civil, a insuficiência no valor do preparo implica deserção se o recorrente, intimado na pessoa de seu advogado, não vier a supri-la no prazo de 5 (cinco) dias. No caso em tela, verificado que o preparo foi recolhido com insuficiência {{referenciaEventoCertidaoInsuficiencia}}, a parte recorrente foi regularmente intimada {{referenciaEventoIntimacao}} para complementar o valor devido no prazo assinalado.
 Todavia, o prazo decorreu in albis, conforme certificado {{referenciaEventoCertidao}}, sem que a complementação fosse efetuada.
 Assim, não tendo o recurso especial sido regularmente preparado, impõe-se reconhecer sua deserção, nos termos da Súmula n. 187 do Superior Tribunal de Justiça, segundo a qual: "É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos".
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Gratuidade requerida após interposição
@@ -155,7 +153,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso deve ser inadmitido ante a ausência de requisito essencial, qual seja, a regularidade do preparo.
 O pedido de gratuidade de justiça foi formulado apenas após a interposição do recurso, e não no ato recursal, como exige o art. 1.007 do Código de Processo Civil. Nos termos da jurisprudência pacífica do Superior Tribunal de Justiça, a concessão da gratuidade de justiça não produz efeitos retroativos, de modo que qualquer requerimento de isenção, diferimento ou parcelamento do preparo deve ser apresentado no momento da interposição, não sendo admissível, após o inadimplemento, afastar a exigência do recolhimento em dobro com base em pedido posterior.
 Assim, não tendo o recurso especial sido regularmente preparado, impõe-se reconhecer sua deserção, nos termos da Súmula n. 187 do Superior Tribunal de Justiça, segundo a qual: "É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos".
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Gratuidade indeferida
@@ -163,7 +160,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso deve ser inadmitido ante a ausência de requisito essencial, qual seja, a regularidade do preparo.
 Analisados os documentos apresentados {{referenciaEventoDocumentos}}, a gratuidade de justiça requerida foi indeferida {{referenciaEventoIndeferimento}}, por não restar demonstrada a hipossuficiência econômica da parte recorrente, nos termos do art. 99, §2º, do Código de Processo Civil. Tendo decorrido in albis o prazo subsequentemente concedido para regularização do preparo {{referenciaEventoCertidao}}, impõe-se o reconhecimento da deserção. 
 Assim, não tendo o recurso especial sido regularmente preparado, impõe-se reconhecer sua deserção, nos termos da Súmula n. 187 do Superior Tribunal de Justiça, segundo a qual: "É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos".
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 
@@ -176,7 +172,6 @@ Regularmente intimada {{referenciaEventoIntimacao — ex: "(evento XX)"}} para s
 A propósito, confira-se:
 "Nos termos do parágrafo único do art. 932 do CPC/2015, o relator concederá ao recorrente o prazo de 5 (cinco) dias para sanar eventual vício, antes de julgar inadmissível o recurso. A teor do disposto no art. 76, §2º, I, do CPC/2015, não se conhece do recurso se a parte recorrente, instada a regularizar a representação processual, não o faz no prazo assinalado." (STJ, AgInt no AREsp 2176761/RS, Segunda Turma, Rel. Min. Assusete Magalhães, DJe 01/12/2023)
 Assim, não tendo a parte recorrente regularizado sua representação processual no prazo assinalado, o presente recurso não pode ser admitido, por ausência de pressuposto processual.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *INTEMPESTIVIDADE*: Intempestividade
@@ -187,7 +182,6 @@ O presente recurso não deve ser admitido, diante de sua intempestividade.
 O prazo para interposição do recurso especial é de 15 (quinze) dias úteis, nos termos do art. 1.003, §5º, do Código de Processo Civil.
 A parte recorrente foi intimada do acórdão recorrido em {{dataIntimacaoAcordao}}, iniciando-se o prazo recursal em {{dataInicioPrazo}}, com término em {{dataFimPrazo}}. O presente recurso, contudo, foi interposto apenas em {{dataInterposicaoREsp}}, quando já ultrapassado o prazo legal.
 Assim, considerando a inexistência de qualquer fato apto a interromper ou suspender o prazo para interposição do presente recurso especial, impõe-se o reconhecimento de sua intempestividade.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Intempestividade por Embargos de Declaração não conhecidos
@@ -199,7 +193,6 @@ Os embargos de declaração não conhecidos não têm o condão de interromper o
 "Não interrompem o prazo para a interposição de outros recursos os embargos de declaração opostos intempestivamente, bem como aqueles que sejam considerados manifestamente incabíveis ou que, imbuídos de caráter meramente infringente, sejam intentados sem a indicação, em seu arrazoado, de nenhum dos vícios que, nos termos da lei processual, autorizam sua oposição." (STJ, AREsp n. 2.426.893/SP, Terceira Turma, Rel. Min. Ricardo Villas Bôas Cueva, DJe 07/07/2025)
 No caso, a parte recorrente foi intimada do acórdão recorrido em {{dataIntimacaoAcordao}}, iniciando-se o prazo recursal em {{dataInicioPrazo}}, com término em {{dataFimPrazo}}. O presente recurso, contudo, foi interposto apenas em {{dataInterposicaoREsp}}, quando já ultrapassado o prazo legal.
 Assim, considerando a inexistência de qualquer fato apto a interromper ou suspender o prazo para interposição do presente recurso especial, impõe-se o reconhecimento de sua intempestividade.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Intempestividade por Agravo Interno não conhecido
@@ -209,7 +202,6 @@ O prazo para interposição do recurso especial é de 15 (quinze) dias úteis, n
 O acórdão recorrido foi impugnado por agravo interno, o qual não foi conhecido por decisão monocrática {{referenciaEventoAgInt}}, com fundamento no art. 932, {{incisoArt932}}, do Código de Processo Civil. A decisão monocrática que não conhece do agravo interno não tem o condão de reabrir o prazo para interposição do recurso especial, pois não há novo julgamento de mérito que substitua o acórdão originário, como ocorre quando há oposição de embargos de declaração devidamente conhecidos e julgados pelo colegiado.
 O prazo para interposição do recurso especial iniciou-se com a publicação do acórdão {{identificacaoAcordaoRecorrido — ex: "da apelação"}}, ocorrida em {{dataPublicacaoAcordao}}, com término em {{dataFimPrazo}}, e não com a publicação da posterior decisão monocrática que não conheceu do agravo interno {{referenciaEventoDecisaoMono}}. O presente recurso, contudo, foi interposto apenas em {{dataInterposicaoREsp}}, após o encerramento do prazo legal.
 Assim, considerando a inexistência de qualquer fato apto a interromper ou suspender o prazo para interposição do presente recurso especial, impõe-se o reconhecimento de sua intempestividade.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Intempestividade por alegação de feriado local
@@ -219,7 +211,6 @@ O prazo para interposição do recurso especial é de 15 (quinze) dias úteis, n
 A parte recorrente alega a ocorrência de {{descricaoDoFeriadoOuRecesso}} como justificativa para a dilação do prazo. Contudo, nos termos do art. 1.003, §6º, do Código de Processo Civil, a comprovação de feriado local ou de suspensão do expediente forense deve ser realizada no ato de interposição do recurso, não sendo admitida a juntada posterior do respectivo documento.
 Como a parte não instruiu o recurso com documento idôneo que comprovasse a alegada suspensão do prazo no momento da interposição, não é possível reconhecer a tempestividade do recurso com base nessa alegação.
 Assim, considerando a inexistência de qualquer fato apto a interromper ou suspender o prazo para interposição do presente recurso especial, impõe-se o reconhecimento de sua intempestividade.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *ILEGITIMIDADE*: Ilegitimidade
@@ -228,7 +219,6 @@ O recurso não reúne condições de admissibilidade.
 A legitimidade recursal constitui pressuposto subjetivo de admissibilidade dos recursos, nos termos do art. 996 do Código de Processo Civil, que confere o direito de recorrer às partes, ao Ministério Público e ao terceiro prejudicado. Somente quem integrou a relação processual na condição de parte, ou demonstrar ter sofrido efeito jurídico direto da decisão na condição de terceiro, está autorizado a interpor recurso.
 No caso em análise, {{descricaoIlegitimidade — ex: "o recurso especial foi interposto por quem não figurou como parte no processo de origem" / "o recorrente não integrou a relação processual nas instâncias ordinárias, não tendo sido admitido como assistente, litisconsorte ou terceiro interveniente" / "o signatário do recurso não detém poderes de representação da pessoa jurídica recorrente, conforme os atos constitutivos juntados aos autos"}}. {{complementoIlegitimidade — ex: "Não há nos autos qualquer elemento que demonstre a qualidade de terceiro prejudicado, nos termos do art. 996, parágrafo único, do CPC, apta a legitimar a interposição do presente recurso"}}.
 Ausente a legitimidade recursal, o recurso não pode ser admitido.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *FALTA_DE_INTERESSE_RECURSAL*: Falta de interesse recursal
@@ -241,7 +231,6 @@ No caso em análise, {{descricaoResultadoAcordao — ex: "o acórdão proferido 
 Nessa perspectiva, o acórdão recorrido atendeu integralmente ao que foi pedido pelo ora recorrente, razão pela qual se revela patente a ausência de interesse recursal.
 O acórdão recorrido atendeu precisamente à pretensão deduzida pela parte, {{descricaoLimitesDoAcordao — ex: "limitando-se a anular a sentença de improcedência e determinar o retorno dos autos à instância originária, que era exatamente o objeto do pedido formulado em grau de apelação" / "tendo acolhido integralmente os pedidos formulados pela parte recorrente"}}.
 Dessa forma, inexiste desatendimento da pretensão recursal a ser reparado pela via do recurso especial, restando configurada a manifesta ausência de interesse recursal, a ensejar a inadmissão do apelo.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Acórdão atendeu à pretensão da parte (desejava provimento mais amplo)
@@ -254,7 +243,6 @@ O acórdão recorrido atendeu precisamente à pretensão deduzida pela parte, {{
 O recorrente almeja resultado mais amplo ou imediato do que o obtido, {{descricaoPedidoPrincipal — ex: "a anulação da sentença foi o pedido principal de sua apelação, e seu acolhimento integral demonstra que a pretensão deduzida foi integralmente satisfeita"}}.
 A mera expectativa de um resultado além do que foi pedido não configura o desatendimento necessário para legitimar a interposição do recurso especial.
 Dessa forma, inexiste desatendimento da pretensão recursal a ser reparado pela via do recurso especial, restando configurada a manifesta ausência de interesse recursal, a ensejar a inadmissão do apelo.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ###	Pressupostos específicos do REsp (prequestionamento e esgotamento)
@@ -268,7 +256,6 @@ A previsão constitucional para o recurso especial exige que a causa tenha sido 
 No caso dos autos, a parte recorrente deixou de interpor {{recursoCabivel — ex: "apelação" / "agravo de instrumento" / "recurso ordinário constitucional"}} perante o tribunal de origem, recurso ordinário cabível e apto a submeter a matéria ao reexame pelo órgão competente.
 A decisão impugnada, portanto, não foi proferida em última instância, pois havia via recursal ordinária disponível que não foi utilizada. O não esgotamento das instâncias ordinárias inviabiliza o conhecimento do recurso especial.
 Incide, na espécie, por analogia, o enunciado da Súmula n. 281 do Supremo Tribunal Federal: "É inadmissível o recurso extraordinário, quando couber na justiça de origem, recurso ordinário da decisão impugnada."
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se a via recursal específica não foi utilizada na origem
@@ -277,7 +264,6 @@ O recurso especial não comporta admissão em razão da ausência de exaurimento
 A previsão constitucional para o recurso especial exige que a causa tenha sido decidida em única ou última instância, o que pressupõe o esgotamento de todos os recursos ordinários disponíveis e a manifestação definitiva do órgão colegiado do Tribunal de origem sobre a questão controvertida.
 No caso dos autos, a parte recorrente deixou de utilizar {{viaRecursalEspecifica — ex: "os embargos infringentes" / "o agravo regimental" / "os embargos de divergência"}}, meio de impugnação cabível perante a instância de origem, antes de acessar a via especial. Enquanto existir recurso ordinário disponível e não esgotado, não se configura o pressuposto da decisão proferida em única ou última instância, exigido pelo art. 105, inciso III, da Constituição Federal.
 Incide, na espécie, por analogia, o enunciado da Súmula n. 281 do Supremo Tribunal Federal: "É inadmissível o recurso extraordinário, quando couber na justiça de origem, recurso ordinário da decisão impugnada."
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *AUSENCIA_PREQUESTIONAMENTO*: Ausência de Prequestionamento (Súmulas 282/STF e 356/STF; e 211/STJ)
@@ -290,7 +276,6 @@ No caso, a despeito da oposição de embargos de declaração, o Tribunal a quo 
 Ademais, não se configura sequer o prequestionamento ficto dos dispositivos alegadamente violados. Isso porque, para sua admissão, previsto no art. 1.025 do Código de Processo Civil, é necessário não só que haja a oposição dos embargos de declaração na Corte a quo, como também a indicação, no recurso especial, da ofensa ao art. 1.022 do CPC/2015 — o que não ocorreu na espécie:
 "Para a admissão do prequestionamento ficto, previsto no art. 1.025 do CPC, é necessário não só que haja a oposição dos embargos de declaração na Corte a quo como também a indicação, no recurso especial, da ofensa ao art. 1.022 do CPC/2015." (STJ, AgInt no AREsp 2.077.732/MG, Primeira Turma, Rel. Min. Paulo Sérgio Domingues, DJe 28/09/2023)
 Incide, portanto, o enunciado da Súmula n. 211 do Superior Tribunal de Justiça: "Inadmissível recurso especial quanto à questão que, a despeito da oposição de embargos declaratórios, não foi apreciada pelo Tribunal a quo."
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se não Opostos Embargos de Declaração
@@ -299,7 +284,6 @@ O recurso especial não comporta admissão em razão da ausência de prequestion
 O conhecimento do recurso especial exige que a tese jurídica contida nos dispositivos de lei federal alegadamente violados tenha sido objeto de prévio debate e decisão pelo Tribunal de origem. A ausência de manifestação do Tribunal a quo acerca do conteúdo normativo dos dispositivos legais tidos por violados no apelo especial revela-se óbice insuperável ao seu processamento.
 No caso, sequer foram opostos embargos de declaração com o propósito de provocar o Tribunal a quo a se manifestar sobre {{dispositivosLegaisNaoDebatidos — ex: "os arts. 489, §1º, e 1.022 do CPC" / "o art. 19 da Lei n. 8.036/1990"}}, o que impede, igualmente, o reconhecimento do prequestionamento ficto previsto no art. 1.025 do Código de Processo Civil.
 Incidem, por analogia, os enunciados das Súmulas n. 282 e 356 do Supremo Tribunal Federal, segundo os quais é inadmissível o recurso quando a questão federal não tiver sido ventilada na decisão recorrida, mesmo que suscitada no prazo legal.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se alegados artigos inéditos no REsp
@@ -309,6 +293,7 @@ O conhecimento do recurso especial exige que a tese jurídica contida nos dispos
 Registre-se, ainda, que os dispositivos legais {{dispositivosIneditos — ex: "arts. 373 e 374 do CPC"}} são invocados pela primeira vez no recurso especial, sem que tenham sido objeto de debate e decisão nas instâncias ordinárias, o que veda seu conhecimento nesta sede recursal.
 Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
+
 #### *FUNDAMENTO_CONSTITUCIONAL_AUTONOMO*: Fundamento constitucional autônomo não impugnado — Súmula 126/STJ
 
 ##### Com interposição simultânea de RE
@@ -321,7 +306,6 @@ A existência de fundamento de índole constitucional, autônomo e suficiente pa
 Embora a parte recorrente afirme ter interposto recurso extraordinário, {{fundconstnaoatacado" / "o recurso extraordinário interposto não abrangeu o fundamento constitucional autônomo que sustenta o acórdão recorrido, deixando-o incólume"}}.
 A subsistência do fundamento constitucional sem impugnação eficaz preserva o óbice da Súmula n. 126 do Superior Tribunal de Justiça.
 Incide, portanto, o enunciado da Súmula n. 126 do Superior Tribunal de Justiça, segundo a qual: "É inadmissível recurso especial, quando o acórdão recorrido assenta em fundamentos constitucional e infraconstitucional, qualquer deles suficiente, por si só, para mantê-lo, e a parte vencida não manifesta recurso extraordinário."
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Sem interposição simultânea de RE
@@ -332,7 +316,6 @@ No plano constitucional, o julgado assentou que {{fundamentoConstitucional — e
 No plano infraconstitucional, assentou que {{fundamentoInfraconstitucional — ex: "a pretensão também encontra óbice no art. 884 do Código Civil" / "a matéria é igualmente regida pelo art. 19 da Lei nº 8.036/1990"}}.
 A existência de fundamento de índole constitucional, autônomo e suficiente para manter o julgado, impunha à parte recorrente a interposição do imprescindível Recurso Extraordinário perante o Supremo Tribunal Federal, a fim de afastar esse fundamento. Sem a impugnação do fundamento constitucional, o acórdão recorrido se mantém intacto independentemente do resultado do recurso especial, tornando inútil o seu processamento.
 Incide, portanto, o enunciado da Súmula n. 126 do Superior Tribunal de Justiça, segundo a qual: "É inadmissível recurso especial, quando o acórdão recorrido assenta em fundamentos constitucional e infraconstitucional, qualquer deles suficiente, por si só, para mantê-lo, e a parte vencida não manifesta recurso extraordinário."
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ###	Pressupostos Específicos do REsp (relacionados à fundamentação)
@@ -344,7 +327,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso especial não comporta admissão em razão da deficiência na sua fundamentação, incidindo, por analogia, o óbice da Súmula n. 284 do Supremo Tribunal Federal, que assim dispõe: "É inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia."
 A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que as razões do recurso especial devem conter argumentação pertinente e individualizada, com a indicação clara e precisa dos dispositivos legais federais tidos por violados e a demonstração analítica de como o acórdão recorrido teria incorrido na alegada violação, sob pena de inadmissão do recurso.
 No caso, as razões recursais apresentam fundamentação genérica, dissociada dos fundamentos do acórdão recorrido. A parte recorrente {{descricaoVicioFundamentacao — ex: "limitou-se a reproduzir dispositivos legais sem demonstrar de que forma o acórdão recorrido os teria violado" / "teceu considerações abstratas sobre o tema sem estabelecer qualquer relação com os fundamentos adotados pelo Tribunal de origem"}}, o que inviabiliza a exata compreensão da controvérsia e impede o exame do recurso.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Não demonstração da violação
@@ -352,7 +334,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso especial não comporta admissão em razão da deficiência na sua fundamentação, incidindo, por analogia, o óbice da Súmula n. 284 do Supremo Tribunal Federal, que assim dispõe: "É inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia."
 A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que as razões do recurso especial devem conter argumentação pertinente e individualizada, com a indicação clara e precisa dos dispositivos legais federais tidos por violados e a demonstração analítica de como o acórdão recorrido teria incorrido na alegada violação, sob pena de inadmissão do recurso.
 No caso, embora a parte recorrente aponte como violados os {{dispositivosIndicados — ex: "arts. 489, §1º, e 1.022 do CPC"}}, não demonstra de forma clara, direta e particularizada de que modo o acórdão recorrido teria contrariado ou negado vigência a esses dispositivos, limitando-se a {{descricaoCondutaRecorrente — ex: "transcrever sua ementa sem qualquer análise crítica" / "afirmar genericamente que houve violação sem estabelecer o nexo com os fundamentos do julgado"}}.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Razões dissociadas dos fundamentos do acórdão
@@ -360,7 +341,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso especial não comporta admissão em razão da deficiência na sua fundamentação, incidindo, por analogia, o óbice da Súmula n. 284 do Supremo Tribunal Federal, que assim dispõe: "É inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia."
 A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que as razões do recurso especial devem conter argumentação pertinente e individualizada, com a indicação clara e precisa dos dispositivos legais federais tidos por violados e a demonstração analítica de como o acórdão recorrido teria incorrido na alegada violação, sob pena de inadmissão do recurso.
 No caso, as razões do recurso especial encontram-se inteiramente dissociadas dos fundamentos do acórdão recorrido, na medida em que a parte recorrente {{descricaoDissociacao — ex: "combate fundamentos que não constam do julgado impugnado" / "discute matéria não examinada pelo Tribunal de origem"}}, o que igualmente inviabiliza a exata compreensão da controvérsia.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *FUNDAMENTO_AUTONOMO*: Fundamento autônomo suficiente não impugnado (Súmula 283/STF)
@@ -372,7 +352,6 @@ No caso em análise, o acórdão recorrido assentou sua conclusão em mais de um
 Esse fundamento, autônomo e suficiente para manter a conclusão do acórdão recorrido, não foi especificamente impugnado nas razões do recurso especial.
 Ainda que se reconheça que a parte recorrente impugnou {{fundamentoImpugnado — ex: "o fundamento relativo ao mérito da pretensão indenizatória"}}, a subsistência do fundamento autônomo inatacado — {{premissaAutonomaInatacada}} — seria, por si só, suficiente para manter o resultado do julgado, tornando inútil o provimento do recurso especial neste ponto.
 A subsistência de fundamento inatacado, apto a manter a conclusão do aresto impugnado, impõe a inadmissão do recurso especial, por aplicação analógica da Súmula n. 283/STF.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Não alegado pela recorrente
@@ -381,7 +360,6 @@ O recurso especial não comporta admissão em razão do óbice contido na Súmul
 No caso em análise, o acórdão recorrido assentou sua conclusão em mais de um fundamento, cada qual suficiente, por si só, para mantê-la. Entre esses fundamentos, destaca-se que {{premissaAutonomaInatacada — ex: "a pretensão da parte autora estaria fulminada pela prescrição, nos termos do art. 206, §3º, IV, do Código Civil"}}.
 Esse fundamento, autônomo e suficiente para manter a conclusão do acórdão recorrido, não foi especificamente impugnado nas razões do recurso especial.
 A subsistência de fundamento inatacado, apto a manter a conclusão do aresto impugnado, impõe a inadmissão do recurso especial, por aplicação analógica da Súmula n. 283/STF.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *FALTA_DE_COTEJO_ANALITICO*: Falta de cotejo analítico (divergência jurisprudencial — alínea 'c')
@@ -392,7 +370,6 @@ A admissibilidade do recurso especial pela alínea 'c' exige, nos termos do art.
 No caso, a parte recorrente limitou-se a {{descricaoConduta — ex: "transcrever a ementa do acórdão paradigma sem proceder à comparação analítica com o aresto recorrido" / "mencionar o número de julgados divergentes sem transcrever os trechos pertinentes nem demonstrar a similitude fática entre os casos"}}, deixando de realizar o cotejo analítico exigido pelo art. 1.029, §1º, do CPC. A mera transcrição de ementas, desacompanhada da demonstração concreta das circunstâncias fáticas e jurídicas que tornariam os casos comparáveis, não satisfaz o requisito legal. 
 Incide, na espécie, o entendimento consolidado do Superior Tribunal de Justiça:
 “O dissídio jurisprudencial viabilizador do recurso especial pela alínea c do permissivo constitucional não foi demonstrado nos moldes legais, pois, além da ausência do cotejo analítico e de não ter apontado qual dispositivo legal recebeu tratamento diverso na jurisprudência pátria, não ficou evidenciada a similitude fática e jurídica entre os casos colacionados que teriam recebido interpretação divergente pela jurisprudência pátria” - AgInt no AREsp n. 3.048.741/MS, relator Ministro Francisco Falcão, Segunda Turma, julgado em 29/4/2026, DJEN de 6/5/2026)
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Ausência de similitude fática
@@ -402,7 +379,6 @@ No caso, embora a parte recorrente tenha transcrito trechos dos acórdãos parad
 A ausência de equivalência fática entre os casos impede o reconhecimento da divergência jurisprudencial, pois soluções distintas para situações desiguais não configuram dissídio interpretativo sobre a mesma norma federal.
 Incide, na espécie, o entendimento consolidado do Superior Tribunal de Justiça:
 “O dissídio jurisprudencial viabilizador do recurso especial pela alínea c do permissivo constitucional não foi demonstrado nos moldes legais, pois, além da ausência do cotejo analítico e de não ter apontado qual dispositivo legal recebeu tratamento diverso na jurisprudência pátria, não ficou evidenciada a similitude fática e jurídica entre os casos colacionados que teriam recebido interpretação divergente pela jurisprudência pátria” - AgInt no AREsp n. 3.048.741/MS, relator Ministro Francisco Falcão, Segunda Turma, julgado em 29/4/2026, DJEN de 6/5/2026)
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Divergência superada
@@ -411,7 +387,6 @@ A admissibilidade do recurso especial pela alínea 'c' exige, nos termos do art.
 O dissídio invocado encontra-se superado pela jurisprudência atual do Superior Tribunal de Justiça, que pacificou o entendimento sobre a matéria no mesmo sentido do acórdão recorrido, atraindo o óbice da Súmula n. 83 do Superior Tribunal de Justiça: "Não se conhece do recurso especial pela divergência, quando a orientação do tribunal se firmou no mesmo sentido da decisão recorrida."
 Incide, na espécie, o entendimento consolidado do Superior Tribunal de Justiça:
 “O dissídio jurisprudencial viabilizador do recurso especial pela alínea c do permissivo constitucional não foi demonstrado nos moldes legais, pois, além da ausência do cotejo analítico e de não ter apontado qual dispositivo legal recebeu tratamento diverso na jurisprudência pátria, não ficou evidenciada a similitude fática e jurídica entre os casos colacionados que teriam recebido interpretação divergente pela jurisprudência pátria” - AgInt no AREsp n. 3.048.741/MS, relator Ministro Francisco Falcão, Segunda Turma, julgado em 29/4/2026, DJEN de 6/5/2026)
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Paradigma inapropriado
@@ -420,7 +395,6 @@ A admissibilidade do recurso especial pela alínea 'c' exige, nos termos do art.
 Os acórdãos indicados como paradigmas são oriundos de {{origemParadigma — ex: "juízos de primeiro grau, que não constituem 'outro tribunal' para fins do art. 105, inciso III, alínea 'c', da Constituição Federal" / "do próprio Tribunal recorrido, o que não configura divergência entre tribunais distintos"}}. O dissídio jurisprudencial apto a fundamentar o recurso especial pela alínea 'c' pressupõe divergência entre o acórdão recorrido e julgados proferidos por outro tribunal, não sendo suficiente a indicação de decisões do mesmo órgão ou de instâncias inferiores.
 Incide, na espécie, o entendimento consolidado do Superior Tribunal de Justiça:
 “O dissídio jurisprudencial viabilizador do recurso especial pela alínea c do permissivo constitucional não foi demonstrado nos moldes legais, pois, além da ausência do cotejo analítico e de não ter apontado qual dispositivo legal recebeu tratamento diverso na jurisprudência pátria, não ficou evidenciada a similitude fática e jurídica entre os casos colacionados que teriam recebido interpretação divergente pela jurisprudência pátria” - AgInt no AREsp n. 3.048.741/MS, relator Ministro Francisco Falcão, Segunda Turma, julgado em 29/4/2026, DJEN de 6/5/2026)
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *AUSENCIA_COMPROVACAO_DISSIDIO*: Ausência de comprovação do dissídio jurisprudencial
@@ -438,7 +412,6 @@ O acolhimento da pretensão recursal exigiria a revisão dessas premissas fátic
 A parte recorrente sustenta tratar-se de mera questão jurídica, consistente em {{tesesRecorrente — ex: "violação às regras de distribuição do ônus da prova" / "negativa de vigência às normas de valoração da prova"}}.
 Contudo, o exame dessa alegação demandaria, necessariamente, incursão no acervo fático-probatório para verificar {{razaoDoReexame — ex: "se os fatos comprovados nos autos eram suficientes para ilidir a presunção legal invocada" / "se os documentos juntados eram aptos a demonstrar o fato constitutivo do direito alegado"}}, o que configura, na essência, pretensão de reexame de prova vedada pela Súmula n. 7 do Superior Tribunal de Justiça.
 Para modificar as premissas fáticas assentadas pelo Tribunal de origem seria necessário reexaminar o conjunto fático-probatório, o que, como visto, é vedado pela Súmula n. 7 do Superior Tribunal de Justiça.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se alegação violação às regras de prova
@@ -450,7 +423,6 @@ O acolhimento da pretensão recursal exigiria a revisão dessas premissas fátic
 Registre-se que a alegada violação às {{regraDeProvaInvocada — ex: "regras de distribuição do ônus da prova (art. 373 do CPC)" / "normas sobre a força probante de documentos públicos (art. 405 do CPC)"}} não afasta o óbice da Súmula n. 7 do Superior Tribunal de Justiça quando, como no caso, a análise da questão pressupõe a reavaliação dos elementos de prova efetivamente produzidos nos autos e das conclusões fáticas deles extraídas pelo Tribunal de origem.
 A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que a alegação de ofensa a regras sobre o ônus da prova não tem o condão de afastar o óbice sumular quando o que se pretende, em última análise, é a revisão das conclusões fáticas do acórdão recorrido. 
 Para modificar as premissas fáticas assentadas pelo Tribunal de origem seria necessário reexaminar o conjunto fático-probatório, o que, como visto, é vedado pela Súmula n. 7 do Superior Tribunal de Justiça.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *CONFORMIDADE_JURISPRUDENCIA*: Conformidade com a Jurisprudência do STJ — Súmula 83/STJ
@@ -462,7 +434,6 @@ Embora o recurso tenha sido interposto exclusivamente com fundamento na alínea 
 No caso, o acórdão recorrido está em plena consonância com a jurisprudência dominante do Superior Tribunal de Justiça sobre {{temaDaControversia — ex: "a incidência de correção monetária sobre benefícios previdenciários" / "os requisitos para configuração da responsabilidade civil do Estado por omissão"}}, conforme se infere dos seguintes precedentes:
 {{precedentesCitados — transcrever os precedentes do STJ indicados pelo usuário}}
 Portanto, a irresignação recursal não comporta acolhimento, visto que a tese defendida pela parte recorrente contraria entendimento pacificado no âmbito do Superior Tribunal de Justiça, sendo inviável o processamento do apelo especial.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se fundamenta apenas na alínea 'c'
@@ -472,7 +443,6 @@ O recurso foi interposto com fundamento na alínea 'c' do permissivo constitucio
 No caso, o acórdão recorrido está em plena consonância com a jurisprudência dominante do Superior Tribunal de Justiça sobre {{temaDaControversia — ex: "a incidência de correção monetária sobre benefícios previdenciários" / "os requisitos para configuração da responsabilidade civil do Estado por omissão"}}, conforme se infere dos seguintes precedentes:
 {{precedentesCitados — transcrever os precedentes do STJ indicados pelo usuário}}
 Portanto, a irresignação recursal não comporta acolhimento, visto que a tese defendida pela parte recorrente contraria entendimento pacificado no âmbito do Superior Tribunal de Justiça, sendo inviável o processamento do apelo especial.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se fundamenta em ambas as alíneas ('a' e 'c')
@@ -482,7 +452,6 @@ O óbice da Súmula n. 83 do Superior Tribunal de Justiça aplica-se tanto à al
 No caso, o acórdão recorrido está em plena consonância com a jurisprudência dominante do Superior Tribunal de Justiça sobre {{temaDaControversia — ex: "a incidência de correção monetária sobre benefícios previdenciários" / "os requisitos para configuração da responsabilidade civil do Estado por omissão"}}, conforme se infere dos seguintes precedentes:
 {{precedentesCitados — transcrever os precedentes do STJ indicados pelo usuário}}
 Portanto, a irresignação recursal não comporta acolhimento, visto que a tese defendida pela parte recorrente contraria entendimento pacificado no âmbito do Superior Tribunal de Justiça, sendo inviável o processamento do apelo especial.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *CLAUSULA_CONTRATUAL*: Interpretação de cláusula contratual — Súmula 5/STJ
@@ -493,7 +462,6 @@ O recurso especial não comporta admissão, pois sua análise demandaria reanál
 O recurso especial destina-se à tutela da integridade do direito federal infraconstitucional, não se prestando a rever o conteúdo ou o alcance de cláusulas negociais fixados nas instâncias ordinárias. Incide, na espécie, o óbice do Enunciado n. 5 da Súmula do Superior Tribunal de Justiça: "A simples interpretação de cláusula contratual não enseja Recurso Especial."
 No caso, o acórdão recorrido assentou que {{interpretacaoContratualDoAcordao — citar literalmente a interpretação da cláusula contratual firmada pelo acórdão recorrido}}.
 O acolhimento da pretensão recursal exigiria o reexame e a reinterpretação das cláusulas negociais que fundamentaram a conclusão do aresto impugnado, providência incabível em sede de recurso excepcional.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Argumenta que pretende interpretação de questão legal
@@ -504,7 +472,6 @@ No caso, o acórdão recorrido assentou que {{interpretacaoContratualDoAcordao �
 O acolhimento da pretensão recursal exigiria o reexame e a reinterpretação das cláusulas negociais que fundamentaram a conclusão do aresto impugnado, providência incabível em sede de recurso excepcional.
 A parte recorrente sustenta que não pretende a simples reinterpretação do contrato, mas sim a declaração de {{tesesRecorrente — ex: "nulidade da cláusula de não concorrência por violação ao art. 421 do Código Civil" / "abusividade da cláusula penal desproporcional, nos termos do art. 413 do Código Civil"}}.
 Contudo, o exame dessa alegação demandaria, necessariamente, a prévia revisão do conteúdo e do alcance atribuídos pelo Tribunal de origem à referida cláusula, o que recai, em última análise, na interpretação contratual vedada pela Súmula n. 5 do Superior Tribunal de Justiça. Com efeito, não é possível aferir eventual ilegalidade ou abusividade de uma cláusula sem antes definir seu exato conteúdo e extensão — juízo que compete exclusivamente às instâncias ordinárias. 
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se cumulado com a súmula 7/STJ
@@ -514,7 +481,6 @@ O recurso especial destina-se à tutela da integridade do direito federal infrac
 No caso, o acórdão recorrido assentou que {{interpretacaoContratualDoAcordao — citar literalmente a interpretação da cláusula contratual firmada pelo acórdão recorrido}}.
 O acolhimento da pretensão recursal exigiria o reexame e a reinterpretação das cláusulas negociais que fundamentaram a conclusão do aresto impugnado, providência incabível em sede de recurso excepcional.
 Some-se a isso que a pretensão recursal também esbarra no óbice da Súmula n. 7 do Superior Tribunal de Justiça, uma vez que a revisão da interpretação contratual adotada pelo Tribunal de origem pressupõe, igualmente, a reanálise dos elementos fáticos que circundaram a formação e a execução do contrato — {{elementosFaticosEnvolvidos — ex: "as tratativas pré-contratuais, os usos e costumes do setor e o comportamento das partes durante a execução do ajuste" / "as circunstâncias em que foi celebrado o aditivo contratual e a intenção comum das partes à época"}} —, providência igualmente vedada nesta sede recursal excepcional. {{/seCumuladoComSumula7}}
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *ATOS_NORMATIVOS_INFRALEGAIS*: Interpretação e aplicação de Atos Normativos Infralegais
@@ -525,7 +491,6 @@ O recurso especial não comporta admissão, tendo em vista que a controvérsia e
 O conceito de "lei federal", constante do art. 105, inciso III, da Constituição Federal, deve ser compreendido em sentido estrito, abrangendo exclusivamente os atos normativos primários emanados do Poder Legislativo federal ou por ele autorizados — leis ordinárias, leis complementares, leis delegadas, medidas provisórias e decretos legislativos.
 Não se enquadram nesse conceito os atos normativos de natureza secundária ou regulamentar, tais como resoluções, portarias, instruções normativas, decretos regulamentares e regimentos internos, os quais, conquanto possam ter abrangência nacional, não possuem força de lei para fins de cabimento do recurso especial.
 No caso, o acórdão recorrido resolveu a controvérsia com base na interpretação de {{atosInfralegaisEmDiscussao — ex: "Resolução n. 789/2020 do CONTRAN e Instrução de Serviço n. 194/2018 do DETRAN/ES" / "Portaria MF nº 12/2012 e Instrução Normativa RFB nº 1.234/2012"}}, que não se enquadram no conceito de lei federal para fins de cabimento do recurso especial.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Recorrente alega que houve violação à lei
@@ -536,7 +501,6 @@ Não se enquadram nesse conceito os atos normativos de natureza secundária ou r
 No caso, o acórdão recorrido resolveu a controvérsia com base na interpretação de {{atosInfralegaisEmDiscussao — ex: "Resolução n. 789/2020 do CONTRAN e Instrução de Serviço n. 194/2018 do DETRAN/ES" / "Portaria MF nº 12/2012 e Instrução Normativa RFB nº 1.234/2012"}}, atos que não se enquadram no conceito de lei federal para fins de cabimento do recurso especial.
 A parte recorrente invoca, como violados, os {{dispositivosLegaisInvocados — ex: "arts. 1º e 2º da Lei n. 9.503/1997 (Código de Trânsito Brasileiro)"}}.
 Contudo, a alegada violação a esses dispositivos é meramente reflexa ou indireta: a solução da controvérsia demandaria, primeiramente, o exame e a interpretação {{atosInfralegaisEmDiscussao}} — norma de hierarquia inferior que regulamentou a lei invocada —, e somente após esse exame se poderia cogitar de eventual contrariedade ao texto legal. Esse percurso analítico, que tem como ponto de partida necessário a norma infralegal, afasta o cabimento do recurso especial, pois a violação da lei federal, quando existente, seria mero reflexo da interpretação do ato normativo secundário.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se ato infralegal federal
@@ -546,7 +510,6 @@ O conceito de "lei federal", constante do art. 105, inciso III, da Constituiçã
 Não se enquadram nesse conceito os atos normativos de natureza secundária ou regulamentar, tais como resoluções, portarias, instruções normativas, decretos regulamentares e regimentos internos, os quais, conquanto possam ter abrangência nacional, não possuem força de lei para fins de cabimento do recurso especial.
 No caso, o acórdão recorrido resolveu a controvérsia com base na interpretação de {{atosInfralegaisEmDiscussao — ex: "Resolução n. 789/2020 do CONTRAN e Instrução de Serviço n. 194/2018 do DETRAN/ES" / "Portaria MF nº 12/2012 e Instrução Normativa RFB nº 1.234/2012"}}, atos que não se enquadram no conceito de lei federal para fins de cabimento do recurso especial.
 Ressalte-se que o fato de o ato normativo em questão — {{atosInfralegaisEmDiscussao}} — ter sido editado por órgão ou entidade federal não lhe confere a natureza de lei federal para fins de admissibilidade do recurso especial. A origem federal do ato normativo é irrelevante para esse fim; o que importa é sua hierarquia normativa: tratando-se de ato secundário, que retira seu fundamento de validade de lei em sentido estrito, não há que se falar em cabimento do recurso especial para o reexame de sua interpretação.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se alegado fundamento infralegal e legal
@@ -556,7 +519,6 @@ O conceito de "lei federal", constante do art. 105, inciso III, da Constituiçã
 Não se enquadram nesse conceito os atos normativos de natureza secundária ou regulamentar, tais como resoluções, portarias, instruções normativas, decretos regulamentares e regimentos internos, os quais, conquanto possam ter abrangência nacional, não possuem força de lei para fins de cabimento do recurso especial.
 No caso, o acórdão recorrido resolveu a controvérsia com base na interpretação de {{atosInfralegaisEmDiscussao — ex: "Resolução n. 789/2020 do CONTRAN e Instrução de Serviço n. 194/2018 do DETRAN/ES" / "Portaria MF nº 12/2012 e Instrução Normativa RFB nº 1.234/2012"}}, atos que não se enquadram no conceito de lei federal para fins de cabimento do recurso especial.
 Ainda que o acórdão recorrido tenha feito referência a dispositivos legais em sentido estrito, a ratio decidendi do julgado assenta-se, de forma determinante, na interpretação de {{atosInfralegaisEmDiscussao}}. A menção incidental à lei federal não é suficiente para abrir a via do recurso especial quando o fundamento central e autônomo do acórdão é a norma infralegal — pois, ainda que superado o entendimento sobre a lei federal, o resultado do julgamento seria mantido com base na interpretação do ato normativo secundário, que escapa à competência do Superior Tribunal de Justiça.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *DIREITO_LOCAL*: Direito Local — Súmula 280/STF
@@ -566,7 +528,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso especial não comporta admissão, tendo em vista que a controvérsia envolve a interpretação de direito local, o que é inviável na via estreita do recurso especial.
 A competência do Superior Tribunal de Justiça para o julgamento do recurso especial restringe-se à uniformização da interpretação da lei federal em sentido estrito, não alcançando a legislação local — assim compreendida a legislação estadual, distrital e municipal. Incide, na espécie, por analogia, o enunciado da Súmula n. 280 do Supremo Tribunal Federal: "Por ofensa a direito local, não cabe recurso extraordinário."
 No caso, o acórdão recorrido resolveu a controvérsia com fundamento na interpretação de {{normaLocalEmDiscussao — ex: "Lei Estadual nº 4.056/2002 do Estado do Rio de Janeiro" / "Decreto Municipal nº 12.345/2018 do Município de São Paulo" / "Lei Complementar Distrital nº 840/2011"}}, norma de caráter local que não se submete ao controle do Superior Tribunal de Justiça pela via do recurso especial.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Recorrente invoca lei federal
@@ -576,7 +537,6 @@ A competência do Superior Tribunal de Justiça para o julgamento do recurso esp
 No caso, o acórdão recorrido resolveu a controvérsia com fundamento na interpretação de {{normaLocalEmDiscussao — ex: "Lei Estadual nº 4.056/2002 do Estado do Rio de Janeiro" / "Decreto Municipal nº 12.345/2018 do Município de São Paulo" / "Lei Complementar Distrital nº 840/2011"}}, norma de caráter local que não se submete ao controle do Superior Tribunal de Justiça pela via do recurso especial.
 A parte recorrente invoca como violados os {{dispositivosLegaisFederaisInvocados — ex: "arts. 37 e 41 da Lei nº 8.112/1990"}}, sustentando que a norma local contraria o direito federal.
 Contudo, a alegada violação à lei federal é meramente reflexa ou indireta: a solução da controvérsia demandaria, primeiramente, a interpretação de {{normaLocalEmDiscussao}}, e somente a partir desse exame se poderia cogitar de eventual conflito com o texto federal. Esse percurso analítico, que tem como ponto de partida necessário a norma local, afasta o cabimento do recurso especial, pois a suposta ofensa à lei federal seria mero reflexo da interpretação da legislação estadual/municipal. 
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se a norma local espelha norma nacional
@@ -586,7 +546,6 @@ A competência do Superior Tribunal de Justiça para o julgamento do recurso esp
 No caso, o acórdão recorrido resolveu a controvérsia com fundamento na interpretação de {{normaLocalEmDiscussao — ex: "Lei Estadual nº 4.056/2002 do Estado do Rio de Janeiro" / "Decreto Municipal nº 12.345/2018 do Município de São Paulo" / "Lei Complementar Distrital nº 840/2011"}}, norma de caráter local que não se submete ao controle do Superior Tribunal de Justiça pela via do recurso especial.
 Não socorre à parte recorrente o argumento de que a norma local reproduz ou regulamenta lei federal, de modo que sua interpretação corresponderia, em última análise, à interpretação do direito federal.
 A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que, quando o acórdão recorrido resolve a controvérsia com fundamento em norma local que reproduz ou regulamenta lei nacional, o recurso especial não é o meio adequado para reexame da questão, ainda que idêntica em seu conteúdo à lei federal, pois o que se examina é a norma local em si, e não a federal. 
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se fundamento misto (local e federal)
@@ -596,7 +555,6 @@ A competência do Superior Tribunal de Justiça para o julgamento do recurso esp
 No caso, o acórdão recorrido resolveu a controvérsia com fundamento na interpretação de {{normaLocalEmDiscussao — ex: "Lei Estadual nº 4.056/2002 do Estado do Rio de Janeiro" / "Decreto Municipal nº 12.345/2018 do Município de São Paulo" / "Lei Complementar Distrital nº 840/2011"}}, norma de caráter local que não se submete ao controle do Superior Tribunal de Justiça pela via do recurso especial.
 Ainda que o acórdão recorrido tenha feito referência a dispositivos de lei federal, a ratio decidendi do julgado assenta-se, de forma determinante, na interpretação de {{normaLocalEmDiscussao}}.
 A menção incidental à legislação federal não é suficiente para abrir a via do recurso especial quando o fundamento central e autônomo do acórdão é a norma local — pois, ainda que superado o entendimento sobre a lei federal, o resultado do julgamento seria mantido com base na interpretação da legislação local, matéria que escapa à competência do Superior Tribunal de Justiça.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL*: Questão Exclusivamente Constitucional
@@ -606,7 +564,6 @@ Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V,
 O recurso especial não comporta admissão, pois a controvérsia deduzida envolve matéria de índole exclusivamente constitucional, cuja apreciação compete ao Supremo Tribunal Federal, por meio do recurso extraordinário, nos termos do art. 102, inciso III, da Constituição Federal.
 A competência do Superior Tribunal de Justiça, no âmbito do recurso especial, restringe-se à uniformização da interpretação da lei federal infraconstitucional. Questões que envolvam a interpretação direta de dispositivos da Constituição Federal, de seus princípios ou de garantias fundamentais nela consagradas extrapolam os limites da jurisdição especial desta Corte, pertencendo ao âmbito de atuação do Supremo Tribunal Federal.
 No caso, a controvérsia deduzida no recurso especial centra-se na alegada violação {{dispositivoConstitucionalEmDebate — ex: "ao princípio da legalidade tributária, previsto no art. 150, inciso I, da Constituição Federal" / "ao direito adquirido e ao ato jurídico perfeito, nos termos do art. 5º, inciso XXXVI, da Constituição Federal" / "ao princípio da isonomia, consubstanciado no art. 5º, caput, da Constituição Federal"}}, matéria de natureza eminentemente constitucional que não se submete ao crivo do Superior Tribunal de Justiça pela via do recurso especial.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ##### Se o recorrente invoca lei ordinária
@@ -616,7 +573,6 @@ A competência do Superior Tribunal de Justiça, no âmbito do recurso especial,
 No caso, a controvérsia deduzida no recurso especial centra-se na alegada violação {{dispositivoConstitucionalEmDebate — ex: "ao princípio da legalidade tributária, previsto no art. 150, inciso I, da Constituição Federal" / "ao direito adquirido e ao ato jurídico perfeito, nos termos do art. 5º, inciso XXXVI, da Constituição Federal" / "ao princípio da isonomia, consubstanciado no art. 5º, caput, da Constituição Federal"}}, matéria de natureza eminentemente constitucional que não se submete ao crivo do Superior Tribunal de Justiça pela via do recurso especial.
 Embora a parte recorrente invoque, formalmente, a violação de {{dispositivoLegalInvocado — ex: "arts. 97 e 111 do Código Tributário Nacional"}}, a tese jurídica sustentada nas razões recursais tem por núcleo essencial a interpretação direta da Constituição Federal.
 Com efeito, a resolução da controvérsia exigiria que o Superior Tribunal de Justiça se pronunciasse sobre {{questaoConstitucionalSubjacente — ex: "a compatibilidade da exigência tributária com o princípio constitucional da legalidade" / "a extensão do direito adquirido à luz do art. 5º, XXXVI, da Constituição Federal"}}, o que configura ofensa reflexa ou indireta à lei federal — insuficiente para abertura da via especial —, sendo a questão constitucional o verdadeiro cerne do debate. Nessas hipóteses, o instrumento processual adequado é o recurso extraordinário perante o Supremo Tribunal Federal.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 ## PEÇAS PROCESSUAIS E JSON DE DIRETRIZES
