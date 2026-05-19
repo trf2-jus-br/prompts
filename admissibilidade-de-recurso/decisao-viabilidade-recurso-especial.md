@@ -119,7 +119,7 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 * **Admissão:** "Ante o exposto, **ADMITO** o recurso especial/extraordinário."
 * **Inadmissão:** "Do exposto, **INADMITO** o recurso especial/extraordinário, com base no art. 1.030, V, do CPC."
 * **Negativa de Seguimento:** "Ante o exposto, **NEGO SEGUIMENTO** ao recurso especial, com base no art. 1.030, I, 'b', do CPC."
-* **Decisão mista:** "Do exposto, nos termos do art. 1.030, I, 'b', do CPC, **NEGO SEGUIMENTO** ao recurso especial, no que tange a [identificar os temas repetitivos ou de repercussão geral aplicados], e, com base no art. 1.030, V, do CPC, **INADMITO** o recurso quanto às demais questões."
+* **Decisão mista (somente em inadmissão parcial + negativa de seguimento parcial):** "Do exposto, nos termos do art. 1.030, I, 'b', do CPC, **NEGO SEGUIMENTO** ao recurso especial, no que tange a [identificar os temas repetitivos ou de repercussão geral aplicados], e, com base no art. 1.030, V, do CPC, **INADMITO** o recurso quanto às demais questões."
 * **Sobrestamento:** "Ante o exposto, determino o **SOBRESTAMENTO** do processo, até o julgamento do Tema [X] pelo [STJ/STF]."
 * **Retratação:** "Ante o exposto, determino o **ENCAMINHAMENTO** dos autos ao órgão julgador de origem, nos termos do art. 1.030, II, do CPC, para que haja a devida análise e eventual adequação do acórdão recorrido ao leading case acima mencionado."
 
