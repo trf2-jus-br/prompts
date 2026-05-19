@@ -95,13 +95,16 @@ Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que
 
 **Caminho 2: Para SUSPENDER (Sobrestamento por Tema)**
 ```
-Discute-se, no presente caso, [RESUMO DA CONTROVÉRSIA EM UMA LINHA].
+Discute-se, no presente caso, [RESUMO DA CONTROVÉRSIA EM POUCAS LINHAS].
 A controvérsia é objeto do Tema [NÚMERO] dos recursos repetitivos/repercussão geral, tendo o [STJ/STF] determinado a suspensão do processamento de todos os processos que versem sobre a mesma matéria.
 ```
 
 **Caminho 3: Para NEGAR SEGUIMENTO (Tema Julgado)**
 ```
-O acórdão recorrido coincide com a orientação firmada pelo [STJ/STF] no Tema [NÚMERO] ([TESE]). Aplica-se o regime dos recursos repetitivos/repercussão geral.
+Nos termos do art. 1030, I, alíneas 'a' e 'b', do CPC, o presidente ou vice-presidente do tribunal recorrido deverá negar seguimento a recurso extraordinário que discuta questão constitucional à qual o Supremo Tribunal Federal não tenha reconhecido a existência de repercussão geral ou a recurso extraordinário interposto contra acórdão que esteja em conformidade com entendimento do Supremo Tribunal Federal exarado no regime de repercussão geral, bem como a recurso extraordinário ou a recurso especial interposto contra acórdão que esteja em conformidade com entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça, respectivamente, exarado no regime de julgamento de recursos repetitivos.
+No julgamento do tema [NÚMERO] dos recursos repetitivos/repercussão geral, o [STJ/STF] fixou a(s) seguinte(s) tese(s):
+[TESE].
+No caso em exame, o acórdão recorrido está em conformidade com a(s) tese(s) firmada pelo [STJ/STF], pois decidiu que [CITAR TRECHO DO ACÓRDÃO QUE COINCIDE COM A TESE FIRMADA PELO STF E/OU STJ].
 ```
 
 **Caminho 4: Para JUÍZO DE RETRATAÇÃO**
@@ -116,6 +119,7 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 * **Admissão:** "Ante o exposto, **ADMITO** o recurso especial/extraordinário."
 * **Inadmissão:** "Do exposto, **INADMITO** o recurso especial/extraordinário, com base no art. 1.030, V, do CPC."
 * **Negativa de Seguimento:** "Ante o exposto, **NEGO SEGUIMENTO** ao recurso especial, com base no art. 1.030, I, 'b', do CPC."
+* **Decisão mista:** "Do exposto, nos termos do art. 1.030, I, 'b', do CPC, **NEGO SEGUIMENTO** ao recurso especial, no que tange a [identificar os temas repetitivos ou de repercussão geral aplicados], e, com base no art. 1.030, V, do CPC, **INADMITO** o recurso quanto às demais questões."
 * **Sobrestamento:** "Ante o exposto, determino o **SOBRESTAMENTO** do processo, até o julgamento do Tema [X] pelo [STJ/STF]."
 * **Retratação:** "Ante o exposto, determino o **ENCAMINHAMENTO** dos autos ao órgão julgador de origem, nos termos do art. 1.030, II, do CPC, para que haja a devida análise e eventual adequação do acórdão recorrido ao leading case acima mencionado."
 
