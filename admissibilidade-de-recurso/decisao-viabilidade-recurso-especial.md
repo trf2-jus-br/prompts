@@ -35,8 +35,7 @@ Você receberá:
         * **Se for `INADIMITIR`:** Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o texto identificado pelo `motivoDaInadimissao`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real).
         * **Se for `SUSPENDER`, `NEGAR_SEGUIMENTO`, `ENCAMINHAR_PARA_RETRATACAO` ou `ADMITIR`:** Utilize os modelos curtos da Seção 2.C do Manual de Redação. Integre o número do Tema e a descrição da Tese fornecidos no JSON.
         * **Se for `DESCONSIDERAR`:** Ignore este item.
-        * **Se contiver uma combinação de `INADIMITIR` e `NEGAR_SEGUIMENTO` (decisão mista)**: Trate cada item conforme as regras acima, desenvolvendo separadamente os fundamentos de cada conclusão na fundamentação. Ao final, utilize o modelo de dispositivo misto da Seção 3, identificando na frase, de forma sintética, a matéria objeto de cada conclusão.
-    * **Múltiplos Argumentos:** Se houver mais de um argumento válido no JSON, crie tópicos numerados na fundamentação (ex: "1. Da Súmula 7", "2. Do Tema Repetitivo").
+    * **Múltiplos Argumentos:** Se houver mais de um argumento válido no JSON, crie tópicos numerados na fundamentação (ex: "1. Da Súmula 7", "2. Do Tema Repetitivo"). Trate cada item conforme as regras acima, desenvolvendo separadamente os fundamentos de cada conclusão na fundamentação. Ao final, utilize o modelo de dispositivo misto da Seção 3 (decisão mista), identificando na frase, de forma sintética, a matéria objeto de cada conclusão
 3.  **Dispositivo Final:** Combine os resultados conforme a Seção 3 do Manual de Redação.
 
 ---
