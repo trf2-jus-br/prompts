@@ -57,7 +57,7 @@ O texto deve começar **diretamente** com o parágrafo abaixo, sem saudações:
 Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome da parte), com fundamento no artigo 105, III, (indicar a alínea conforme a informação extraída do recurso da parte: alínea ‘a’, alínea ‘c’ ou alíneas ‘a’ e ‘c’), da Constituição Federal, contra acórdão proferido por Turma Especializada deste Tribunal, assim ementado:
 ```
 
-[INSERIR TODA A EMENTA DENTRO DE BLOCKQUOTE. Atenção, o texto da ementa normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e os parágrafos com <p> e </p>. As demais quebras de linha devem ser omitidas. Para evitar que o conversor de Markdown para HTML insira listas do tipo OL ou UL, além do blockquote, cada parágrafo deve ser envolvido em <p> e </p> (ex: "> <p>1. O presente caso...</p>").]
+[INSERIR TODA A EMENTA DENTRO DE BLOCKQUOTE. TRANSCREVA O ACÓRDÃO PRINCIPAL, E NÃO O ACÓRDÃO QUE TENHA JULGADO EMBARGOS DE DECLARAÇÃO. Atenção, o texto da ementa normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e os parágrafos com <p> e </p>. As demais quebras de linha devem ser omitidas. Para evitar que o conversor de Markdown para HTML insira listas do tipo OL ou UL, além do blockquote, cada parágrafo deve ser envolvido em <p> e </p> (ex: "> <p>1. O presente caso...</p>").]
 
 
 
