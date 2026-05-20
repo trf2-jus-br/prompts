@@ -188,7 +188,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Quando o dispositivo for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, deve ser informado neste campo o identificador do tema que poderá ser obtido no documento marcado como <pesquisa-de-temas>. Caso a análise de temas não tenha informado o tema para suspensão, negativa de seguimento ou encaminhamento para retratação, deixe esse campo em branco.
 - O identificador do tema tem o formato "stj-rr-123" ou "stf-rg-456", conforme o tribunal e o tipo de tema. Ele pode ser encontrado no documento marcado como <pesquisa-de-temas> em passagens como por exemplo: (ID: stf-rg-123) ou (ID: stj-rr-456).
 
-##### motivo - Motivo da Inadmissão
+##### motivo[] - Motivo da Inadmissão
 - Quando o dispositivo for INADIMITIR, deve ser informado neste campo o identificador do motivo da inadmissão do recurso.
 - Caso o pedido de inadmissão não tenha um motivo específico informado no documento marcado como <pesquisa-de-temas>, deixe esse campo em branco.
 - As opções de motivos de inadmissão estão listadas e explicadas no título Pressupostos genéricos de admissibilidade, acima.
@@ -206,7 +206,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 ##### tema - Tema do Pedido
 - Caso o campo dispositivo do argumento tenha sido preenchido com SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, faça conforme acima, mas para o argumento específico, ou deixe em branco.
 
-##### motivo - Motivo da Inadmissão
+##### motivo[] - Motivo da Inadmissão
 - Caso o campo dispositivo do argumento tenha sido preenchido com INADIMITIR, faça conforme acima, mas para o argumento específico, ou deixe em branco.
 - As opções de motivos de inadmissão estão listadas e explicadas no título Pressupostos genéricos de admissibilidade, acima.
 
