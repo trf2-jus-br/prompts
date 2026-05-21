@@ -61,63 +61,61 @@ O recurso especial somente será admitido, caso não haja um tema (ou caso haja 
 Utilize a seguinte sequência de verificações para analisar a admissibilidade do recurso especial:
 
 ### Verificações Preliminares de Inadmissão
+- Se houver algum motivo de inadmissão geral, independente da análise do pedido ou argumento específico, o recurso deve ser inadmitido.
+- Neste caso, informe o motivo da inadmissão no campo "motivoGeral" do JSON.
+- Este campo é um array, pois pode haver mais de um motivo de inadmissão geral.
+- As opções de motivos de inadmissão geral estão listadas abaixo.
 
 #### Verificar se houve preparo
 - caso não haja: inadmissão pelo motivo *DESERCAO*.
-
-#### Verificar se o recurso é tempestivo
-- caso não seja: inadmissão pelo motivo *INTEMPESTIVIDADE*.
-
-#### Verificar se houve o esgotamento da jurisdição no órgão de origem
-- caso não tenha havido: inadmissão pelo motivo *NAO_EXAURIMENTO*.
-
-####  Verificar Ilegitimidade
-- caso seja identificada: inadmissão pelo motivo *ILEGITIMIDADE*.
-
-####  Verificar Falta de interesse
-- caso seja identificada: inadmissão pelo motivo *FALTA_DE_INTERESSE_RECURSAL*.
 
 ####  Verificar Irregularidade da representação processual
 - caso seja identificada: inadmissão pelo motivo *IRREGULARIDADE_REPRESENTACAO*.
 - Caso não superadas as hipóteses acima, o recurso deve ser inadmitido; caso superada, passa-se à etapa seguinte.
 
-### Juízo de Conformidade (somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral ou recurso repetitivo)
+####  Verificar Ilegitimidade
+- caso seja identificada: inadmissão pelo motivo *ILEGITIMIDADE*.
 
+#### Verificar se o recurso é tempestivo
+- caso não seja: inadmissão pelo motivo *INTEMPESTIVIDADE*.
+
+####  Verificar Falta de interesse
+- caso seja identificada: inadmissão pelo motivo *FALTA_DE_INTERESSE_RECURSAL*.
+
+#### Verificar se houve o esgotamento da jurisdição no órgão de origem
+- caso não tenha havido: inadmissão pelo motivo *NAO_EXAURIMENTO*.
+
+### Juízo de Conformidade
+- Somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral ou recurso repetitivo
+- O juízo de conformidade está relacionado à aplicação dos temas de recurso repetitivo (STJ) e de repercussão geral (STF) aos recursos especiais interpostos.
+- A análise do juízo de conformidade pode resultar em 3 (três) situações distintas:
+  - Sobrestamento do processo;
+  - Devolução dos autos ao Órgão Julgador para o exercício do juízo de retratação;
+  - Negativa de seguimento do recurso especial;
+  
 #### Verificar se é hipótese de sobrestamento (art. 1.030, III, do CPC)
+- Se o tema identificado não tiver sido definitivamente julgado (trânsito em julgado), no âmbito do STJ e/ou do STF, deve ser adotada uma das seguintes alternativas:
+  - Se não houve julgamento do Tema, o processo deve ser sobrestado até o julgamento do Tema pelo tribunal competente;
+  - Se houve o julgamento do Tema, mas não ocorreu o trânsito em julgado, deve ser mantido o sobrestamento, conforme decisão da Vice-Presidência;
+  - Se forem identificados 02 (dois) ou mais temas pendentes, a decisão deverá determinar o sobrestamento até o julgamento de todos eles;
+  - Se forem identificados, simultaneamente, 1 (um) tema pendente e outras questões sobre as quais não exista tema (hipótese do juízo de admissibilidade), o processo deve ser sobrestado pelo Tema, conforme uma das decisões acima;
+  - Na hipótese de sobrestamento por Tema não (definitivamente) julgado, as demais questões tratadas no recurso especial não serão analisadas na decisão. Todo o processo deve ser sobrestado. Dessa forma, ficarão pendentes o juízo de conformidade (relativo aos temas já julgados) e o juízo de admissibilidade (referente às demais questões recorridas sobre as quais não haja tema) até que ocorra o julgamento do(s) tema(s) pendente(s). O sobrestamento será a única questão abordada na decisão;
 - caso seja identificada: utilizar o dispositivo *SUSPENDER* (suspensão do processo até o julgamento do tema pelo tribunal competente).
 
 #### Verificar se é hipótese de retratação (art. 1.030, II, do CPC)
+- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **está** em conformidade com a tese firmada no Tema, o processo deverá ser devolvido à Turma Especializada para juízo de retratação;
+- Na hipótese do juizo de retratação, as demais questões tratadas no recurso especial não serão analisadas na decisão. Ficarão pendentes o juízo de conformidade (na hipótese de negativa de seguimento) e o juízo de admissibilidade (referente às demais questões recorridas em relação às quais não há tema) até o retorno dos autos. O encaminhamento para a análise do juízo de retratação será a única questão abordada nesta decisão;
 - caso seja identificada: utilizar o dispositivo *ENCAMINHAR_PARA_RETRATACAO* (encaminhamento para retratação pelo tribunal de origem).
 
 #### Verificar se é hipótese de negativa de seguimento (art. 1.030, I, do CPC)
+- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **não está** em conformidade com a tese firmada no Tema, o processo deverá ser negado seguimento ao recurso especial;
+- Na hipótese da negativa de seguimento, as demais questões tratadas no recurso especial também deverão ser analisadas nesta mesma decisão. Deve ser analisado o juízo de conformidade e negado seguimento ao recurso, em relação a cada item que contrariar tese firmada em recurso repetitivo ou em repercussão geral e efetuado o juízo de admissibilidade referente às demais questões recorridas.
 - caso seja identificada: utilizar o dispositivo *NEGAR_SEGUIMENTO* (negação de seguimento ao recurso).
-- Caso não seja identificada nenhuma das hipóteses do juízo de conformidade, passa-se à etapa seguinte.
 
-### Juízo de Admissibilidade (somente se superadas as verificações preliminares de inadmissão e se não houver tema de repercussão geral ou recurso repetitivo, ou se houver e não for exercido o juízo de retratação)
+### Juízo de Admissibilidade
+- Somente se superadas as verificações preliminares de inadmissão as hipóteses de sobrestamento, retratação e negativa de seguimento, ou se não houver tema de repercussão geral ou recurso repetitivo.
 -	Verificar se o recurso ultrapassa todos os óbices à admissibilidade abaixo.
 - Se houver algum óbice à admissibilidade, o recurso deve ser inadmitido. Neste caso, usar o dispositivo *INADIMITIR*.
-
-####	Pressupostos genéricos de admissibilidade (comuns a todos os recursos)
-
-#####	Verificar Deserção (ausência de preparo)
-- caso seja identificada: inadmissão pelo motivo *DESERCAO*.
-
-#####	Verificar Irregularidade da representação processual
-- caso seja identificada: inadmissão pelo motivo *IRREGULARIDADE_REPRESENTACAO*.
-
-#####	Verificar Intempestividade
-- caso seja identificada: inadmissão pelo motivo *INTEMPESTIVIDADE*.
-
-#####	Verificar Ilegitimidade
-- caso seja identificada: inadmissão pelo motivo *ILEGITIMIDADE*.
-
-#####	Verificar Falta de interesse
-- caso seja identificada: inadmissão pelo motivo *FALTA_DE_INTERESSE_RECURSAL*.
-
-####	Pressupostos específicos do REsp (prequestionamento e esgotamento)
-
-#####	Não Exaurimento das Instâncias Ordinárias (Súmula 281/STF)
-- caso seja identificada: inadmissão pelo motivo *NAO_EXAURIMENTO*.
 
 #####	Ausência de Prequestionamento (Súmulas 282/STF e 356/STF; e 211/STJ)
 - caso seja identificada: inadmissão pelo motivo *AUSENCIA_PREQUESTIONAMENTO*.
@@ -159,17 +157,21 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 #####	Questão Exclusivamente Constitucional
 - caso seja identificada: inadmissão pelo motivo *QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL*.
 
-#### Admissão do Recurso
+### Admissão do Recurso
 - Caso não haja tema e o recurso cumpra os requisitos, ele deve ser admitido, utilizando o dispositivo *ADMITIR*.
 
-#### Recurso Prejudicado
+### Recurso Prejudicado
 - Caso o recurso seja prejudicado por algum motivo, utilize o dispositivo *RECURSO_PREJUDICADO*.
 
-#### Desconsiderar o pedido ou o argumento
+### Desconsiderar o pedido ou o argumento
 - Caso o pedido ou argumento não seja relevante para a análise de admissibilidade, ou caso o pedido ou argumento seja repetitivo em relação a outros pedidos ou argumentos já analisados, ou já tenha sido tomada uma decisão de suspensão, ele deve ser desconsiderado, utilizando o dispositivo *DESCONSIDERAR*.
 
 
 ## FIELDS READONLY
+
+### motivoGeral[] - Motivo da Inadmissão
+- Quando for o caso de inadmitir por um motivo geral, independente da análise do pedido ou argumento específico, deve ser informado neste campo o identificador do motivo da inadmissão do recurso.
+- As opções de motivos de inadmissão estão listadas e explicadas no título Verificações Preliminares de Inadmissão, acima.
 
 ### pedidos[] - Pedidos
 
@@ -191,7 +193,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 ##### motivo[] - Motivo da Inadmissão
 - Quando o dispositivo for INADIMITIR, deve ser informado neste campo o identificador do motivo da inadmissão do recurso.
 - Caso o pedido de inadmissão não tenha um motivo específico informado no documento marcado como <pesquisa-de-temas>, deixe esse campo em branco.
-- As opções de motivos de inadmissão estão listadas e explicadas no título Pressupostos genéricos de admissibilidade, acima.
+- As opções de motivos de inadmissão estão listadas e explicadas no título Juízo de Admissibilidade, acima.
 
 #### argumentos[] - Argumentos do Pedido
 - Liste os fundamentos jurídicos apresentados para embasar o pedido
@@ -208,13 +210,17 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 
 ##### motivo[] - Motivo da Inadmissão
 - Caso o campo dispositivo do argumento tenha sido preenchido com INADIMITIR, faça conforme acima, mas para o argumento específico, ou deixe em branco.
-- As opções de motivos de inadmissão estão listadas e explicadas no título Pressupostos genéricos de admissibilidade, acima.
+- As opções de motivos de inadmissão estão listadas e explicadas no título Juízo de Admissibilidade, acima.
 
 
 # FORMAT
+AAA
+{% if motivoGeral %}**Motivo(s) de Inadmissão Geral:** {{ motivoGeral | join(", ") }}
+{% else %}
 {% for d in pedidos %}{% set outerIndex = loop.index %}**Pedido {{loop.index}}:** {{ d.texto }}
 
 Argumentos:{% for a in d.argumentos %}
 {{loop.index}}. {{ a.texto }}{% endfor %}
     
 {% endfor %}
+{% endif %}
