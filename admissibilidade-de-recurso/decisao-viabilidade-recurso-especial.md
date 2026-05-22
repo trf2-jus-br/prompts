@@ -490,8 +490,6 @@ Incide, na espécie, o entendimento consolidado do Superior Tribunal de Justiça
 “O dissídio jurisprudencial viabilizador do recurso especial pela alínea c do permissivo constitucional não foi demonstrado nos moldes legais, pois, além da ausência do cotejo analítico e de não ter apontado qual dispositivo legal recebeu tratamento diverso na jurisprudência pátria, não ficou evidenciada a similitude fática e jurídica entre os casos colacionados que teriam recebido interpretação divergente pela jurisprudência pátria” - AgInt no AREsp n. 3.048.741/MS, relator Ministro Francisco Falcão, Segunda Turma, julgado em 29/4/2026, DJEN de 6/5/2026)
 ```
 
-#### *AUSENCIA_COMPROVACAO_DISSIDIO*: Ausência de comprovação do dissídio jurisprudencial
-
 ###	Causas Relacionadas ao Cabimento / Mérito
 
 #### *FATICA_PROBATORIA*: Reexame do contexto Fático-Probatório — Súmula 7/STJ
