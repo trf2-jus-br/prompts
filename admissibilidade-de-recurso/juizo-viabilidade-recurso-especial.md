@@ -118,40 +118,51 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Se houver algum óbice à admissibilidade, o recurso deve ser inadmitido. Neste caso, usar o dispositivo *INADIMITIR*.
 
 #####	Ausência de Prequestionamento (Súmulas 282/STF e 356/STF; e 211/STJ)
+- Óbice que impede a admissão do recurso especial quando a tese de lei federal apontada como violada não foi previamente debatida e decidida pelo Tribunal de origem. Abrange três realidades: (i) o Tribunal a quo, mesmo provocado por embargos de declaração, não se manifestou sobre os dispositivos — e não se configura o prequestionamento ficto do art. 1.025 do CPC porque o recurso especial não apontou ofensa ao art. 1.022; (ii) a parte sequer opôs embargos de declaração para provocar essa manifestação; e (iii) os dispositivos foram suscitados pela primeira vez no recurso especial (inovação recursal). Súmulas 282 e 356 do STF e 211 do STJ.
 - caso seja identificada: inadmissão pelo motivo *AUSENCIA_PREQUESTIONAMENTO*.
 
 #####	Fundamento constitucional autônomo não impugnado — Súmula 126/STJ
+- Óbice que impede a admissão do recurso especial quando o acórdão recorrido se sustenta, ao mesmo tempo, em fundamento constitucional e em fundamento infraconstitucional, cada um suficiente por si só para manter a conclusão, e a parte não afasta eficazmente o fundamento constitucional perante o STF. Abrange duas realidades: (i) a parte não interpôs recurso extraordinário; ou (ii) interpôs RE, mas ele não abrangeu o fundamento constitucional autônomo. Em ambas, o acórdão permanece íntegro independentemente do resultado do recurso especial, tornando inútil seu processamento. Súmula 126 do STJ.
 - caso seja identificada: inadmissão pelo motivo *FUNDAMENTO_CONSTITUCIONAL_AUTONOMO*
 
 ####	Pressupostos Específicos do REsp (relacionados à fundamentação)
 
 #####	Deficiência de Fundamentação (Súmula 284/STF)
+- Óbice que impede a admissão do recurso especial quando suas razões não permitem a exata compreensão da controvérsia, por falta de argumentação clara, individualizada e vinculada ao acórdão recorrido. Abrange três realidades: (i) fundamentação genérica ou abstrata, dissociada dos fundamentos do julgado; (ii) indicação dos dispositivos tidos por violados sem demonstrar, de forma analítica, como o acórdão os teria contrariado; e (iii) razões que atacam fundamentos inexistentes no acórdão ou discutem matéria não examinada na origem. Súmula 284 do STF (por analogia).
 - caso seja identificada: inadmissão pelo motivo *DEFICIENCIA_FUNDAMENTACAO*.
 
 #####	Fundamento autônomo suficiente não impugnado (Súmula 283/STF)
+- Óbice que impede a admissão do recurso especial quando o acórdão recorrido se apoia em mais de um fundamento infraconstitucional, cada qual suficiente por si só para mantê-lo, e o recurso não impugna todos eles, deixando subsistir fundamento autônomo capaz de preservar a conclusão. Abrange duas realidades: (i) a recorrente impugnou parte dos fundamentos, mas não o fundamento autônomo que basta para manter o julgado; e (ii) a recorrente não impugnou esse fundamento autônomo. Em ambas, o provimento do recurso seria inútil. Súmula 283 do STF (por analogia). (Distingue-se do FUNDAMENTO_CONSTITUCIONAL_AUTONOMO: aqui os fundamentos suficientes são todos infraconstitucionais; lá há um fundamento constitucional que exigiria recurso extraordinário.)
 - caso seja identificada: inadmissão pelo motivo *FUNDAMENTO_AUTONOMO*.
 
 #####	Falta de cotejo analítico (divergência jurisprudencial — alínea 'c');
+- Óbice que impede o recurso especial fundado em divergência jurisprudencial (alínea 'c') quando a recorrente não cumpre o art. 1.029, §1º, do CPC, seja na prova formal da divergência (certidão, cópia ou citação de repositório oficial ou credenciado, ou reprodução do julgado com indicação da fonte), seja no cotejo analítico (transcrição dos trechos divergentes, identificação das circunstâncias que assemelham os casos e demonstração de soluções distintas para situações equivalentes). Abrange: (i) ausência total de cotejo ou de prova da divergência (mera transcrição de ementas ou menção genérica a julgados); (ii) ausência de similitude fática entre o caso e o paradigma; (iii) divergência já superada, com jurisprudência do STJ no sentido do acórdão recorrido (Súmula 83/STJ); e (iv) paradigma inapropriado, do mesmo tribunal ou de instância inferior, e não de outro tribunal.
 - caso seja identificada: inadmissão pelo motivo *FALTA_DE_COTEJO_ANALITICO*.
 
 ####	Causas Relacionadas ao Cabimento / Mérito
 
 #####	Reexame do contexto Fático-Probatório — Súmula 7/STJ
+- Óbice que impede a admissão do recurso especial quando acolher a pretensão exigiria reexaminar fatos ou reavaliar as provas dos autos, e não apenas rever a interpretação da lei federal. Abrange duas realidades: (i) a parte sustenta tratar-se de questão puramente jurídica, mas o exame dependeria de rever as premissas fáticas fixadas na origem; e (ii) a parte alega violação às regras de prova (distribuição do ônus, valoração, força probante de documentos), o que não afasta o óbice quando, no fundo, se busca rever as conclusões fáticas do Tribunal de origem. Súmula 7 do STJ.
 - caso seja identificada: inadmissão pelo motivo *FATICA_PROBATORIA*.
 
 #####	Conformidade com a Jurisprudência do STJ — Súmula 83/STJ
+- Óbice que impede a admissão do recurso especial quando o acórdão recorrido está em consonância com a jurisprudência dominante do STJ sobre a matéria. Abrange três realidades, conforme o fundamento do recurso: (i) interposto só pela alínea 'a' (violação de lei) — o óbice incide igualmente; (ii) interposto só pela alínea 'c' (divergência); e (iii) interposto por ambas. Em todas, por estar o julgado alinhado ao entendimento consolidado da Corte, a tese da recorrente não prospera. Súmula 83 do STJ.
 - caso seja identificada: inadmissão pelo motivo *CONFORMIDADE_JURISPRUDENCIA*.
 
 #####	Interpretação de cláusula contratual — Súmula 5/STJ
+- Óbice que impede a admissão do recurso especial quando seu acolhimento exigiria reinterpretar cláusulas contratuais fixadas nas instâncias ordinárias, o que escapa à via especial. Abrange três realidades: (i) a controvérsia se resume à interpretação da cláusula; (ii) a parte alega que pretende discutir questão legal (ex.: nulidade ou abusividade da cláusula), mas o exame pressupõe definir antes o conteúdo e o alcance da cláusula; e (iii) hipótese cumulada com a Súmula 7, quando rever a interpretação contratual também demanda reanalisar os fatos que cercaram a formação e a execução do contrato. Súmula 5 do STJ.
 - caso seja identificada: inadmissão pelo motivo *CLAUSULA_CONTRATUAL*.
 
 #####	Interpretação e aplicação de Atos Normativos Infralegais
+- Óbice que impede a admissão do recurso especial quando a controvérsia depende de interpretar atos normativos infralegais (resoluções, portarias, instruções normativas, decretos regulamentares, regimentos internos), que não se enquadram no conceito estrito de "lei federal" do art. 105, III, da CF. Abrange quatro realidades: (i) a controvérsia se resume à interpretação do ato infralegal; (ii) a parte alega violação à lei federal, mas a ofensa é apenas reflexa, pois a solução parte da norma infralegal; (iii) o ato infralegal é de origem federal — o que é irrelevante, pois importa a hierarquia normativa, não a origem; e (iv) o acórdão mescla fundamento legal e infralegal, mas a ratio decidendi se assenta de forma determinante no ato secundário.
 - caso seja identificada: inadmissão pelo motivo *ATOS_NORMATIVOS_INFRALEGAIS*.
 
 #####	Direito Local — Súmula 280/STF
+- Óbice que impede a admissão do recurso especial quando a controvérsia depende de interpretar legislação local (estadual, distrital ou municipal), que não se submete ao STJ pela via especial. Abrange quatro realidades: (i) a controvérsia se resume à interpretação da norma local; (ii) a parte invoca lei federal, mas a ofensa é apenas reflexa, pois a solução parte da norma local; (iii) a norma local reproduz ou regulamenta lei nacional — o que não afasta o óbice, pois se examina a norma local em si; e (iv) o acórdão mescla fundamento local e federal, mas a ratio decidendi se assenta de forma determinante na norma local. Súmula 280 do STF (por analogia).
 - caso seja identificada: inadmissão pelo motivo *DIREITO_LOCAL*.
 
 #####	Questão Exclusivamente Constitucional
+- Óbice que impede a admissão do recurso especial quando a controvérsia é de índole exclusivamente constitucional, cuja apreciação compete ao STF pela via do recurso extraordinário. Abrange duas realidades: (i) a controvérsia se centra diretamente na interpretação de dispositivo, princípio ou garantia constitucional; e (ii) a parte invoca formalmente lei ordinária, mas o núcleo da tese é a interpretação direta da Constituição, configurando ofensa apenas reflexa à lei federal. Em ambas, o instrumento adequado é o recurso extraordinário (art. 102, III, CF).
 - caso seja identificada: inadmissão pelo motivo *QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL*.
 
 ### Admissão do Recurso
