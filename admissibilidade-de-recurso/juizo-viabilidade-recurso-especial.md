@@ -134,9 +134,6 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 #####	Falta de cotejo analítico (divergência jurisprudencial — alínea 'c');
 - caso seja identificada: inadmissão pelo motivo *FALTA_DE_COTEJO_ANALITICO*.
 
-#####	Ausência de comprovação do dissídio jurisprudencial;
-- caso seja identificada: inadmissão pelo motivo *AUSENCIA_COMPROVACAO_DISSIDIO*.
-
 ####	Causas Relacionadas ao Cabimento / Mérito
 
 #####	Reexame do contexto Fático-Probatório — Súmula 7/STJ
