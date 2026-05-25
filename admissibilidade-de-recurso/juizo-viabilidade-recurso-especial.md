@@ -67,23 +67,29 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - As opções de motivos de inadmissão geral estão listadas abaixo.
 
 #### Verificar se houve preparo
+- Óbice que impede a admissibilidade do recurso especial quando o preparo não foi regularizado, faltando requisito essencial de admissibilidade. Abrange quatro realidades: (i) ausência total de preparo — a parte não comprovou o recolhimento no ato de interposição e, intimada para recolher em dobro (art. 1.007, §4º, do CPC), deixou o prazo decorrer in albis; (ii) preparo insuficiente — recolheu valor a menor e, intimada para complementar (art. 1.007, §2º), não o fez no prazo de 5 dias; (iii) gratuidade requerida após a interposição — o pedido de justiça gratuita foi formulado fora do ato recursal, e sua concessão não retroage para afastar o recolhimento em dobro; e (iv) gratuidade indeferida — o pedido foi negado por falta de demonstração de hipossuficiência (art. 99, §2º, do CPC) e o prazo concedido para regularizar o preparo decorreu in albis. Súmula 187 do STJ.
 - caso não haja: inadmissão pelo motivo *DESERCAO*.
 
 ####  Verificar Irregularidade da representação processual
+- Óbice que impede a admissibilidade do recurso especial quando a representação processual da parte recorrente apresenta vício não sanado, faltando pressuposto processual que deve subsistir durante todo o trâmite, inclusive na fase recursal. Configura-se quando, identificado o vício — por exemplo, renúncia do advogado subscritor após a interposição, ausência de procuração válida nos autos em nome do signatário, ou procuração cujos poderes não abrangem a prática de atos em sede recursal especial —, a parte, regularmente intimada para saná-lo no prazo de 5 dias (art. 932, parágrafo único, do CPC), deixa de fazê-lo. Art. 76, §2º, I, do CPC.
 - caso seja identificada: inadmissão pelo motivo *IRREGULARIDADE_REPRESENTACAO*.
-- Caso não superadas as hipóteses acima, o recurso deve ser inadmitido; caso superada, passa-se à etapa seguinte.
 
 ####  Verificar Ilegitimidade
+- Óbice que impede a admissibilidade do recurso especial por ausência de legitimidade recursal, pressuposto subjetivo de admissibilidade (art. 996 do CPC), que só autoriza a recorrer as partes, o Ministério Público e o terceiro prejudicado. Configura-se quando, por exemplo, o recurso é interposto por quem não figurou como parte no processo de origem, por quem não integrou a relação processual nas instâncias ordinárias (sem ter sido admitido como assistente, litisconsorte ou terceiro interveniente) nem demonstra a condição de terceiro prejudicado, ou por signatário que não detém poderes de representação da pessoa jurídica recorrente.
 - caso seja identificada: inadmissão pelo motivo *ILEGITIMIDADE*.
 
 #### Verificar se o recurso é tempestivo
+- Óbice que impede a admissibilidade do recurso especial interposto fora do prazo de 15 dias úteis (art. 1.003, §5º, do CPC), por inexistir fato apto a interromper ou suspender o prazo. Abrange quatro realidades: (i) interposição pura e simples após o término do prazo; (ii) embargos de declaração não conhecidos, que não interrompem o prazo recursal (ex.: por intempestivos ou por não indicarem vício do art. 1.022 do CPC); (iii) agravo interno não conhecido por decisão monocrática, que não reabre o prazo, pois não substitui o acórdão originário — o prazo corre da publicação do acórdão recorrido, não da decisão monocrática; e (iv) alegação de feriado local ou de suspensão do expediente forense sem a comprovação no ato de interposição exigida pelo art. 1.003, §6º, sendo inadmissível a juntada posterior do documento.
 - caso não seja: inadmissão pelo motivo *INTEMPESTIVIDADE*.
 
 ####  Verificar Falta de interesse
+- Óbice que impede a admissibilidade do recurso especial por ausência de interesse recursal, pressuposto objetivo de admissibilidade que exige que a decisão recorrida tenha deixado de atender, total ou parcialmente, à pretensão da parte — pois somente o desatendimento do pedido confere ao recurso a utilidade necessária. Abrange duas realidades: (i) o acórdão atendeu integralmente ao que a parte pediu, inexistindo desatendimento a reparar; e (ii) o acórdão acolheu o pedido, mas a parte almeja resultado mais amplo ou imediato do que efetivamente requereu — e a mera expectativa de um resultado além do pedido não configura o desatendimento que legitima o recurso.
 - caso seja identificada: inadmissão pelo motivo *FALTA_DE_INTERESSE_RECURSAL*.
 
 #### Verificar se houve o esgotamento da jurisdição no órgão de origem
+- Óbice que impede a admissibilidade do recurso especial quando não houve esgotamento das instâncias ordinárias, pois a Constituição (art. 105, III) exige causa decidida em única ou última instância — o que pressupõe o uso de todos os recursos ordinários disponíveis e a manifestação definitiva do órgão colegiado do Tribunal de origem. Abrange duas realidades: (i) a parte deixou de interpor recurso ordinário cabível na origem (ex.: apelação, agravo de instrumento, recurso ordinário constitucional); e (ii) a parte deixou de utilizar via recursal específica disponível antes de acessar a via especial (ex.: agravo regimental, embargos de divergência). Súmula 281 do STF (por analogia).
 - caso não tenha havido: inadmissão pelo motivo *NAO_EXAURIMENTO*.
+- Caso não superadas as hipóteses acima, o recurso deve ser inadmitido; caso superadas, passa-se à etapa seguinte.
 
 ### Juízo de Conformidade
 - Somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral ou recurso repetitivo
