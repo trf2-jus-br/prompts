@@ -545,6 +545,17 @@ No caso, o acórdão recorrido está em plena consonância com a jurisprudência
 Portanto, a irresignação recursal não comporta acolhimento, visto que a tese defendida pela parte recorrente contraria entendimento pacificado no âmbito do Superior Tribunal de Justiça, sendo inviável o processamento do apelo especial.
 ```
 
+#### *CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO*: Conformidade com a Jurisprudência do STJ - Súmula 83/STJ. Ausência de Omissão
+```
+O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superior Tribunal de Justiça julgar, em recurso especial, as causas decididas em única ou última instância pelos Tribunais Regionais Federais ou pelos Tribunais dos Estados, do Distrito Federal e Territórios, nas seguintes hipóteses: (a) quando a decisão recorrida contrariar tratado ou lei federal, ou negar-lhes vigência; (b) quando julgar válido ato de governo local contestado em face de lei federal; e (c) quando der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.
+O recurso especial não comporta admissão quanto à alegada violação dos arts. 489 e/ou 1.022 do Código de Processo Civil.
+É assente na jurisprudência do Superior Tribunal de Justiça que não há ofensa aos arts. 489 e 1.022 do Código de Processo Civil quando o acórdão recorrido enfrenta, de maneira clara e fundamentada, os pontos essenciais da controvérsia. O órgão julgador não está obrigado a rebater, individualmente, todos os argumentos suscitados pelas partes, sendo suficiente que demonstre, fundamentadamente, as razões do seu convencimento. A mera discordância da parte com o resultado do julgamento ou a não adoção da tese por ela defendida não configura omissão, contradição ou obscuridade para os fins dos referidos dispositivos legais:
+"Não há violação dos arts. 489 e 1.022 do CPC quando o acórdão recorrido enfrenta de maneira clara e fundamentada os pontos essenciais da controvérsia, sendo certo que o julgador não está obrigado a rebater, um a um, todos os argumentos apresentados pelas partes." (AREsp n. 2.736.932/SP, Rel. Min. Maria Thereza de Assis Moura, Segunda Turma, DJEN 23/10/2025; AREsp n. 2.865.420/SC, Rel. Min. João Otávio de Noronha, Quarta Turma, DJEN 12/3/2026; REsp n. 2.223.844/DF, Rel. Min. Moura Ribeiro, Terceira Turma, DJEN 8/5/2026; AgInt no AREsp 2.002.989/SP, Rel. Min. Afrânio Vilela, Segunda Turma, DJEN 06/05/2026; AgInt no REsp 2.208.394/RS, Rel. Min. Marco Aurélio Bellizze, Segunda Turma, DJEN 05/05/2026; AgInt nos EDcl no REsp 2.143.129/SP, Rel. Min. Raul Araújo, Quarta Turma, DJEN 30/04/2026)
+No caso, não se verifica a presença do(s) vício(s) de integração apontados no recurso especial, pois o acórdão recorrido {descrever como o acórdão enfrentou a controvérsia, indicando os fundamentos que justificaram sua conclusão e demonstrando a ausência do vício alegado — omissão, contradição ou obscuridade}.
+Incide, portanto, o óbice da Súmula n. 83 do Superior Tribunal de Justiça: "Não se conhece do recurso especial pela divergência, quando a orientação do tribunal se firmou no mesmo sentido da decisão recorrida."
+Ressalte-se, por fim, que é plenamente concebível o julgado encontrar-se devidamente fundamentado, sem, no entanto, ter decidido a questão à luz dos preceitos jurídicos desejados pela parte (AREsp n. 2.891.541/MG, Rel. Min. Humberto Martins, Terceira Turma,  DJEN de 25/9/2025).
+```
+
 #### *CLAUSULA_CONTRATUAL*: Interpretação de cláusula contratual — Súmula 5/STJ
 
 ##### Apenas interpretação de cláusula contratual (Súmula 5/STJ
