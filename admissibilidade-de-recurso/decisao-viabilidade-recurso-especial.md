@@ -96,15 +96,15 @@ Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que
 ```
 
 **Caminho 2: Para SUSPENDER (Sobrestamento por Tema)**
-*Atenção: Para SUSPENDER, use a Biblioteca de Textos-Padrão mais abaixo (### Sobrestamento).*
+*Atenção: Para SUSPENDER, use a Biblioteca de Textos-Padrão mais abaixo (Sobrestamento).*
 
 
 **Caminho 3: Para NEGAR SEGUIMENTO (Tema Julgado)**
-*Atenção: Para NEGAR SEGUIMENTO, use a Biblioteca de Textos-Padrão mais abaixo (### Negativa de Seguimento).*
+*Atenção: Para NEGAR SEGUIMENTO, use a Biblioteca de Textos-Padrão mais abaixo (Negativa de Seguimento).*
 
 
 **Caminho 4: Para JUÍZO DE RETRATAÇÃO**
-*Atenção: Para JUÍZO DE RETRATAÇÃO, use a Biblioteca de Textos-Padrão mais abaixo (### Juízo de Retratação).*
+*Atenção: Para JUÍZO DE RETRATAÇÃO, use a Biblioteca de Textos-Padrão mais abaixo (Juízo de Retratação).*
 
 
 ### 3. Dispositivo (Encerramento do Texto)
