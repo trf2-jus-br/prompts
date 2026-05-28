@@ -25,10 +25,11 @@ Você leu um documento marcado como <pesquisa-de-temas> que contém a análise d
 
 1. Juízo de Viabilidade do REsp (Recurso Especial)
 
-O juízo de viabilidade do Recurso Especial leva em consideração uma séria de análises efetuadas pela Vice-Presidência do Tribunal (juízo de conformidade e juízo de viabilidade).
-- Essas análises devem ser feitas de forma sequencial, pois as etapas seguintes são analisadas apenas depois de superadas as etapas anteriores;
-- O juízo de conformidade tem primazia sobre o juízo de admissibilidade – regra (STJ);
-- Há, contudo, determinados vícios que autorizam seja afastada a aplicação do juízo de conformidade para o exercício do juízo de admissibilidade (hipóteses de inadmissão).
+O juízo de viabilidade do Recurso Especial leva em consideração uma série de análises efetuadas pela Vice-Presidência do Tribunal (juízo de conformidade e juízo de admissibilidade).
+- Essas análises seguem, em regra, uma ordem sequencial: cada etapa só é examinada depois de vencida a anterior;
+- O juízo de conformidade tem primazia sobre o juízo de admissibilidade — regra;
+- Há, contudo, determinados vícios que autorizam afastar o juízo de conformidade para o exercício do juízo de admissibilidade (hipóteses de inadmissão);
+- A ordem sequencial comporta uma exceção relevante: nem toda hipótese de conformidade encerra a análise. O sobrestamento e a retratação são terminais — incidindo, a decisão limita-se ao tema e as demais questões não são analisadas. Já a negativa de seguimento convive, na mesma decisão, com o juízo de admissibilidade das questões que não sejam objeto de tema (decisão mista).
 
 2. Óbices iniciais à admissibilidade (Manual STJ, p. 26-27)
 
@@ -48,13 +49,14 @@ Verificado o preparo, a tempestividade e o esgotamento da instância, passa-se a
 
 4. Juízo de Admissibilidade
 
-Ultrapassadas as etapas acima, passa-se à análise do juízo de admissibilidade do Recurso.
-Para que o recurso seja admitido é necessário que não haja nenhum óbice à sua admissão
+Passa-se ao juízo de admissibilidade quando: (i) não houver tema de repercussão geral ou de recurso repetitivo sobre as questões recorridas; ou (ii) for caso de negativa de seguimento, hipótese em que a admissibilidade é examinada, na mesma decisão, quanto às demais questões não abrangidas por tema.
+Não se chega a esta etapa nas hipóteses de sobrestamento e de retratação, que encerram a decisão.
+Para que uma questão seja admitida, é necessário que não haja nenhum óbice à sua admissão.
 
 5. Admissão
 
-O recurso especial somente será admitido, caso não haja um tema (ou caso haja e não seja exercido o juízo de retratação), e nem a incidência de uma hipótese de inadmissão
-
+Uma questão recorrida será admitida quando não houver, sobre ela, tema que imponha sobrestamento, retratação ou negativa de seguimento, nem qualquer hipótese de inadmissão.
+O recurso pode ser admitido integralmente — quando todas as questões superam os óbices — ou apenas em parte, quando algumas questões são admitidas e outras recebem negativa de seguimento ou inadmissão (decisão mista).
 
 ## Roteiro de Verificação
 
@@ -119,9 +121,13 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - caso seja identificada: utilizar o dispositivo *NEGAR_SEGUIMENTO* (negação de seguimento ao recurso).
 
 ### Juízo de Admissibilidade
-- Somente se superadas as verificações preliminares de inadmissão as hipóteses de sobrestamento, retratação e negativa de seguimento, ou se não houver tema de repercussão geral ou recurso repetitivo.
--	Verificar se o recurso ultrapassa todos os óbices à admissibilidade abaixo.
-- Se houver algum óbice à admissibilidade, o recurso deve ser inadmitido. Neste caso, usar o dispositivo *INADIMITIR*.
+- O juízo de admissibilidade é realizado depois de superadas as verificações preliminares de inadmissão e desde que NÃO seja caso de sobrestamento nem de retratação — hipóteses em que, conforme acima, as demais questões não são analisadas e a decisão se limita àquele tema.
+- Ele se aplica em duas situações:
+  (i) quando não houver tema de repercussão geral ou de recurso repetitivo sobre nenhuma das questões recorridas; ou
+  (ii) quando for caso de negativa de seguimento (art. 1.030, I, do CPC) — situação em que o juízo de admissibilidade deve ser feito, NA MESMA DECISÃO, **EXCLUSIVAMENTE** quanto às demais questões recorridas que **não sejam objeto de tema repetitivo ou de repercussão geral**.
+- Diferentemente do sobrestamento e da retratação, a negativa de seguimento não dispensa nem encerra o juízo de admissibilidade: as duas análises convivem, aplicando-se a negativa aos itens que contrariam a tese firmada e a admissibilidade aos demais itens não abrangidos pelo tema.
+- Verificar se o recurso (ou a questão recorrida não abrangida por tema) ultrapassa todos os óbices à admissibilidade abaixo.
+- Se houver algum óbice à admissibilidade, o recurso deve ser inadmitido quanto a essa questão. Neste caso, usar o dispositivo *INADIMITIR*.
 
 #####	Ausência de Prequestionamento (Súmulas 282/STF e 356/STF; e 211/STJ)
 - Óbice que impede a admissão do recurso especial quando a tese de lei federal apontada como violada não foi previamente debatida e decidida pelo Tribunal de origem. Abrange três realidades: (i) o Tribunal a quo, mesmo provocado por embargos de declaração, não se manifestou sobre os dispositivos — e não se configura o prequestionamento ficto do art. 1.025 do CPC porque o recurso especial não apontou ofensa ao art. 1.022; (ii) a parte sequer opôs embargos de declaração para provocar essa manifestação; e (iii) os dispositivos foram suscitados pela primeira vez no recurso especial (inovação recursal). Súmulas 282 e 356 do STF e 211 do STJ.
