@@ -446,7 +446,7 @@ Esse fundamento, autônomo e suficiente para manter a conclusão do acórdão re
 A subsistência de fundamento inatacado, apto a manter a conclusão do aresto impugnado, impõe a inadmissão do recurso especial, por aplicação analógica da Súmula n. 283/STF.
 ```
 
-#### *FALTA_DE_COTEJO_ANALITICO*: Falta de cotejo analítico ou ausência de comprovação do dissídio (divergência jurisprudencial — alínea 'c')
+#### *FALTA_DE_COTEJO_ANALITICO* / *AUSENCIA_COMPROVACAO_DISSIDIO*: Falta de cotejo analítico ou ausência de comprovação do dissídio (divergência jurisprudencial — alínea 'c')
 
 ##### Ausência total de cotejo analítico
 ```
@@ -479,6 +479,13 @@ A admissibilidade do recurso especial pela alínea 'c' exige, nos termos do art.
 Os acórdãos indicados como paradigmas são oriundos de {{origemParadigma — ex: "juízos de primeiro grau, que não constituem 'outro tribunal' para fins do art. 105, inciso III, alínea 'c', da Constituição Federal" / "do próprio Tribunal recorrido, o que não configura divergência entre tribunais distintos"}}. O dissídio jurisprudencial apto a fundamentar o recurso especial pela alínea 'c' pressupõe divergência entre o acórdão recorrido e julgados proferidos por outro tribunal, não sendo suficiente a indicação de decisões do mesmo órgão ou de instâncias inferiores.
 Incide, na espécie, o entendimento consolidado do Superior Tribunal de Justiça:
 “O dissídio jurisprudencial viabilizador do recurso especial pela alínea c do permissivo constitucional não foi demonstrado nos moldes legais, pois, além da ausência do cotejo analítico e de não ter apontado qual dispositivo legal recebeu tratamento diverso na jurisprudência pátria, não ficou evidenciada a similitude fática e jurídica entre os casos colacionados que teriam recebido interpretação divergente pela jurisprudência pátria” - AgInt no AREsp n. 3.048.741/MS, relator Ministro Francisco Falcão, Segunda Turma, julgado em 29/4/2026, DJEN de 6/5/2026)
+```
+
+##### Ausência de comprovação do dissídio jurisprudencial
+```
+O recurso especial não comporta admissão pela alínea 'c' do permissivo constitucional, diante da ausência de comprovação do dissídio jurisprudencial invocado.
+A admissibilidade do recurso especial pela alínea 'c' exige, nos termos do art. 1.029, §1º, do Código de Processo Civil, a demonstração efetiva de que outro tribunal conferiu à mesma lei federal interpretação concretamente divergente da adotada pelo acórdão recorrido, em situações fáticas equivalentes. Não se trata de requisito meramente formal: a divergência deve ser real, atual e demonstrada, e não meramente presumida ou alegada em abstrato.
+No caso, a parte recorrente não identificou precisamente qual ou quais seriam os acórdãos paradigmas aptos a comprovar o alegado dissídio, {{descricaoVicio — ex: "ausência de prova formal da divergência (falta de certidão, cópia ou citação de repositório oficial/credenciado, ou de reprodução do julgado com indicação da fonte etc)" / "limitando-se a fazer referência genérica a 'julgados do STJ' sem indicar números, órgãos julgadores ou datas" / "indicando apenas ementas desacompanhadas de qualquer referência ao processo ou ao tribunal de origem"}}. Sem a identificação dos paradigmas, é impossível verificar a existência de divergência interpretativa real sobre o mesmo dispositivo de lei federal.
 ```
 
 ###	Causas Relacionadas ao Cabimento / Mérito
