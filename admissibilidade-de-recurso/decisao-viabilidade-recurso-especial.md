@@ -33,11 +33,11 @@ Você receberá:
 2.  **Fundamentação (O "Miolo"):**
     * Para cada item do JSON, verifique o `dispositivo`:
         * **Se houver `motivoGeral` de inadmissão:** O recurso deve ser inadmitido por um motivo geral, independente da análise do pedido ou argumento específico. Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o(s) texto(s) identificado(s) pelo `motivoGeral`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real).
-        * **Se for `INADIMITIR`:** Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o(s) texto(s) identificado(s) pelo `motivo`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real).
+        * **Se for `INADIMITIR`:** Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o(s) texto(s) identificado(s) pelo `motivo`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real). Se houver mais de um 'motivo' para `INADMITIR` aplicável, utilize os textos-base correspondentes a cada um deles na "BIBLIOTECA DE TEXTOS-PADRÃO", separando-os em tópicos numerados na fundamentação (conforme "Múltiplos Argumentos" abaixo).
         * **Se for `SUSPENDER`, `NEGAR_SEGUIMENTO`, `ENCAMINHAR_PARA_RETRATACAO` ou `ADMITIR`:** Utilize os modelos curtos da Seção 2.C do Manual de Redação. Integre o número do Tema e a descrição da Tese fornecidos no JSON.
-        * **Se o JSON contiver uma combinação de `INADIMITIR` e `NEGAR_SEGUIMENTO` para cada pedido (decisão mista)**: Trate cada item conforme as regras acima, desenvolvendo separadamente os fundamentos de cada conclusão na fundamentação. Crie tópicos numerados na fundamentação (ex: "1. Da Súmula 7", "2. Do Tema Repetitivo"). Ao final, utilize o modelo de dispositivo misto da Seção 3, identificando na frase, de forma sintética, a matéria objeto de cada conclusão.
+        * **Se o JSON contiver uma combinação de `INADIMITIR` e `NEGAR_SEGUIMENTO` para pedidos distintos (decisão mista)**: Trate cada item conforme as regras acima, desenvolvendo separadamente os fundamentos de cada conclusão na fundamentação. Crie tópicos numerados na fundamentação (ex: "1. Da Impossibilidade de revisão de matéria de fato", "2. Do Tema [X] dos recursos repetitivos"). Ao final, utilize o modelo de dispositivo misto da Seção 3, identificando na frase, de forma sintética, a matéria objeto de cada conclusão.
         * **Se for `DESCONSIDERAR`:** Ignore este item.
-    * **Múltiplos Argumentos:** Se houver mais de um argumento válido no JSON, crie tópicos numerados na fundamentação (ex: "1. Da Súmula 7", "2. Do Tema Repetitivo").
+    * **Múltiplos Argumentos:** Se houver mais de um argumento válido no JSON, crie tópicos numerados na fundamentação (ex: "1. Da Impossibilidade de revisão de matéria de fato", "2. Da ausência de prequestionamento").
 3.  **Dispositivo Final:** Combine os resultados conforme a Seção 3 do Manual de Redação.
 
 ## MÓDULO 2: MANUAL DE REDAÇÃO INSTITUCIONAL (TRF2 - VP)
@@ -89,67 +89,23 @@ O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superi
 
 **Caminho 1: Para ADMITIR o Recurso**
 ```
+Na hipótese em apreço, há decisão proferida em última instância, com o esgotamento das vias ordinárias de impugnação.
 Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
 Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
-Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [INSERIR BREVE DESCRIÇÃO DA TESE JURÍDICA].
+Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [descrever a controvérsia jurídica objeto do recurso especial que está sendo admitido].
 ```
 
 **Caminho 2: Para SUSPENDER (Sobrestamento por Tema)**
-```
-Discute-se, no presente caso, [RESUMO DA CONTROVÉRSIA EM POUCAS LINHAS].
-A controvérsia é objeto do Tema [NÚMERO] dos recursos repetitivos/repercussão geral, tendo o [STJ/STF] determinado a suspensão do processamento de todos os processos que versem sobre a mesma matéria.
-```
+*Atenção: Para SUSPENDER, use a Biblioteca de Textos-Padrão mais abaixo (### Sobrestamento).*
+
 
 **Caminho 3: Para NEGAR SEGUIMENTO (Tema Julgado)**
-```
-Nos termos do art. 1.030, inciso I, do Código de Processo Civil, o presidente ou vice-presidente do tribunal recorrido deverá negar seguimento:
-{{#seAlineaA}}
-(alínea 'a') a recurso extraordinário que discuta questão constitucional à qual o Supremo Tribunal Federal não tenha reconhecido a existência de repercussão geral, ou a recurso extraordinário interposto contra acórdão que esteja em conformidade com entendimento do Supremo Tribunal Federal exarado no regime de repercussão geral;
-{{/seAlineaA}}
-{{#seAlineaB}}
-(alínea 'b') a recurso {{RE ou REsp}} interposto contra acórdão que esteja em conformidade com entendimento do {{STF ou STJ}} exarado no regime de julgamento de recursos repetitivos.
-{{/seAlineaB}}
-{{#seAmbasAlineas}}
-(alíneas 'a' e 'b') a recurso extraordinário que discuta questão constitucional à qual o Supremo Tribunal Federal não tenha reconhecido a existência de repercussão geral ou que esteja em conformidade com entendimento do Supremo Tribunal Federal exarado nos regimes de repercussão geral ou de julgamento de recursos repetitivos, bem como a recurso especial interposto contra acórdão que esteja em conformidade com entendimento do Superior Tribunal de Justiça exarado no regime de julgamento de recursos repetitivos.
-{{/seAmbasAlineas}}
-No julgamento {{#seMultiplosTemas}}dos {{identificacaoDosTemas — ex: "Temas 985 e 1.048 da Repercussão Geral" / "Temas Repetitivos nºs 958 e 1.012 do STJ"}}{{/seMultiplosTemas}}``{{#seTemaUnico}}do {{identificacaoDoTema — ex: "Tema 985 da Repercussão Geral" / "Tema Repetitivo nº 958 do STJ"}}{{/seTemaUnico}}, o {{STF ou STJ}}, ao enfrentar a controvérsia referente a {{descricaoDaControversia}}, fixou a seguinte tese:
+*Atenção: Para NEGAR SEGUIMENTO, use a Biblioteca de Textos-Padrão mais abaixo (### Negativa de Seguimento).*
 
-{{teseFixada}}
-
-{{#seMultiplosTemas}}
-{{#seTesesAdicionais}}
-No julgamento do {{identificacaoDoTemaAdicional}}, o {{STF ou STJ}} fixou também a seguinte tese:
-
-{{teseAdicional}}
-{{/seTesesAdicionais}}
-{{/seMultiplosTemas}}
-
-{{#seModulacaoDeEfeitos}}
-O {{STF ou STJ}} igualmente decidiu modular os efeitos de sua decisão, {{descricaoDaModulacao — descrever os termos da modulação, especialmente os marcos temporais}}. O caso em exame situa-se {{enquadramentoNaModulacao — ex: "dentro do período alcançado pelos efeitos da modulação, pois os fatos controvertidos ocorreram após [data-marco]" / "fora do alcance da modulação de efeitos, na medida em que a situação jurídica discutida foi constituída antes de [data-marco], sendo plenamente aplicável o paradigma"}}.
-{{/seModulacaoDeEfeitos}}
-No caso em exame, o acórdão recorrido está em conformidade com {{#seMultiplosTemas}}as teses firmadas pelo {{STF ou STJ}}{{/seMultiplosTemas}}``{{#seTemaUnico}}a tese firmada pelo {{STF ou STJ}}{{/seTemaUnico}}, pois decidiu que {{razoesDaConformidade — citar o trecho ou fundamento do acórdão recorrido que coincide com a tese fixada pelo tribunal superior}}.
-```
 
 **Caminho 4: Para JUÍZO DE RETRATAÇÃO**
-```
-Nos termos do art. 1.030, inciso II, do Código de Processo Civil, o presidente ou vice-presidente do tribunal recorrido deverá encaminhar o processo ao órgão julgador competente para realização do juízo de retratação quando o acórdão recorrido divergir do entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça exarado nos regimes de repercussão geral ou de julgamento de recursos repetitivos.
-No julgamento {{#seMultiplosTemas}}dos {{identificacaoDosTemas — ex: "Temas 985 e 1.048 da Repercussão Geral" / "Temas Repetitivos nº 958 e 1.012 do STJ"}}  {{/seMultiplosTemas}} {{#seTemaUnico}}do {{identificacaoDoTema — ex: "Tema 985 da Repercussão Geral" / "Tema Repetitivo nº 958 do STJ"}} {{/seTemaUnico}}, o {{STF ou STJ}}, ao enfrentar a controvérsia referente a {{descricaoDaControversia — ex: "a incidência de contribuição previdenciária patronal sobre o terço constitucional de férias"}}, fixou a seguinte tese:
+*Atenção: Para JUÍZO DE RETRATAÇÃO, use a Biblioteca de Textos-Padrão mais abaixo (### Juízo de Retratação).*
 
-{{teseFixada}}
-
-{{#seMultiplosTemas}}
-{{#seTesesAdicionais}}
-Além disso, no julgamento do {{identificacaoDoTemaAdicional}}, o {{STF ou STJ}} fixou também a seguinte tese:
-
-{{teseAdicional}}
-{{/seTesesAdicionais}}
-{{/seMultiplosTemas}}
-
-{{#seModulacaoDeEfeitos}}
-O {{STF ou STJ}} igualmente decidiu modular os efeitos de sua decisão, {{descricaoDaModulacao — descrever minuciosamente os termos da modulação, especialmente os marcos temporais fixados pelo tribunal superior — ex: "atribuindo efeitos ex nunc ao acórdão de mérito a contar de [data], ressalvadas as situações já consolidadas até essa data"}}.
-{{/seModulacaoDeEfeitos}}
-No caso em exame, o acórdão recorrido aparenta divergir do entendimento do tribunal superior, pois decidiu que {{razoesDaDivergencia — explicar detalhadamente por que é possível concluir que o acórdão recorrido divergiu da(s) tese(s) fixada(s) e/ou da modulação de efeitos, se houver}}.
-```
 
 ### 3. Dispositivo (Encerramento do Texto)
 O texto deve terminar **exatamente** em uma das frases abaixo.
