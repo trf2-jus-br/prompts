@@ -64,7 +64,7 @@ Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome d
 
 *Se houver Embargos de Declaração prévios:*
 ```
-Opostos embargos de declaração, estes foram desprovidos [citar o evento e a peça].
+Opostos embargos de declaração, estes foram [citar resultado do julgamento dos embargos de declaração] [citar o evento e a peça].
 ```
 
 *Se houver Contrarrazões:*
@@ -102,27 +102,63 @@ A controvérsia é objeto do Tema [NÚMERO] dos recursos repetitivos/repercussã
 
 **Caminho 3: Para NEGAR SEGUIMENTO (Tema Julgado)**
 ```
-Nos termos do art. 1030, I, alíneas 'a' e 'b', do CPC, o presidente ou vice-presidente do tribunal recorrido deverá negar seguimento a recurso extraordinário que discuta questão constitucional à qual o Supremo Tribunal Federal não tenha reconhecido a existência de repercussão geral ou a recurso extraordinário interposto contra acórdão que esteja em conformidade com entendimento do Supremo Tribunal Federal exarado no regime de repercussão geral, bem como a recurso extraordinário ou a recurso especial interposto contra acórdão que esteja em conformidade com entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça, respectivamente, exarado no regime de julgamento de recursos repetitivos.
-No julgamento do tema [NÚMERO] dos recursos repetitivos/repercussão geral, o [STJ/STF] fixou a(s) seguinte(s) tese(s):
-[TESE].
-No caso em exame, o acórdão recorrido está em conformidade com a(s) tese(s) firmada pelo [STJ/STF], pois decidiu que [CITAR TRECHO DO ACÓRDÃO QUE COINCIDE COM A TESE FIRMADA PELO STF E/OU STJ].
+Nos termos do art. 1.030, inciso I, do Código de Processo Civil, o presidente ou vice-presidente do tribunal recorrido deverá negar seguimento:
+{{#seAlineaA}}
+(alínea 'a') a recurso extraordinário que discuta questão constitucional à qual o Supremo Tribunal Federal não tenha reconhecido a existência de repercussão geral, ou a recurso extraordinário interposto contra acórdão que esteja em conformidade com entendimento do Supremo Tribunal Federal exarado no regime de repercussão geral;
+{{/seAlineaA}}
+{{#seAlineaB}}
+(alínea 'b') a recurso {{RE ou REsp}} interposto contra acórdão que esteja em conformidade com entendimento do {{STF ou STJ}} exarado no regime de julgamento de recursos repetitivos.
+{{/seAlineaB}}
+{{#seAmbasAlineas}}
+(alíneas 'a' e 'b') a recurso extraordinário que discuta questão constitucional à qual o Supremo Tribunal Federal não tenha reconhecido a existência de repercussão geral ou que esteja em conformidade com entendimento do Supremo Tribunal Federal exarado nos regimes de repercussão geral ou de julgamento de recursos repetitivos, bem como a recurso especial interposto contra acórdão que esteja em conformidade com entendimento do Superior Tribunal de Justiça exarado no regime de julgamento de recursos repetitivos.
+{{/seAmbasAlineas}}
+No julgamento {{#seMultiplosTemas}}dos {{identificacaoDosTemas — ex: "Temas 985 e 1.048 da Repercussão Geral" / "Temas Repetitivos nºs 958 e 1.012 do STJ"}}{{/seMultiplosTemas}}``{{#seTemaUnico}}do {{identificacaoDoTema — ex: "Tema 985 da Repercussão Geral" / "Tema Repetitivo nº 958 do STJ"}}{{/seTemaUnico}}, o {{STF ou STJ}}, ao enfrentar a controvérsia referente a {{descricaoDaControversia}}, fixou a seguinte tese:
+
+{{teseFixada}}
+
+{{#seMultiplosTemas}}
+{{#seTesesAdicionais}}
+No julgamento do {{identificacaoDoTemaAdicional}}, o {{STF ou STJ}} fixou também a seguinte tese:
+
+{{teseAdicional}}
+{{/seTesesAdicionais}}
+{{/seMultiplosTemas}}
+
+{{#seModulacaoDeEfeitos}}
+O {{STF ou STJ}} igualmente decidiu modular os efeitos de sua decisão, {{descricaoDaModulacao — descrever os termos da modulação, especialmente os marcos temporais}}. O caso em exame situa-se {{enquadramentoNaModulacao — ex: "dentro do período alcançado pelos efeitos da modulação, pois os fatos controvertidos ocorreram após [data-marco]" / "fora do alcance da modulação de efeitos, na medida em que a situação jurídica discutida foi constituída antes de [data-marco], sendo plenamente aplicável o paradigma"}}.
+{{/seModulacaoDeEfeitos}}
+No caso em exame, o acórdão recorrido está em conformidade com {{#seMultiplosTemas}}as teses firmadas pelo {{STF ou STJ}}{{/seMultiplosTemas}}``{{#seTemaUnico}}a tese firmada pelo {{STF ou STJ}}{{/seTemaUnico}}, pois decidiu que {{razoesDaConformidade — citar o trecho ou fundamento do acórdão recorrido que coincide com a tese fixada pelo tribunal superior}}.
 ```
 
 **Caminho 4: Para JUÍZO DE RETRATAÇÃO**
 ```
-O item [X] da tese fixada no Tema [NÚMERO] estabelece que: '[CITAR TESE DO TEMA ENTRE ASPAS]'.
-> O órgão julgador considerou [CITAR O QUE O ACÓRDÃO DECIDIU].
-> Dessa forma, ao validar entendimento diverso, o acórdão recorrido parece destoar do entendimento firmado no Tema [NÚMERO].
+Nos termos do art. 1.030, inciso II, do Código de Processo Civil, o presidente ou vice-presidente do tribunal recorrido deverá encaminhar o processo ao órgão julgador competente para realização do juízo de retratação quando o acórdão recorrido divergir do entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça exarado nos regimes de repercussão geral ou de julgamento de recursos repetitivos.
+No julgamento {{#seMultiplosTemas}}dos {{identificacaoDosTemas — ex: "Temas 985 e 1.048 da Repercussão Geral" / "Temas Repetitivos nº 958 e 1.012 do STJ"}}  {{/seMultiplosTemas}} {{#seTemaUnico}}do {{identificacaoDoTema — ex: "Tema 985 da Repercussão Geral" / "Tema Repetitivo nº 958 do STJ"}} {{/seTemaUnico}}, o {{STF ou STJ}}, ao enfrentar a controvérsia referente a {{descricaoDaControversia — ex: "a incidência de contribuição previdenciária patronal sobre o terço constitucional de férias"}}, fixou a seguinte tese:
+
+{{teseFixada}}
+
+{{#seMultiplosTemas}}
+{{#seTesesAdicionais}}
+Além disso, no julgamento do {{identificacaoDoTemaAdicional}}, o {{STF ou STJ}} fixou também a seguinte tese:
+
+{{teseAdicional}}
+{{/seTesesAdicionais}}
+{{/seMultiplosTemas}}
+
+{{#seModulacaoDeEfeitos}}
+O {{STF ou STJ}} igualmente decidiu modular os efeitos de sua decisão, {{descricaoDaModulacao — descrever minuciosamente os termos da modulação, especialmente os marcos temporais fixados pelo tribunal superior — ex: "atribuindo efeitos ex nunc ao acórdão de mérito a contar de [data], ressalvadas as situações já consolidadas até essa data"}}.
+{{/seModulacaoDeEfeitos}}
+No caso em exame, o acórdão recorrido aparenta divergir do entendimento do tribunal superior, pois decidiu que {{razoesDaDivergencia — explicar detalhadamente por que é possível concluir que o acórdão recorrido divergiu da(s) tese(s) fixada(s) e/ou da modulação de efeitos, se houver}}.
 ```
 
 ### 3. Dispositivo (Encerramento do Texto)
 O texto deve terminar **exatamente** em uma das frases abaixo.
-* **Admissão:** "Ante o exposto, **ADMITO** o recurso especial/extraordinário."
-* **Inadmissão:** "Do exposto, **INADMITO** o recurso especial/extraordinário, com base no art. 1.030, V, do CPC."
-* **Negativa de Seguimento:** "Ante o exposto, **NEGO SEGUIMENTO** ao recurso especial, com base no art. 1.030, I, 'b', do CPC."
+* **Admissão:** "Ante o exposto, **ADMITO** o [recurso especial/extraordinário]."
+* **Inadmissão:** "Do exposto, **INADMITO** o [recurso especial/extraordinário], com base no art. 1.030, V, do CPC."
+* **Negativa de Seguimento:** "Ante o exposto, **NEGO SEGUIMENTO** ao recurso {{RE ou REsp}}, nos termos do art. 1.030, inciso I, {{alínea 'a' / alínea 'b' / alíneas 'a' e 'b'}}, do Código de Processo Civil."
 * **Decisão mista (somente em inadmissão parcial + negativa de seguimento parcial):** "Do exposto, nos termos do art. 1.030, I, 'b', do CPC, **NEGO SEGUIMENTO** ao recurso especial, no que tange a [identificar os temas repetitivos ou de repercussão geral aplicados], e, com base no art. 1.030, V, do CPC, **INADMITO** o recurso quanto às demais questões."
 * **Sobrestamento:** "Ante o exposto, determino o **SOBRESTAMENTO** do processo, até o julgamento do Tema [X] pelo [STJ/STF]."
-* **Retratação:** "Ante o exposto, determino o **ENCAMINHAMENTO** dos autos ao órgão julgador de origem, nos termos do art. 1.030, II, do CPC, para que haja a devida análise e eventual adequação do acórdão recorrido ao leading case acima mencionado."
+* **Retratação:** "Ante o exposto, tendo em vista a aparente divergência do acórdão recorrido em relação ao entendimento do {{STF ou STJ}} {{#seMultiplosTemas}}nos {{identificacaoDosTemas}}  {{/seMultiplosTemas}}``{{#seTemaUnico}}no {{identificacaoDoTema}} {{/seTemaUnico}}, **DETERMINO o encaminhamento dos autos ao órgão julgador**, nos termos do art. 1.030, inciso II, do Código de Processo Civil, para que proceda à avaliação e eventual adequação do acórdão recorrido ao paradigma acima mencionado."
 
 ### 4. Regras de Estilo e Formatação "Invisíveis"
 * **Nomes das Partes:** Use CAIXA ALTA apenas na qualificação inicial do relatório. No decorrer do texto, use "Recorrente" e "Recorrido".
