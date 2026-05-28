@@ -384,7 +384,6 @@ Incidem, por analogia, os enunciados das Súmulas n. 282 e 356 do Supremo Tribun
 O recurso especial não comporta admissão em razão da ausência de prequestionamento da matéria infraconstitucional.
 O conhecimento do recurso especial exige que a tese jurídica contida nos dispositivos de lei federal alegadamente violados tenha sido objeto de prévio debate e decisão pelo Tribunal de origem. A ausência de manifestação do Tribunal a quo acerca do conteúdo normativo dos dispositivos legais tidos por violados no apelo especial revela-se óbice insuperável ao seu processamento.
 Registre-se, ainda, que os dispositivos legais {{dispositivosIneditos — ex: "arts. 373 e 374 do CPC"}} são invocados pela primeira vez no recurso especial, sem que tenham sido objeto de debate e decisão nas instâncias ordinárias, o que veda seu conhecimento nesta sede recursal.
-Ante o exposto, INADMITO o recurso especial, nos termos do art. 1.030, inciso V, do Código de Processo Civil.
 ```
 
 #### *FUNDAMENTO_CONSTITUCIONAL_AUTONOMO*: Fundamento constitucional autônomo não impugnado — Súmula 126/STJ
@@ -396,7 +395,7 @@ O acórdão recorrido resolveu a controvérsia com base em fundamentação const
 No plano constitucional, o julgado assentou que {{fundamentoConstitucional — ex: "a pretensão da parte autora encontra óbice no art. 37, caput, da Constituição Federal, que veda o enriquecimento sem causa da Administração Pública" / "a controvérsia envolve diretamente o art. 5º, XXXVI, da Constituição Federal, relativo ao direito adquirido"}}.
 No plano infraconstitucional, assentou que {{fundamentoInfraconstitucional — ex: "a pretensão também encontra óbice no art. 884 do Código Civil" / "a matéria é igualmente regida pelo art. 19 da Lei nº 8.036/1990"}}.
 A existência de fundamento de índole constitucional, autônomo e suficiente para manter o julgado, impunha à parte recorrente a interposição do imprescindível Recurso Extraordinário perante o Supremo Tribunal Federal, a fim de afastar esse fundamento. Sem a impugnação do fundamento constitucional, o acórdão recorrido se mantém intacto independentemente do resultado do recurso especial, tornando inútil o seu processamento.
-Embora a parte recorrente afirme ter interposto recurso extraordinário, {{fundconstnaoatacado" / "o recurso extraordinário interposto não abrangeu o fundamento constitucional autônomo que sustenta o acórdão recorrido, deixando-o incólume"}}.
+Embora a parte recorrente afirme ter interposto recurso extraordinário, {{descricaoIneficaciaRE — ex: "o recurso extraordinário interposto não abrangeu o fundamento constitucional autônomo que sustenta o acórdão recorrido, deixando-o incólume"}}.
 A subsistência do fundamento constitucional sem impugnação eficaz preserva o óbice da Súmula n. 126 do Superior Tribunal de Justiça.
 Incide, portanto, o enunciado da Súmula n. 126 do Superior Tribunal de Justiça, segundo a qual: "É inadmissível recurso especial, quando o acórdão recorrido assenta em fundamentos constitucional e infraconstitucional, qualquer deles suficiente, por si só, para mantê-lo, e a parte vencida não manifesta recurso extraordinário."
 ```
@@ -455,7 +454,7 @@ Esse fundamento, autônomo e suficiente para manter a conclusão do acórdão re
 A subsistência de fundamento inatacado, apto a manter a conclusão do aresto impugnado, impõe a inadmissão do recurso especial, por aplicação analógica da Súmula n. 283/STF.
 ```
 
-#### *FALTA_DE_COTEJO_ANALITICO*: Falta de cotejo analítico (divergência jurisprudencial — alínea 'c')
+#### *FALTA_DE_COTEJO_ANALITICO*: Falta de cotejo analítico ou ausência de comprovação do dissídio (divergência jurisprudencial — alínea 'c')
 
 ##### Ausência total de cotejo analítico
 ```
@@ -582,7 +581,7 @@ O recurso especial não comporta admissão, pois sua análise demandaria reanál
 O recurso especial destina-se à tutela da integridade do direito federal infraconstitucional, não se prestando a rever o conteúdo ou o alcance de cláusulas negociais fixados nas instâncias ordinárias. Incide, na espécie, o óbice do Enunciado n. 5 da Súmula do Superior Tribunal de Justiça: "A simples interpretação de cláusula contratual não enseja Recurso Especial."
 No caso, o acórdão recorrido assentou que {{interpretacaoContratualDoAcordao — citar literalmente a interpretação da cláusula contratual firmada pelo acórdão recorrido}}.
 O acolhimento da pretensão recursal exigiria o reexame e a reinterpretação das cláusulas negociais que fundamentaram a conclusão do aresto impugnado, providência incabível em sede de recurso excepcional.
-Some-se a isso que a pretensão recursal também esbarra no óbice da Súmula n. 7 do Superior Tribunal de Justiça, uma vez que a revisão da interpretação contratual adotada pelo Tribunal de origem pressupõe, igualmente, a reanálise dos elementos fáticos que circundaram a formação e a execução do contrato — {{elementosFaticosEnvolvidos — ex: "as tratativas pré-contratuais, os usos e costumes do setor e o comportamento das partes durante a execução do ajuste" / "as circunstâncias em que foi celebrado o aditivo contratual e a intenção comum das partes à época"}} —, providência igualmente vedada nesta sede recursal excepcional. {{/seCumuladoComSumula7}}
+Some-se a isso que a pretensão recursal também esbarra no óbice da Súmula n. 7 do Superior Tribunal de Justiça, uma vez que a revisão da interpretação contratual adotada pelo Tribunal de origem pressupõe, igualmente, a reanálise dos elementos fáticos que circundaram a formação e a execução do contrato — {{elementosFaticosEnvolvidos — ex: "as tratativas pré-contratuais, os usos e costumes do setor e o comportamento das partes durante a execução do ajuste" / "as circunstâncias em que foi celebrado o aditivo contratual e a intenção comum das partes à época"}} —, providência igualmente vedada nesta sede recursal excepcional.
 ```
 
 #### *ATOS_NORMATIVOS_INFRALEGAIS*: Interpretação e aplicação de Atos Normativos Infralegais
