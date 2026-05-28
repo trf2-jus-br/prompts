@@ -19,7 +19,7 @@ Você leu diversos documentos relacionados a Recurso Especial em processo judici
 
 Você leu, também, um documento marcado como <pedidos-do-recurso-e-argumentos> que contém os pedidos formulados no recurso judicial e os argumentos apresentados para embasar cada pedido. A extração dos pedidos e argumentos já foi realizada previamente e deve ser reaproveitada.
 
-Você leu um documento marcado como <pesquisa-de-temas> que contém a análise de viabilidade jurídica do recurso com base em teses e súmulas vinculantes. Se você optar por utilizar essa análise, deverá trascrever os dados dessa análise nos campos apropriados da resposta. No entanto, é importante destacar que a análise de viabilidade jurídica realizada no documento marcado como <pesquisa-de-temas> não é definitiva e pode ser complementada ou corrigida com base em outras informações disponíveis sobre o processo, como o acórdão, o recurso e as contrarrazões. Portanto, você deve considerar todas as informações disponíveis para realizar uma análise completa e precisa da admissibilidade do recurso.
+Você leu um documento marcado como <pesquisa-de-temas> que contém a análise de viabilidade jurídica do recurso com base em teses e súmulas vinculantes. Se você optar por utilizar essa análise, deverá transcrever os dados dessa análise nos campos apropriados da resposta. No entanto, é importante destacar que a análise de viabilidade jurídica realizada no documento marcado como <pesquisa-de-temas> não é definitiva e pode ser complementada ou corrigida com base em outras informações disponíveis sobre o processo, como o acórdão, o recurso e as contrarrazões. Portanto, você deve considerar todas as informações disponíveis para realizar uma análise completa e precisa da admissibilidade do recurso.
 
 ## Considerações Iniciais
 
@@ -35,7 +35,7 @@ O juízo de viabilidade do Recurso Especial leva em consideração uma série de
 
 Há hipóteses que podem levar à inadmissibilidade do recurso (juízo de admissibilidade) e que devem ser analisadas antes mesmo da conformidade. São três verificações iniciais principais:
 2.1. Verificar se houve preparo;
-2.2. Verificar se o recurso é tempestivo (art. 1.036, § 3º, do CPC).
+2.2. Verificar se o recurso é tempestivo (art. 1.003, §5º, do CPC).
 2.3. Verificar se houve o esgotamento da jurisdição no órgão de origem;
 Caso não superada qualquer dessas hipóteses acima, o recurso deve ser inadmitido
 
@@ -162,9 +162,9 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Óbice que impede a admissão do recurso especial quando o acórdão recorrido está em consonância com a jurisprudência dominante do STJ sobre a matéria. Abrange três realidades, conforme o fundamento do recurso: (i) interposto só pela alínea 'a' (violação de lei) — o óbice incide igualmente; (ii) interposto só pela alínea 'c' (divergência); e (iii) interposto por ambas. Em todas, por estar o julgado alinhado ao entendimento consolidado da Corte, a tese da recorrente não prospera. Súmula 83 do STJ.
 - caso seja identificada: inadmissão pelo motivo *CONFORMIDADE_JURISPRUDENCIA*.
 
-- #####	Conformidade com a Jurisprudência do STJ - Súmula 83/STJ. Ausência de Omissão
+#####	Conformidade com a Jurisprudência do STJ - Súmula 83/STJ. Ausência de Omissão
 - Óbice que impede o recurso especial quando a parte alega violação dos arts. 489 e/ou 1.022 do CPC (negativa de prestação jurisdicional por omissão, contradição ou obscuridade), mas o vício não existe, pois o acórdão recorrido enfrentou de forma clara e fundamentada os pontos essenciais da controvérsia. Apoia-se no entendimento consolidado do STJ de que o julgador não é obrigado a rebater individualmente todos os argumentos das partes, bastando expor fundamentadamente as razões de seu convencimento, e de que a mera discordância com o resultado ou a não adoção da tese defendida não configura vício de integração. Estando o acórdão alinhado a essa jurisprudência, incide a Súmula 83 do STJ.
-- - caso seja identificada: inadmissão pelo motivo *CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO*.
+- caso seja identificada: inadmissão pelo motivo *CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO*.
 
 #####	Interpretação de cláusula contratual — Súmula 5/STJ
 - Óbice que impede a admissão do recurso especial quando seu acolhimento exigiria reinterpretar cláusulas contratuais fixadas nas instâncias ordinárias, o que escapa à via especial. Abrange três realidades: (i) a controvérsia se resume à interpretação da cláusula; (ii) a parte alega que pretende discutir questão legal (ex.: nulidade ou abusividade da cláusula), mas o exame pressupõe definir antes o conteúdo e o alcance da cláusula; e (iii) hipótese cumulada com a Súmula 7, quando rever a interpretação contratual também demanda reanalisar os fatos que cercaram a formação e a execução do contrato. Súmula 5 do STJ.
@@ -206,7 +206,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Esse texto deve ser copiado do documento ipsis litteris, do documento marcado como <pedidos-do-recurso-e-argumentos>.
 
 ##### dispositivo (opções: SUSPENDER, NEGAR_SEGUIMENTO, ENCAMINHAR_PARA_RETRATACAO, ADMITIR, INADIMITIR, DESCONSIDERAR, RECURSO_PREJUDICADO) - Dispositivo do Pedido
-- O pedido pode ter como dispositivo uma das seguintes . Ainda existe a possibilidade de o pedido não ter dispositivo definido, caso em que esse campo deve ser deixado em branco.
+- O pedido pode ter como dispositivo uma das seguintes opções: SUSPENDER, NEGAR_SEGUIMENTO, ENCAMINHAR_PARA_RETRATACAO, ADMITIR, INADIMITIR, DESCONSIDERAR, RECURSO_PREJUDICADO. Ainda existe a possibilidade de o pedido não ter dispositivo definido, caso em que esse campo deve ser deixado em branco.
 - Se foi identificado um tema, as opções SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO devem ser utilizadas conforme o caso.
 - Se foi identificado um ou mais motivos de inadmissão, a opção INADIMITIR deve ser utilizada.
 - Se não houver conclusão sobre o pedido, deixe esse campo em branco.
