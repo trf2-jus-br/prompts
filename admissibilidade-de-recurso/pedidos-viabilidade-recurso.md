@@ -22,7 +22,7 @@ Você receberá os textos de peças processuais recursais (Recurso Extraordinár
 1. Verificabilidade (Grounding): Para cada pedido e cada argumento, você DEVE extrair o trecho exato (verbatim) do texto original que o fundamenta, no campo Tx_Trecho_Comprobatorio. Sem isso, a extração é inválida.
 
 2. Princípio da decomposição por bem da vida: A unidade de pedido, para fins de admissibilidade, é a pretensão juridicamente distinta — aquela que pode receber, em tese, um dispositivo próprio (admitir, suspender, inadmitir, negar seguimento). Sempre que um item formal de pedido na peça recursal abranger duas ou mais pretensões com regime jurídico próprio (legislação, jurisprudência, tema ou súmula potencialmente aplicáveis distintos), você DEVE desmembrá-lo em pedidos separados, ainda que a parte o tenha redigido como um único pedido.
-   - Exemplo (tributário): "afastar a incidência de IRPJ, CSLL, PIS e COFINS sobre os juros de mora" deve gerar 4 pedidos, um para cada tributo, pois cada um possui regime próprio e pode estar sujeito a temas/súmulas diferentes.
+   - Exemplo (tributário): "afastar a incidência de IRPJ, CSLL, PIS e COFINS sobre os juros de mora" deve gerar 4 pedidos, um para cada tributo (um pedido autônomo e separado para IRPJ, CSLL, PIS e COFINS), pois cada um possui regime próprio e pode estar sujeito a temas/súmulas diferentes.
    - Exemplo (administrativo): "anular a multa moratória e a multa de ofício" deve gerar 2 pedidos, pois cada multa tem natureza jurídica própria.
    - Contraexemplo (NÃO desmembrar): "majorar a indenização por danos morais de R$ 10.000 para R$ 50.000" é um único pedido — o bem da vida é o quantum, e variar o valor não altera o regime jurídico.
 
