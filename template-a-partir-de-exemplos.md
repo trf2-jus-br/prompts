@@ -2,6 +2,7 @@
 uuid: 6f413662-a0e4-499b-8044-72b31139a761
 share: oculto
 target: texto
+profile: premium
 ---
 
 # SYSTEM PROMPT
