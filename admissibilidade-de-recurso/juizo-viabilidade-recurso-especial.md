@@ -4,9 +4,6 @@ name: Juízo de Viabilidade de Recurso Especial
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial
-grupo:
-  slug: decisao-de-viabilidade
-  titulo: Admissibilidade de Recursos
 ---
 
 # PROMPT

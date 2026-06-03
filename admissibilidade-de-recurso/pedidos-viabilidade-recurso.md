@@ -4,9 +4,6 @@ name: Pedidos de Viabilidade de Recurso
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial
-grupo:
-  slug: decisao-de-viabilidade
-  titulo: Admissibilidade de Recursos
 ---
 
 # SYSTEM PROMPT
