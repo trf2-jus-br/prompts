@@ -87,7 +87,7 @@ Identifique os pedidos realizados na peça recursal abaixo:
 
 
 # FORMAT
-{% for d in Pedidos %}{% set outerIndex = loop.index %}**Pedido {= loop.index =}** {% if d.Tx_Relacao and d.Tx_Relacao != 'AUTONOMO' %} ({= d.Tx_Relacao | lower =} {% if d.Id_PedidoVinculado %} ao pedido {= d.Id_PedidoVinculado =}{% endif %}){% endif %}: {% if d.Lo_PedidoDeEfeitoSuspensivo %}[C/ EFEITO SUSPENSIVO] {% endif %}{= d.Tx_Texto =}
+{% for d in Pedidos %}{% set outerIndex = loop.index %}**Pedido {= loop.index =} {% if d.Tx_Relacao and d.Tx_Relacao != 'AUTONOMO' %} ({= d.Tx_Relacao | lower =}{% if d.Id_PedidoVinculado %} ao pedido {= d.Id_PedidoVinculado =}{% endif %}){% endif %}:** {% if d.Lo_PedidoDeEfeitoSuspensivo %}[C/ EFEITO SUSPENSIVO] {% endif %}{= d.Tx_Texto =}
 
 > {= d.Tx_Trecho_Comprobatorio | blockquoteLines =}
 
