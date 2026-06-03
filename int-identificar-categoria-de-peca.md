@@ -1,5 +1,6 @@
 ---
 uuid: 1f1cc900-6d7d-4ce1-b35a-c3a13dde0d24
+description: Identifique automaticamente o tipo de peça processual digitalizada com justificativa precisa e estruturada em JSON.
 share: oculto
 ---
 

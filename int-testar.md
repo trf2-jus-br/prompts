@@ -1,5 +1,6 @@
 ---
 uuid: ab584bbd-743a-4bab-b1f7-01a8ce8ff58a
+description: Analise documentos processuais com base em perguntas predefinidas, verificando a cobertura dos tópicos relevantes.
 share: oculto
 ---
 

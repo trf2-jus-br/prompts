@@ -1,5 +1,6 @@
 ---
 uuid: c5e88d82-4c7d-43a1-8f6d-5cfde8abe294
+description: Organize e agrupe automaticamente os assuntos do processo, eliminando redundâncias e padronizando a triagem.
 share: oculto
 ---
 

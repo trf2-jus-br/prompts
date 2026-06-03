@@ -1,6 +1,7 @@
 ---
 uuid: 118bac70-1aaa-46fc-90fc-328b19906307
 name: Identificação de Tema de Suspensão
+description: Identifique automaticamente temas de suspensão por recurso repetitivo ou repercussão geral nas peças processuais.
 sort: 3
 piece_strategy: suspensao
 plugins:

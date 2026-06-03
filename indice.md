@@ -1,6 +1,7 @@
 ---
 uuid: d3157770-3bd3-47d7-9fee-b27dedadd44e
 name: Índice
+description: Gere um índice organizado das peças do processo para facilitar a navegação e compreensão dos autos.
 sort: 8
 share: beta-teste
 piece_strategy: todas

@@ -1,5 +1,6 @@
 ---
 uuid: bf49cb7c-0f9e-42ef-b29d-13d4a953cb6e
+description: Resuma a petição inicial com caracterização das partes, fatos, argumentos jurídicos e lista de pedidos formulados.
 share: oculto
 ---
 

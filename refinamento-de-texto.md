@@ -1,6 +1,7 @@
 ---
 uuid: 10729660-a160-4634-8ba3-bc2511da2a7f
 name: Refinamento de Texto
+description: Refine e aprimore textos jurídicos tornando-os mais claros e objetivos sem alterar o conteúdo original.
 sort: 1001
 target: refinamento
 context:

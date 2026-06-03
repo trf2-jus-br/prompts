@@ -1,6 +1,7 @@
 ---
 uuid: 3d899f27-fdb0-43a1-9103-0566d6b5f6db
 name: Revisao Ortografica
+description: Revise e corrija textos jurídicos automaticamente, preservando citações e mantendo o conteúdo original intacto.
 sort: 1001
 target: refinamento
 context:

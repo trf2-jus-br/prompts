@@ -1,6 +1,7 @@
 ---
 uuid: d11a35f1-ec87-4a52-b74c-2e8b43a55012
 name: Relatório de Análise de Petição Inicial e Resposta do Réu
+description: Analise e compare a petição inicial e a resposta do réu em um relatório estruturado com todos os argumentos relevantes.
 sort: 3
 share: oculto
 piece_strategy: mais-relevantes

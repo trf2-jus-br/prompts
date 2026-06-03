@@ -1,5 +1,6 @@
 ---
 uuid: 76a11167-e83c-4779-ac1d-cc0c18c84a87
+description: Resuma a sentença judicial destacando as partes, os fatos, a fundamentação jurídica e o dispositivo da decisão.
 share: oculto
 ---
 

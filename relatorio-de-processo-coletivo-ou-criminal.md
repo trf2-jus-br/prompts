@@ -1,6 +1,7 @@
 ---
 uuid: e2196de6-a040-4df3-a26c-6b143241aa5c
 name: Relatorio de Processo Coletivo ou Criminal
+description: Produza relatórios detalhados de processos coletivos ou criminais com análise abrangente de todas as peças.
 sort: 9
 piece_strategy: todas
 batch_report: true

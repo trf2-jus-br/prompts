@@ -1,5 +1,6 @@
 ---
 uuid: bd772e5b-5683-4813-b167-e180f6e3976c
+description: Resuma o recurso inominado identificando partes, fatos principais, argumentos jurídicos e pedidos formulados.
 share: oculto
 ---
 

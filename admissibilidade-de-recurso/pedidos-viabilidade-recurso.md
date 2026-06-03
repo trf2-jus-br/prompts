@@ -1,6 +1,7 @@
 ---
 uuid: bb4f02ef-a5f4-458e-bac2-551acb361414
 name: Pedidos de Viabilidade de Recurso
+description: Extraia e decomponha os pedidos e argumentos do recurso para embasar a análise de admissibilidade pelo tribunal.
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial

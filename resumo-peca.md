@@ -1,5 +1,6 @@
 ---
 uuid: 31585dd2-80c0-40f5-aaa3-e3bf74bbf786
+description: Resuma qualquer peça processual em linguagem jurídica formal, preservando os pontos mais importantes do documento.
 share: oculto
 ---
 

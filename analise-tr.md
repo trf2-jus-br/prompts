@@ -1,6 +1,7 @@
 ---
 uuid: ad9298ce-68d9-4e30-a3f3-93bef5ee54a8
 name: Análise de Processo de Turma Recursal
+description: Analise processos de Turma Recursal com precisão e obtenha um relatório completo para subsidiar decisões judiciais.
 piece_strategy: mais-relevantes
 successors:
   - path: chat

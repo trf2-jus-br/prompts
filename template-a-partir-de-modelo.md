@@ -1,5 +1,6 @@
 ---
 uuid: 452befb9-1614-4518-a944-443c55bfdd0a
+description: Crie modelos de peças processuais a partir das instruções do magistrado, com marcadores de substituição e textos padrão.
 share: oculto
 profile: premium
 ---

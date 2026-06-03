@@ -1,5 +1,6 @@
 ---
 uuid: 43ea17df-53c1-45a3-a75c-585f7fde2e76
+description: Crie um manual de redação personalizado analisando decisões anteriores do magistrado e extraindo padrões e entendimentos.
 share: oculto
 target: texto
 ---

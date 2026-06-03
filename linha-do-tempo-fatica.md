@@ -1,6 +1,7 @@
 ---
 uuid: d34d629e-38ed-434f-ac57-edf6b49c0409
 name: Linha do Tempo Fática
+description: Extraia e organize cronologicamente os fatos relatados na petição inicial com datas, entidades e trechos comprobatórios.
 author: Renato Crivano/TRF2
 sort: 5
 piece_strategy: peticao-inicial

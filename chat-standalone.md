@@ -1,6 +1,7 @@
 ---
 uuid: 610f2ed8-c775-4b63-8416-1b479c249b31
 name: Chat Padrão
+description: Converse livremente com um especialista jurídico e obtenha orientações precisas sobre qualquer questão do processo.
 sort: 7
 target: chat
 context: {}

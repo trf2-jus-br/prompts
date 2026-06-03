@@ -1,6 +1,7 @@
 ---
 uuid: 64182d4d-da22-4135-8150-3379386db58a
 name: Juízo de Viabilidade de Recurso
+description: Analise a admissibilidade de recursos extraordinários e especiais identificando pedidos, argumentos e viabilidade jurídica.
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial

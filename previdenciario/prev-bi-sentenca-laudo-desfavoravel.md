@@ -1,6 +1,7 @@
 ---
 uuid: 0a69eaf2-7622-4852-be6f-20b12e06bad2
 name: Sentenca BI - Laudo Desfavoravel
+description: Gere minutas de sentença em processos de benefício por incapacidade quando o laudo pericial é desfavorável ao autor.
 sort: 1000
 share: beta-teste
 piece_strategy: conhecimento

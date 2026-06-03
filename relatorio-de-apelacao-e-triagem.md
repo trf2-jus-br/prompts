@@ -1,6 +1,7 @@
 ---
 uuid: ee53509d-777b-4a88-8277-ebf240ba04da
 name: Relatorio de Apelacao e Triagem
+description: Obtenha relatório de apelação com triagem inteligente para agilizar o trabalho de segundo grau.
 sort: 1
 piece_strategy: apelacao-e-triagem
 batch_report: true

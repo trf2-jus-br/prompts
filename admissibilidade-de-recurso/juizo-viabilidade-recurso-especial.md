@@ -1,6 +1,7 @@
 ---
 uuid: 89dfafb9-0961-415d-871a-62a52351a75c
 name: Juízo de Viabilidade de Recurso Especial
+description: Realize o juízo completo de viabilidade do recurso especial com análise sequencial de conformidade e admissibilidade.
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial

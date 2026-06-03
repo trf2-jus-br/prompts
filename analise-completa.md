@@ -1,6 +1,7 @@
 ---
 uuid: 7dc47a4a-8d4c-468b-9c6f-32d7df4c9cf3
 name: Análise Completa
+description: Obtenha uma análise completa e aprofundada do processo, com síntese dos fatos, argumentos e fundamentos jurídicos.
 piece_strategy: mais-relevantes
 successors:
   - path: chat

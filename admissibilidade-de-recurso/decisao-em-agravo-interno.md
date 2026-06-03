@@ -1,6 +1,7 @@
 ---
 uuid: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3ffc6e
 name: Minuta de Decisão em Agravo Interno
+description: Redija minutas de decisão em agravo interno com fundamentação precisa, cruzando pedidos e acórdão de forma automática.
 sort: 3
 share: beta-teste
 piece_strategy: viabilidade-recurso-especial

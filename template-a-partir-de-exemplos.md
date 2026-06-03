@@ -1,5 +1,6 @@
 ---
 uuid: 6f413662-a0e4-499b-8044-72b31139a761
+description: Gere modelos genéricos de peças processuais a partir de exemplos reais, prontos para reutilização em casos semelhantes.
 share: oculto
 target: texto
 profile: premium

@@ -1,6 +1,7 @@
 ---
 uuid: b01fed52-428c-47b1-aa7b-228be3b63ba4
 name: Relatório de Aposentadoria Especial - Segunda Instância
+description: Mapeie os pontos controvertidos de apelações em aposentadoria especial e prepare o relatório estruturado para o voto.
 sort: 1000
 piece_strategy: mais-relevantes-segunda-instancia
 author: Caroline Tauk/JFRJ

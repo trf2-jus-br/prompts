@@ -1,6 +1,7 @@
 ---
 uuid: cd41d8e9-a79e-41be-8702-6d63659d79ea
 name: Pedidos
+description: Extraia e classifique automaticamente todos os pedidos da petição inicial em formato estruturado JSON.
 sort: 6
 share: beta-teste
 piece_strategy: peticao-inicial

@@ -1,6 +1,7 @@
 ---
 uuid: 9c8f98fb-0679-4f2a-9722-91c2e1b35600
 name: Resumos e analise
+description: Obtenha resumos e análise detalhada das peças processuais para embasar decisões judiciais com segurança.
 sort: 2
 piece_strategy: mais-relevantes
 context:

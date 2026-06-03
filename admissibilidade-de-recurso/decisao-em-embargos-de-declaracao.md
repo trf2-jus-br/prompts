@@ -1,6 +1,7 @@
 ---
 uuid: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c6e
 name: Minuta de Decisão em Embargos de Declaração
+description: Elabore minutas de decisão em embargos de declaração com análise completa dos pedidos e fundamentos do recurso.
 sort: 4
 share: beta-teste
 piece_strategy: viabilidade-recurso-especial

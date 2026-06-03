@@ -1,5 +1,6 @@
 ---
 uuid: 68c68bf8-7448-4458-b8dc-b661047771bb
+description: Analise ações criminais na justiça federal e obtenha um relatório completo com todos os aspectos do caso.
 ---
 
 # SYSTEM PROMPT

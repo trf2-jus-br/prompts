@@ -1,6 +1,7 @@
 ---
 uuid: cd044383-6e15-4569-8275-33ecb843927f
 name: Relatório de Aposentadoria Especial - Primeira Instância
+description: Extraia os pontos controvertidos de processos de aposentadoria especial na primeira instância com base em petição inicial e contestação.
 sort: 1000
 piece_strategy: mais-relevantes-primeira-instancia
 instance: [primeiro-grau]

@@ -1,5 +1,6 @@
 ---
 uuid: 836e674f-6834-4626-98fd-41dc0ee6e923
+description: Resuma a contestação do réu em texto corrido, destacando as defesas processuais e de mérito apresentadas.
 share: oculto
 ---
 

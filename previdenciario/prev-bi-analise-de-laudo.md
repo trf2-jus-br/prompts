@@ -1,6 +1,7 @@
 ---
 uuid: f4104c9c-9da9-4863-8016-3b83bffe5410
 name: Analise de Laudo Pericial BI
+description: Analise laudos periciais do INSS em processos de benefício por incapacidade e extraia dados estruturados para subsidiar a sentença.
 sort: 1000
 share: beta-teste
 piece_strategy: conhecimento

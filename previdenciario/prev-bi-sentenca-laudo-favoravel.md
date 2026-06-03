@@ -1,6 +1,7 @@
 ---
 uuid: cf0c8ba9-ecad-41bd-8cf1-4554c0f18467
 name: Sentenca BI - Laudo Favoravel
+description: Gere minutas de sentença em processos de benefício por incapacidade quando o laudo pericial é favorável ao autor.
 sort: 1000
 share: beta-teste
 piece_strategy: conhecimento

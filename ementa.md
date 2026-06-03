@@ -1,6 +1,7 @@
 ---
 uuid: 77def982-6740-45cd-8ac0-4a22d7403ca4
 name: Ementa
+description: Gere a ementa do acórdão com citação precisa de dispositivos legais e síntese da decisão judicial.
 target: texto
 successors:
   - path: chat

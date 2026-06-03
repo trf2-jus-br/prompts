@@ -1,6 +1,7 @@
 ---
 uuid: 8c8bac70-1aaa-46fc-90fc-328b19906307
 name: Voto
+description: Gere minutas completas de voto de mérito para processos cíveis de segundo grau com fundamentação técnica e linguagem acessível.
 sort: 3
 piece_strategy: mais-relevantes-segunda-instancia
 instance: [segundo-grau]

@@ -1,5 +1,6 @@
 ---
 uuid: cdd6f9cf-d4a8-4774-872b-8c4883046e3c
+description: Resuma as informações da autoridade coatora em mandado de segurança, separando defesa processual e de mérito.
 share: oculto
 ---
 

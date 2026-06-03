@@ -1,6 +1,7 @@
 ---
 uuid: 18d2d945-137d-4388-88f7-13832cca7a72
 name: Pesquisa de Temas e Súmulas para Viabilidade de Recurso
+description: Pesquise teses e súmulas vinculantes aplicáveis aos pedidos do recurso para fundamentar o juízo de viabilidade.
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial

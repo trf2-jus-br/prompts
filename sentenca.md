@@ -1,6 +1,7 @@
 ---
 uuid: 5b3d1c81-7a5b-453b-ad26-67b9936603da
 name: Sentença
+description: Gere minutas completas de sentença cível com relatório, fundamentação e dispositivo em linguagem simples e acessível.
 piece_strategy: mais-relevantes-primeira-instancia
 instance: [primeiro-grau]
 context:

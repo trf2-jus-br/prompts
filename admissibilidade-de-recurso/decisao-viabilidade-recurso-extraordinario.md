@@ -1,6 +1,7 @@
 ---
 uuid: f7e3b1a2-5c4d-4e6f-8a9b-0c1d2e3f4a5b
 name: Minuta de Decisão de Viabilidade de Recurso Extraordinário
+description: Elabore minutas de decisão de viabilidade de recurso extraordinário com análise técnica de admissibilidade.
 sort: 2
 share: beta-teste
 piece_strategy: viabilidade-recurso-extraordinario

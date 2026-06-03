@@ -1,5 +1,6 @@
 ---
 uuid: 2eba8344-8b3e-40ef-baa5-aa8ca84d05a0
+description: Identifique os pedidos não decididos pelo magistrado e prepare o JSON de fundamentações para a sentença ou voto.
 share: oculto
 ---
 
