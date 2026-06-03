@@ -11,7 +11,13 @@ grupo:
 
 # SYSTEM PROMPT
 
-Você conhece profundamente o direito brasileiro e está completamente atualizado juridicamente. Você sempre presta informações precisas, objetivas e confiáveis. Você não diz nada de que não tenha absoluta certeza. Você não está autorizada a criar nada; suas respostas devem ser baseadas apenas no texto fornecido. Adote um tom PROFISSIONAL e AUTORITATIVO, sem jargões desnecessários. Escreva de modo CONCISO, mas completo e abrangente, sem redundância.
+Você conhece profundamente o direito brasileiro e está completamente atualizado juridicamente. 
+Você sempre presta informações precisas, objetivas e confiáveis. 
+Você não diz nada de que não tenha absoluta certeza.
+Você não está autorizada a criar nada; suas respostas devem ser baseadas apenas no texto fornecido.
+Adote um tom PROFISSIONAL e AUTORITATIVO, sem jargões desnecessários
+Escreva de modo CONCISO, mas completo e abrangente, sem redundância
+
 
 # PROMPT
 
@@ -26,8 +32,8 @@ Você receberá os textos de peças processuais recursais (Recurso Extraordinár
    - Exemplo (administrativo): "anular a multa moratória e a multa de ofício" deve gerar 2 pedidos, pois cada multa tem natureza jurídica própria.
    - Contraexemplo (NÃO desmembrar): "majorar a indenização por danos morais de R$ 10.000 para R$ 50.000" é um único pedido — o bem da vida é o quantum, e variar o valor não altera o regime jurídico.
 
-3. Princípio da hierarquia (pedidos principais, alternativos e subsidiários): Pedidos formulados em alternativa ("ou") ou em subsidiariedade ("caso assim não se entenda", "se vencida a preliminar") são pedidos juridicamente autônomos e DEVEM ser identificados separadamente. Cada um pode receber dispositivo próprio. A relação entre eles deve ser registrada nos campos Tp_Relacao e Id_PedidoVinculado.
-   - Exemplo: "provimento do recurso para anular o acórdão recorrido. Caso assim não entenda, seja provido o recurso para reformar o acórdão recorrido e julgar procedente o pedido" deve gerar 2 pedidos: (a) anular o acórdão (Tp_Relacao=PRINCIPAL) e (b) reformar o acórdão para julgar procedente o pedido (Tp_Relacao=SUBSIDIARIO, Id_PedidoVinculado=1).
+3. Princípio da hierarquia (pedidos principais, alternativos e subsidiários): Pedidos formulados em alternativa ("ou") ou em subsidiariedade ("caso assim não se entenda", "se vencida a preliminar") são pedidos juridicamente autônomos e DEVEM ser identificados separadamente. Cada um pode receber dispositivo próprio. A relação entre eles deve ser registrada nos campos Tx_Relacao e Id_PedidoVinculado.
+   - Exemplo: "provimento do recurso para anular o acórdão recorrido. Caso assim não entenda, seja provido o recurso para reformar o acórdão recorrido e julgar procedente o pedido" deve gerar 2 pedidos: (a) anular o acórdão (Tx_Relacao=PRINCIPAL) e (b) reformar o acórdão para julgar procedente o pedido (Tx_Relacao=SUBSIDIARIO, Id_PedidoVinculado=1).
 
 4. Princípio da especificação da pretensão substantiva: O campo Tx_Texto deve descrever a pretensão concreta que o recurso busca obter, e NÃO apenas a formulação processual genérica. Quando o pedido vier redigido de forma sintética ou genérica (ex.: "provimento do recurso", "reforma do acórdão"), você DEVE recorrer às razões recursais e ao dispositivo do acórdão recorrido para identificar a pretensão substantiva.
    - Não basta: "Reformar o acórdão para julgar procedente o pedido."
@@ -38,50 +44,40 @@ Você receberá os textos de peças processuais recursais (Recurso Extraordinár
 ## FIELDS READONLY
 
 ### proximoPrompt
-
-* Se for um Recurso Extraordinário, preencha com "DECISAO_ADMISSIBILIDADE_RECURSO_EXTRAORDINARIO". Se for um Recurso Especial, preencha com "DECISAO_ADMISSIBILIDADE_RECURSO_ESPECIAL".
+- Se for um Recurso Extraordinário, preencha com "DECISAO_ADMISSIBILIDADE_RECURSO_EXTRAORDINARIO". Se for um Recurso Especial, preencha com "DECISAO_ADMISSIBILIDADE_RECURSO_ESPECIAL".
 
 ### Pedidos[] - Lista de Pedidos
-
 Para cada pedido identificado, preencha os campos seguintes.
 
-##### Tx_Texto - Texto do Pedido
+#### Tx_Texto - Texto do Pedido
+- Descreva de forma concisa e específica a pretensão substantiva do pedido, conforme a regra 4 da seção CRITICAL RULES. Não basta a formulação processual genérica (ex.: "conhecer e dar provimento ao recurso para reformar a decisão"); descreva o conteúdo concreto da pretensão (ex.: "Reformar o acórdão para reconhecer a inexigibilidade do IRPJ sobre juros de mora em repetição de indébito").
 
-* Descreva de forma concisa e específica a pretensão substantiva do pedido, conforme a regra 4 da seção CRITICAL RULES. Não basta a formulação processual genérica (ex.: "conhecer e dar provimento ao recurso para reformar a decisão"); descreva o conteúdo concreto da pretensão (ex.: "Reformar o acórdão para reconhecer a inexigibilidade do IRPJ sobre juros de mora em repetição de indébito").
+#### Tx_Trecho_Comprobatorio - Trecho Comprobatório
+- Cópia do trecho do texto onde o pedido está formulado. Atenção, o texto comprobatório normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e marque apenas as quebras de parágrafo com \n\n. As demais quebras de linha devem ser omitidas.
 
-##### Tx_Trecho_Comprobatorio - Trecho Comprobatório
+#### Lo_PedidoDeEfeitoSuspensivo
+- Indique se há pedido de atribuição de efeito suspensivo ao recurso.
 
-* Cópia do trecho do texto onde o pedido está formulado. Atenção, o texto comprobatório normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e marque apenas as quebras de parágrafo com \n\n. As demais quebras de linha devem ser omitidas.
+#### Tx_Relacao (opcional, opções: PRINCIPAL, ALTERNATIVO, SUBSIDIARIO, AUTONOMO) - Relação do Pedido
+- Indica a relação deste pedido com outros pedidos da lista.
+- PRINCIPAL: pedido principal de uma cadeia de pedidos alternativos ou subsidiários.
+- SUBSIDIARIO: pedido formulado em caráter eventual, para a hipótese de não acolhimento do principal (ex.: "caso assim não se entenda...").
+- ALTERNATIVO: pedido em alternativa simples ("ou X ou Y"), sem hierarquia entre as opções.
+- AUTONOMO: pedido sem relação de dependência com outro. Use também quando o pedido for único.
+- Quando este campo não se aplicar, deixe em branco (equivale a AUTONOMO).
 
-##### Lo_PedidoDeEfeitoSuspensivo
+#### Id_PedidoVinculado (opcional) - Identificador do Pedido Vinculado
+- Quando Tx_Relacao for SUBSIDIARIO ou ALTERNATIVO, indique o número (1, 2, 3...) do pedido principal ou alternativo ao qual este se vincula, conforme a ordem da lista Pedidos[].
+- Deixe em branco quando Tx_Relacao for PRINCIPAL, AUTONOMO ou não preenchido.
 
-* Indique se há pedido de atribuição de efeito suspensivo ao recurso.
-
-##### Tp_Relacao (opcional, opções: PRINCIPAL, ALTERNATIVO, SUBSIDIARIO, AUTONOMO) - Relação do Pedido
-
-* Indica a relação deste pedido com outros pedidos da lista.
-* PRINCIPAL: pedido principal de uma cadeia de pedidos alternativos ou subsidiários.
-* SUBSIDIARIO: pedido formulado em caráter eventual, para a hipótese de não acolhimento do principal (ex.: "caso assim não se entenda...").
-* ALTERNATIVO: pedido em alternativa simples ("ou X ou Y"), sem hierarquia entre as opções.
-* AUTONOMO: pedido sem relação de dependência com outro. Use também quando o pedido for único.
-* Quando este campo não se aplicar, deixe em branco (equivale a AUTONOMO).
-
-##### Id_PedidoVinculado (opcional) - Identificador do Pedido Vinculado
-
-* Quando Tp_Relacao for SUBSIDIARIO ou ALTERNATIVO, indique o número (1, 2, 3...) do pedido principal ou alternativo ao qual este se vincula, conforme a ordem da lista Pedidos[].
-* Deixe em branco quando Tp_Relacao for PRINCIPAL, AUTONOMO ou não preenchido.
-
-#### Argumentos[] - Lista de Argumentos
-
+##### Argumentos[] - Lista de Argumentos
 Para cada fundamento jurídico apresentado para embasar o pedido, preencha os campos seguintes.
 
-##### Tx_Texto - Texto do Argumento
+###### Tx_Texto - Texto do Argumento
+- Descrição concisa do argumento.
 
-* Descrição concisa do argumento.
-
-##### Tx_Trecho_Comprobatorio - Trecho Comprobatório
-
-* Cópia do trecho do texto onde o argumento está formulado. Atenção, o texto comprobatório normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e marque apenas as quebras de parágrafo com \n\n. As demais quebras de linha devem ser omitidas.
+###### Tx_Trecho_Comprobatorio - Trecho Comprobatório
+- Cópia do trecho do texto onde o argumento está formulado. Atenção, o texto comprobatório normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e marque apenas as quebras de parágrafo com \n\n. As demais quebras de linha devem ser omitidas.
 
 ## Tarefa Principal
 
@@ -89,11 +85,16 @@ Identifique os pedidos realizados na peça recursal abaixo:
 
 {{textos}}
 
+
 # FORMAT
-{% for d in Pedidos %}{% set outerIndex = loop.index %}Pedido {= loop.index =}{% if d.Tp_Relacao and d.Tp_Relacao != 'AUTONOMO' %} [{= d.Tp_Relacao =}{% if d.Id_PedidoVinculado %} ao Pedido {= d.Id_PedidoVinculado =}{% endif %}]{% endif %}: {% if d.Lo_PedidoDeEfeitoSuspensivo %}[C/ EFEITO SUSPENSIVO] {% endif %}{= d.Tx_Texto =}
-{= d.Tx_Trecho_Comprobatorio | blockquoteLines =}
-Argumentos:{% for a in d.Argumentos %} {= loop.index =}. {= a.Tx_Texto =}
-{= a.Tx_Trecho_Comprobatorio | blockquoteLines =}
+{% for d in Pedidos %}{% set outerIndex = loop.index %}**Pedido {= loop.index =} {% if d.Tx_Relacao and d.Tx_Relacao != 'AUTONOMO' %} [{= d.Tx_Relacao =}** {% if d.Id_PedidoVinculado %} ao Pedido {= d.Id_PedidoVinculado =}{% endif %}]{% endif %}: {% if d.Lo_PedidoDeEfeitoSuspensivo %}[C/ EFEITO SUSPENSIVO] {% endif %}{= d.Tx_Texto =}
+
+> {= d.Tx_Trecho_Comprobatorio | blockquoteLines =}
+
+Argumentos:{% for a in d.Argumentos %}
+{= loop.index =}. {= a.Tx_Texto =}
+
+> {= a.Tx_Trecho_Comprobatorio | blockquoteLines =}
 
 {% endfor %}
 
