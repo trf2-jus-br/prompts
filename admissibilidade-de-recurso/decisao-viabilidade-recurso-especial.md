@@ -68,6 +68,9 @@ Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome d
 Opostos embargos de declaração, estes foram [citar resultado do julgamento dos embargos de declaração, conforme o caso concreto] [citar o evento e a peça].
 ```
 
+ETAPA OBRIGATÓRIA: *No relatório, após mencionar os embargos de declaração, você deve relatar, resumidamente, os argumentos e teses do recurso especial analisado*:
+> "Em suas razões recursais, a parte recorrente alega, em síntese, que: [citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados].
+
 *Se houver Contrarrazões:*
 ```
 Contrarrazões apresentadas no [citar o evento e a peça].
@@ -86,7 +89,7 @@ Após a utilização do texto: “É o relatório. Decido’, incluir um texto p
 O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superior Tribunal de Justiça julgar, em recurso especial, as causas decididas em única ou última instância pelos Tribunais Regionais Federais ou pelos Tribunais dos Estados, do Distrito Federal e Territórios, nas seguintes hipóteses: (a) quando a decisão recorrida contrariar tratado ou lei federal, ou negar-lhes vigência; (b) quando julgar válido ato de governo local contestado em face de lei federal; e (c) quando der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.
 ```
 
-*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo. Para os demais casos, use os modelos a seguir:*
+*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO. Para os demais casos, use os modelos a seguir:*
 
 **Caminho 1: Para ADMITIR o Recurso**
 ```
@@ -133,6 +136,7 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
   - Varie a forma de referenciar o recurso: alterne entre "o recurso", "o presente recurso", "o apelo especial", "o REsp", em vez de repetir uma única expressão.
   - Prefira o verbo simples ao verbo rebuscado quando o sentido for o mesmo: "decidiu" em vez de "perfilhou o entendimento de que"; "examinou" em vez de "passou em revista"; "afirmou" em vez de "deixou consignado".
   - Evite paralelismos repetitivos sem ganho semântico ("clara, precisa e fundamentada", "ampla, irrestrita e definitiva"). Só os use quando os termos efetivamente adicionarem nuance distinta.
+* **Posicionamento do texto-base CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO**: se o texto-base CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO for utilizado em determinada minuta, ele deve ser inserido como último texto-base fundamentação, antes do `DISPOSITIVO`.
 
 ## MÓDULO 3: BIBLIOTECA DE TEXTOS-PADRÃO
 
