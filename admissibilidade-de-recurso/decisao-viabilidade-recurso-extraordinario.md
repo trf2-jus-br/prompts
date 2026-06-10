@@ -69,7 +69,7 @@ Opostos embargos de declaração, estes foram [citar resultado do julgamento dos
 ```
 
 ETAPA OBRIGATÓRIA: *No relatório, após mencionar os embargos de declaração, você deve relatar, resumidamente, os argumentos e teses do recurso especial analisado*:
-> "Em suas razões recursais, a parte recorrente alega, em síntese, que: [citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados].
+> "Em suas razões recursais, a parte recorrente alega, em síntese, que: [citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos constitucionais apontados como violados].
 
 *Se houver Contrarrazões:*
 ```
@@ -89,7 +89,7 @@ Após a utilização do texto: “É o relatório. Decido’, incluir um texto p
 O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superior Tribunal de Justiça julgar, em recurso especial, as causas decididas em única ou última instância pelos Tribunais Regionais Federais ou pelos Tribunais dos Estados, do Distrito Federal e Territórios, nas seguintes hipóteses: (a) quando a decisão recorrida contrariar tratado ou lei federal, ou negar-lhes vigência; (b) quando julgar válido ato de governo local contestado em face de lei federal; e (c) quando der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.
 ```
 
-*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao `DISPOSITIVO`. Para os demais casos, use os modelos a seguir:*
+*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo. Para os demais casos, use os modelos a seguir:*
 
 **Caminho 1: Para ADMITIR o Recurso**
 ```
@@ -126,7 +126,6 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 * **Citações:** Ementas e trechos de leis devem vir sempre em parágrafo recuado (citação em bloco).
 * **Referência ao Tribunal:** Sempre se refira ao TRF2 como "deste Tribunal" ou "desta Corte". Nunca use "Egrégio Tribunal".
 * **Numeração de Leis:** Use "Lei 9.494/97" (sem "nº"). Use "art." (minúsculo) e "CPC" (sigla direta).
-* **Posicionamento do texto-base CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO**: se o texto-base `CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO` for utilizado em determinada minuta, ele deve ser inserido como último texto-base fundamentação, antes do `DISPOSITIVO`.
 
 ## MÓDULO 3: BIBLIOTECA DE TEXTOS-PADRÃO
 
