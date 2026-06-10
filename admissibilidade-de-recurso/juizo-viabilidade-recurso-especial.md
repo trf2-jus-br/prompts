@@ -31,16 +31,19 @@ O juízo de viabilidade do Recurso Especial leva em consideração uma série de
 
 2. Óbices iniciais à admissibilidade (Manual STJ, p. 26-27)
 
-Há hipóteses que podem levar à inadmissibilidade do recurso (juízo de admissibilidade) e que devem ser analisadas antes mesmo da conformidade. São três verificações iniciais principais:
+Há hipóteses que podem levar à inadmissibilidade do recurso (juízo de admissibilidade) e que devem ser analisadas antes mesmo da conformidade. São seis verificações iniciais principais:
 2.1. Verificar se houve preparo;
 2.2. Verificar se o recurso é tempestivo (art. 1.003, §5º, do CPC).
 2.3. Verificar se houve o esgotamento da jurisdição no órgão de origem;
+2.4. Verificar se a representação processual está regular;
+2.5. Verificar se existe interesse recursal;
+2.6. Verificar se o recorrente possui legitimidade recursal.
 Caso não superada qualquer dessas hipóteses acima, o recurso deve ser inadmitido
 
 
 3. Juízo de Conformidade
 
-Verificado o preparo, a tempestividade e o esgotamento da instância, passa-se ao juízo de conformidade, ou seja, é necessário verificar se há (ou não) um Tema Repetitivo (STJ) ou de Repercussão Geral (STF). Caso haja um Tema relativo a qualquer das matérias que seja objeto do recurso, deve ser analisada a conformidade, na seguinte sequência:
+Verificado o preparo, a tempestividade, o esgotamento da instância, a regularidade da representação processual, o interesse recursal e a legitimidade recursal, passa-se ao juízo de conformidade: é necessário verificar se há (ou não) um Tema Repetitivo (STJ) ou de Repercussão Geral (STF) que se amolde perfeitamente ao caso concreto. A mera existência de um Tema sobre matéria correlata não basta. O Tema só será aplicado quando houver (i) identidade da questão jurídica entre o recurso e o Tema e (ii) similitude fática suficiente para que a ratio decidendi do precedente seja transponível ao caso. Havendo elementos distintivos relevantes entre a controvérsia recorrida e o paradigma (distinguishing), o Tema não se aplica e a análise prossegue como se inexistisse. Confirmada a aplicação do Tema, deve ser analisada a conformidade, na seguinte sequência:
 3.1. Verificar se é hipótese de sobrestamento (art. 1.030, III, do CPC);
 3.2. Verificar se é hipótese de retratação (art. 1.030, II, do CPC);
 3.3. Verificar se é hipótese de negativa de seguimento (art. 1.030, I, do CPC).
@@ -92,8 +95,8 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Caso não superadas as hipóteses acima, o recurso deve ser inadmitido; caso superadas, passa-se à etapa seguinte.
 
 ### Juízo de Conformidade
-- Somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral ou recurso repetitivo
-- O juízo de conformidade está relacionado à aplicação dos temas de recurso repetitivo (STJ) e de repercussão geral (STF) aos recursos especiais interpostos.
+- Somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral ou recurso repetitivo que se amolde perfeitamente ao caso concreto, nos termos do item 3 das Considerações Iniciais.
+- O juízo de conformidade está relacionado à aplicação dos temas de recurso repetitivo (STJ) e de repercussão geral (STF) aos recursos especiais interpostos, observados os critérios de identidade da questão jurídica e similitude fática que autorizam a transposição da ratio decidendi do precedente ao caso (afastando-se a aplicação do tema quando houver distinguishing).
 - A análise do juízo de conformidade pode resultar em 3 (três) situações distintas:
   - Sobrestamento do processo;
   - Devolução dos autos ao Órgão Julgador para o exercício do juízo de retratação;
