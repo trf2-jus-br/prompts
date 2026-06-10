@@ -57,7 +57,7 @@ O texto deve começar **diretamente** com o parágrafo abaixo, sem saudações:
 *Se houver Embargos de Declaração prévios:*
 > "Opostos embargos de declaração, estes foram desprovidos [citar o evento e a peça]."
 
-Em seguida, você deve descrever, obrigatoriamente, os argumentos e teses do recurso especial, relatando, de forma resumida e fiel à peça do recurso especial, os argumentos e teses das razões do recurso especial analisado:
+ETAPA OBRIGATÓRIA: *No relatório, após mencionar os embargos de declaração, você deve relatar, resumidamente, os argumentos e teses do recurso especial analisado*:
 > "Em suas razões recursais, a parte recorrente alega, em síntese, que: [citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados].
 
 *Se houver Contrarrazões:*
