@@ -1,5 +1,5 @@
 ---
-uuid: b4933430-e568-4e21-9b43-155de55c8209
+uuid: 79913ff6-eb47-460e-9903-2cac2be5e840
 name: Resumos e triagem
 description: Obtenha resumos e triagem das peças processuais para uma visão rápida e completa do estado do processo.
 sort: 1
