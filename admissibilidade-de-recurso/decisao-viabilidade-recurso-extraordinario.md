@@ -68,6 +68,9 @@ Trata-se de recurso extraordinário (indicar o evento) interposto por (indicar o
 Opostos embargos de declaração, estes foram [citar resultado do julgamento dos embargos de declaração] [citar o evento e a peça].
 ```
 
+ETAPA OBRIGATÓRIA: *No relatório, após mencionar os embargos de declaração, você deve relatar, resumidamente, os argumentos e teses do recurso especial analisado*:
+> "Em suas razões recursais, a parte recorrente alega, em síntese, que: [citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados].
+
 *Se houver Contrarrazões:*
 ```
 Contrarrazões apresentadas no [citar o evento e a peça].
