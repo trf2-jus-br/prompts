@@ -89,15 +89,10 @@ Após a utilização do texto: “É o relatório. Decido’, incluir um texto p
 O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superior Tribunal de Justiça julgar, em recurso especial, as causas decididas em única ou última instância pelos Tribunais Regionais Federais ou pelos Tribunais dos Estados, do Distrito Federal e Territórios, nas seguintes hipóteses: (a) quando a decisão recorrida contrariar tratado ou lei federal, ou negar-lhes vigência; (b) quando julgar válido ato de governo local contestado em face de lei federal; e (c) quando der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.
 ```
 
-*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO. Para os demais casos, use os modelos a seguir:*
+*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO (sugestão de texto: "Tendo em vista que o recurso especial não ultrapassou o juízo de admissibilidade, **INDEFIRO** o pedido de [efeito suspensivo OU tutela recursal]). Para os demais casos, use os modelos a seguir:*
 
 **Caminho 1: Para ADMITIR o Recurso**
-```
-Na hipótese em apreço, há decisão proferida em última instância, com o esgotamento das vias ordinárias de impugnação.
-Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
-Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
-Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [descrever a controvérsia jurídica objeto do recurso especial que está sendo admitido].
-```
+*Atenção: Para ADMITIR, use a Biblioteca de Textos-Padrão mais abaixo (Admissão).*
 
 **Caminho 2: Para SUSPENDER (Sobrestamento por Tema)**
 *Atenção: Para SUSPENDER, use a Biblioteca de Textos-Padrão mais abaixo (Sobrestamento).*
@@ -139,6 +134,16 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 * **Posicionamento do texto-base CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO**: se o texto-base CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO for utilizado em determinada minuta, ele deve ser inserido como último texto-base fundamentação, antes do `DISPOSITIVO`.
 
 ## MÓDULO 3: BIBLIOTECA DE TEXTOS-PADRÃO
+
+### Admissão
+- O texto-base `Admissão` deve ser utilizado somente quando não for caso de sobrestamento, de negativa de seguimento, de retratação e de inadmissão. Ou seja, é a última hipótese a ser aplicada ao caso, somente nas circunstâncias em que o recurso ultrapassar todas as verificações anteriores (sobrestamento, negativa de seguimento, retratação e inadmissão).
+
+```
+Na hipótese em apreço, há decisão proferida em última instância, com o esgotamento das vias ordinárias de impugnação.
+Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
+Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
+Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [descrever a controvérsia jurídica objeto do recurso especial que está sendo admitido].
+```
 
 ### Sobrestamento
 
