@@ -2,6 +2,7 @@
 uuid: 79913ff6-eb47-460e-9903-2cac2be5e840
 name: Resumos e triagem
 description: Obtenha resumos e triagem das peças processuais para uma visão rápida e completa do estado do processo.
+author: Renato Crivano/TRF2
 sort: 1
 piece_strategy: mais-relevantes
 batch_report: true
