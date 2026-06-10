@@ -236,6 +236,9 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - As opções de motivos de inadmissão estão listadas e explicadas no título Juízo de Admissibilidade, acima.
 - Caso haja mais de um motivo de inadmissão para o argumento, informe todos os motivos aplicáveis neste campo, utilizando um array. Caso contrário, preencha este campo com [].
 
+### Tg_ComandosAdicionais (opcional) - Comandos Adicionais
+- Utilize este campo para informar quaisquer comandos adicionais que sejam necessários para redação da decisão de admissibilidade, que será feita em seguida, mas que não se encaixem nos campos anteriores. Por exemplo, caso seja necessário desmembrar um pedido ou argumento específico, ou caso haja alguma particularidade relevante para a análise, informe aqui. Se não houver comandos adicionais, deixe este campo em branco.
+
 # FORMAT
 {% if motivoGeral %}**Motivo(s) de Inadmissão Geral:** {{ motivoGeral | join(", ") }}
 {% else %}
@@ -245,4 +248,8 @@ Argumentos:{% for a in d.argumentos %}
 {{loop.index}}. {{ a.texto }}{% endfor %}
     
 {% endfor %}
+{% endif %}
+
+{% if Tg_ComandosAdicionais %}
+**Comandos Adicionais:** {{ Tg_ComandosAdicionais }}
 {% endif %}
