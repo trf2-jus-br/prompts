@@ -10,9 +10,6 @@ grupo:
   slug: decisao-de-viabilidade
   titulo: Decisão em Agravo Interno
 predecessors:
-  - path: pedidos-viabilidade-recurso
-  - path: pesquisa-de-temas
-  - path: juizo-viabilidade-recurso
 successors:
   - path: chat
 ---
