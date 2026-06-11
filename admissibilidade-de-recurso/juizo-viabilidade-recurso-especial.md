@@ -129,6 +129,9 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Diferentemente do sobrestamento e da retratação, a negativa de seguimento não dispensa nem encerra o juízo de admissibilidade: as duas análises convivem, aplicando-se a negativa aos itens que contrariam a tese firmada e a admissibilidade aos demais itens não abrangidos pelo tema.
 - Verificar se o recurso (ou a questão recorrida não abrangida por tema) ultrapassa todos os óbices à admissibilidade abaixo.
 - Se houver algum óbice à admissibilidade, o recurso deve ser inadmitido quanto a essa questão. Neste caso, usar o dispositivo *INADIMITIR*.
+- A seguir, listam-se as causas específicas de inadmissibilidade do recurso especial. Cada item traz a definição sucinta do óbice e o ID do texto-base que deve ser utilizado quando o óbice for reconhecido.:
+
+#### Pressupostos Específicos do REsp — Prequestionamento e Esgotamento
 
 #####	Ausência de Prequestionamento (Súmulas 282/STF e 356/STF; e 211/STJ)
 - Óbice que impede a admissão do recurso especial quando a tese de lei federal apontada como violada não foi previamente debatida e decidida pelo Tribunal de origem. Abrange três realidades: (i) o Tribunal a quo, mesmo provocado por embargos de declaração, não se manifestou sobre os dispositivos — e não se configura o prequestionamento ficto do art. 1.025 do CPC porque o recurso especial não apontou ofensa ao art. 1.022; (ii) a parte sequer opôs embargos de declaração para provocar essa manifestação; e (iii) os dispositivos foram suscitados pela primeira vez no recurso especial (inovação recursal). Súmulas 282 e 356 do STF e 211 do STJ.
