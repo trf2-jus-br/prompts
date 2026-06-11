@@ -7,7 +7,7 @@ share: beta-teste
 piece_strategy: viabilidade-recurso-especial
 author: Marcus Abraham/TRF2
 grupo:
-  slug: decisao-de-agravo-interno
+  slug: decisao-de-viabilidade
   titulo: Decisão em Agravo Interno
 predecessors:
   - path: pedidos-viabilidade-recurso
