@@ -1,7 +1,7 @@
 ---
 uuid: 64182d4d-da22-4135-8150-3379386db58a
 name: Juízo de Viabilidade de Recurso Extraordinário
-description: Realize o juízo completo de viabilidade do recurso extraordinário com análise sequencial de conformidade e admissibilidade.
+description: Realize o juízo completo de viabilidade do recurso extraordinário com análise sequencial de verificação preliminar, conformidade e admissibilidade.
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-extraordinario
@@ -29,31 +29,35 @@ O juízo de viabilidade do Recurso Extraordinário leva em consideração uma s�
 - Há, contudo, determinados vícios que autorizam afastar o juízo de conformidade para o exercício do juízo de admissibilidade (hipóteses de inadmissão);
 - A ordem sequencial comporta uma exceção relevante: nem toda hipótese de conformidade encerra a análise. O sobrestamento e a retratação são terminais — incidindo, a decisão limita-se ao tema e as demais questões não são analisadas. Já a negativa de seguimento convive, na mesma decisão, com o juízo de admissibilidade das questões que não sejam objeto de tema (decisão mista).
 
-2. Óbices iniciais à admissibilidade (Manual STJ, p. 26-27)
+2. Óbices iniciais à admissibilidade
 
-Há hipóteses que podem levar à inadmissibilidade do recurso (juízo de admissibilidade) e que devem ser analisadas antes mesmo da conformidade. São três verificações iniciais principais:
+Há hipóteses que podem levar à inadmissibilidade do recurso (juízo de admissibilidade) e que devem ser analisadas antes mesmo da conformidade. São seis verificações iniciais principais:
 2.1. Verificar se houve preparo;
-2.2. Verificar se o recurso é tempestivo (art. 1.003, §5º, do CPC).
-2.3. Verificar se houve o esgotamento da jurisdição no órgão de origem;
+2.2. Verificar se a representação processual está regular;
+2.3. Verificar se o recorrente possui legitimidade recursal;
+2.4. Verificar se o recurso é tempestivo (art. 1.003, §5º, do CPC);
+2.5. Verificar se existe interesse recursal;
+2.6. Verificar se houve o esgotamento da jurisdição no órgão de origem.
 Caso não superada qualquer dessas hipóteses acima, o recurso deve ser inadmitido
 
 
 3. Juízo de Conformidade
 
-Verificado o preparo, a tempestividade e o esgotamento da instância, passa-se ao juízo de conformidade, ou seja, é necessário verificar se há (ou não) um Tema Repetitivo (STJ) ou de Repercussão Geral (STF). Caso haja um Tema relativo a qualquer das matérias que seja objeto do recurso, deve ser analisada a conformidade, na seguinte sequência:
+Verificado o preparo, a regularidade da representação processual, a legitimidade recursal, a tempestividade, o interesse recursal e o esgotamento da instância, passa-se ao juízo de conformidade: é necessário verificar se há (ou não) um Tema de Repercussão Geral (STF) que se amolde perfeitamente ao caso concreto. A mera existência de um Tema sobre matéria correlata não basta. O Tema só será aplicado quando houver (i) identidade da questão jurídica entre o recurso e o Tema e (ii) similitude fática suficiente para que a ratio decidendi do precedente seja transponível ao caso. Havendo elementos distintivos relevantes entre a controvérsia recorrida e o paradigma (distinguishing), o Tema não se aplica e a análise prossegue como se inexistisse. Confirmada a aplicação do Tema, deve ser analisada a conformidade, na seguinte sequência:
 3.1. Verificar se é hipótese de sobrestamento (art. 1.030, III, do CPC);
 3.2. Verificar se é hipótese de retratação (art. 1.030, II, do CPC);
-3.3. Verificar se é hipótese de negativa de seguimento (art. 1.030, I, do CPC).
+3.3. Verificar se é hipótese de negativa de seguimento (art. 1.030, I, "a", do CPC).
+Observação própria do recurso extraordinário: a negativa de seguimento alcança também a hipótese de o STF haver **negado a existência de repercussão geral** sobre a questão (art. 1.030, I, "a", primeira parte, c/c art. 1.035, §8º, do CPC). Nesse caso, a conformidade do acórdão recorrido com tese é irrelevante: o recurso não segue porque a própria questão constitucional foi declarada sem repercussão geral.
 
 4. Juízo de Admissibilidade
 
-Passa-se ao juízo de admissibilidade quando: (i) não houver tema de repercussão geral ou de recurso repetitivo sobre as questões recorridas; ou (ii) for caso de negativa de seguimento, hipótese em que a admissibilidade é examinada, na mesma decisão, quanto às demais questões não abrangidas por tema.
+Passa-se ao juízo de admissibilidade quando: (i) não houver tema de repercussão geral sobre as questões recorridas; ou (ii) for caso de negativa de seguimento — seja porque o acórdão recorrido está em conformidade com a tese firmada, seja porque a repercussão geral da questão foi negada pelo STF —, hipótese em que a admissibilidade é examinada, na mesma decisão, quanto às demais questões não abrangidas por tema.
 Não se chega a esta etapa nas hipóteses de sobrestamento e de retratação, que encerram a decisão.
 Para que uma questão seja admitida, é necessário que não haja nenhum óbice à sua admissão.
 
 5. Admissão
 
-Uma questão recorrida será admitida quando não houver, sobre ela, tema que imponha sobrestamento, retratação ou negativa de seguimento, nem qualquer hipótese de inadmissão.
+Uma questão recorrida será admitida quando não houver, sobre ela, tema que imponha sobrestamento, retratação ou negativa de seguimento (inclusive por repercussão geral negada), nem qualquer hipótese de inadmissão.
 O recurso pode ser admitido integralmente — quando todas as questões superam os óbices — ou apenas em parte, quando algumas questões são admitidas e outras recebem negativa de seguimento ou inadmissão (decisão mista).
 
 ## Roteiro de Verificação
@@ -67,7 +71,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - As opções de motivos de inadmissão geral estão listadas abaixo.
 
 #### Verificar se houve preparo
-- Óbice que impede a admissibilidade do recurso extraordinário quando o preparo não foi regularizado, faltando requisito essencial de admissibilidade. Abrange quatro realidades: (i) ausência total de preparo — a parte não comprovou o recolhimento no ato de interposição e, intimada para recolher em dobro (art. 1.007, §4º, do CPC), deixou o prazo decorrer in albis; (ii) preparo insuficiente — recolheu valor a menor e, intimada para complementar (art. 1.007, §2º), não o fez no prazo de 5 dias; (iii) gratuidade requerida após a interposição — o pedido de justiça gratuita foi formulado fora do ato recursal, e sua concessão não retroage para afastar o recolhimento em dobro; e (iv) gratuidade indeferida — o pedido foi negado por falta de demonstração de hipossuficiência (art. 99, §2º, do CPC) e o prazo concedido para regularizar o preparo decorreu in albis. Súmula 187 do STJ.
+- Óbice que impede a admissibilidade do recurso extraordinário quando o preparo não foi regularizado, faltando requisito essencial de admissibilidade. Abrange quatro realidades: (i) ausência total de preparo — a parte não comprovou o recolhimento no ato de interposição e, intimada para recolher em dobro (art. 1.007, §4º, do CPC), deixou o prazo decorrer in albis; (ii) preparo insuficiente — recolheu valor a menor e, intimada para complementar (art. 1.007, §2º), não o fez no prazo de 5 dias; (iii) gratuidade requerida após a interposição — o pedido de justiça gratuita foi formulado fora do ato recursal, e sua concessão não retroage para afastar o recolhimento em dobro; e (iv) gratuidade indeferida — o pedido foi negado por falta de demonstração de hipossuficiência (art. 99, §2º, do CPC) e o prazo concedido para regularizar o preparo decorreu in albis. Art. 1.007, caput e §§ 2º e 4º, do CPC.
 - caso não haja: inadmissão pelo motivo *DESERCAO*.
 
 ####  Verificar Irregularidade da representação processual
@@ -87,98 +91,51 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - caso seja identificada: inadmissão pelo motivo *FALTA_DE_INTERESSE_RECURSAL*.
 
 #### Verificar se houve o esgotamento da jurisdição no órgão de origem
-- Óbice que impede a admissibilidade do recurso extraordinário quando não houve esgotamento das instâncias ordinárias, pois a Constituição (art. 105, III) exige causa decidida em única ou última instância — o que pressupõe o uso de todos os recursos ordinários disponíveis e a manifestação definitiva do órgão colegiado do Tribunal de origem. Abrange duas realidades: (i) a parte deixou de interpor recurso ordinário cabível na origem (ex.: apelação, agravo de instrumento, recurso ordinário constitucional); e (ii) a parte deixou de utilizar via recursal específica disponível antes de acessar a via extraordinária (ex.: agravo regimental, embargos de divergência). Súmula 281 do STF (por analogia).
+- Óbice que impede a admissibilidade do recurso extraordinário quando não houve esgotamento das instâncias ordinárias, pois a Constituição (art. 102, III) exige causa decidida em única ou última instância — o que pressupõe o uso de todos os recursos ordinários disponíveis e a manifestação definitiva do órgão colegiado do Tribunal de origem. Abrange duas realidades: (i) a parte deixou de interpor recurso ordinário cabível na origem (ex.: apelação, agravo de instrumento, recurso ordinário constitucional ao STJ); e (ii) a parte deixou de utilizar via recursal específica disponível antes de acessar a via extraordinária (ex.: agravo interno contra decisão monocrática proferida no Tribunal de origem). Súmula 281 do STF.
 - caso não tenha havido: inadmissão pelo motivo *NAO_EXAURIMENTO*.
 - Caso não superadas as hipóteses acima, o recurso deve ser inadmitido; caso superadas, passa-se à etapa seguinte.
 
 ### Juízo de Conformidade
-- Somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral ou recurso repetitivo
-- O juízo de conformidade está relacionado à aplicação dos temas de recurso repetitivo (STJ) e de repercussão geral (STF) aos recursos extraordinários interpostos.
+- Somente se superadas as verificações preliminares de inadmissão e se houver tema de repercussão geral — com mérito julgado ou pendente, ou com repercussão geral negada — que se amolde perfeitamente ao caso concreto, nos termos do item 3 das Considerações Iniciais.
+- O juízo de conformidade está relacionado à aplicação dos temas de repercussão geral (STF) aos recursos extraordinários interpostos, observados os critérios de identidade da questão jurídica e similitude fática que autorizam a transposição da ratio decidendi do precedente ao caso (afastando-se a aplicação do tema quando houver distinguishing).
 - A análise do juízo de conformidade pode resultar em 3 (três) situações distintas:
   - Sobrestamento do processo;
   - Devolução dos autos ao Órgão Julgador para o exercício do juízo de retratação;
-  - Negativa de seguimento do recurso extraordinário.
-  
+  - Negativa de seguimento do recurso extraordinário;
+
 #### Verificar se é hipótese de sobrestamento (art. 1.030, III, do CPC)
-- Se o tema identificado não tiver sido definitivamente julgado (trânsito em julgado), no âmbito do STJ e/ou do STF, deve ser adotada uma das seguintes alternativas:
-  - Se não houve julgamento do Tema, o processo deve ser sobrestado até o julgamento do Tema pelo tribunal competente;
+- Se o tema identificado não tiver sido definitivamente julgado (trânsito em julgado) no âmbito do STF, deve ser adotada uma das seguintes alternativas:
+  - Se não houve julgamento do mérito do Tema — inclusive quando reconhecida a repercussão geral e ainda pendente o julgamento (art. 1.035, §5º, do CPC) —, o processo deve ser sobrestado até o julgamento do Tema pelo STF;
   - Se houve o julgamento do Tema, mas não ocorreu o trânsito em julgado, deve ser mantido o sobrestamento, conforme decisão da Vice-Presidência;
   - Se forem identificados 02 (dois) ou mais temas pendentes, a decisão deverá determinar o sobrestamento até o julgamento de todos eles;
   - Se forem identificados, simultaneamente, 1 (um) tema pendente e outras questões sobre as quais não exista tema (hipótese do juízo de admissibilidade), o processo deve ser sobrestado pelo Tema, conforme uma das decisões acima;
+  - Atenção: se a repercussão geral do Tema identificado tiver sido **negada** pelo STF, não se trata de hipótese de sobrestamento, e sim de negativa de seguimento (art. 1.030, I, "a", do CPC — ver adiante);
   - Na hipótese de sobrestamento por Tema não (definitivamente) julgado, as demais questões tratadas no recurso extraordinário não serão analisadas na decisão. Todo o processo deve ser sobrestado. Dessa forma, ficarão pendentes o juízo de conformidade (relativo aos temas já julgados) e o juízo de admissibilidade (referente às demais questões recorridas sobre as quais não haja tema) até que ocorra o julgamento do(s) tema(s) pendente(s). O sobrestamento será a única questão abordada na decisão;
 - caso seja identificada: utilizar o dispositivo *SUSPENDER* (suspensão do processo até o julgamento do tema pelo tribunal competente).
 
 #### Verificar se é hipótese de retratação (art. 1.030, II, do CPC)
-- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **está** em conformidade com a tese firmada no Tema, o processo deverá ser devolvido à Turma Especializada para juízo de retratação;
-- Na hipótese do juizo de retratação, as demais questões tratadas no recurso extraordinário não serão analisadas na decisão. Ficarão pendentes o juízo de conformidade (na hipótese de negativa de seguimento) e o juízo de admissibilidade (referente às demais questões recorridas em relação às quais não há tema) até o retorno dos autos. O encaminhamento para a análise do juízo de retratação será a única questão abordada nesta decisão;
+- Se todos os temas de repercussão geral já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **diverge** da tese firmada no Tema, o processo deverá ser devolvido à Turma Especializada para juízo de retratação;
+- Na hipótese do juízo de retratação, as demais questões tratadas no recurso extraordinário não serão analisadas na decisão. Ficarão pendentes o juízo de conformidade (na hipótese de negativa de seguimento) e o juízo de admissibilidade (referente às demais questões recorridas em relação às quais não há tema) até o retorno dos autos. O encaminhamento para a análise do juízo de retratação será a única questão abordada nesta decisão;
 - caso seja identificada: utilizar o dispositivo *ENCAMINHAR_PARA_RETRATACAO* (encaminhamento para retratação pelo tribunal de origem).
 
-#### Verificar se é hipótese de negativa de seguimento (art. 1.030, I, do CPC)
-- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **não está** em conformidade com a tese firmada no Tema, o processo deverá ser negado seguimento ao recurso extraordinário;
-- Na hipótese da negativa de seguimento, as demais questões tratadas no recurso extraordinário também deverão ser analisadas nesta mesma decisão. Deve ser analisado o juízo de conformidade e negado seguimento ao recurso, em relação a cada item que contrariar tese firmada em recurso repetitivo ou em repercussão geral e efetuado o juízo de admissibilidade referente às demais questões recorridas.
+#### Verificar se é hipótese de negativa de seguimento (art. 1.030, I, "a", do CPC)
+- A negativa de seguimento ao recurso extraordinário tem lugar em duas hipóteses:
+  - (i) a questão constitucional discutida no recurso corresponde a Tema cuja repercussão geral foi **negada** pelo STF (art. 1.030, I, "a", primeira parte, c/c art. 1.035, §8º, do CPC) — hipótese em que o teor do acórdão recorrido é irrelevante;
+  - (ii) todos os temas de repercussão geral já estão definitivamente julgados (trânsito em julgado), não há outro tema pendente de julgamento, e o acórdão recorrido **está em conformidade** com a tese firmada no Tema (art. 1.030, I, "a", segunda parte, do CPC);
+- Na hipótese da negativa de seguimento, as demais questões tratadas no recurso extraordinário também deverão ser analisadas nesta mesma decisão. Deve ser analisado o juízo de conformidade e negado seguimento ao recurso em relação a cada item que contrariar tese firmada em repercussão geral ou cuja repercussão geral tenha sido negada, e efetuado o juízo de admissibilidade referente às demais questões recorridas.
 - caso seja identificada: utilizar o dispositivo *NEGAR_SEGUIMENTO* (negação de seguimento ao recurso).
 
 ### Juízo de Admissibilidade
 - O juízo de admissibilidade é realizado depois de superadas as verificações preliminares de inadmissão e desde que NÃO seja caso de sobrestamento nem de retratação — hipóteses em que, conforme acima, as demais questões não são analisadas e a decisão se limita àquele tema.
 - Ele se aplica em duas situações:
-  (i) quando não houver tema de repercussão geral ou de recurso repetitivo sobre nenhuma das questões recorridas; ou
-  (ii) quando for caso de negativa de seguimento (art. 1.030, I, do CPC) — situação em que o juízo de admissibilidade deve ser feito, NA MESMA DECISÃO, **EXCLUSIVAMENTE** quanto às demais questões recorridas que **não sejam objeto de tema repetitivo ou de repercussão geral**.
-- Diferentemente do sobrestamento e da retratação, a negativa de seguimento não dispensa nem encerra o juízo de admissibilidade: as duas análises convivem, aplicando-se a negativa aos itens que contrariam a tese firmada e a admissibilidade aos demais itens não abrangidos pelo tema.
+  (i) quando não houver tema de repercussão geral sobre nenhuma das questões recorridas; ou
+  (ii) quando for caso de negativa de seguimento (art. 1.030, I, "a", do CPC) — situação em que o juízo de admissibilidade deve ser feito, NA MESMA DECISÃO, **EXCLUSIVAMENTE** quanto às demais questões recorridas que **não sejam objeto de tema de repercussão geral**.
+- Diferentemente do sobrestamento e da retratação, a negativa de seguimento não dispensa nem encerra o juízo de admissibilidade: as duas análises convivem, aplicando-se a negativa aos itens que contrariam a tese firmada ou cuja repercussão geral foi negada, e a admissibilidade aos demais itens não abrangidos por tema.
 - Verificar se o recurso (ou a questão recorrida não abrangida por tema) ultrapassa todos os óbices à admissibilidade abaixo.
 - Se houver algum óbice à admissibilidade, o recurso deve ser inadmitido quanto a essa questão. Neste caso, usar o dispositivo *INADIMITIR*.
+- A seguir, listam-se as causas específicas de inadmissibilidade do recurso extraordinário. Cada item traz a definição sucinta do óbice e o ID do texto-base que deve ser utilizado quando o óbice for reconhecido:
 
-#####	Ausência de Prequestionamento (Súmulas 282/STF e 356/STF; e 211/STJ)
-- Óbice que impede a admissão do recurso extraordinário quando a tese de lei federal apontada como violada não foi previamente debatida e decidida pelo Tribunal de origem. Abrange três realidades: (i) o Tribunal a quo, mesmo provocado por embargos de declaração, não se manifestou sobre os dispositivos — e não se configura o prequestionamento ficto do art. 1.025 do CPC porque o recurso extraordinário não apontou ofensa ao art. 1.022; (ii) a parte sequer opôs embargos de declaração para provocar essa manifestação; e (iii) os dispositivos foram suscitados pela primeira vez no recurso extraordinário (inovação recursal). Súmulas 282 e 356 do STF e 211 do STJ.
-- caso seja identificada: inadmissão pelo motivo *AUSENCIA_PREQUESTIONAMENTO*.
-
-#####	Fundamento constitucional autônomo não impugnado — Súmula 126/STJ
-- Óbice que impede a admissão do recurso extraordinário quando o acórdão recorrido se sustenta, ao mesmo tempo, em fundamento constitucional e em fundamento infraconstitucional, cada um suficiente por si só para manter a conclusão, e a parte não afasta eficazmente o fundamento constitucional perante o STF. Abrange duas realidades: (i) a parte não interpôs recurso extraordinário; ou (ii) interpôs RE, mas ele não abrangeu o fundamento constitucional autônomo. Em ambas, o acórdão permanece íntegro independentemente do resultado do recurso extraordinário, tornando inútil seu processamento. Súmula 126 do STJ.
-- caso seja identificada: inadmissão pelo motivo *FUNDAMENTO_CONSTITUCIONAL_AUTONOMO*
-
-####	Pressupostos Específicos do REsp (relacionados à fundamentação)
-
-#####	Deficiência de Fundamentação (Súmula 284/STF)
-- Óbice que impede a admissão do recurso extraordinário quando suas razões não permitem a exata compreensão da controvérsia, por falta de argumentação clara, individualizada e vinculada ao acórdão recorrido. Abrange três realidades: (i) fundamentação genérica ou abstrata, dissociada dos fundamentos do julgado; (ii) indicação dos dispositivos tidos por violados sem demonstrar, de forma analítica, como o acórdão os teria contrariado; e (iii) razões que atacam fundamentos inexistentes no acórdão ou discutem matéria não examinada na origem. Súmula 284 do STF (por analogia).
-- caso seja identificada: inadmissão pelo motivo *DEFICIENCIA_FUNDAMENTACAO*.
-
-#####	Fundamento autônomo suficiente não impugnado (Súmula 283/STF)
-- Óbice que impede a admissão do recurso extraordinário quando o acórdão recorrido se apoia em mais de um fundamento infraconstitucional, cada qual suficiente por si só para mantê-lo, e o recurso não impugna todos eles, deixando subsistir fundamento autônomo capaz de preservar a conclusão. Abrange duas realidades: (i) a recorrente impugnou parte dos fundamentos, mas não o fundamento autônomo que basta para manter o julgado; e (ii) a recorrente não impugnou esse fundamento autônomo. Em ambas, o provimento do recurso seria inútil. Súmula 283 do STF (por analogia). (Distingue-se do FUNDAMENTO_CONSTITUCIONAL_AUTONOMO: aqui os fundamentos suficientes são todos infraconstitucionais; lá há um fundamento constitucional que exigiria recurso extraordinário.)
-- caso seja identificada: inadmissão pelo motivo *FUNDAMENTO_AUTONOMO*.
-
-#####	Falta de cotejo analítico ou ausência de comprovação do dissídio (divergência jurisprudencial — alínea 'c');
-- Óbice que impede o recurso extraordinário fundado em divergência jurisprudencial (alínea 'c') quando a recorrente não cumpre o art. 1.029, §1º, do CPC, seja na prova formal da divergência (certidão, cópia ou citação de repositório oficial ou credenciado, ou reprodução do julgado com indicação da fonte), seja no cotejo analítico (transcrição dos trechos divergentes, identificação das circunstâncias que assemelham os casos e demonstração de soluções distintas para situações equivalentes). Abrange: (i) ausência total de cotejo analítico (mera transcrição de ementas ou menção genérica a julgados); (ii) ausência de prova formal da divergência (falta de certidão, cópia ou citação de repositório oficial/credenciado, ou de reprodução do julgado com indicação da fonte etc); (iii) ausência de similitude fática entre o caso e o paradigma; (iv) divergência já superada, com jurisprudência do STF no sentido do acórdão recorrido (Súmula 83/STF); e (v) paradigma inapropriado, do mesmo tribunal ou de instância inferior, e não de outro tribunal.
-- caso a falha seja a ausência de cotejo analítico entre os acórdãos; a ausência de similitude fática entre o caso e o paradigma; a hipótese se tratar de divergência já superada, com jurisprudência do STF no sentido do acórdão recorrido; e/ou a invocação de paradigma inapropriado, do mesmo tribunal ou de instância inferior, e não de outro tribunal: inadmissão pelo motivo *FALTA_DE_COTEJO_ANALITICO*.
-- caso a falha seja a ausência de prova formal da divergência (certidão, cópia ou citação de repositório oficial/credenciado, ou reprodução do julgado com indicação da fonte etc): inadmissão pelo motivo *AUSENCIA_COMPROVACAO_DISSIDIO*.
-
-####	Causas Relacionadas ao Cabimento / Mérito
-
-#####	Reexame do contexto Fático-Probatório — Súmula 7/STJ
-- Óbice que impede a admissão do recurso extraordinário quando acolher a pretensão exigiria reexaminar fatos ou reavaliar as provas dos autos, e não apenas rever a interpretação da lei federal. Abrange duas realidades: (i) a parte sustenta tratar-se de questão puramente jurídica, mas o exame dependeria de rever as premissas fáticas fixadas na origem; e (ii) a parte alega violação às regras de prova (distribuição do ônus, valoração, força probante de documentos), o que não afasta o óbice quando, no fundo, se busca rever as conclusões fáticas do Tribunal de origem. Súmula 7 do STJ.
-- caso seja identificada: inadmissão pelo motivo *FATICA_PROBATORIA*.
-
-#####	Conformidade com a Jurisprudência do STJ — Súmula 83/STJ
-- Óbice que impede a admissão do recurso extraordinário quando o acórdão recorrido está em consonância com a jurisprudência dominante do STF sobre a matéria. Abrange três realidades, conforme o fundamento do recurso: (i) interposto só pela alínea 'a' (violação de lei) — o óbice incide igualmente; (ii) interposto só pela alínea 'c' (divergência); e (iii) interposto por ambas. Em todas, por estar o julgado alinhado ao entendimento consolidado da Corte, a tese da recorrente não prospera. Súmula 83 do STF.
-- caso seja identificada: inadmissão pelo motivo *CONFORMIDADE_JURISPRUDENCIA*.
-
-#####	Conformidade com a Jurisprudência do STJ - Súmula 83/STJ. Ausência de Omissão
-- Óbice que impede o recurso extraordinário quando a parte alega violação dos arts. 489 e/ou 1.022 do CPC (negativa de prestação jurisdicional por omissão, contradição ou obscuridade), mas o vício não existe, pois o acórdão recorrido enfrentou de forma clara e fundamentada os pontos essenciais da controvérsia. Apoia-se no entendimento consolidado do STJ de que o julgador não é obrigado a rebater individualmente todos os argumentos das partes, bastando expor fundamentadamente as razões de seu convencimento, e de que a mera discordância com o resultado ou a não adoção da tese defendida não configura vício de integração. Estando o acórdão alinhado a essa jurisprudência, incide a Súmula 83 do STJ.
-- caso seja identificada: inadmissão pelo motivo *CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO*.
-
-#####	Interpretação de cláusula contratual — Súmula 5/STJ
-- Óbice que impede a admissão do recurso extraordinário quando seu acolhimento exigiria reinterpretar cláusulas contratuais fixadas nas instâncias ordinárias, o que escapa à via extraordinária. Abrange três realidades: (i) a controvérsia se resume à interpretação da cláusula; (ii) a parte alega que pretende discutir questão legal (ex.: nulidade ou abusividade da cláusula), mas o exame pressupõe definir antes o conteúdo e o alcance da cláusula; e (iii) hipótese cumulada com a Súmula 7, quando rever a interpretação contratual também demanda reanalisar os fatos que cercaram a formação e a execução do contrato. Súmula 5 do STJ.
-- caso seja identificada: inadmissão pelo motivo *CLAUSULA_CONTRATUAL*.
-
-#####	Interpretação e aplicação de Atos Normativos Infralegais
-- Óbice que impede a admissão do recurso extraordinário quando a controvérsia depende de interpretar atos normativos infralegais (resoluções, portarias, instruções normativas, decretos regulamentares, regimentos internos), que não se enquadram no conceito estrito de "lei federal" do art. 105, III, da CF. Abrange quatro realidades: (i) a controvérsia se resume à interpretação do ato infralegal; (ii) a parte alega violação à lei federal, mas a ofensa é apenas reflexa, pois a solução parte da norma infralegal; (iii) o ato infralegal é de origem federal — o que é irrelevante, pois importa a hierarquia normativa, não a origem; e (iv) o acórdão mescla fundamento legal e infralegal, mas a ratio decidendi se assenta de forma determinante no ato secundário.
-- caso seja identificada: inadmissão pelo motivo *ATOS_NORMATIVOS_INFRALEGAIS*.
-
-#####	Direito Local — Súmula 280/STF
-- Óbice que impede a admissão do recurso extraordinário quando a controvérsia depende de interpretar legislação local (estadual, distrital ou municipal), que não se submete ao STF pela via extraordinária. Abrange quatro realidades: (i) a controvérsia se resume à interpretação da norma local; (ii) a parte invoca lei federal, mas a ofensa é apenas reflexa, pois a solução parte da norma local; (iii) a norma local reproduz ou regulamenta lei nacional — o que não afasta o óbice, pois se examina a norma local em si; e (iv) o acórdão mescla fundamento local e federal, mas a ratio decidendi se assenta de forma determinante na norma local. Súmula 280 do STF (por analogia).
-- caso seja identificada: inadmissão pelo motivo *DIREITO_LOCAL*.
-
-#####	Questão Exclusivamente Constitucional
-- Óbice que impede a admissão do recurso extraordinário quando a controvérsia é de índole exclusivamente constitucional, cuja apreciação compete ao STF pela via do recurso extraordinário. Abrange duas realidades: (i) a controvérsia se centra diretamente na interpretação de dispositivo, princípio ou garantia constitucional; e (ii) a parte invoca formalmente lei ordinária, mas o núcleo da tese é a interpretação direta da Constituição, configurando ofensa apenas reflexa à lei federal. Em ambas, o instrumento adequado é o recurso extraordinário (art. 102, III, CF).
-- caso seja identificada: inadmissão pelo motivo *QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL*.
+(INSERIR TEXTOS-BASE + EXPLICAÇÃO ESPECÍFICOS DO RECURSO EXTRAORDINÁRIO)
 
 ### Admissão do Recurso
 - Caso não haja tema e o recurso cumpra os requisitos, ele deve ser admitido, utilizando o dispositivo *ADMITIR*.
@@ -188,7 +145,6 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 
 ### Desconsiderar o pedido ou o argumento
 - Caso o pedido ou argumento não seja relevante para a análise de admissibilidade, ou caso o pedido ou argumento seja repetitivo em relação a outros pedidos ou argumentos já analisados, ou já tenha sido tomada uma decisão de suspensão, ele deve ser desconsiderado, utilizando o dispositivo *DESCONSIDERAR*.
-
 
 ## FIELDS READONLY
 
@@ -211,11 +167,12 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 
 ##### tema (opcional) - Tema do Pedido
 - Quando o dispositivo for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, deve ser informado neste campo o identificador do tema que poderá ser obtido no documento marcado como <pesquisa-de-temas>. Caso a análise de temas não tenha informado o tema para suspensão, negativa de seguimento ou encaminhamento para retratação, deixe esse campo em branco.
-- O identificador do tema tem o formato "stj-rr-123" ou "stf-rg-456", conforme o tribunal e o tipo de tema. Ele pode ser encontrado no documento marcado como <pesquisa-de-temas> em passagens como por exemplo: (ID: stf-rg-123) ou (ID: stj-rr-456).
+- O identificador do tema tem o formato "stf-rg-456". Ele pode ser encontrado no documento marcado como <pesquisa-de-temas> em passagens como por exemplo: (ID: stf-rg-123).
+- Identificadores no formato "stj-rr-NNN" referem-se a temas de recursos repetitivos do STJ e não devem ser utilizados no juízo de viabilidade do recurso extraordinário.
 
 ##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
 - Quando o dispositivo for INADIMITIR, deve ser informado neste campo o identificador do motivo da inadmissão do recurso.
-- As opções de motivos de inadmissão estão listadas e explicadas no título Juízo de Admissibilidade, acima. 
+- As opções de motivos de inadmissão estão listadas e explicadas no título Juízo de Admissibilidade, acima.
 - Caso haja mais de um motivo de inadmissão, informe todos os motivos aplicáveis neste campo, utilizando um array. Caso contrário, preencha este campo com [].
 
 #### argumentos[] - Argumentos do Pedido
