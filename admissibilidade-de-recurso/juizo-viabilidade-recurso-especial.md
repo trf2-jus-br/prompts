@@ -1,7 +1,7 @@
 ---
 uuid: 89dfafb9-0961-415d-871a-62a52351a75c
 name: Juízo de Viabilidade de Recurso Especial
-description: Realize o juízo completo de viabilidade do recurso especial com análise sequencial de conformidade e admissibilidade.
+description: Realize o juízo completo de viabilidade do recurso especial com análise sequencial de verificação preliminar, conformidade e admissibilidade.
 sort: 3
 share: oculto
 piece_strategy: viabilidade-recurso-especial
@@ -112,12 +112,12 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - caso seja identificada: utilizar o dispositivo *SUSPENDER* (suspensão do processo até o julgamento do tema pelo tribunal competente).
 
 #### Verificar se é hipótese de retratação (art. 1.030, II, do CPC)
-- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **está** em conformidade com a tese firmada no Tema, o processo deverá ser devolvido à Turma Especializada para juízo de retratação;
+- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **NÃO está** em conformidade com a tese firmada no Tema, o processo deverá ser devolvido à Turma Especializada para juízo de retratação;
 - Na hipótese do juizo de retratação, as demais questões tratadas no recurso especial não serão analisadas na decisão. Ficarão pendentes o juízo de conformidade (na hipótese de negativa de seguimento) e o juízo de admissibilidade (referente às demais questões recorridas em relação às quais não há tema) até o retorno dos autos. O encaminhamento para a análise do juízo de retratação será a única questão abordada nesta decisão;
 - caso seja identificada: utilizar o dispositivo *ENCAMINHAR_PARA_RETRATACAO* (encaminhamento para retratação pelo tribunal de origem).
 
 #### Verificar se é hipótese de negativa de seguimento (art. 1.030, I, do CPC)
-- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **não está** em conformidade com a tese firmada no Tema, o processo deverá ser negado seguimento ao recurso especial;
+- Se todos os temas de repercussão geral ou de recursos repetitivos já estiverem definitivamente julgados (trânsito em julgado) e não houver outro tema pendente de julgamento, e se verificado que o acórdão recorrido **está** em conformidade com a tese firmada no Tema, o processo deverá ser negado seguimento ao recurso especial;
 - Na hipótese da negativa de seguimento, as demais questões tratadas no recurso especial também deverão ser analisadas nesta mesma decisão. Deve ser analisado o juízo de conformidade e negado seguimento ao recurso, em relação a cada item que contrariar tese firmada em recurso repetitivo ou em repercussão geral e efetuado o juízo de admissibilidade referente às demais questões recorridas.
 - caso seja identificada: utilizar o dispositivo *NEGAR_SEGUIMENTO* (negação de seguimento ao recurso).
 
