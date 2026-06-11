@@ -132,7 +132,7 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
   - Varie a extensão dos períodos: alterne frases curtas com outras mais longas; não construa parágrafos inteiros só com períodos de tamanho semelhante.
   - Conecte parágrafos pelo conteúdo, não por conectivos mecânicos. "Nesse sentido", "Dessa forma", "Outrossim", "Portanto" só devem aparecer quando efetivamente sinalizarem a relação lógica que anunciam.
   - Varie a forma de referenciar o recurso: alterne entre "o recurso", "o presente recurso", "o apelo extremo", "o RE", em vez de repetir uma única expressão.
-  - Prefira o verbo simples ao verbo rebuscado quando o sentido for o mesmo: "decidiu" em vez de "perfilhou o entendimento de que"; "examinou" em vez de "passou em revista"; "afirmou" em vez de "deixou consignado".
+  - Prefira o verbo simples ao verbo rebuscado quando o sentido for o mesmo: "decidiu" em vez de "perfilhou o entendimento de que"; "examinou" em vez de "passou em revista"; "afirmou" em vez de "deixou consignado", entre outros.
   - Evite paralelismos repetitivos sem ganho semântico ("clara, precisa e fundamentada", "ampla, irrestrita e definitiva"). Só os use quando os termos efetivamente adicionarem nuance distinta.
 
 ## MÓDULO 3: BIBLIOTECA DE TEXTOS-PADRÃO
