@@ -222,7 +222,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 ##### tema (opcional) - Tema do Pedido
 - Quando o dispositivo for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, deve ser informado neste campo o identificador do tema que poderá ser obtido no documento marcado como <pesquisa-de-temas>. Caso a análise de temas não tenha informado o tema para suspensão, negativa de seguimento ou encaminhamento para retratação, deixe esse campo em branco.
 - O identificador do tema tem o formato "stf-rg-456". Ele pode ser encontrado no documento marcado como <pesquisa-de-temas> em passagens como por exemplo: (ID: stf-rg-123).
-- Identificadores no formato "stj-rr-NNN" referem-se a temas de recursos repetitivos do STJ e não devem ser utilizados no juízo de viabilidade do recurso extraordinário.
+- Identificadores no formato "stj-rr-NNN" referem-se a temas de recursos repetitivos do STJ e não devem ser utilizados no juízo de viabilidade do recurso extraordinário. Portanto, infique tão somente súmulas vinculantes e teses de repercussão geral (STF) aplicáveis ao caso concreto. Não indique a aplicação de teses referentes a recursos repetitivos (STJ).
 
 ##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, AUSENCIA_PRELIMINAR_REPERCUSSAO_GERAL, FATICA_PROBATORIA, CLAUSULA_CONTRATUAL, OFENSA_REFLEXA, DIREITO_LOCAL, MATERIA_REGIMENTAL, DECISAO_LIMINAR_TUTELA_PROVISORIA, CONFORMIDADE_JURISPRUDENCIA) - Motivo da Inadmissão
 - Quando o dispositivo for INADIMITIR, deve ser informado neste campo o identificador do motivo da inadmissão do recurso.
