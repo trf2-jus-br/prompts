@@ -51,11 +51,10 @@ Leia os cuidadosamente os documentos abaixo para gerar o voto.
 
 ### I. RELATÓRIO
 - Inicie com "Trata-se de ..."
-- Resuma os fatos relevantes do processo, conforme apurados nos autos, sem juízo de valor.
-- Descreva os pedidos iniciais do autor e as defesas apresentadas pelo réu, incluindo eventuais reconvenções.
-- Informe o andamento processual, destacando as principais etapas (audiência de conciliação, instrução, produção de provas, etc.) e eventuais incidentes processuais relevantes.
 - Resuma a decisão de primeiro grau, indicando se foi procedente, improcedente ou parcialmente procedente, e os fundamentos principais utilizados pelo juiz.
 - Mencione os pontos específicos que foram objeto de recurso, se houver.
+- Mencione contrarrazões apresentadas pela parte contrária, se houver.
+- Mencione o parecer do Ministério Público, se houver.
 - Conclua o relatório afirmando que o processo está pronto para julgamento. "É o relatório."
 
 ### II. FUNDAMENTAÇÃO
