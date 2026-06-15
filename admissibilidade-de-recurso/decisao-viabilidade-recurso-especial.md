@@ -145,7 +145,7 @@ Também restou devidamente atendido o requisito do prequestionamento, uma vez qu
 Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [descrever a controvérsia jurídica objeto do recurso especial que está sendo admitido].
 ```
 
-### Sobrestamento
+### Sobrestamento (não pode ser cumulada com juízo de retratação, inadmissão, admissão ou negativa de seguimento, pois o sobrestamento é hipótese de exclusão absoluta de todas as demais hipóteses)
 
 ##### Não houve julgamento do Tema
 - A decisão deve ser utilizada quando for identificado um tema de repercussão geral ou de recurso repetitivo relativo à questão recorrida que ainda não tenha sido julgado.
@@ -188,7 +188,7 @@ Assim, nos termos do art. 1.030, III, do CPC, o Presidente ou Vice-presidente do
 
 ```
 
-### Juízo de Retratação
+### Juízo de Retratação (não pode ser cumulada com sobrestamento, inadmissão, admissão ou negativa de seguimento, pois o juízo de retratação é hipótese de exclusão absoluta de todas as demais hipóteses)
 - A decisão deve ser utilizada quando for identificado um tema de repercussão geral ou repetitivo relativo à questão identificada como objeto do recurso especial; que tenha sido definitivamente julgado; quando o Acórdão recorrido não estiver em conformidade com a tese firmada no tema julgado pelo STF/STJ.
 - As demais questões tratadas no recurso especial não serão analisadas nesta decisão.
 
