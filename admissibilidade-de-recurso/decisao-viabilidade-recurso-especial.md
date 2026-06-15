@@ -83,7 +83,7 @@ Imediatamente após o relatório, insira esta frase isolada em parágrafo própr
 ```
 
 #### C. A Fundamentação (Modelos Curtos)
-Após a utilização do texto: “É o relatório. Decido’, incluir um texto padrão introdutório, válido para todos os casos de análise dos Recursos Especiais (comum a todos os recursos especiais):
+Após a utilização do texto: “É o relatório. Decido’, incluir um texto padrão introdutório, válido para os casos de ADMISSÃO, NEGATIVA DE SEGUIMENTO E INADMISSÃO (NÃO aplicar para SUSPENSÃO e JUÍZO DE RETRATAÇÃO):
 
 ```
 O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superior Tribunal de Justiça julgar, em recurso especial, as causas decididas em única ou última instância pelos Tribunais Regionais Federais ou pelos Tribunais dos Estados, do Distrito Federal e Territórios, nas seguintes hipóteses: (a) quando a decisão recorrida contrariar tratado ou lei federal, ou negar-lhes vigência; (b) quando julgar válido ato de governo local contestado em face de lei federal; e (c) quando der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.
