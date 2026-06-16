@@ -513,6 +513,17 @@ No caso dos autos, a parte recorrente alega {{descricaoAlegacao}}, de forma tota
 Incide, portanto, o enunciado nº 284 da Súmula do Supremo Tribunal Federal, segundo o qual *"é inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia"*.
 ```
 
+##### Citação de dispositivos constitucionais sem argumentação específica
+```
+O recurso não reúne condições de admissibilidade.
+
+Para a admissão do recurso extraordinário, é imprescindível que as razões recursais demonstrem, de forma clara, específica e suficiente, de que modo o acórdão recorrido contraria o dispositivo constitucional invocado, permitindo a exata compreensão da controvérsia constitucional submetida ao Supremo Tribunal Federal. A deficiência na fundamentação do recurso — seja pela ausência de indicação dos dispositivos constitucionais alegadamente violados, seja pela impugnação genérica ou incompleta dos fundamentos do acórdão recorrido — compromete a própria dialeticidade do apelo extremo e inviabiliza seu conhecimento.
+
+No caso dos autos, a parte recorrente indica como violados os dispositivos constitucionais {{dispositivosCitados}}, limitando-se, contudo, a enunciá-los, sem desenvolver a argumentação específica que demonstre, em relação a cada preceito, de que modo o acórdão recorrido o teria contrariado. A mera indicação ou enumeração de dispositivos constitucionais, desacompanhada da exposição analítica da violação atribuída a cada um deles, não satisfaz o ônus de fundamentação que recai sobre a parte recorrente e impede a exata compreensão da controvérsia constitucional.
+
+Incide, portanto, o enunciado nº 284 da Súmula do Supremo Tribunal Federal, segundo o qual *"é inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia"*.
+```
+
 #### *FUNDAMENTO_AUTONOMO*: Fundamento Autônomo Suficiente não Impugnado (Súmula 283/STF)
 
 ##### Fundamento único autônomo não impugnado
