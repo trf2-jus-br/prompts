@@ -204,7 +204,9 @@ O Supremo Tribunal Federal, no julgamento do Tema [Número do Tema] de Repercuss
 
 [Se houver modulação de efeitos]: O Supremo Tribunal Federal também decidiu modular os efeitos do julgado para [descricaoDaModulacao].
 
-No caso, verifica-se que o acórdão recorrido aparenta divergir do entendimento firmado pela Suprema Corte, o que atrai a aplicação do disposto no art. 1.030, II, do CPC, segundo o qual o presidente ou vice-presidente do tribunal recorrido deverá encaminhar o processo ao órgão julgador para realização do juízo de retratação, se o acórdão recorrido divergir do entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça exarado, conforme o caso, nos regimes de repercussão geral ou de recursos repetitivos.
+No caso, [justificar, pormenorizadamente e fundamentadamente, as razões pelas quais o acórdão recorrido está em desconformidade com a tese firmada no julgamento do tema de Repercussão Geral ou recurso repetitivo indicado na decisão, fazendo expressa menção ao caso concreto e ao acórdão recorrido. Transcreva trechos do acórdão recorrido que confirmem o(s) argumenrto(s) de desconformidade].
+
+Assim, verifica-se que o acórdão recorrido aparenta divergir do entendimento firmado pela Suprema Corte, o que atrai a aplicação disposto no art. 1030, II, do CPC, segundo o qual o presidente ou vice-presidente do tribunal recorrido deverá encaminhar o processo ao órgão julgador para realização do juízo de retratação, se o acórdão recorrido divergir do entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça exarado, conforme o caso, nos regimes de repercussão geral ou de recursos repetitivos.
 ```
 
 ### Negativa de Seguimento
