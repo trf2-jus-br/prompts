@@ -122,6 +122,10 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Na hipótese da negativa de seguimento, as demais questões tratadas no recurso especial também deverão ser analisadas nesta mesma decisão. Deve ser analisado o juízo de conformidade e negado seguimento ao recurso, em relação a cada item que contrariar tese firmada em recurso repetitivo ou em repercussão geral e efetuado o juízo de admissibilidade referente às demais questões recorridas.
 - caso seja identificada: utilizar o dispositivo *NEGAR_SEGUIMENTO* (negação de seguimento ao recurso).
 
+##### Hipóteses que NÃO configuram negativa de seguimento nem retratação (encaminhar para inadmissão)
+- Alegação de violação aos arts. 1.022 e/ou 489 do CPC (negativa de prestação jurisdicional por omissão, contradição ou obscuridade) contra acórdão que enfrentou, de forma clara e fundamentada, os pontos essenciais da controvérsia: NÃO se trata de hipótese de negativa de seguimento, tampouco de aplicação do Tema 339 da repercussão geral do STF. Inexistente o vício de integração alegado, e estando o acórdão alinhado à jurisprudência do STJ — segundo a qual o julgador não é obrigado a rebater individualmente todos os argumentos das partes, bastando expor as razões de seu convencimento —, a hipótese é de INADMISSÃO pela Súmula 83/STJ, pelo motivo *CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO*,
+- - Nesses casos, NÃO utilize os dispositivos NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, nem indique tema de repercussão geral: utilize o dispositivo INADIMITIR, com o motivo correspondente.
+
 ### Juízo de Admissibilidade
 - O juízo de admissibilidade é realizado depois de superadas as verificações preliminares de inadmissão e desde que NÃO seja caso de sobrestamento nem de retratação — hipóteses em que, conforme acima, as demais questões não são analisadas e a decisão se limita àquele tema.
 - Ele se aplica em duas situações:
@@ -186,6 +190,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 #####	Questão Exclusivamente Constitucional
 - Óbice que impede a admissão do recurso especial quando a controvérsia é de índole exclusivamente constitucional, cuja apreciação compete ao STF pela via do recurso extraordinário. Abrange duas realidades: (i) a controvérsia se centra diretamente na interpretação de dispositivo, princípio ou garantia constitucional; e (ii) a parte invoca formalmente lei ordinária, mas o núcleo da tese é a interpretação direta da Constituição, configurando ofensa apenas reflexa à lei federal. Em ambas, o instrumento adequado é o recurso extraordinário (art. 102, III, CF).
 - caso seja identificada: inadmissão pelo motivo *QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL*.
+
 
 ### Admissão do Recurso
 - Caso não haja tema e o recurso cumpra os requisitos, ele deve ser admitido, utilizando o dispositivo *ADMITIR*.
