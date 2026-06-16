@@ -145,7 +145,7 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 ####	Pressupostos Específicos do REsp (relacionados à fundamentação)
 
 #####	Deficiência de Fundamentação (Súmula 284/STF)
-- Óbice que impede a admissão do recurso especial quando suas razões não permitem a exata compreensão da controvérsia, por falta de argumentação clara, individualizada e vinculada ao acórdão recorrido. Abrange três realidades: (i) fundamentação genérica ou abstrata, dissociada dos fundamentos do julgado; (ii) indicação dos dispositivos tidos por violados sem demonstrar, de forma analítica, como o acórdão os teria contrariado; e (iii) razões que atacam fundamentos inexistentes no acórdão ou discutem matéria não examinada na origem. Súmula 284 do STF (por analogia).
+- Óbice que impede a admissão do recurso especial quando suas razões não permitem a exata compreensão da controvérsia, por falta de argumentação clara, individualizada e vinculada ao acórdão recorrido. Abrange três realidades: (i) fundamentação genérica ou abstrata, dissociada dos fundamentos do julgado; (ii) indicação ou mera enumeração dos dispositivos tidos por violados sem desenvolver a argumentação específica que demonstre, de forma analítica e em relação a cada dispositivo, como o acórdão os teria contrariado ou negado vigência; e (iii) razões que atacam fundamentos inexistentes no acórdão ou discutem matéria não examinada na origem. Súmula 284 do STF (por analogia).
 - caso seja identificada: inadmissão pelo motivo *DEFICIENCIA_FUNDAMENTACAO*.
 
 #####	Fundamento autônomo suficiente não impugnado (Súmula 283/STF)
