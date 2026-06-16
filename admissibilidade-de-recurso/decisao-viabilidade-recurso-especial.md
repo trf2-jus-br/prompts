@@ -34,7 +34,7 @@ Você receberá:
 2.  **Fundamentação (O "Miolo"):**
     * Para cada item do JSON, verifique o `dispositivo`:
         * **Se houver `motivoGeral` de inadmissão:** O recurso deve ser inadmitido por um motivo geral, independente da análise do pedido ou argumento específico. Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o(s) texto(s) identificado(s) pelo `motivoGeral`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real).
-        * **Se for `INADIMITIR`:** Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o(s) texto(s) identificado(s) pelo `motivo`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real). Se houver mais de um 'motivo' para `INADMITIR` aplicável, utilize os textos-base correspondentes a cada um deles na "BIBLIOTECA DE TEXTOS-PADRÃO" (conforme "Múltiplos Argumentos" abaixo). Para cada texto-padrão utilizado, você tem liberdade para inserir um ou dois parágrafos que aprimorem o referido texto-padrão, com menção explícita ao caso concreto (peças do processo), não podendo, porém, contrariar o sentido do texto-padrão (temperatura: 0.2).
+        * **Se for `INADIMITIR`:** Busque na "BIBLIOTECA DE TEXTOS-PADRÃO" (no final deste prompt) o(s) texto(s) identificado(s) pelo `motivo`. Copie o texto-base, mas você **DEVE** preencher as lacunas `[INSERIR...]` extraindo os dados reais das peças do processo (ex: citar a cláusula contratual real, o trecho do acórdão real). Se houver mais de um 'motivo' para `INADMITIR` aplicável, utilize os textos-base correspondentes a cada um deles na "BIBLIOTECA DE TEXTOS-PADRÃO" (conforme "Múltiplos Argumentos" abaixo).
         * **Se for `SUSPENDER`, `NEGAR_SEGUIMENTO`, `ENCAMINHAR_PARA_RETRATACAO` ou `ADMITIR`:** Utilize os modelos curtos da Seção 2.C do Manual de Redação. Integre o número do Tema e a descrição da Tese fornecidos no JSON.
         * **Se o JSON contiver uma combinação de `INADIMITIR` e `NEGAR_SEGUIMENTO` para pedidos distintos (decisão mista)**: Trate cada item conforme as regras acima, desenvolvendo separadamente os fundamentos de cada conclusão na fundamentação. Ao final, utilize o modelo de dispositivo misto da Seção 3, identificando na frase, de forma sintética, a matéria objeto de cada conclusão.
         * **Se for `DESCONSIDERAR`:** Ignore este item.
@@ -56,7 +56,7 @@ A IA deve gerar o texto seguindo estritamente estes 4 blocos sequenciais:
 O texto deve começar **diretamente** com o parágrafo abaixo, sem saudações:
 
 ```
-Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome da parte), com fundamento no artigo 105, III, (indicar a alínea conforme a informação extraída do recurso da parte: alínea ‘a’, alínea ‘c’ ou alíneas ‘a’ e ‘c’), da Constituição Federal, contra acórdão proferido por Turma Especializada deste Tribunal, assim ementado:
+Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome da parte), com fundamento no artigo 105, III, (indicar a alínea conforme a informação extraída do recurso da parte: alínea ‘a’, alínea ‘c’ ou alíneas ‘a’ e ‘c’), da Constituição Federal, contra acórdão proferido por Turma Especializada deste Tribunal (indicar o evento do acórdão), assim ementado:
 ```
 
 [INSERIR TODA A EMENTA DENTRO DE BLOCKQUOTE. TRANSCREVA O ACÓRDÃO PRINCIPAL, E NÃO O ACÓRDÃO QUE TENHA JULGADO EMBARGOS DE DECLARAÇÃO. Atenção, o texto da ementa normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e os parágrafos com <p> e </p>. As demais quebras de linha devem ser omitidas. Para evitar que o conversor de Markdown para HTML insira listas do tipo OL ou UL, além do blockquote, cada parágrafo deve ser envolvido em <p> e </p> (ex: "> <p>1. O presente caso...</p>").]
@@ -65,15 +65,15 @@ Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome d
 
 *Se houver Embargos de Declaração prévios:*
 ```
-Opostos embargos de declaração, estes foram [citar resultado do julgamento dos embargos de declaração, conforme o caso concreto] [citar o evento e a peça].
+Opostos embargos de declaração, estes foram (citar resultado do julgamento dos embargos de declaração, conforme o caso concreto) (citar o evento).
 ```
 
 ETAPA OBRIGATÓRIA: *No relatório, após mencionar os embargos de declaração, você deve relatar, resumidamente, os argumentos e teses do recurso especial analisado*:
-> "Em suas razões recursais, a parte recorrente alega, em síntese, que: [citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados].
+> "Em suas razões recursais, a parte recorrente alega, em síntese, que: (citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados).
 
 *Se houver Contrarrazões:*
 ```
-Contrarrazões apresentadas no [citar o evento e a peça].
+Contrarrazões apresentadas no (citar o evento).
 ```
 
 #### B. A Ponte de Transição
@@ -234,6 +234,10 @@ No caso em exame, o acórdão recorrido está em conformidade com a(s) tese(s) f
 
 ### Inadmissão
 - Use estes textos APENAS quando o JSON indicar `motivoGeral` de inadmissão ou `dispositivo`: *INADIMITIR*. Selecione pelo ID.
+- Acréscimos ao texto-padrão (escopo restrito ao óbice recebido). Para cada texto-padrão utilizado, você pode inserir um ou dois parágrafos que o desenvolvam, com menção explícita ao caso concreto (peças do processo), observados os limites abaixo (temperatura: 0.2):
+ - O que você PODE fazer: ancorar o óbice nos fatos do processo (citar o trecho do acórdão, a cláusula, a data, o argumento da parte), explicitar a subsunção entre o caso concreto e o fundamento do texto-padrão, e reforçar a argumentação do próprio óbice recebido.
+ - O que você NÃO PODE fazer: introduzir qualquer fundamento de inadmissão, súmula, tese, precedente ou dispositivo legal que não conste do texto-padrão recebido para aquele item. Cada motivo de inadmissão informado no JSON deve ser desenvolvido exclusivamente dentro dos limites do seu próprio texto-padrão. É vedado mesclar fundamentos: se o JSON indica inadmissão pela Súmula 7/STJ, a fundamentação trata apenas do reexame fático-probatório, ainda que você identifique no caso outros possíveis óbices (ausência de prequestionamento, fundamento autônomo, deficiência de fundamentação etc.) — esses não devem ser sequer mencionados.
+ - Regra de ouro: o JSON define o universo de fundamentos da decisão. Sua liberdade é de profundidade (desenvolver melhor o que foi indicado), nunca de amplitude (acrescentar fundamentos não indicados). Se o caso tiver mais de um óbice, eles virão como itens distintos no JSON; não cabe a você presumi-los.
 
 #### *DESERCAO*: Verificar Deserção (ausência de preparo)
 
