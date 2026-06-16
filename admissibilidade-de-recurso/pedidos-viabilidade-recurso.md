@@ -30,14 +30,19 @@ Você receberá os textos de peças processuais recursais (Recurso Extraordinár
    - Exemplo (administrativo): "anular a multa moratória e a multa de ofício" deve gerar 2 pedidos, pois cada multa tem natureza jurídica própria.
    - Contraexemplo (NÃO desmembrar): "majorar a indenização por danos morais de R$ 10.000 para R$ 50.000" é um único pedido — o bem da vida é o quantum, e variar o valor não altera o regime jurídico.
 
-3. Princípio da hierarquia (pedidos principais, alternativos e subsidiários): Pedidos formulados em alternativa ("ou") ou em subsidiariedade ("caso assim não se entenda", "se vencida a preliminar") são pedidos juridicamente autônomos e DEVEM ser identificados separadamente. Cada um pode receber dispositivo próprio. A relação entre eles deve ser registrada nos campos Tx_Relacao e Id_PedidoVinculado.
-   - Exemplo: "provimento do recurso para anular o acórdão recorrido. Caso assim não entenda, seja provido o recurso para reformar o acórdão recorrido e julgar procedente o pedido" deve gerar 2 pedidos: (a) anular o acórdão (Tx_Relacao=PRINCIPAL) e (b) reformar o acórdão para julgar procedente o pedido (Tx_Relacao=SUBSIDIARIO, Id_PedidoVinculado=1).
+3. 3. Princípio da hierarquia (pedidos principais, alternativos, subsidiários e acessórios): Pedidos formulados em alternativa ("ou"), em subsidiariedade ("caso assim não se entenda", "se vencida a preliminar") ou em acessoriedade (consectário, desdobramento ou instrumento do principal) são pedidos juridicamente autônomos e DEVEM ser identificados separadamente. Cada um pode receber dispositivo próprio. A relação entre eles deve ser registrada nos campos Tp_Relacao e Id_PedidoVinculado.
+   - Exemplo de subsidiariedade: "provimento do recurso para anular o acórdão recorrido. Caso assim não entenda, seja provido o recurso para reformar o acórdão recorrido e julgar procedente o pedido" → 2 pedidos: (a) anular o acórdão (Tp_Relacao=PRINCIPAL) e (b) reformar o acórdão para julgar procedente o pedido (Tp_Relacao=SUBSIDIARIO, Id_PedidoVinculado=1).
+   - Exemplo de acessoriedade: "anular o acórdão por violação ao contraditório e à ampla defesa, assegurando-se à parte o direito de produzir a prova testemunhal indeferida na origem" → 2 pedidos: (a) anular o acórdão (Tp_Relacao=PRINCIPAL) e (b) assegurar o direito de produzir a prova testemunhal (Tp_Relacao=ACESSORIO, Id_PedidoVinculado=1). O acessório não subsiste sem o principal: se o principal for negado, suspenso ou inadmitido, o acessório fica prejudicado; se for admitido, está nele contido.
 
 4. Princípio da especificação da pretensão substantiva: O campo Tx_Texto deve descrever a pretensão concreta que o recurso busca obter, e NÃO apenas a formulação processual genérica. Quando o pedido vier redigido de forma sintética ou genérica (ex.: "provimento do recurso", "reforma do acórdão"), você DEVE recorrer às razões recursais e ao dispositivo do acórdão recorrido para identificar a pretensão substantiva.
    - Não basta: "Reformar o acórdão para julgar procedente o pedido."
    - Forma adequada: "Reformar o acórdão para reconhecer a inexigibilidade do IRPJ incidente sobre juros de mora em repetição de indébito."
 
-5. Fonte exclusiva no texto fornecido: Você não está autorizada a criar pedidos ou pretensões que não estejam expressa ou implicitamente contidos na peça recursal. A decomposição autorizada pela regra 2 é apenas analítica — ela divide o que já está na peça, sem acrescentar nada.
+5. 5. Princípio da distinção entre pedido de mérito e argumento de admissibilidade: Itens que peçam o reconhecimento de pressupostos de admissibilidade (existência de divergência jurisprudencial para fins da alínea 'c'; ocorrência de prequestionamento; esgotamento da instância; cabimento do recurso) ou simplesmente o conhecimento do recurso NÃO são pedidos autônomos. São argumentos voltados a abrir a via recursal para o pedido substantivo e devem ser registrados como Argumentos[] do pedido de mérito a que se referem, jamais como Pedidos[] separados.
+   - Exemplo: em REsp que pede a redução da verba honorária por equidade (pedido de mérito), o item "reconhecer que existe divergência jurisprudencial quanto à base de cálculo da verba honorária" NÃO é um pedido autônomo — é argumento de cabimento pela alínea 'c'. Deve ser registrado como argumento do pedido de redução da verba honorária.
+   - Critério prático: pergunte-se "este item descreve uma pretensão substantiva (anular, reformar, condenar, declarar) sobre o objeto da causa, ou descreve um requisito processual cuja função é abrir a admissibilidade?". Se a resposta for "requisito processual", o item é argumento, não pedido.
+
+6. Fonte exclusiva no texto fornecido: Você não está autorizada a criar pedidos ou pretensões que não estejam expressa ou implicitamente contidos na peça recursal. A decomposição autorizada pela regra 2 é apenas analítica — ela divide o que já está na peça, sem acrescentar nada.
 
 ## FIELDS READONLY
 
@@ -56,11 +61,12 @@ Para cada pedido identificado, preencha os campos seguintes.
 #### Lo_PedidoDeEfeitoSuspensivo
 - Indique se há pedido de atribuição de efeito suspensivo ao recurso.
 
-#### Tx_Relacao (opcional, opções: PRINCIPAL, ALTERNATIVO, SUBSIDIARIO, AUTONOMO) - Relação do Pedido
+##### Tp_Relacao (opcional, opções: PRINCIPAL, ALTERNATIVO, SUBSIDIARIO, ACESSORIO, AUTONOMO) - Relação do Pedido
 - Indica a relação deste pedido com outros pedidos da lista.
-- PRINCIPAL: pedido principal de uma cadeia de pedidos alternativos ou subsidiários.
-- SUBSIDIARIO: pedido formulado em caráter eventual, para a hipótese de não acolhimento do principal (ex.: "caso assim não se entenda...").
+- PRINCIPAL: pedido principal de uma cadeia de pedidos alternativos, subsidiários ou acessórios.
+- SUBSIDIARIO: pedido formulado em caráter eventual, para a hipótese de não acolhimento do principal (ex.: "caso assim não se entenda..."). Configura-se quando "Y" só será analisado SE "X" for rejeitado.
 - ALTERNATIVO: pedido em alternativa simples ("ou X ou Y"), sem hierarquia entre as opções.
+- ACESSORIO: pedido que constitui consectário, desdobramento natural ou instrumento do pedido principal — só faz sentido se o principal for acolhido, e fica logicamente prejudicado se o principal não tiver êxito. Configura-se quando "Y" só será analisado SE "X" for acolhido. Ex.: anulado o acórdão por cerceamento de defesa (principal), o pedido "assegurar o direito de produzir a prova X" (acessório) é apenas o desdobramento natural da anulação.
 - AUTONOMO: pedido sem relação de dependência com outro. Use também quando o pedido for único.
 - Quando este campo não se aplicar, deixe em branco (equivale a AUTONOMO).
 
