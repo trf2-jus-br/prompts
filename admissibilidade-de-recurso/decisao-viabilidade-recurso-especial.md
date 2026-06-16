@@ -453,6 +453,15 @@ A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que as
 No caso, as razões do recurso especial encontram-se inteiramente dissociadas dos fundamentos do acórdão recorrido, na medida em que a parte recorrente {{descricaoDissociacao - ex: "combate fundamentos que não constam do julgado impugnado" / "discute matéria não examinada pelo Tribunal de origem"}}, o que igualmente inviabiliza a exata compreensão da controvérsia.
 ```
 
+##### Citação de dispositivos legais sem argumentação específica
+```
+O recurso especial não comporta admissão em razão da deficiência na sua fundamentação, incidindo, por analogia, o óbice da Súmula n. 284 do Supremo Tribunal Federal, que assim dispõe: *"É inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia."*.
+
+A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que as razões do recurso especial devem conter argumentação pertinente e individualizada, com a indicação clara e precisa dos dispositivos legais federais tidos por violados e a demonstração analítica de como o acórdão recorrido teria incorrido na alegada violação, sob pena de inadmissão do recurso.
+
+No caso, a parte recorrente indica como violados os {{dispositivosCitados — ex: "arts. 186 e 927 do Código Civil"}}, limitando-se, contudo, a enunciá-los, sem desenvolver a argumentação específica que demonstre, em relação a cada dispositivo, de que modo o acórdão recorrido teria contrariado ou negado vigência ao seu conteúdo. A mera indicação ou enumeração de dispositivos legais, desacompanhada da exposição analítica da violação atribuída a cada um deles, não satisfaz o ônus de fundamentação que recai sobre a parte recorrente e inviabiliza a exata compreensão da controvérsia.
+```
+
 #### *FUNDAMENTO_AUTONOMO*: Fundamento autônomo suficiente não impugnado (Súmula 283/STF)
 
 ##### Alegado pela recorrente
