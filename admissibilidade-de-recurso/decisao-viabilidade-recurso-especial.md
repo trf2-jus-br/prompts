@@ -89,7 +89,16 @@ Após a utilização do texto: “É o relatório. Decido’, incluir um texto p
 O artigo 105, inciso III, da Constituição Federal prevê que compete ao Superior Tribunal de Justiça julgar, em recurso especial, as causas decididas em única ou última instância pelos Tribunais Regionais Federais ou pelos Tribunais dos Estados, do Distrito Federal e Territórios, nas seguintes hipóteses: (a) quando a decisão recorrida contrariar tratado ou lei federal, ou negar-lhes vigência; (b) quando julgar válido ato de governo local contestado em face de lei federal; e (c) quando der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.
 ```
 
-*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO (sugestão de texto: "Tendo em vista que o recurso especial não ultrapassou o juízo de admissibilidade, **INDEFIRO** o pedido de [efeito suspensivo OU tutela recursal]). Para os demais casos, use os modelos a seguir:*
+*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO utilizando literalmente o seguinte texto:
+```
+Por outro lado, a atribuição de efeito suspensivo a recursos especiais e extraordinários se reveste de caráter excepcional, uma vez que esses recursos são em regra recebidos somente no efeito devolutivo (art. 1.029, §5º, III, do CPC).
+
+Para a atribuição de efeito suspensivo por ato da Vice-Presidência é preciso o preenchimento de três requisitos: (i) vislumbrar-se o juízo positivo de admissibilidade; (ii) aferir-se a probabilidade de êxito do recurso e (iii) constatar-se o perigo decorrente da demora da prestação jurisdicional, que não permita se aguardar a apreciação do recurso pelo tribunal superior.
+
+Se o recurso não supera o juízo positivo de admissibilidade, por certo não preenche os requisitos para o deferimento excepcional do efeito suspensivo, razão pela qual INDEFIRO o pedido de efeito suspensivo.
+```
+
+Para os demais casos, use os modelos a seguir:*
 
 **Caminho 1: Para ADMITIR o Recurso**
 *Atenção: Para ADMITIR, use a Biblioteca de Textos-Padrão mais abaixo (Admissão).*
