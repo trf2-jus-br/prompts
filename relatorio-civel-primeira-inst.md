@@ -1,11 +1,14 @@
 ---
-uuid: 25488061-64a7-4f54-8fc6-6c750f111937
+uuid: 40e64a90-e1f3-4672-9915-9b6167069542
 name: Relatório Cível de 1ª Instância
 description: Gere um relatório cível preciso e imparcial para auxiliar magistrados na elaboração de sentenças de primeira instância.
 author: Caroline Tauk/JFRJ
 sort: 3
 share: padrao
 piece_strategy: mais-relevantes
+phase:
+  - conhecimento
+  - conhecimento-concluida
 ---
 
 # SYSTEM PROMPT

@@ -1,9 +1,13 @@
 ---
 uuid: ee53509d-777b-4a88-8277-ebf240ba04da
 name: Relatorio de Apelacao e Triagem
-description: Obtenha relatório de apelação com triagem inteligente para agilizar o trabalho de segundo grau.
+description: Obtenha relatório de apelação com questão central e pontos controvertidos e triagem.
 sort: 1
 piece_strategy: apelacao-e-triagem
+phase:
+  - apelacao
+  - apelacao-concluida
+  - agravo-concluida
 batch_report: true
 context:
   action: processo-selecionar
@@ -93,17 +97,17 @@ Em processos tributários:
 <modelo>
 # Relatório
 
-Trata-se de apelação interposta por [autor] contra a sentença proferida no evento [número do evento da sentença], pelo Juízo da Vara [nome da vara], que julgou [explicação sobre o caso, se houver, inclua no final desse parágrafo informações sobre as normas legais utilizadas].
+Trata-se de apelação interposta por [autor] contra a sentença proferida no evento [citar sentença], pelo Juízo da Vara [nome da vara], que julgou [explicação sobre o caso, se houver, inclua no final desse parágrafo informações sobre as normas legais utilizadas].
 
-[Se houver petição inicial]Na inicial (evento [código do evento]), o(a) Autor(a) alegou, em breve síntese, que [alegações do autor].  Assim, requereu que [citar os principais pedidos que a parte autora fez na petição inicial dela, de forma bem sucinta].
+[Se houver petição inicial]Na inicial (evento [citar evento]), o(a) Autor(a) alegou, em breve síntese, que [alegações do autor].  Assim, requereu que [citar os principais pedidos que a parte autora fez na petição inicial dela, de forma bem sucinta].
 
-Na sentença (evento [código do evento]), o Juízo de origem consignou, em resumo, que [dispositivos e fundamentações].
+Na sentença (evento [citar evento]), o Juízo de origem consignou, em resumo, que [dispositivos e fundamentações].
 
-Em suas razões recursais (evento [código do evento]), o Apelante sustenta, em síntese, que [sustentação do apelante].
+Em suas razões recursais (evento [citar evento]), o Apelante sustenta, em síntese, que [sustentação do apelante].
 
-Em contrarrazões (evento [código do evento]), o Apelado defende, em linhas gerais, que [defesa do apelado].
+Em contrarrazões (evento [citar evento]), o Apelado defende, em linhas gerais, que [defesa do apelado].
 
-[Se hover parecer]Em parecer (evento [número do evento]), o Ministério Público Federal opinou pelo
+[Se houver parecer]Em parecer (evento [citar evento]), o Ministério Público Federal opinou pelo
 [desprovimento ou provimento] do recurso, entendendo, em suma, que [parecer do Ministério Público Federal].
 
 É o relatório.

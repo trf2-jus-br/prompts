@@ -5,6 +5,9 @@ description: Extraia e organize cronologicamente os fatos relatados na petição
 author: Renato Crivano/TRF2
 sort: 5
 piece_strategy: peticao-inicial
+phase:
+  - conhecimento
+  - conhecimento-concluida
 context:
   action: processo-selecionar
 successors:

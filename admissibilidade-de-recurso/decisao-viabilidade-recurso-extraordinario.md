@@ -6,9 +6,9 @@ sort: 0
 share: beta-teste
 piece_strategy: viabilidade-recurso-extraordinario
 author: Marcus Abraham/TRF2
-grupo:
+group:
   slug: decisao-de-viabilidade
-  titulo: Admissibilidade de Recursos
+  title: Admissibilidade de Recursos
 predecessors:
   - path: pedidos-viabilidade-recurso
   - path: pesquisa-de-temas
