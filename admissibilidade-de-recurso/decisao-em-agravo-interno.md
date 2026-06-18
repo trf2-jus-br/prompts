@@ -4,11 +4,8 @@ name: Minuta de Decisão em Agravo Interno
 description: Redija minutas de decisão em agravo interno com fundamentação precisa, cruzando pedidos e acórdão de forma automática.
 sort: 3
 share: beta-teste
-piece_strategy: viabilidade-recurso-especial
 author: Marcus Abraham/TRF2
-group:
-  slug: decisao-de-viabilidade
-  title: Decisão em Agravo Interno
+title: Decisão em Agravo Interno
 predecessors:
 successors:
   - path: chat
