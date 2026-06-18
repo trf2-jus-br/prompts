@@ -90,7 +90,16 @@ Após a utilização do texto: "É o relatório. Decido", incluir um texto padr�
 O recurso extraordinário, previsto no art. 102, inciso III, da Constituição Federal, tem por função precípua a tutela da ordem constitucional objetiva, cabendo ao Supremo Tribunal Federal julgar, em única ou última instância, as causas em que a decisão recorrida contrarie a Constituição Federal nas hipóteses taxativamente previstas no texto constitucional. Além dos requisitos específicos de cada hipótese de cabimento, a Constituição Federal exige, nos termos do art. 102, §3º, introduzido pela Emenda Constitucional nº 45/2004 e regulamentado pela Lei nº 11.418/2006, a demonstração de repercussão geral da questão constitucional suscitada, como pressuposto de admissibilidade de todo e qualquer recurso extraordinário.
 ```
 
-*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO (sugestão de texto: "Tendo em vista que o recurso extraordinário não ultrapassou o juízo de admissibilidade, **INDEFIRO** o pedido de [efeito suspensivo OU tutela recursal]."). Para os demais casos, use os modelos a seguir:*
+*Atenção: Para INADMISSÃO, use a Biblioteca de Textos-Padrão mais abaixo; quando houver pedido de tutela recursal e o recurso for inadmitido, você deve indeferir o pedido de tutela recursal em parágrafo anterior ao DISPOSITIVO utilizando literalmente o seguinte texto:
+```
+Por outro lado, a atribuição de efeito suspensivo a recursos especiais e extraordinários se reveste de caráter excepcional, uma vez que esses recursos são em regra recebidos somente no efeito devolutivo (art. 1.029, §5º, III, do CPC).
+
+Para a atribuição de efeito suspensivo por ato da Vice-Presidência é preciso o preenchimento de três requisitos: (i) vislumbrar-se o juízo positivo de admissibilidade; (ii) aferir-se a probabilidade de êxito do recurso e (iii) constatar-se o perigo decorrente da demora da prestação jurisdicional, que não permita se aguardar a apreciação do recurso pelo tribunal superior.
+
+Se o recurso não supera o juízo positivo de admissibilidade, por certo não preenche os requisitos para o deferimento excepcional do efeito suspensivo, razão pela qual INDEFIRO o pedido de efeito suspensivo.
+```
+
+Para os demais casos, use os modelos a seguir:*
 
 **Caminho 1: Para ADMITIR o Recurso**
 *Atenção: Para ADMITIR, use a Biblioteca de Textos-Padrão mais abaixo (Admissão).*
