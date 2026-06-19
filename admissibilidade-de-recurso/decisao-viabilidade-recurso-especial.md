@@ -160,11 +160,13 @@ Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que
 - A decisão deve ser utilizada quando for identificado um tema de repercussão geral ou de recurso repetitivo relativo à questão recorrida que ainda não tenha sido julgado.
 
 ```
-Discute-se, no presente caso, [objeto da controvérsia de repercussão geral ou de recurso repetitivo].
+Nos termos do art. 1.030, III, do CPC, o Presidente ou Vice-presidente do tribunal recorrido deve sobrestar o recurso que versar sobre controvérsia de caráter repetitivo ainda não decidida pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, conforme se trate de matéria constitucional ou infraconstitucional.
 
-A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos.
+No presente caso, discute-se [objeto da controvérsia de repercussão geral ou de recurso repetitivo].
 
-Assim, nos termos do art. 1.030, III, do CPC, o Presidente ou Vice-presidente do tribunal recorrido deve sobrestar o recurso que versar sobre controvérsia de caráter repetitivo ainda não decidida pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, conforme se trate de matéria constitucional ou infraconstitucional.
+A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos, [sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior] tendo o [STF ou STJ] determinado o sobrestamento dos processos com idêntica controvérsia. [/sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior]
+
+A Recomendação n. 134/2022 do CNJ e a Nota Técnica n. 41/2023 do Centro Nacional de Inteligência da Justiça Federal enfatizam a importância da suspensão dos processos como instrumento essencial para a racionalidade, economia processual e garantia da duração razoável, no contexto do sistema de precedentes e do julgamento concentrado de questões repetitivas. 
 ```
 
 ##### Houve o julgamento do Tema, mas não ocorreu o trânsito em julgado
