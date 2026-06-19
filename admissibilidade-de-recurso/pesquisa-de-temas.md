@@ -67,6 +67,7 @@ Se identificado fato dessa natureza, registre expressamente, indicando o evento 
 No final, acrescente o título "Conclusão" seguido de uma quebra de parágrafo e um parágrafo conclusivo resumindo a importância das teses e súmulas efetivamente aplicáveis (aquelas que atenderam aos critérios de identidade jurídica e similitude fática) para a viabilidade ou inviabilidade do recurso como um todo. Inclua expressamente, quando for o caso:
    - (i) a indicação de pedidos que deverão ser desconsiderados pelo juízo de admissibilidade — por se tratarem de acessórios a pedido principal (com identificação do principal a que se vinculam) ou de pedidos procedimentais paralelos —, ainda que tenham sido objeto de análise de teses neste estudo;
    - (ii) eventual hipótese de prejudicialidade do recurso por fato superveniente, indicando a causa (sentença de mérito que esvaziou tutela provisória ou retratação integral em juízo do art. 1.030, II, do CPC) e a abrangência da prejudicialidade (total ou parcial).
-   - (iii) Teses meramente correlatas, afastadas por distinguishing, devem ser referidas apenas se relevantes para o panorama da controvérsia. Neste último parágrafo, destaque em negrito os pontos mais relevantes.
+   - (iii) Teses meramente correlatas, afastadas por distinguishing, devem ser referidas apenas se relevantes para o panorama da controvérsia.
+   - (iv) Neste último parágrafo, destaque em negrito os pontos mais relevantes.
 
 Comece sua resposta diretamente com "**Pedido 1**: ...", sem introduções ou explicações adicionais.
