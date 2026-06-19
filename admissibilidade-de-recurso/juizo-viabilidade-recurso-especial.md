@@ -205,6 +205,9 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 
 ### Desconsiderar o pedido ou o argumento
 - Caso o pedido ou argumento não seja relevante para a análise de admissibilidade, ou caso o pedido ou argumento seja repetitivo em relação a outros pedidos ou argumentos já analisados, ou já tenha sido tomada uma decisão de suspensão, ele deve ser desconsiderado, utilizando o dispositivo *DESCONSIDERAR*.
+- Pedido de gratuidade de justiça formulado para o processamento do próprio recurso especial NÃO é pedido de mérito recursal. Trata-se de requerimento procedimental, dirigido ao relator (ou ao tribunal de origem antes da remessa), paralelo ao recurso, sem matéria a ser examinada em juízo de conformidade ou de admissibilidade. Atribua dispositivo *DESCONSIDERAR*.
+  - Distinção essencial: o pedido de REFORMA do acórdão que tenha negado a gratuidade NÃO se confunde com o pedido procedimental acima. Quando o recurso especial impugna a parcela do acórdão que indeferiu a justiça gratuita na origem, o pedido é de mérito recursal e deve passar pela análise normal (juízo de conformidade e juízo de admissibilidade, conforme o caso).
+  - Critério prático: pergunte-se "este item busca a reforma de algo que o tribunal de origem decidiu sobre gratuidade, ou busca apenas obter a gratuidade para os atos do próprio recurso?". Se a resposta for "reforma" → mérito recursal (análise normal). Se for "apenas obter para os atos do recurso" → procedimental (*DESCONSIDERAR*).
 
 
 ## FIELDS READONLY
