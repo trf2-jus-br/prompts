@@ -201,7 +201,17 @@ Utilize a seguinte sequência de verificações para analisar a admissibilidade 
 - Caso não haja tema e o recurso cumpra os requisitos, ele deve ser admitido, utilizando o dispositivo *ADMITIR*.
 
 ### Recurso Prejudicado
-- Caso o recurso seja prejudicado por algum motivo, utilize o dispositivo *RECURSO_PREJUDICADO*.
+O recurso recebe dispositivo *RECURSO_PREJUDICADO* quando, supervenientemente à sua interposição, fato ou ato processual esvazia o seu objeto, retirando a utilidade do exame de mérito. A perda de objeto deve ser verificada com cautela: só configura essa hipótese quando NENHUMA matéria do recurso remanescer.
+
+#### Sentença de mérito superveniente em recurso sobre tutela provisória
+Quando o recurso tem por objeto acórdão proferido em agravo de instrumento que discutiu tutela provisória — de urgência (antecipada ou cautelar) ou de evidência — e, no curso do processo principal, sobreveio sentença de mérito que decide definitivamente a matéria objeto da tutela, o recurso fica prejudicado. A sentença substitui a tutela provisória, esvaziando o objeto do recurso, cuja discussão se limitava ao cabimento, alcance ou manutenção daquela medida provisória. Atribua *RECURSO_PREJUDICADO*.
+- Cuidado: a prejudicialidade pressupõe que a sentença de mérito tenha efetivamente decidido a matéria objeto da tutela provisória. Se a sentença tratou de questão distinta, ou se a tutela protege aspecto não decidido na sentença (ex.: cautelar conservativa que protege bem diverso do objeto principal da ação), não há prejudicialidade.
+
+#### Retratação integral em juízo do art. 1.030, II, do CPC
+Quando o processo foi encaminhado ao órgão julgador para juízo de retratação e o órgão julgador efetivamente se retratou, aplicando integralmente a tese firmada pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, e dessa retratação resultou o atendimento integral da pretensão recursal, o recurso fica prejudicado. Atribua *RECURSO_PREJUDICADO*.
+- Cuidado: a prejudicialidade exige (i) que a retratação tenha sido INTEGRAL — abrangendo todos os pontos do acórdão recorrido aos quais o recurso se opunha — e (ii) que NÃO haja, no recurso, matéria de mérito remanescente não atendida pela retratação. Se restar qualquer parcela não atendida — seja porque a retratação foi parcial, seja porque o recurso impugna outras questões não submetidas a retratação —, não há prejudicialidade; as parcelas remanescentes devem ser analisadas normalmente segundo as regras gerais.
+
+*RECURSO_PREJUDICADO* aplica-se ao recurso como um todo. Se a perda de objeto for parcial, não atribua esse dispositivo — analise cada pedido segundo as regras gerais.
 
 ### Desconsiderar o pedido ou o argumento
 - Caso o pedido ou argumento não seja relevante para a análise de admissibilidade, ou caso o pedido ou argumento seja repetitivo em relação a outros pedidos ou argumentos já analisados, ou já tenha sido tomada uma decisão de suspensão, ele deve ser desconsiderado, utilizando o dispositivo *DESCONSIDERAR*.
