@@ -286,6 +286,14 @@ Analisados os documentos apresentados {{referenciaEventoDocumentos}}, a gratuida
 Assim, não tendo o recurso especial sido regularmente preparado, impõe-se reconhecer sua deserção, nos termos da Súmula n. 187 do Superior Tribunal de Justiça, segundo a qual: "É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos".
 ```
 
+##### Defeito formal na comprovação do preparo (GRU)
+```
+O recurso deve ser inadmitido ante a ausência de requisito essencial, qual seja, a regularidade do preparo.
+A jurisprudência do Superior Tribunal de Justiça é firme no sentido de ser essencial à comprovação do preparo a juntada da Guia de Recolhimento da União (GRU), com o respectivo comprovante de pagamento, no ato da interposição do recurso especial, com o preenchimento correto do número de referência do processo, sob pena de deserção (AgInt no AREsp n. 2.144.541/SP, Rel. Min. Ricardo Villas Bôas Cueva, Terceira Turma, DJe 28/4/2023). A ausência de qualquer desses requisitos cumulativos equipara-se à ausência de preparo, atraindo a aplicação do art. 1.007, §4º, do Código de Processo Civil.
+No caso em tela, verificou-se que, no ato da interposição do recurso especial, {{defeitoInicial — ex: "a parte juntou apenas comprovante de agendamento bancário, sem comprovação do pagamento efetivo do preparo" / "a Guia de Recolhimento da União (GRU) foi juntada com preenchimento incorreto do número de referência do processo de origem, impedindo a vinculação do recolhimento aos autos" / "a Guia de Recolhimento da União (GRU) foi juntada desacompanhada do respectivo comprovante de pagamento"}}.
+Regularmente intimada {{referenciaEventoIntimacao}} para sanar o defeito mediante novo recolhimento, em dobro, nos termos do art. 1.007, §4º, do Código de Processo Civil, a parte recorrente {{descricaoFalhaNoSaneamento — ex: "deixou o prazo decorrer in albis" / "realizou novo recolhimento, mas reproduziu o mesmo defeito formal — preenchimento incorreto do número de referência do processo" / "realizou novo recolhimento, mas apresentou outro vício formal — GRU desacompanhada do comprovante de pagamento"}}, conforme certificado {{referenciaEventoCertidao}}.
+Assim, não tendo o recurso especial sido regularmente preparado, impõe-se reconhecer sua deserção, nos termos da Súmula n. 187 do Superior Tribunal de Justiça, segundo a qual: "É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos".
+```
 
 #### *IRREGULARIDADE_REPRESENTACAO*: Irregularidade da representação processual
 ```
