@@ -556,7 +556,6 @@ No caso concreto, para decidir a controvérsia, o órgão julgador assentou que 
 O acolhimento da pretensão recursal exigiria a revisão dessas premissas fáticas, com a reanálise do acervo probatório dos autos, o que é vedado pela Súmula n. 7 do Superior Tribunal de Justiça: "A pretensão de simples reexame de prova não enseja recurso especial."
 A parte recorrente sustenta tratar-se de mera questão jurídica, consistente em {{tesesRecorrente - ex: "violação às regras de distribuição do ônus da prova" / "negativa de vigência às normas de valoração da prova"}}.
 Contudo, o exame dessa alegação demandaria, necessariamente, incursão no acervo fático-probatório para verificar {{razaoDoReexame - ex: "se os fatos comprovados nos autos eram suficientes para ilidir a presunção legal invocada" / "se os documentos juntados eram aptos a demonstrar o fato constitutivo do direito alegado"}}, o que configura, na essência, pretensão de reexame de prova vedada pela Súmula n. 7 do Superior Tribunal de Justiça.
-Para modificar as premissas fáticas assentadas pelo Tribunal de origem seria necessário reexaminar o conjunto fático-probatório, o que, como visto, é vedado pela Súmula n. 7 do Superior Tribunal de Justiça.
 ```
 
 ##### Se alegação violação às regras de prova
@@ -567,7 +566,6 @@ No caso concreto, para decidir a controvérsia, o órgão julgador assentou que 
 O acolhimento da pretensão recursal exigiria a revisão dessas premissas fáticas, com a reanálise do acervo probatório dos autos, o que é vedado pela Súmula n. 7 do Superior Tribunal de Justiça: "A pretensão de simples reexame de prova não enseja recurso especial."
 Registre-se que a alegada violação às {{regraDeProvaInvocada - ex: "regras de distribuição do ônus da prova (art. 373 do CPC)" / "normas sobre a força probante de documentos públicos (art. 405 do CPC)"}} não afasta o óbice da Súmula n. 7 do Superior Tribunal de Justiça quando, como no caso, a análise da questão pressupõe a reavaliação dos elementos de prova efetivamente produzidos nos autos e das conclusões fáticas deles extraídas pelo Tribunal de origem.
 A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que a alegação de ofensa a regras sobre o ônus da prova não tem o condão de afastar o óbice sumular quando o que se pretende, em última análise, é a revisão das conclusões fáticas do acórdão recorrido. 
-Para modificar as premissas fáticas assentadas pelo Tribunal de origem seria necessário reexaminar o conjunto fático-probatório, o que, como visto, é vedado pela Súmula n. 7 do Superior Tribunal de Justiça.
 ```
 
 #### *CONFORMIDADE_JURISPRUDENCIA*: Conformidade com a Jurisprudência do STJ - Súmula 83/STJ
