@@ -149,9 +149,12 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 
 ```
 Na hipótese em apreço, há decisão proferida em última instância, com o esgotamento das vias ordinárias de impugnação.
-Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
+
+Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso especial, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil
+
 Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
-Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [descrever a controvérsia jurídica objeto do recurso especial que está sendo admitido].
+
+Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que consiste em saber se [descrever detalhadamente a controvérsia jurídica objeto do recurso especial que está sendo admitido].
 ```
 
 ### Sobrestamento (não pode ser cumulada com juízo de retratação, inadmissão, admissão ou negativa de seguimento, pois o sobrestamento é hipótese de exclusão absoluta de todas as demais hipóteses)
@@ -162,9 +165,9 @@ Aparentemente, há questão de direito a ser submetida ao Tribunal Superior, que
 ```
 Nos termos do art. 1.030, III, do CPC, o Presidente ou Vice-presidente do tribunal recorrido deve sobrestar o recurso que versar sobre controvérsia de caráter repetitivo ainda não decidida pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, conforme se trate de matéria constitucional ou infraconstitucional.
 
-No presente caso, discute-se [objeto da controvérsia de repercussão geral ou de recurso repetitivo].
+No presente caso, discute-se [objeto da controvérsia do caso concreto alcançada pelo tema].
 
-A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos, [sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior] tendo o [STF ou STJ] determinado o sobrestamento dos processos com idêntica controvérsia. [/sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior]
+A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos, em que se discute [citar, ipsis litteris, a descrição da controvérsia referente ao tema identificado], [sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior] tendo o [STF ou STJ] determinado o sobrestamento dos processos com idêntica controvérsia. [/sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior].
 
 A Recomendação n. 134/2022 do CNJ e a Nota Técnica n. 41/2023 do Centro Nacional de Inteligência da Justiça Federal enfatizam a importância da suspensão dos processos como instrumento essencial para a racionalidade, economia processual e garantia da duração razoável, no contexto do sistema de precedentes e do julgamento concentrado de questões repetitivas. 
 ```
@@ -173,9 +176,9 @@ A Recomendação n. 134/2022 do CNJ e a Nota Técnica n. 41/2023 do Centro Nacio
 - A decisão deve ser utilizada quando for identificado um tema de repercussão geral ou repetitivo relativo à questão recorrida que já tenha sido julgado, mas em relação ao qual ainda não houve o trânsito em julgado.
 
 ```
-Discute-se, no presente caso, [objeto da controvérsia de repercussão geral ou de recurso repetitivo].
+Discute-se, no presente caso, [objeto da controvérsia do caso concreto alcançada pelo tema].
 
-A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos.
+A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos, nos quais se discute [citar, ipsis litteris, a descrição da controvérsia referente a cada um dos temas identificados], [sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior] tendo o [STF ou STJ] determinado o sobrestamento dos processos com idêntica controvérsia. [/sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior].
 
 Embora o referido tema tenha sido julgado pelo [STF ou STJ], com fixação de tese, verifica-se que o acórdão paradigma ainda não transitou em julgado, havendo, ainda, oportunidade para a rediscussão da matéria no Tribunal Superior.
 
@@ -191,9 +194,9 @@ Ademais, o sobrestamento do recurso em questão decorre também da aplicação d
 - A decisão deve ser utilizada quando for identificado mais de um tema de repercussão geral ou repetitivo relativo às questões recorridas, não definitivamente julgados.
 
 ```
-Discute-se, no presente caso, [objeto da controvérsia de repercussão geral ou de recurso repetitivo], bem como [citar outras controvérsias objeto de repercussão geral ou de recurso repetitivo].
+No presente caso, discute-se [objeto da controvérsia do caso concreto alcançada pelo tema].
 
-A matéria é objeto dos temas [NÚMEROS DOS TEMAS] de repercussão geral/recursos repetitivos.
+A matéria é objeto do tema [NÚMERO DO TEMA] de repercussão geral/recursos repetitivos, nos quais se discute [citar, ipsis litteris, a descrição da controvérsia referente a cada um dos temas identificados], [sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior] tendo o [STF ou STJ] determinado o sobrestamento dos processos com idêntica controvérsia. [/sedeterminadasuspensaodoprocessoourecursopelotribunalsuperior].
 
 Assim, nos termos do art. 1.030, III, do CPC, o Presidente ou Vice-presidente do tribunal recorrido deve sobrestar o recurso que versar sobre controvérsia de caráter repetitivo ainda não decidida pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, conforme se trate de matéria constitucional ou infraconstitucional.
 
