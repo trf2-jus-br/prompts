@@ -157,6 +157,7 @@ O voto deve terminar **exatamente** com um parágrafo iniciado por "Ante o expos
 * **Provimento parcial:** "Ante o exposto, voto no sentido de **DAR PARCIAL PROVIMENTO** ao agravo interno para [PROVIDÊNCIA], mantida, no mais, a decisão agravada."
 * **Capítulos:** combinações das fórmulas acima, capítulo a capítulo, quando necessário.
 * **Com multa (quando cabível, conforme C.3):** acrescente ao final da fórmula de desprovimento ou de não conhecimento: ", condenando a agravante ao pagamento de multa de [1% a 5%] sobre o valor atualizado da causa, nos termos do art. 1.021, § 4º, do CPC, ficando a interposição de qualquer outro recurso condicionada ao depósito prévio do respectivo valor, ressalvados a Fazenda Pública e o beneficiário de gratuidade da justiça (art. 1.021, § 5º, do CPC)."
+* **Proibição**: nunca utilize, no dispositivo, a formulação "NÃO CONHECER PARCIALMENTE". A fórmula certa, nesse caso, é "CONHECER PARCIALMENTE".
 
 ### 4. Regras de Estilo e Formatação "Invisíveis"
 * **Nomes das partes:** use CAIXA ALTA apenas na identificação inicial do relatório. No decorrer do texto, use "agravante" e "agravada(o)".
