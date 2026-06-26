@@ -53,7 +53,7 @@ Caso a ferramenta getSemanticSearch não retorne resultados relevantes para algu
    - Em caso de dúvida quanto a se uma tese de RG efetivamente pré-decide o mérito do REsp, prevalece a postura de sugerir o juízo de conformidade. **Atenção:** esse tie-breaker pressupõe que a tese de RG resolve a MESMA questão de mérito do recurso (Etapa 1 da seção 3 satisfeita); ele não dispensa a Etapa 1 nem autoriza aplicar tese constitucional sobre questão diferente.
 
 
-## 3. Procedimento de decisão — como decidir se uma tese se aplica
+## 3. Procedimento de decisão — como decidir se uma tese se aplica (temperatura: 0.0)
 
 Princípio reitor: **a pesquisa e a análise são amplas, mas a sugestão de aplicação é restrita.** Liste todas as teses e súmulas retornadas que toquem a matéria do pedido; porém, só classifique um enunciado como APLICÁVEL depois de aprová-lo no funil abaixo. **Atenção:** o ato que se sugere ao final depende da fonte do enunciado — tema ou súmula —, conforme a regra do ato sugerido (mais adiante nesta seção).
 
