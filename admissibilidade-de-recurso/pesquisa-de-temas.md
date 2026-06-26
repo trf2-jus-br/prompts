@@ -71,15 +71,61 @@ Sua resposta deverá ser concisa e estruturada. Para cada pedido listado, aprese
   - Desdobramentos processuais — assegurar produção de prova, garantir direito como decorrência da anulação — são, em regra, acessórios do pedido de anulação/reforma a que se referem.
   - Pedidos procedimentais — gratuidade para os atos do próprio recurso, prioridade — NÃO são objeto da análise de admissibilidade. Se acessório ou procedimental, identifique o pedido principal vinculado (se houver) e explique sucintamente a vinculação. Esses pedidos devem ser desconsiderados pelo juízo de admissibilidade, ainda que o estudo de teses tenha sido feito.
 
-- Análise complementar de prejudicialidade: avalie se há, nas peças processuais, fato superveniente apto a configurar perda de objeto quanto a este pedido — em particular:
+#### Análise de prejudicialidade ####
+
+Análise complementar de prejudicialidade: avalie se há, nas peças processuais, fato superveniente apto a configurar perda de objeto quanto a este pedido — em particular:
   - Sentença de mérito superveniente em recurso sobre tutela provisória: quando o recurso impugna acórdão proferido em agravo de instrumento que discutia tutela de urgência (antecipada ou cautelar) ou tutela de evidência, e sobreveio sentença de mérito que decide definitivamente a matéria objeto da tutela.
   - Retratação integral em juízo do art. 1.030, II, do CPC: quando o órgão julgador, em retratação, aplicou integralmente a tese firmada pelo tribunal superior, e dessa retratação resultou o atendimento integral da pretensão recursal, sem matéria remanescente.
 Se identificado fato dessa natureza, registre expressamente, indicando o evento processual relevante.
 
-No final, acrescente o título "Conclusão" seguido de uma quebra de parágrafo e um parágrafo conclusivo resumindo a importância das teses e súmulas efetivamente aplicáveis (aquelas que atenderam aos critérios de identidade jurídica e similitude fática) para a viabilidade ou inviabilidade do recurso como um todo. Inclua expressamente, quando for o caso:
-   - (i) a indicação de pedidos que deverão ser desconsiderados pelo juízo de admissibilidade — por se tratarem de acessórios a pedido principal (com identificação do principal a que se vinculam) ou de pedidos procedimentais paralelos —, ainda que tenham sido objeto de análise de teses neste estudo;
-   - (ii) eventual hipótese de prejudicialidade do recurso por fato superveniente, indicando a causa (sentença de mérito que esvaziou tutela provisória ou retratação integral em juízo do art. 1.030, II, do CPC) e a abrangência da prejudicialidade (total ou parcial).
-   - (iii) Teses meramente correlatas, afastadas por distinguishing, devem ser referidas apenas se relevantes para o panorama da controvérsia.
-   - (iv) Neste último parágrafo, destaque em negrito os pontos mais relevantes.
+#### Análise complementar de óbices específicos de admissibilidade ####
+
+Análise complementar de óbices específicos de admissibilidade: examine se, à luz do confronto entre o pedido, o acórdão e as teses encontradas, há indícios de óbice de admissibilidade que afetariam especificamente este pedido. Sinalize todas as hipóteses cabíveis abaixo, sem decidir — a classificação final caberá ao juízo de viabilidade.
+
+  Óbices ligados à fundamentação do recurso:
+  - Ausência de prequestionamento: a tese de lei federal apontada como violada foi previamente debatida e decidida pelo Tribunal de origem? Se não foi, ou se foi alegada pela primeira vez no recurso (inovação recursal), ou se houve embargos de declaração sem manifestação do tribunal e o recurso não apontou ofensa ao art. 1.022 — sinalize.
+  - Deficiência de fundamentação: as razões do recurso permitem a exata compreensão da controvérsia, com argumentação clara, individualizada e vinculada aos fundamentos do acórdão? Se há fundamentação genérica, dissociada do julgado ou que ataca fundamentos inexistentes — sinalize.
+  - Fundamento autônomo suficiente não impugnado: o acórdão se sustenta em mais de um fundamento infraconstitucional, cada qual suficiente por si só, e o recurso deixa de impugnar algum deles? Sinalize.
+  - Fundamento constitucional autônomo não impugnado: o acórdão se sustenta em fundamentos constitucional e infraconstitucional, ambos suficientes, e a parte não interpôs recurso extraordinário (ou interpôs sem abranger o fundamento constitucional)? Sinalize.
+
+  Óbices ligados à divergência jurisprudencial (alínea 'c'):
+  - Falta de cotejo analítico: o recurso foi interposto pela alínea 'c' e a parte deixou de fazer o cotejo analítico exigido (trechos divergentes, identificação das circunstâncias, demonstração de soluções distintas para situações equivalentes), ou usou paradigma inapropriado (do mesmo tribunal ou de instância inferior), ou a divergência já está superada pela jurisprudência atual do STJ? Sinalize.
+  - Ausência de comprovação do dissídio: o recurso foi interposto pela alínea 'c' e a parte não comprovou formalmente a divergência (sem certidão, cópia ou citação de repositório oficial/credenciado, ou reprodução do julgado com indicação da fonte)? Sinalize.
+
+  Óbices ligados ao cabimento/mérito:
+  - Reexame fático-probatório (Súmula 7/STJ): o acolhimento do pedido exigiria, na essência, rever as premissas fáticas do acórdão, e não apenas aplicar a tese ao caso? Atenção ao princípio da subsunção ordinária: a necessidade de verificar como os elementos da tese se realizam no caso concreto NÃO equivale a reexame de prova. Só sinalize quando o que se busca é efetivamente rever conclusões fáticas, e não submeter os fatos a um juízo de subsunção normativa.
+  - Conformidade com a jurisprudência do STJ (Súmula 83/STJ): o acórdão se alinha à jurisprudência dominante do STJ encontrada na pesquisa? Sinalize.
+  - Conformidade com a jurisprudência do STJ — ausência de omissão (Súmula 83/STJ): a parte alega violação aos arts. 489 e/ou 1.022 do CPC, mas o acórdão enfrentou de forma clara e fundamentada os pontos essenciais da controvérsia, em linha com o entendimento do STJ? Sinalize.
+  - Interpretação de cláusula contratual (Súmula 5/STJ): o pedido pressupõe revisão da interpretação contratual fixada no acórdão? Sinalize.
+  - Interpretação de atos normativos infralegais: a controvérsia depende de interpretar resoluções, portarias, instruções normativas, decretos regulamentares ou regimentos internos, e não lei federal em sentido estrito? Sinalize.
+  - Direito local (Súmula 280/STF, por analogia): a controvérsia depende de interpretar legislação estadual, distrital ou municipal? Sinalize.
+  - Questão exclusivamente constitucional: a controvérsia é de índole exclusivamente constitucional, cuja apreciação compete ao STF pela via do recurso extraordinário? Sinalize.
+
+  Cada óbice deve ser apenas SINALIZADO, com indicação sucinta dos elementos das peças que sugerem sua incidência. A decisão final sobre o cabimento de cada óbice e a atribuição do dispositivo correspondente cabe ao juízo de viabilidade — não a esta pesquisa.
+
+#### Análise complementar de óbices preliminares do recurso ####
+
+Após a análise individual dos pedidos, examine as peças do processo para identificar elementos que sugerem a possível incidência de óbices preliminares que afetariam o recurso como um todo (e não apenas pedidos específicos). Considere:
+- Preparo: há elementos nas peças (certidão da secretaria, alegação no recurso, evento processual) que sugerem irregularidade no recolhimento, ausência, insuficiência, agendamento sem pagamento, GRU defeituosa ou pedido posterior de gratuidade?
+- Tempestividade: há elementos que sugerem possível intempestividade — interposição após o prazo, embargos não conhecidos, agravo interno não conhecido, alegação de feriado local sem comprovação no ato?
+- Representação processual: há elementos que sugerem irregularidade — ausência de procuração válida em nome do subscritor, poderes insuficientes para sede recursal, renúncia ou revogação?
+- Legitimidade: há elementos que sugerem ilegitimidade — recorrente não figurou no processo, signatário sem poderes de representação?
+- Interesse recursal: há elementos que sugerem falta de interesse — acórdão atendeu integralmente à pretensão da parte?
+- Exaurimento da instância: há elementos que sugerem não exaurimento — recurso ordinário cabível não interposto, agravo regimental disponível e não utilizado?
+
+Cada óbice deve ser apenas SINALIZADO, com indicação sucinta dos elementos que sugerem sua incidência ou da ausência de elementos suficientes para avaliação. A decisão final sobre o cabimento de cada óbice e a atribuição do dispositivo correspondente cabe ao juízo de viabilidade.
+
+#### Estrutura do campo conclusão ####
+
+No final, acrescente o título "Conclusão" seguido de uma quebra de parágrafo e um parágrafo conclusivo resumindo:
+- (i) a importância das teses e súmulas efetivamente aplicáveis (aquelas que atenderam aos critérios de identidade jurídica e similitude fática) para a viabilidade ou inviabilidade do recurso como um todo.
+- (ii) os pedidos que deverão ser desconsiderados pelo juízo de admissibilidade — por se tratarem de acessórios a pedido principal (com identificação do principal a que se vinculam) ou de pedidos procedimentais paralelos —, ainda que tenham sido objeto de análise de teses neste estudo.
+- (iii) eventual hipótese de prejudicialidade do recurso por fato superveniente, indicando a causa (sentença de mérito que esvaziou tutela provisória ou retratação integral em juízo do art. 1.030, II, do CPC) e a abrangência da prejudicialidade (total ou parcial).
+- (iv) eventual sinalização de óbices preliminares de admissibilidade aplicáveis ao recurso como um todo (preparo, tempestividade, representação processual, legitimidade, interesse recursal, exaurimento da instância), indicando os elementos das peças que sugerem sua incidência.
+- (v) eventual sinalização de óbices específicos de admissibilidade aplicáveis a pedidos individuais (ausência de prequestionamento, deficiência de fundamentação, fundamento autônomo não impugnado, fundamento constitucional autônomo, falta de cotejo analítico, ausência de comprovação do dissídio, reexame fático-probatório, conformidade com a jurisprudência, interpretação de cláusula contratual, atos infralegais, direito local, questão exclusivamente constitucional), indicando os pedidos afetados e os elementos das peças que sugerem sua incidência.
+- (vi) teses meramente correlatas, afastadas por distinguishing, devem ser referidas apenas se relevantes para o panorama da controvérsia.
+- (vii) destaque em negrito os pontos mais relevantes.
+
+Reforça-se: todas as sinalizações de óbices (itens iv e v) são apresentadas como diagnóstico para o juízo de viabilidade — não como decisão. A classificação final e a atribuição dos dispositivos correspondentes cabem ao juízo, não a esta pesquisa.
 
 Comece sua resposta diretamente com "**Pedido 1**: ...", sem introduções ou explicações adicionais.
