@@ -78,31 +78,6 @@ Análise complementar de prejudicialidade: avalie se há, nas peças processuais
   - Retratação integral em juízo do art. 1.030, II, do CPC: quando o órgão julgador, em retratação, aplicou integralmente a tese firmada pelo tribunal superior, e dessa retratação resultou o atendimento integral da pretensão recursal, sem matéria remanescente.
 Se identificado fato dessa natureza, registre expressamente, indicando o evento processual relevante.
 
-#### Análise complementar de óbices específicos de admissibilidade ####
-
-Análise complementar de óbices específicos de admissibilidade: examine se, à luz do confronto entre o pedido, o acórdão e as teses encontradas, há indícios de óbice de admissibilidade que afetariam especificamente este pedido. Sinalize todas as hipóteses cabíveis abaixo, sem decidir — a classificação final caberá ao juízo de viabilidade.
-
-  Óbices ligados à fundamentação do recurso:
-  - Ausência de prequestionamento: a tese de lei federal apontada como violada foi previamente debatida e decidida pelo Tribunal de origem? Se não foi, ou se foi alegada pela primeira vez no recurso (inovação recursal), ou se houve embargos de declaração sem manifestação do tribunal e o recurso não apontou ofensa ao art. 1.022 — sinalize.
-  - Deficiência de fundamentação: as razões do recurso permitem a exata compreensão da controvérsia, com argumentação clara, individualizada e vinculada aos fundamentos do acórdão? Se há fundamentação genérica, dissociada do julgado ou que ataca fundamentos inexistentes — sinalize.
-  - Fundamento autônomo suficiente não impugnado: o acórdão se sustenta em mais de um fundamento infraconstitucional, cada qual suficiente por si só, e o recurso deixa de impugnar algum deles? Sinalize.
-  - Fundamento constitucional autônomo não impugnado: o acórdão se sustenta em fundamentos constitucional e infraconstitucional, ambos suficientes, e a parte não interpôs recurso extraordinário (ou interpôs sem abranger o fundamento constitucional)? Sinalize.
-
-  Óbices ligados à divergência jurisprudencial (alínea 'c'):
-  - Falta de cotejo analítico: o recurso foi interposto pela alínea 'c' e a parte deixou de fazer o cotejo analítico exigido (trechos divergentes, identificação das circunstâncias, demonstração de soluções distintas para situações equivalentes), ou usou paradigma inapropriado (do mesmo tribunal ou de instância inferior), ou a divergência já está superada pela jurisprudência atual do STJ? Sinalize.
-  - Ausência de comprovação do dissídio: o recurso foi interposto pela alínea 'c' e a parte não comprovou formalmente a divergência (sem certidão, cópia ou citação de repositório oficial/credenciado, ou reprodução do julgado com indicação da fonte)? Sinalize.
-
-  Óbices ligados ao cabimento/mérito:
-  - Reexame fático-probatório (Súmula 7/STJ): o acolhimento do pedido exigiria, na essência, rever as premissas fáticas do acórdão, e não apenas aplicar a tese ao caso? Atenção ao princípio da subsunção ordinária: a necessidade de verificar como os elementos da tese se realizam no caso concreto NÃO equivale a reexame de prova. Só sinalize quando o que se busca é efetivamente rever conclusões fáticas, e não submeter os fatos a um juízo de subsunção normativa.
-  - Conformidade com a jurisprudência do STJ (Súmula 83/STJ): o acórdão se alinha à jurisprudência dominante do STJ encontrada na pesquisa? Sinalize.
-  - Conformidade com a jurisprudência do STJ — ausência de omissão (Súmula 83/STJ): a parte alega violação aos arts. 489 e/ou 1.022 do CPC, mas o acórdão enfrentou de forma clara e fundamentada os pontos essenciais da controvérsia, em linha com o entendimento do STJ? Sinalize.
-  - Interpretação de cláusula contratual (Súmula 5/STJ): o pedido pressupõe revisão da interpretação contratual fixada no acórdão? Sinalize.
-  - Interpretação de atos normativos infralegais: a controvérsia depende de interpretar resoluções, portarias, instruções normativas, decretos regulamentares ou regimentos internos, e não lei federal em sentido estrito? Sinalize.
-  - Direito local (Súmula 280/STF, por analogia): a controvérsia depende de interpretar legislação estadual, distrital ou municipal? Sinalize.
-  - Questão exclusivamente constitucional: a controvérsia é de índole exclusivamente constitucional, cuja apreciação compete ao STF pela via do recurso extraordinário? Sinalize.
-
-  Cada óbice deve ser apenas SINALIZADO, com indicação sucinta dos elementos das peças que sugerem sua incidência. A decisão final sobre o cabimento de cada óbice e a atribuição do dispositivo correspondente cabe ao juízo de viabilidade — não a esta pesquisa.
-
 #### Análise complementar de óbices preliminares do recurso ####
 
 Após a análise individual dos pedidos, examine as peças do processo para identificar elementos que sugerem a possível incidência de óbices preliminares que afetariam o recurso como um todo (e não apenas pedidos específicos). Considere:
@@ -114,6 +89,36 @@ Após a análise individual dos pedidos, examine as peças do processo para iden
 - Exaurimento da instância: há elementos que sugerem não exaurimento — recurso ordinário cabível não interposto, agravo regimental disponível e não utilizado?
 
 Cada óbice deve ser apenas SINALIZADO, com indicação sucinta dos elementos que sugerem sua incidência ou da ausência de elementos suficientes para avaliação. A decisão final sobre o cabimento de cada óbice e a atribuição do dispositivo correspondente cabe ao juízo de viabilidade.
+
+#### Análise complementar de óbices específicos de admissibilidade ####
+
+Análise complementar de óbices específicos de admissibilidade: examine se, à luz do confronto entre o pedido, o acórdão e as teses encontradas, há indícios de óbice de admissibilidade que afetariam especificamente este pedido. Sinalize todas as hipóteses cabíveis abaixo, sem decidir — a classificação final caberá ao juízo de viabilidade.
+
+- Óbices comuns a recursos especial e extraordinário:
+  - Ausência de prequestionamento: a tese ou dispositivo de lei federal ou dispositivo constitucional apontado como violado foi previamente debatido e decidido pelo acórdão recorrido? Se não foi, ou se foi alegada pela primeira vez no recurso (inovação recursal), ou se houve embargos de declaração sem manifestação do tribunal e o recurso não apontou ofensa ao art. 1.022 — sinalize.
+  - Deficiência de fundamentação: as razões do recurso permitem a exata compreensão da controvérsia, com argumentação clara, individualizada e vinculada aos fundamentos do acórdão? Se há fundamentação genérica, dissociada do julgado ou que ataca fundamentos inexistentes — sinalize. Súmula 284/STF (aplicável por analogia ao Resp.).
+  - Fundamento autônomo suficiente não impugnado: o acórdão se sustenta em mais de um fundamento (todos da mesma natureza — todos infraconstitucionais no caso do REsp; todos constitucionais no caso do RE), cada qual suficiente por si só, e o recurso deixa de impugnar algum deles? Sinalize. Súmula 283/STF (aplicável por analogia ao Resp.).
+  - Reexame fático-probatório: o acolhimento do pedido exigiria, na essência, rever as premissas fáticas do acórdão, e não apenas aplicar a tese ao caso? Atenção ao princípio da subsunção ordinária: a necessidade de verificar como os elementos da tese se realizam no caso concreto NÃO equivale a reexame de prova. Só sinalize quando o que se busca é efetivamente rever conclusões fáticas. No REsp, o óbice tem como base a Súmula 7/STJ; no RE, a Súmula 279/STF.
+
+- Óbices específicos do recurso especial (RESP):
+  - Fundamento constitucional autônomo não impugnado (Súmula 126/STJ): o acórdão se sustenta em fundamentos constitucional e infraconstitucional, ambos suficientes, e a parte não interpôs recurso extraordinário (ou interpôs sem abranger o fundamento constitucional)? Sinalize.
+  - Falta de cotejo analítico (alínea 'c'): o recurso foi interposto pela alínea 'c' e a parte deixou de fazer o cotejo analítico exigido (trechos divergentes, identificação das circunstâncias, demonstração de soluções distintas para situações equivalentes), ou usou paradigma inapropriado (do mesmo tribunal ou de instância inferior), ou a divergência já está superada pela jurisprudência atual do STJ? Sinalize.
+  - Ausência de comprovação do dissídio (alínea 'c'): o recurso foi interposto pela alínea 'c' e a parte não comprovou formalmente a divergência (sem certidão, cópia ou citação de repositório oficial/credenciado, ou reprodução do julgado com indicação da fonte)? Sinalize.
+  - Conformidade com a jurisprudência do STJ (Súmula 83/STJ): o acórdão se alinha à jurisprudência dominante do STJ encontrada na pesquisa? Sinalize.
+  - Conformidade com a jurisprudência do STJ — ausência de omissão (Súmula 83/STJ): a parte alega violação aos arts. 489 e/ou 1.022 do CPC, mas o acórdão enfrentou de forma clara e fundamentada os pontos essenciais da controvérsia, em linha com o entendimento do STJ? Sinalize.
+  - Interpretação de cláusula contratual (Súmula 5/STJ): o pedido pressupõe revisão da interpretação contratual fixada no acórdão? Sinalize.
+  - Interpretação de atos normativos infralegais: a controvérsia depende de interpretar resoluções, portarias, instruções normativas, decretos regulamentares ou regimentos internos, e não lei federal em sentido estrito? Sinalize.
+  - Direito local (Súmula 280/STF, por analogia): a controvérsia depende de interpretar legislação estadual, distrital ou municipal, em vez de lei federal? Sinalize.
+  - Questão exclusivamente constitucional: a controvérsia é de índole exclusivamente constitucional, cuja apreciação compete ao STF pela via do recurso extraordinário? Sinalize.
+
+- Óbices específicos do recurso extraordinário (RE):
+  - Ausência de repercussão geral: a questão constitucional discutida no recurso tem repercussão geral demonstrada? Se a parte deixou de demonstrar formalmente a repercussão geral (art. 1.035, §2º, do CPC), ou se a matéria já foi objeto de decisão do STF negando a existência de repercussão geral, sinalize.
+  - Ofensa reflexa à Constituição: a alegada ofensa à Constituição é direta e frontal, ou apenas reflexa — dependendo, antes, da análise de lei federal ou de ato normativo infraconstitucional? Se a ofensa é reflexa, sinalize.
+  - Interpretação de direito local (Súmula 280/STF): a controvérsia depende de interpretar legislação estadual, distrital ou municipal? Sinalize.
+  - Interpretação de cláusula contratual (Súmula 454/STF): o pedido pressupõe revisão da interpretação contratual fixada no acórdão? Sinalize.
+  - Reexame fático-probatório (Súmula 279/STF): hipótese já contemplada nos óbices comuns acima — registre que, no RE, o fundamento sumular é a Súmula 279/STF.
+
+  Cada óbice deve ser apenas SINALIZADO, com indicação sucinta dos elementos das peças que sugerem sua incidência. A decisão final sobre o cabimento de cada óbice e a atribuição do dispositivo correspondente cabe ao juízo de viabilidade — não a esta pesquisa.
 
 #### Estrutura do campo conclusão ####
 
