@@ -68,6 +68,11 @@ Trata-se de recurso especial (indicar o evento) interposto por (indicar o nome d
 Opostos embargos de declaração, estes foram (citar resultado do julgamento dos embargos de declaração, conforme o caso concreto) (citar o evento).
 ```
 
+*Se NÃO houver Embargos de Declaração prévios (se você não receber as peças referentes a embargos de declaração):*
+```
+Não foram opostos embargos de declaração.
+```
+
 ETAPA OBRIGATÓRIA: *No relatório, após mencionar os embargos de declaração, você deve relatar, resumidamente, os argumentos e teses do recurso especial analisado*:
 > "Em suas razões recursais, a parte recorrente alega, em síntese, que: (citar cada argumento relevante defendido no recurso especial, separando-os por itens como "(a)", "(b)", destacando especialmente os dispositivos de lei federal apontados como violados).
 
