@@ -50,6 +50,7 @@ Use exclusivamente para buscar:
 - teses fixadas em Incidente de Assunção de Competência (IAC), tanto do STF quanto do STJ;
 - teses fixadas em Incidente de Resolução de Demandas Repetitivas (IRDR/SIRDR);
 - decisões vinculantes em ações de controle concentrado de constitucionalidade do STF — Ação Direta de Inconstitucionalidade (ADI), Ação Declaratória de Constitucionalidade (ADC), Ação Direta de Inconstitucionalidade por Omissão (ADO) e Arguição de Descumprimento de Preceito Fundamental (ADPF).
+- Observação: nunca retornar "Controvérsias".
 
 ### 1.3 Ferramenta proibida
 Não utilize a ferramenta getPrecedent: os resultados serão insuficientes para esta tarefa.
@@ -78,6 +79,8 @@ Quanto às teses de repercussão geral do STF, no REsp:
    - **Inclua** as teses de RG cuja tese firmada decida, no plano constitucional, a mesma questão de mérito posta no recurso especial — ainda que a competência originária da matéria seja infraconstitucional, a tese constitucional pode pré-determinar o resultado.
    - **Exclua** as decisões de RG em que o STF apenas negou a existência de repercussão geral ou reconheceu que a controvérsia é de caráter infraconstitucional. Essa decisão é de natureza processual e produz efeitos exclusivamente no âmbito do recurso extraordinário; não tem efeito sobre a admissibilidade do recurso especial. Nesse caso, considere como se o tema de repercussão geral não existisse. **NUNCA** sugira a aplicação de tese de RG dessa natureza.
    - Em caso de dúvida quanto a se uma tese de RG efetivamente pré-decide o mérito do REsp, prevalece a postura de sugerir o juízo de conformidade. **Atenção:** esse tie-breaker pressupõe que a tese de RG resolve a MESMA questão de mérito do recurso (Etapa 1 da seção 3 satisfeita); ele não dispensa a Etapa 1 nem autoriza aplicar tese constitucional sobre questão diferente.
+
+Observação: nunca retornar "Controvérsias".
 
 ## 3. Procedimento de decisão — como decidir se uma tese se aplica (temperatura: 0.0)
 
