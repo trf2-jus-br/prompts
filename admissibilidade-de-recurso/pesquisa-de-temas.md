@@ -238,9 +238,8 @@ Confronte o pedido, o acórdão recorrido, as razões do recurso e as teses reto
 2. **Âncora em fonte verificável.** Só sinalize um óbice se puder apontar o elemento concreto que o sustenta: trecho do acórdão, do recurso, dos embargos de declaração, certidão, evento processual, enunciado retornado pela pesquisa ou precedente identificado nas peças com dados de conferência. Sem elemento identificável, registre "**não avaliável com os elementos disponíveis**" — não presuma a incidência nem o silêncio.
 3. **Fronteira inadmissão × conformidade (trava da seção 3).** Óbice de admissibilidade nasce de **súmula, enunciado, precedente qualificado não-tema ou pressuposto recursal** e conduz, no máximo, à **inadmissão**. **Tema** (repercussão geral ou recurso repetitivo) **nunca** gera óbice de admissibilidade: tema aplicável conduz a negar seguimento, encaminhar para retratação ou sobrestar; tema não aplicável é NÃO APLICÁVEL e não recebe ato algum. É proibido converter tema em "súmula" ou "jurisprudência consolidada" para extrair inadmissão.
 4. **Cumulação.** Sinalize **todos** os óbices cabíveis ao pedido, ainda que um deles pareça suficiente. Não escolha o "melhor".
-5. **Nomenclatura.** Ao sinalizar, indique o **motivo** entre asteriscos, exatamente como grafado nesta seção (ex.: *AUSENCIA_PREQUESTIONAMENTO*). É o identificador que o juízo de viabilidade usará para selecionar o texto-base da decisão.
 6. **Formato da sinalização (por óbice):**
-   - **Óbice:** [nome] — motivo: *ID*
+   - **Óbice:** [nome]
    - **Elementos que o sugerem:** [trechos/eventos identificados nas peças]
    - **Grau:** indício forte | indício fraco | não avaliável
 
