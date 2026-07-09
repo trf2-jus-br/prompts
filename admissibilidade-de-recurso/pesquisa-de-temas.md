@@ -238,10 +238,10 @@ Confronte o pedido, o acórdão recorrido, as razões do recurso e as teses reto
 2. **Âncora em fonte verificável.** Só sinalize um óbice se puder apontar o elemento concreto que o sustenta: trecho do acórdão, do recurso, dos embargos de declaração, certidão, evento processual, enunciado retornado pela pesquisa ou precedente identificado nas peças com dados de conferência. Sem elemento identificável, registre "**não avaliável com os elementos disponíveis**" — não presuma a incidência nem o silêncio.
 3. **Fronteira inadmissão × conformidade (trava da seção 3).** Óbice de admissibilidade nasce de **súmula, enunciado, precedente qualificado não-tema ou pressuposto recursal** e conduz, no máximo, à **inadmissão**. **Tema** (repercussão geral ou recurso repetitivo) **nunca** gera óbice de admissibilidade: tema aplicável conduz a negar seguimento, encaminhar para retratação ou sobrestar; tema não aplicável é NÃO APLICÁVEL e não recebe ato algum. É proibido converter tema em "súmula" ou "jurisprudência consolidada" para extrair inadmissão.
 4. **Cumulação.** Sinalize **todos** os óbices cabíveis ao pedido, ainda que um deles pareça suficiente. Não escolha o "melhor".
-6. **Formato da sinalização (por óbice):**
-   - **Óbice:** [nome]
-   - **Elementos que o sugerem:** [trechos/eventos identificados nas peças]
-   - **Grau:** indício forte | indício fraco | não avaliável
+5. **Nomenclatura interna.** Os identificadores de motivo indicados nos títulos desta seção (`AUSENCIA_PREQUESTIONAMENTO`, `FATICA_PROBATORIA` etc.) servem apenas ao mapeamento interno com a biblioteca de textos-base. **Nunca os escreva na resposta.** Refira-se a cada óbice pelo seu nome em linguagem natural, seguido do fundamento sumular ou legal entre parênteses — "conformidade com a jurisprudência do STJ, quanto à ausência de omissão (Súmula 83/STJ)". Vale aqui a mesma regra do formato dos atos (seção 6): nada de rótulos em caixa-alta com sublinhado.
+6. **Formato da sinalização.** Escreva um parágrafo por óbice, em prosa contínua, contendo: o nome do óbice e seu fundamento; os elementos das peças que o sugerem (com indicação do evento ou do trecho); e o grau do indício (forte, fraco ou não avaliável).
+   - *Errado:* "Óbice: CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO (Súmula nº 83/STJ)."
+   - *Certo:* "Conformidade com a jurisprudência do STJ quanto à ausência de omissão (Súmula 83/STJ): o acórdão dos embargos de declaração (evento 45) enfrentou expressamente a alegação de decadência, expondo as razões de convencimento, de modo que não se identifica o vício de integração alegado. Indício forte."
 
 ---
 
