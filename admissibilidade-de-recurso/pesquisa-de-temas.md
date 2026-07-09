@@ -323,11 +323,11 @@ Confronte o pedido, o acórdão recorrido, as razões do recurso e as teses reto
 **Não sinalize quando:** (a) o acórdão apenas cita dispositivos constitucionais como **reforço argumentativo**, decidindo a questão com base em normas infraconstitucionais; ou (b) a matéria controvertida é, em si, de natureza infraconstitucional, de modo que a ofensa à Constituição seria apenas **reflexa** — como nas controvérsias sobre responsabilidade civil extracontratual genérica (arts. 186 e 927 do Código Civil). Nessas hipóteses o fundamento constitucional não é autônomo nem suficiente.
 
 ##### Falta de cotejo analítico (alínea 'c') — motivo *FALTA_DE_COTEJO_ANALITICO*
-**Pressuposto de exame:** só se avalia se o REsp estiver fundado, ao menos em parte, na **alínea 'c'** (divergência jurisprudencial). Se o recurso é apenas pela alínea 'a', não sinalize este óbice nem o seguinte.
+**Pressuposto de exame:** só se avalia se o REsp estiver fundado, total ou parcialmente, na **alínea 'c'** do art. 105, inciso III, da Constituição Federal (divergência jurisprudencial). Se o recurso foi interposto exclusivamente pela alínea 'a', não sinalize este óbice nem o seguinte.
 
 **Como verificar (art. 1.029, §1º, do CPC):**
 1. O recurso **transcreve os trechos divergentes** do acórdão recorrido e do paradigma?
-2. **Identifica as circunstâncias** que assemelham os casos e **demonstra** que receberam soluções distintas? Mera transcrição de ementas ou menção genérica a julgados não basta.
+2. **Identifica as circunstâncias** fáticas e jurídicas que assemelham os casos e **demonstra** que receberam soluções distintas? Mera transcrição de ementas ou menção genérica a julgados não basta.
 3. Há **similitude fática** entre o caso e o paradigma?
 4. O **paradigma é apropriado** — de tribunal diverso, e não do mesmo tribunal nem de instância inferior?
 5. A divergência **já está superada** pela jurisprudência atual do STJ, alinhada ao acórdão recorrido?
