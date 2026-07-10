@@ -150,6 +150,7 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 - O texto-base `Admissão` deve ser utilizado somente quando não for caso de sobrestamento, de negativa de seguimento, de retratação e de inadmissão. Ou seja, é a última hipótese a ser aplicada ao caso, somente nas circunstâncias em que o recurso ultrapassar todas as verificações anteriores (sobrestamento, negativa de seguimento, retratação e inadmissão).
 
 ```
+Cinge-se a controvérsia a [definir os termos da controvérsia de MÉRITO objeto do recurso extraordinário].
 Na hipótese em apreço, há decisão proferida em última instância, com o esgotamento das vias ordinárias de impugnação.
 Ademais, estão presentes os pressupostos genéricos de admissibilidade do recurso extraordinário, tais como cabimento, legitimidade, interesse para recorrer, tempestividade e regularidade formal, em atendimento aos requisitos exigidos no Código de Processo Civil.
 Também restou devidamente atendido o requisito do prequestionamento, uma vez que a matéria objeto do recurso foi apreciada pelo órgão julgador.
