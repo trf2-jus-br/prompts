@@ -174,7 +174,7 @@ Assim, nos termos do art. 1.030, III, do CPC, o Presidente ou Vice-presidente do
 ```
 
 ##### Houve o julgamento do Tema, mas não ocorreu o trânsito em julgado
-- A decisão deve ser utilizada quando for identificado um tema de repercussão geral relativo à questão recorrida que já tenha sido julgado, mas em relação ao qual ainda não houve o trânsito em julgado.
+- A decisão deve ser utilizada apenas e tão somente quando for identificado um tema de repercussão geral ou repetitivo relativo E houver fixação explícita de tese pelo tribunal superior, mas ainda não houver o trânsito em julgado.
 
 ```
 Discute-se, no presente caso, [objeto da controvérsia de repercussão geral].
