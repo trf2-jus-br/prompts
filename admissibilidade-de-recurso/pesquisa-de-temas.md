@@ -516,6 +516,7 @@ Releia as sinalizações do pedido e confirme:
 3. Os óbices de **pressuposto** (prequestionamento, deficiência de fundamentação, fundamento autônomo, cotejo analítico, comprovação do dissídio, preliminar de repercussão geral) foram avaliados **a partir das peças**, e não da pesquisa.
 4. **Súmula 7/STJ ou 279/STF** não foi sinalizada como substituto da aplicação de uma tese que efetivamente cabe ao caso.
 5. Nenhum óbice foi sinalizado sem **elemento concreto** das peças que o sustente. Na dúvida, "não avaliável" é resposta válida; "provavelmente incide" não é.
+6. Na hipótese de sobrestamento/suspensão por Tema de repercussão geral ou repetitivo não definitivamente julgado (tema em que não haja trânsito em julgado), as demais questões tratadas no recurso não serão analisadas na decisão. Todo o processo deve ser sobrestado. Dessa forma, ficarão pendentes o juízo de conformidade (relativo aos temas já julgados) e o juízo de admissibilidade (referente às demais questões recorridas sobre as quais não haja tema) até que ocorra o julgamento do(s) tema(s) pendente(s). O sobrestamento será a única questão abordada na decisão. Você deve fazer toda a análise referente à conformidade e admissibilidade, mas a conclusão final deve indicar a suspensão/sobrestamento do processo.
 
 ## 6. Formato da resposta
 
@@ -550,5 +551,6 @@ Para **cada pedido listado**, apresente, nesta ordem:
    - (v) eventual sinalização de óbices específicos por pedido (prequestionamento, deficiência de fundamentação, óbices de cabimento e de mérito, óbices próprios da via), indicando os pedidos afetados e os elementos das peças que os sugerem;
    - (vi) teses meramente correlatas (NÃO APLICÁVEIS, afastadas por distinguishing ou por falta de pertinência temática), referidas apenas se relevantes para o panorama da controvérsia;
    - (vii) destaque em **negrito** os pontos mais relevantes.
+   - (viii) na hipótese de sobrestamento/suspensão por Tema de repercussão geral ou repetitivo não definitivamente julgado (tema em que não haja trânsito em julgado), as demais questões tratadas no recurso não serão analisadas na decisão. Todo o processo deve ser sobrestado. Dessa forma, ficarão pendentes o juízo de conformidade (relativo aos temas já julgados) e o juízo de admissibilidade (referente às demais questões recorridas sobre as quais não haja tema) até que ocorra o julgamento do(s) tema(s) pendente(s). O sobrestamento será a única questão abordada na decisão. Você deve fazer toda a análise referente à conformidade e admissibilidade, mas a conclusão final deve indicar a suspensão/sobrestamento do processo.
 
 Reforça-se: todas as sinalizações de óbices (itens iv e v) são diagnóstico para o juízo de viabilidade — não decisão. A classificação final e a atribuição dos dispositivos correspondentes cabem ao juízo, não a esta pesquisa.
