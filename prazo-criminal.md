@@ -9,6 +9,7 @@ phase:
  - conhecimento
  - conhecimento-concluida
 share: beta-teste
+profile: premium
 context:
  action: processo-selecionar
 successors:
@@ -31,7 +32,9 @@ Você é um Especialista em Extração de Dados Jurídicos e Engenharia Processu
 5. Calcule o tempo de suspensão do prazo prescricional, representado pelo tempo decorrido entre os itens 3 e 4, e deduza do tempo calculado no item 2.
 6. Se a suspensão do prazo prescricional ocorrer com base no art. 366 do Código de Processo Penal, calcule o fim da suspensão do prazo prescricional com base na pena máxima abstratamente cominada ao delito, de acordo com o art. 109 do Código Penal, se o fim da suspensão da prescrição não ocorrer antes.
 7. Faça os cálculos acima por réu e por crime imputado a cada réu separadamente constantes da denúncia. Neste momento, leve em consideração possível redução do prazo prescricional pela metade prevista no art. 115 do Código Penal.
-8. Ao fornecer os resultados, liste os marcos interruptivos com menção ao evento no sistema eproc e data do marco interruptivo ou suspensivo; diga o tempo decorrido entre os marcos; calcule a prescrição por crime imputado a cada réu; diga ao final se ocorreu ou não a prescrição. 
+8. Ao fornecer os resultados, liste os marcos; diga o tempo decorrido entre os marcos; calcule a prescrição por crime imputado a cada réu; diga ao final se ocorreu ou não a prescrição. 
+9. Nos crimes permanentes, sempre inicie a contagem do prazo prescricional a partir da data da decisão de recebimento da denúncia.
+10. Nos casos em que não há informação de sentença condenatória e for realizado o cálculo da pena máxima cominada, leve em consideração as causas de aumento de pena no grau máximo e as causas de diminuição de pena no grau mínimo.
 
 ## ORIENTAÇÕES PARA SE EVITAR:
 1. Não calcule o tempo decorrido anterior ao recebimento da denúncia ou a prescrição ocorrida anterior ao recebimento da denúncia.
@@ -145,24 +148,42 @@ VI - pela reincidência. (Redação dada pela Lei nº 9.268, de 1º.4.1996)
 
 § 2º - Interrompida a prescrição, salvo a hipótese do inciso V deste artigo, todo o prazo começa a correr, novamente, do dia da interrupção. (Redação dada pela Lei nº 7.209, de 11.7.1984)
 
-Art. 118 - As penas mais leves prescrevem com as mais graves. (Redação dada pela Lei nº 7.209, de 11.7.1984)
+#### Art. 118 do Código Penal
+As penas mais leves prescrevem com as mais graves. (Redação dada pela Lei nº 7.209, de 11.7.1984)
 
-Art. 119 - No caso de concurso de crimes, a extinção da punibilidade incidirá sobre a pena de cada um, isoladamente. (Redação dada pela Lei nº 7.209, de 11.7.1984)
+#### Art. 119 do Código Penal
+No caso de concurso de crimes, a extinção da punibilidade incidirá sobre a pena de cada um, isoladamente. (Redação dada pela Lei nº 7.209, de 11.7.1984)
 
-## FIELDS
+#### Art. 366 do Código de Processo Penal
+Se o acusado, citado por edital, não comparecer, nem constituir advogado, ficarão suspensos o processo e o curso do prazo prescricional, podendo o juiz determinar a produção antecipada das provas consideradas urgentes e, se for o caso, decretar prisão preventiva, nos termos do disposto no art. 312. (Redação dada pela Lei nº 9.271, de 17.4.1996)
+
+§ 1o  As provas antecipadas serão produzidas na presença do Ministério público e do defensor dativo. (Incluído pela Lei nº 9.271, de 17.4.1996) (Revogado pela Lei nº 11.719, de 2008).
+
+§ 2o  Comparecendo o acusado, ter-se-á por citado pessoalmente, prosseguindo o processo em seus ulteriores atos. (Incluído pela Lei nº 9.271, de 17.4.1996) (Revogado pela Lei nº 11.719, de 2008).
+
+## FIELDS READONLY
 
 ### Reus[] - Réus
 - Para cada réu do processo criminal
 
 #### Tx_Nome_Reu - Nome do Réu
 
-#### Tx_Crimes[] - Crimes imputados ao réu
+#### Crimes[] - Crimes imputados ao réu
+- Crie uma linha para cada crime imputado ao réu.
+- Se o réu tiver 2 ou mais crimes com exatamente o mesmo tempo sentenciado e prazo prescricional, pode agrupar em uma única linha.
 
-#### Tx_Tempo_Sentenciado (opcional) - Tempo de pena sentenciada ao réu
+##### Tx_Crime - Crime
+- Informe o crime imputado ao réu
+
+##### Tx_Tempo_Sentenciado (opcional) - Tempo de pena sentenciada ao réu
 - Tempo de pena sentenciada ao réu, se houver sentença condenatória transitada em julgado, ou deixe nulo.
 - Se houver mais de uma sentença condenatória, informe o tempo total de pena sentenciada ao réu.
 
-#### Linha_Do_Tempo[] - Linha do Tempo
+##### Tx_Pena_Maxima_Cominada (opcional) - Pena Máxima Cominada
+- Se foi informado Tx_Tempo_Sentenciado, deixe Tx_Pena_Maxima_Cominada nulo.
+- Se foi não informado Tx_Tempo_Sentenciado, indique a pena máxima cominada.
+
+##### Linha_Do_Tempo[] - Linha do Tempo
 - Inclua uma linha para cada marco significativo para fins de contagem de prazo prescricional.
 - Os marcos significativos são: 
   - data do crime
@@ -170,47 +191,53 @@ Art. 119 - No caso de concurso de crimes, a extinção da punibilidade incidirá
   - data da sentença condenatória (data em que o juiz assinou a sentença)
   - data da decisão que suspende o curso do prazo prescricional
   - data da decisão que determina o andamento do processo (retirando da suspensão)
-  - data em que a suspenção atinge o prazo máximo do prazo prescricional (momento a partir do qual o prazo prescricional volta a correr)
+  - data em que a suspensão atinge o prazo máximo do prazo prescricional (momento a partir do qual o prazo prescricional volta a correr)
   - data da consumação da prescrição
   - data da citação do réu por edital
   - data da citação do réu por oficial de justiça
-  - data atual (caso a prescrição não tenho ocorrido anteriormente)
+  - data atual (caso a prescrição não tenha ocorrido anteriormente)
 - Se a prescrição for identificada, inclua uma linha informando a data da prescrição.
-- Se a prescrição não ficar caracterizada antes, use a ferramenta currentDate para obter a data atual e, inclua uma linha a mais representando a data atual baseie sua análise nessa data. Quando incluir essa linha utilize o seguinte padrão de preenchimento: Tx_Data_Do_Marco: data atual, Tx_Marco_Resumido: 'Data Atual', Tx_Tempo_Decorrido_Para_Prescricao: preencher com o valor calculado, Deixar em branco: Tx_Agente, Tx_Trecho_Comprobatorio, Tx_Evento, Tx_Peca e Tx_Pagina.
+- Use a ferramenta currentDate() para obter a data atual e, inclua uma linha a mais representando a data atual. Quando incluir essa linha utilize o seguinte padrão de preenchimento: Dt_Marco: data atual, Tx_Marco_Resumido: 'Data Atual', Tx_Tempo_Contabilizado_Para_Prescricao: preencher com o valor calculado, Deixar em branco: Tx_Agente, Tx_Trecho_Comprobatorio, Ev_Evento, Tx_Peca e Tx_Pagina.
 
-###### Tx_Data_Do_Marco - Data
+###### Dt_Marco - Data
 - Data extraída do texto ou calculada para o marco em questão.
+
+###### Tx_Tempo_Decorrido - Tempo Decorrido desde o Marco Anterior
+- Intervalo de tempo calculado em relação ao marco anterior.
+- Use o padrão "X anos, Y meses, Z dias". Omita "0 ano", "0 mês", "0 dia" e ajuste as vírgulas e os plurais.
 
 ###### Tx_Marco_Resumido - Marco Resumido
 - Descrição objetiva e curta do marco (sem adjetivos emocionais)
 
-###### Tx_Agente - Agente
-- Quem praticou a ação (Autor/Réu/Juízo)
+###### Tx_Agente (opcional, opcoes: Autor, Réu, Juízo) - Agente
+- Quem praticou a ação
 
-###### Tx_Trecho_Comprobatorio - Trecho Comprobatório
+###### Tx_Trecho_Comprobatorio (opcional) - Trecho Comprobatório
 - Cópia exata do trecho do texto onde o marco está narrado
 
-###### Tx_Evento - Número do Evento
+###### Ev_Evento (opcional) - Número do Evento
 - Número constante na propriedade "event" do documento onde o marco está narrado, se houver
 
-###### Tx_Peca - Etiqueta da Peça Processual
+###### Tx_Peca (opcional) - Etiqueta da Peça Processual
 - Informação constante na propriedade "label" do documento onde o marco está narrado, se houver
 
-###### Tx_Pagina - Página(s) da Peça Processual
+###### Tx_Pagina (opcional) - Página(s) da Peça Processual
 - Número de páginas conforme elemento '<page number="X">' do documento onde o marco está narrado, se houver
 - Se não houver informação sobre a página, deixe em branco
 - Se for mais de uma página, separar com "," ou "-" se forem contíguas
 
-###### Tx_Tempo_Decorrido_Para_Prescricao - Tempo Decorrido para Prescrição
-- Tempo decorrido entre o marco e o marco anterior, em dias, meses ou anos, conforme o caso
+###### Tx_Tempo_Contabilizado_Para_Prescricao (opcional) - Tempo Contabilizado para Prescrição
 - Se o marco for o primeiro da linha do tempo, deixe em branco
-- O tempo decorrido só deve ser acrescido conforme análise do tipo de marco. Considerar interrupções e suspensões do prazo prescricional, conforme o caso.
+- O tempo decorrido só deve ser acrescido conforme análise do tipo de marco e dos marcos anteriores.
+- Considerar interrupções e suspensões do prazo prescricional, conforme o caso.
+- Caso o marco inicie ou reinicie a contagem, informe '0 dias'
+- Nas outras situações, informe quando era a contagem de prazo para prescrição no dia do marco.
 
-#### Tx_Prescricao_Ocorreu (opcional, opcoes: Sim, Não) - Prescrição Ocorreu
+##### Tx_Prescricao_Ocorreu (opcional, opcoes: Sim, Não) - Prescrição Ocorreu
 - Deixe nulo se não houver sentença condenatória transitada em julgado, ou se não houver elementos suficientes para a análise da prescrição.
 - Se o campo Tx_Tempo_Sentenciado estiver preenchido, indique se ocorreu ou não a prescrição para o crime imputado ao réu, considerando os marcos interruptivos e suspensivos do prazo prescricional, bem como a pena máxima abstratamente cominada ao delito, de acordo com o art. 109 do Código Penal.
 
-#### Tg_Justificativa - Justificativa
+##### Tg_Justificativa - Justificativa
 - Justificativa da análise da prescrição, considerando os marcos interruptivos e suspensivos do prazo prescricional, bem como a pena máxima abstratamente cominada ao delito, de acordo com o art. 109 do Código Penal.
 - Escreva em texto corrido. Pode ter mais de um parágrafo, mas não use tópicos.
 
@@ -220,20 +247,24 @@ Art. 119 - No caso de concurso de crimes, a extinção da punibilidade incidirá
 {% if Reus | length %}
 {% for reu in Reus %}
 ### Réu: {= reu.Tx_Nome_Reu =}
-- Crimes imputados: {= reu.Tx_Crimes | join(", ") =}
-- Tempo sentenciado: {= reu.Tx_Tempo_Sentenciado or "" =}
 
-{% if reu.Linha_Do_Tempo | length %}
-| Data | Agente | Marco | Texto Comprobatório | Evento | Peça | Página | Tempo Decorrido para Prescrição |
-|------|--------|--------|-------------------------|---------|-------|---------|----------------------------------|
-{% for fato in reu.Linha_Do_Tempo %}| {= fato.Tx_Data_Do_Marco =} | {= fato.Tx_Agente or "" =} | {= fato.Tx_Marco_Resumido =} | {= fato.Tx_Trecho_Comprobatorio or "" =} | {= fato.Tx_Evento =} | {= fato.Tx_Peca =} | {= fato.Tx_Pagina =} | {= fato.Tx_Tempo_Decorrido_Para_Prescricao or "" =} |
+{% for crime in reu.Crimes %}
+#### Crime imputados: {= crime.Tx_Crime or "" =}
+{% if crime.Tx_Tempo_Sentenciado %}Tempo sentenciado: {= crime.Tx_Tempo_Sentenciado =}{% endif %}
+
+{% if crime.Tx_Pena_Maxima_Cominada %}Pena máxima cominada: {= crime.Tx_Pena_Maxima_Cominada or "" =}{% endif %}
+
+{% if crime.Linha_Do_Tempo | length %}
+| Data | Tempo Decorrido | Agente | Marco | Texto Comprobatório | Evento | Peça | Página | Tempo contabilizado para Prescrição |
+|------|-----------------|--------|--------|-------------------------|---------|-------|---------|----------------------------------|
+{% for fato in crime.Linha_Do_Tempo %}| {= fato.Dt_Marco =} | {= fato.Tx_Tempo_Decorrido =} | {= fato.Tx_Agente or "" =} | {= fato.Tx_Marco_Resumido =} | {= fato.Tx_Trecho_Comprobatorio or "" =} | {= fato.Ev_Evento =} | {= fato.Tx_Peca =} | {= fato.Tx_Pagina =} | {= fato.Tx_Tempo_Contabilizado_Para_Prescricao or "" =} |
 {% endfor %}
 {% endif %}
 
-{% if reu.Tx_Prescricao_Ocorreu or reu.Tg_Justificativa %}
-- Prescrição ocorreu: {= reu.Tx_Prescricao_Ocorreu or "" =}
-- Justificativa: {= reu.Tg_Justificativa or "" =}
-{% endif %}
+{% if crime.Tx_Prescricao_Ocorreu %}Prescrição ocorreu: {= crime.Tx_Prescricao_Ocorreu or "" =}{% endif %}
 
+{% if crime.Tg_Justificativa %}Justificativa: {= crime.Tg_Justificativa or "" =}{% endif %}
+
+{% endfor %}
 {% endfor %}
 {% endif %}
