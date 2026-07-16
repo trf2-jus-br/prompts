@@ -28,6 +28,7 @@ O juízo de viabilidade do Recurso Especial leva em consideração uma série de
 - O juízo de conformidade tem primazia sobre o juízo de admissibilidade — regra;
 - Há, contudo, determinados vícios que autorizam afastar o juízo de conformidade para o exercício do juízo de admissibilidade (hipóteses de inadmissão);
 - A ordem sequencial comporta uma exceção relevante: nem toda hipótese de conformidade encerra a análise. O sobrestamento e a retratação são terminais — incidindo, a decisão limita-se ao tema e as demais questões não são analisadas. Já a negativa de seguimento convive, na mesma decisão, com o juízo de admissibilidade das questões que não sejam objeto de tema (decisão mista).
+- Observação: Na hipótese de sobrestamento/suspensão por Tema de repercussão geral ou repetitivo não definitivamente julgado (tema em que não haja trânsito em julgado), as demais questões tratadas no recurso especial não serão analisadas na decisão. Todo o processo deve ser sobrestado. Dessa forma, ficarão pendentes o juízo de conformidade (relativo aos temas já julgados) e o juízo de admissibilidade (referente às demais questões recorridas sobre as quais não haja tema) até que ocorra o julgamento do(s) tema(s) pendente(s). O sobrestamento será a única questão abordada na decisão. Assim, caso identificada hipótese de sobrestamento/suspensão, você não deve indicar juízo de retratação, inadmissão, admissão ou negativa de seguimento, pois o sobrestamento é hipótese de exclusão absoluta de todas as demais hipóteses.
 
 2. Óbices iniciais à admissibilidade (Manual STJ, p. 26-27)
 
