@@ -6,6 +6,7 @@ sort: 7
 target: chat
 context: {}
 share: oculto
+mode: administrativo
 ---
 
 # SYSTEM PROMPT
