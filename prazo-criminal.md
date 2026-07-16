@@ -241,6 +241,14 @@ Se o acusado, citado por edital, não comparecer, nem constituir advogado, ficar
 - Justificativa da análise da prescrição, considerando os marcos interruptivos e suspensivos do prazo prescricional, bem como a pena máxima abstratamente cominada ao delito, de acordo com o art. 109 do Código Penal.
 - Escreva em texto corrido. Pode ter mais de um parágrafo, mas não use tópicos.
 
+### Tg_Observacoes_Da_IA
+- Indique dificuldades encontradas ao executar esse prompt, incluindo:
+  - Datas que foram mencionadas em outros documentos, não extraídas do documento original
+  - Dificuldade na leitura de documentos
+  - Falta de informações
+  - Incoerências no prompt
+- Também conclua com um parágrafo explicando o grau de confiança que devemos ter nessa análise.
+
 
 # FORMAT
 
@@ -250,9 +258,9 @@ Se o acusado, citado por edital, não comparecer, nem constituir advogado, ficar
 
 {% for crime in reu.Crimes %}
 #### Crime imputados: {= crime.Tx_Crime or "" =}
-{% if crime.Tx_Tempo_Sentenciado %}Tempo sentenciado: {= crime.Tx_Tempo_Sentenciado =}{% endif %}
+{% if crime.Tx_Tempo_Sentenciado %}**Tempo sentenciado**: {= crime.Tx_Tempo_Sentenciado =}{% endif %}
 
-{% if crime.Tx_Pena_Maxima_Cominada %}Pena máxima cominada: {= crime.Tx_Pena_Maxima_Cominada or "" =}{% endif %}
+{% if crime.Tx_Pena_Maxima_Cominada %}**Pena máxima cominada**: {= crime.Tx_Pena_Maxima_Cominada or "" =}{% endif %}
 
 {% if crime.Linha_Do_Tempo | length %}
 | Data | Tempo Decorrido | Agente | Marco | Texto Comprobatório | Evento | Peça | Página | Tempo contabilizado para Prescrição |
@@ -261,10 +269,14 @@ Se o acusado, citado por edital, não comparecer, nem constituir advogado, ficar
 {% endfor %}
 {% endif %}
 
-{% if crime.Tx_Prescricao_Ocorreu %}Prescrição ocorreu: {= crime.Tx_Prescricao_Ocorreu or "" =}{% endif %}
+{% if crime.Tx_Prescricao_Ocorreu %}**Prescrição ocorreu**: {= crime.Tx_Prescricao_Ocorreu or "" =}{% endif %}
 
-{% if crime.Tg_Justificativa %}Justificativa: {= crime.Tg_Justificativa or "" =}{% endif %}
+{% if crime.Tg_Justificativa %}**Justificativa**: {= crime.Tg_Justificativa or "" =}{% endif %}
 
 {% endfor %}
 {% endfor %}
 {% endif %}
+
+<p class="text-muted h-print">
+<strong>Observações da IA</strong>: {= Tg_Observacoes_Da_IA =}
+</p>
