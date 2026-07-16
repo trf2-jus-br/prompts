@@ -2,7 +2,7 @@
 uuid: 7cc6471d-03b2-4a14-a3f2-e7775e346f7f
 name: Contagem de Prazos Criminais
 description: Extraia e organize cronologicamente os prazos processuais criminais com datas, entidades e trechos comprobatórios.
-author: Renato Crivano/TRF2
+author: Ramon Mendes de Almeida/JFRJ
 sort: 5
 piece_strategy: mais-relevantes
 phase:
