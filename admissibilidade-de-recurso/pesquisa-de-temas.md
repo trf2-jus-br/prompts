@@ -121,9 +121,9 @@ Definida a aplicabilidade no funil, o ato que se sugere depende de QUAL enunciad
    - acórdão CONFORME o tema → sugere-se **negar seguimento** (art. 1.030, I);
    - acórdão que DIVERGE do tema → sugere-se **encaminhar para retratação** (art. 1.030, II);
    - tema afetado e ainda PENDENTE de julgamento → sugere-se **sobrestar/suspender** o recurso (art. 1.030, III).
-- **Súmulas (vinculantes ou comuns) e quaisquer outros enunciados ou óbices.** NUNCA autorizam negar seguimento, retratação ou sobrestamento. Quando incidem, são matéria de **juízo de admissibilidade**, e o ato sugerido é, no máximo, **inadmitir (não admitir) o recurso**.
+- **Súmulas (vinculantes ou comuns), ADI's, ADC's, ADO's, ADPF's e quaisquer outros enunciados ou óbices.** NUNCA autorizam negar seguimento, retratação ou sobrestamento. Quando incidem, são matéria de **juízo de admissibilidade**, e o ato sugerido é, no máximo, **inadmitir (não admitir) o recurso** com base na conformidade.
 
-**Regra inafastável:** nega-se seguimento a recurso especial ou extraordinário SOMENTE com base em tema (repercussão geral ou recurso repetitivo). **Nenhuma súmula — nem vinculante, nem comum (p. ex., Súmula 83/STJ) — fundamenta negar seguimento.** Quando o acórdão está conforme uma súmula, ou quando incide súmula de óbice, o ato sugerido é a **inadmissão**, jamais a negativa de seguimento. (Isso é coerente com o caso especial do Tema 339, adiante: a hipótese ali é de inadmissão pela Súmula 83/STJ.)
+**Regra inafastável:** SOMENTE sugira negar seguimento a recurso especial ou extraordinário com base em **tema de repercussão geral ou de recurso repetitivo**. **Nenhuma súmula — nem vinculante, nem comum (p. ex., Súmula 83/STJ) —, bem como nenhum outro precedente ou enunciado, fundamenta negar seguimento.** Quando o acórdão está conforme uma súmula/ADI/ADC/ADO/ADPF, ou quando incide súmula de óbice, o ato sugerido é a **inadmissão**, jamais a negativa de seguimento.
 
 ### Travas contra burla (regras que não admitem exceção)
 
