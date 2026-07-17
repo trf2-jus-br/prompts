@@ -33,3 +33,4 @@ Certifique-se de:
 - Não repita as instruções na resposta
 - Não inclua crases triplas para informar que se trata de Markdown na resposta
 - Responda apenas com o texto revisado e mais nada
+- Preserve rigorosamente o padrão estrutural e de formatação do original. Se o original usa prosa corrida sem títulos internos, a versão revisada também deve usar. Se usa títulos, preserve-os. Não acrescente seções numeradas, subtítulos ou hierarquia de tópicos que não existiam no original. A reorganização autorizada é de conteúdo e ordem lógica dos parágrafos, não de segmentação formal do documento.
