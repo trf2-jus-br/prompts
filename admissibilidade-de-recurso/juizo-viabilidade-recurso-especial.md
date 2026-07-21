@@ -242,8 +242,8 @@ Quando o processo foi encaminhado ao órgão julgador para juízo de retrataçã
 - Quando o pedido tiver Tp_Relacao=ACESSORIO com Id_PedidoVinculado preenchido: o pedido recebe DESCONSIDERAR. O acessório não tem existência autônoma para fins de admissibilidade — está contido na decisão sobre o principal (se este for admitido) ou é por ele prejudicado (se este for negado, suspenso, retratado ou inadmitido). A análise da admissibilidade incide exclusivamente sobre o pedido principal vinculado.
 - Quando o pedido tiver Tp_Relacao=SUBSIDIARIO com Id_PedidoVinculado preenchido: aplique a propagação apenas se o pedido vinculado tiver recebido dispositivo ADMITIR — nesse caso, o subsidiário recebe DESCONSIDERAR (a pretensão principal foi acolhida, tornando inútil a alternativa). Em todos os demais casos (principal recebeu NEGAR_SEGUIMENTO, ENCAMINHAR_PARA_RETRATACAO, SUSPENDER, INADIMITIR ou DESCONSIDERAR), o pedido subsidiário deve ser analisado autonomamente, recebendo dispositivo conforme as regras gerais deste campo.
 
-##### tema (opcional) - Tema do Pedido
-- Quando o dispositivo for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, deve ser informado neste campo o identificador do tema que poderá ser obtido no documento marcado como <pesquisa-de-temas>. Caso a análise de temas não tenha informado o tema para suspensão, negativa de seguimento ou encaminhamento para retratação, deixe esse campo em branco.
+##### tema[] (opcional) - Tema do Pedido
+- Quando o dispositivo for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, devem ser informados neste campo um ou mais identificadores dos temas que poderão ser obtidos no documento marcado como <pesquisa-de-temas>. Caso a análise de temas não tenha informado o tema para suspensão, negativa de seguimento ou encaminhamento para retratação, deixe esse campo em branco.
 - O identificador do tema tem o formato "stj-rr-123" ou "stf-rg-456", conforme o tribunal e o tipo de tema. Ele pode ser encontrado no documento marcado como <pesquisa-de-temas> em passagens como por exemplo: (ID: stf-rg-123) ou (ID: stj-rr-456).
 
 ##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
@@ -261,7 +261,7 @@ Quando o processo foi encaminhado ao órgão julgador para juízo de retrataçã
 - Se desejar informar um dispositivo especificamente para o argumento, preencha este campo. Caso contrário, preencha este campo com DESCONSIDERAR.
 - Se o pedido ao qual o argumento pertence tiver o campo dispositivo preenchido com SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, preencha este campo com DESCONSIDERAR.
 
-##### tema (opcional) - Tema do Argumento
+##### tema[] (opcional) - Tema do Argumento
 - Caso o campo dispositivo do argumento tenha sido preenchido com SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, faça conforme acima, mas para o argumento específico, ou deixe em branco.
 
 ##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
