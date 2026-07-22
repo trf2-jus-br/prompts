@@ -4,7 +4,13 @@ name: Contagem de Prazos Criminais
 description: Extraia e organize cronologicamente os prazos processuais criminais com datas, entidades e trechos comprobatórios.
 author: Ramon Mendes de Almeida/JFRJ
 sort: 5
-piece_strategy: mais-relevantes
+piece_strategy: tipos-especificos
+piece_descr: 
+ - peticao-inicial
+ - despacho-decisao
+ - certidao
+ - sentenca
+ - acordao
 phase:
  - conhecimento
  - conhecimento-concluida
