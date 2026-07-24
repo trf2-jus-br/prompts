@@ -13,6 +13,10 @@ predecessors:
   - path: pedidos-agravo-interno-viabilidade-recurso
   - path: juizo-agravo-interno-em-viabilidade-recurso-extraordinario
 successors:
+  - path: ementa
+    optional: true
+  - path: linguagem-simples
+    optional: true
   - path: chat
 ---
 
