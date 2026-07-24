@@ -11,10 +11,10 @@ context:
 predecessors:
   - path: pedidos-fundamentacoes-e-dispositivos
 successors:
-  - path: ementa
-    optional: true
-  - path: linguagem-simples
-    optional: true
+#  - path: ementa
+#    optional: true
+#  - path: linguagem-simples
+#    optional: true
   - path: chat
 ---
 
