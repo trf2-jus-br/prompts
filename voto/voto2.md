@@ -11,10 +11,9 @@ context:
   instance: segundo-grau
 predecessors:
   - path: voto-pedidos
-  - path: pesquisa-de-temas
+  - path: voto-pesquisa-de-temas
   - path: voto-analise
   - path: voto-juizo
-  - path: pedidos-fundamentacoes-e-dispositivos
 successors:
   - path: ementa
     optional: true
