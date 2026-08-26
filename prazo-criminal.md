@@ -1,7 +1,7 @@
 ---
 uuid: 7cc6471d-03b2-4a14-a3f2-e7775e346f7f
 name: Contagem de Prescrição Criminal
-description: Extraia e organize cronologicamente os marcos relevantes e conclua se houve prescrição.
+description: Extraia e organize cronologicamente os marcos relevantes e conclua se houve prescrição
 author: Ramon Mendes de Almeida/JFRJ
 sort: 5
 piece_strategy: tipos-especificos
