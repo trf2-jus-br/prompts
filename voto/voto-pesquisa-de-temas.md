@@ -5,6 +5,10 @@ description: Pesquise teses e súmulas vinculantes aplicáveis aos pedidos do re
 sort: 3
 share: oculto
 piece_strategy: mais-relevantes-segunda-instancia
+instance: [segundo-grau]
+context:
+  action: minuta-editar
+  instance: segundo-grau
 ---
 
 # SYSTEM PROMPT

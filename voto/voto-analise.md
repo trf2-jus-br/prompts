@@ -4,17 +4,12 @@ name: Levantamento Analítico do Processo
 description: Analise o processo e prepare-se para redigir o voto de mérito.
 author: Cristiane Titoneli/TRF2
 sort: 3
+share: oculto
 piece_strategy: mais-relevantes-segunda-instancia
 instance: [segundo-grau]
-share: oculto
 context:
   action: minuta-editar
   instance: segundo-grau
-predecessors:
-  - path: voto-pedidos
-  - path: voto-pesquisa-de-temas
-successors:
-  - path: voto-juizo
 ---
 
 # SYSTEM PROMPT

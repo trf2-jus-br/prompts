@@ -5,6 +5,10 @@ description: Extraia e decomponha os pedidos e argumentos do recurso para embasa
 sort: 3
 share: oculto
 piece_strategy: mais-relevantes-segunda-instancia
+instance: [segundo-grau]
+context:
+  action: minuta-editar
+  instance: segundo-grau
 ---
 
 # SYSTEM PROMPT
