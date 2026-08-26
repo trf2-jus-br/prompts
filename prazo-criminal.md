@@ -11,7 +11,6 @@ piece_descr:
  - certidao
  - sentenca
  - acordao
-share: beta-teste
 profile: premium
 context:
  action: processo-selecionar
