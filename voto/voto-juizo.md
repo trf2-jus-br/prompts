@@ -19,6 +19,8 @@ Você leu, também, um documento marcado como <pedidos-do-recurso-e-argumentos> 
 
 Você leu um documento marcado como <pesquisa-de-temas> que contém a análise jurídica do recurso com base em teses e súmulas vinculantes. Se você optar por utilizar essa análise, deverá transcrever os dados dessa análise nos campos apropriados da resposta. No entanto, é importante destacar que a análise realizada no documento marcado como <pesquisa-de-temas> não é definitiva e pode ser complementada ou corrigida com base em outras informações disponíveis sobre o processo. Portanto, você deve considerar todas as informações disponíveis para realizar uma análise completa e precisa.
 
+Você pode ter lido, também, um levantamento analítico do processo (sistematização da lide, do juízo de admissibilidade, do confronto de teses e dos desfechos possíveis), produzido em etapa anterior. Se presente, utilize-o como insumo preparatório — ele não é vinculante e não dispensa as verificações próprias deste juízo.
+
 ## Considerações Iniciais
 
 1. Juízo de Votação
@@ -34,7 +36,7 @@ O juízo de votação leva em consideração uma série de análises efetuadas.
 Há hipóteses que podem levar ao não conhecimento do recurso e que devem ser analisadas antes mesmo da conformidade. São seis verificações iniciais principais:
 2.1. Verificar se houve preparo;
 2.2. Verificar se o recurso é tempestivo (art. 1.003, §5º, do CPC).
-2.3. Verificar se houve o esgotamento da jurisdição no órgão de origem;
+2.3. Verificar se a via recursal eleita é cabível;
 2.4. Verificar se a representação processual está regular;
 2.5. Verificar se existe interesse recursal;
 2.6. Verificar se o recorrente possui legitimidade recursal.
@@ -42,7 +44,7 @@ Caso não superada qualquer dessas hipóteses acima, o recurso deve ser não con
 
 3. Juízo de Conformidade
 
-Verificado o preparo, a tempestividade, o esgotamento da instância, a regularidade da representação processual, o interesse recursal e a legitimidade recursal, passa-se ao juízo de conformidade: é necessário verificar se há (ou não) um Tema Repetitivo (STJ) ou de Repercussão Geral (STF) que se amolde perfeitamente ao caso concreto. A mera existência de um Tema sobre matéria correlata não basta. O Tema só será aplicado quando houver (i) identidade da questão jurídica entre o recurso e o Tema e (ii) similitude fática suficiente para que a ratio decidendi do precedente seja transponível ao caso. Havendo elementos distintivos relevantes entre a controvérsia recorrida e o paradigma (distinguishing), o Tema não se aplica e a análise prossegue como se inexistisse. NUNCA sugira a aplicação de tese de repercussão geral na qual o STF tenha reconhecido a ausência de repercussão geral ou o caráter infraconstitucional da controvérsia. Confirmada a aplicação do Tema, deve ser analisada a conformidade, na seguinte sequência:
+Verificado o preparo, a tempestividade, o cabimento da via eleita, a regularidade da representação processual, o interesse recursal e a legitimidade recursal, passa-se ao juízo de conformidade: é necessário verificar se há (ou não) um Tema Repetitivo (STJ) ou de Repercussão Geral (STF) que se amolde perfeitamente ao caso concreto. A mera existência de um Tema sobre matéria correlata não basta. O Tema só será aplicado quando houver (i) identidade da questão jurídica entre o recurso e o Tema e (ii) similitude fática suficiente para que a ratio decidendi do precedente seja transponível ao caso. Havendo elementos distintivos relevantes entre a controvérsia recorrida e o paradigma (distinguishing), o Tema não se aplica e a análise prossegue como se inexistisse. NUNCA sugira a aplicação de tese de repercussão geral na qual o STF tenha reconhecido a ausência de repercussão geral ou o caráter infraconstitucional da controvérsia. Confirmada a aplicação do Tema, deve ser analisada a conformidade, na seguinte sequência:
 3.1. Verificar se é hipótese de sobrestamento (art. 313, VI, e art. 1.040 do CPC);
 3.2. Verificar se é hipótese de dar ou negar provimento.
 
@@ -76,16 +78,16 @@ Utilize a seguinte sequência de verificações para analisar:
 - caso seja identificada: não conhecimento pelo motivo *ILEGITIMIDADE*.
 
 #### Verificar se o recurso é tempestivo
-- Óbice que impede o conhecimento do recurso interposto fora do prazo de 15 dias úteis (art. 1.003, §5º, do CPC), por inexistir fato apto a interromper ou suspender o prazo. Abrange quatro realidades: (i) interposição pura e simples após o término do prazo; (ii) embargos de declaração não conhecidos, que não interrompem o prazo recursal (ex.: por intempestivos ou por não indicarem vício do art. 1.022 do CPC); (iii) agravo interno não conhecido por decisão monocrática, que não reabre o prazo, pois não substitui o acórdão originário — o prazo corre da publicação do acórdão recorrido, não da decisão monocrática; e (iv) alegação de feriado local ou de suspensão do expediente forense sem a comprovação no ato de interposição exigida pelo art. 1.003, §6º, sendo inadmissível a juntada posterior do documento.
+- Óbice que impede o conhecimento do recurso interposto fora do prazo de 15 dias úteis (art. 1.003, §5º, do CPC), por inexistir fato apto a interromper ou suspender o prazo. Abrange quatro realidades: (i) interposição pura e simples após o término do prazo; (ii) embargos de declaração não conhecidos, que não interrompem o prazo recursal (ex.: por intempestivos ou por não indicarem vício do art. 1.022 do CPC); (iii) agravo interno não conhecido, que não reabre o prazo recursal; e (iv) alegação de feriado local ou de suspensão do expediente forense sem a comprovação no ato de interposição exigida pelo art. 1.003, §6º, sendo inadmissível a juntada posterior do documento.
 - caso não seja tempestivo: não conhecimento pelo motivo *INTEMPESTIVIDADE*.
 
 #### Verificar Falta de interesse
 - Óbice que impede o conhecimento do recurso por ausência de interesse recursal, pressuposto objetivo de admissibilidade que exige que a decisão recorrida tenha deixado de atender, total ou parcialmente, à pretensão da parte — pois somente o desatendimento do pedido confere ao recurso a utilidade necessária. Abrange duas realidades: (i) a decisão recorrida atendeu integralmente ao que a parte pediu, inexistindo desatendimento a reparar; e (ii) a decisão recorrida acolheu o pedido, mas a parte almeja resultado mais amplo ou imediato do que efetivamente requereu — e a mera expectativa de um resultado além do pedido não configura o desatendimento que legitima o recurso.
 - caso seja identificada: não conhecimento pelo motivo *FALTA_DE_INTERESSE_RECURSAL*.
 
-#### Verificar se houve o esgotamento da jurisdição no órgão de origem
+#### Verificar o cabimento da via recursal
 - Óbice que impede o conhecimento do recurso quando, havendo meio de impugnação próprio e adequado contra o provimento atacado, a parte deixou de utilizá-lo ou utilizou via inadequada. Abrange duas realidades: (i) a parte deixou de interpor o recurso cabível contra a decisão impugnada (ex.: apelação contra sentença, agravo de instrumento contra decisão interlocutória), preferindo via imprópria; e (ii) o recurso interposto não é o adequado ao provimento impugnado (descabimento), sem que se possa invocar o princípio da fungibilidade recursal.
-- caso seja identificada: não conhecimento pelo motivo *NAO_EXAURIMENTO*.
+- caso seja identificada: não conhecimento pelo motivo *DESCABIMENTO*.
 - Caso não superadas as hipóteses acima, o recurso não deve ser conhecido; caso superadas, passa-se à etapa seguinte.
 
 ### Juízo de Conformidade
@@ -97,7 +99,7 @@ Utilize a seguinte sequência de verificações para analisar:
 - Princípio da subsunção ordinária (aplicar tese ≠ revolver matéria de fato): a aplicação de uma tese ao caso concreto sempre exige subsumir os fatos do caso à hipótese normativa do precedente. Isso é jurisdição ordinária, não reexame de prova. Não confunda "aplicar a tese exige verificar como os fatos do caso se enquadram na hipótese do precedente" (situação normal e inevitável em qualquer aplicação do direito) com "a tese trata de hipótese fática genericamente diferente da do caso" (distinguishing legítimo). Esses dois planos têm consequências opostas:
    - Quando a tese se ocupa da MESMA questão jurídica e da MESMA situação fática genérica do caso, ela SE APLICA e deve fundamentar o julgamento do recurso (dar ou negar provimento, conforme o desfecho que a tese impõe), AINDA QUE a aplicação demande examinar como, naquele caso concreto, os elementos previstos na tese se realizam.
    - Apenas quando a tese se ocupa de hipótese fática genericamente DIFERENTE da do caso (o precedente discute uma situação normativa distinta) há distinguishing, e a tese não se aplica, prosseguindo a análise de mérito pelas demais questões.
-- A vedação ao reexame fático-probatório (Súmulas 7/STJ e 279/STF) é óbice próprio dos tribunais superiores e NÃO afasta, no juízo de conformidade, a aplicação de tese vinculante. O fato de a aplicação de uma tese exigir verificar a presença dos elementos do precedente no caso concreto NÃO equivale a "reexame de prova". Você NÃO deve afastar a aplicação de uma tese sob fundamento de que sua aplicação demandaria avaliar circunstâncias do caso — avaliar circunstâncias do caso para subsumir à norma é o que todo julgador faz.
+- No julgamento de segundo grau, é admissível o reexame da matéria fático-probatória devolvida (art. 1.013, §1º, do CPC): a circunstância de a aplicação de uma tese exigir verificar a presença dos elementos do precedente no caso concreto NÃO equivale a "reexame de prova" e NÃO afasta a aplicação da tese. Você NÃO deve afastar a aplicação de uma tese sob fundamento de que sua aplicação demandaria avaliar circunstâncias do caso — avaliar circunstâncias do caso para subsumir à norma é o que todo julgador faz. A tese apenas não resolve a controvérsia quando a questão devolvida for exclusivamente fático-probatória, sem questão jurídica alguma que a tese possa decidir — hipótese em que o julgamento se fará pela análise probatória, no juízo de mérito.
 - Caso identificada hipótese de sobrestamento/suspensão, você não deve indicar provimento, desprovimento, não conhecimento ou prejudicialidade, pois o sobrestamento é hipótese de exclusão absoluta de todas as demais hipóteses.
   
 #### Verificar se é hipótese de sobrestamento/suspensão (art. 313, VI, e art. 1.040, ambos do CPC)
@@ -162,12 +164,14 @@ Quando o recurso tem por objeto decisão proferida em agravo de instrumento que 
 - Caso o pedido ou argumento não seja relevante para o juízo de votação, ou caso o pedido ou argumento seja repetitivo em relação a outros pedidos ou argumentos já analisados, ou já tenha sido tomada uma decisão de suspensão, ele deve ser desconsiderado, utilizando o dispositivo *DESCONSIDERAR*.
 - Pedido de gratuidade de justiça formulado para o processamento do próprio recurso NÃO é pedido de mérito recursal. Trata-se de requerimento procedimental, dirigido ao relator, paralelo ao recurso, sem matéria a ser examinada em juízo de conformidade ou de mérito. Atribua dispositivo *DESCONSIDERAR*.
   - Distinção essencial: o pedido de REFORMA da decisão que tenha negado a gratuidade NÃO se confunde com o pedido procedimental acima. Quando o recurso impugna a parcela da decisão que indeferiu a justiça gratuita na origem, o pedido é de mérito recursal e deve passar pela análise normal (juízo de conformidade e juízo de mérito, conforme o caso).
-  - Critério prático: pergunte-se "este item busca a reforma de algo que o tribunal de origem decidiu sobre gratuidade, ou busca apenas obter a gratuidade para os atos do próprio recurso?". Se a resposta for "reforma" → mérito recursal (análise normal). Se for "apenas obter para os atos do recurso" → procedimental (*DESCONSIDERAR*).
+  - Critério prático: pergunte-se "este item busca a reforma de algo que o primeiro grau decidiu sobre gratuidade, ou busca apenas obter a gratuidade para os atos do próprio recurso?". Se a resposta for "reforma" → mérito recursal (análise normal). Se for "apenas obter para os atos do recurso" → procedimental (*DESCONSIDERAR*).
 
 
-## FIELDS READONLY
+## FIELDS
 
-### motivoGeral[] (opcional, opções: DESERCAO, IRREGULARIDADE_REPRESENTACAO, ILEGITIMIDADE, INTEMPESTIVIDADE, FALTA_DE_INTERESSE_RECURSAL, NAO_EXAURIMENTO) - Motivo do Não Conhecimento
+Os campos abaixo compõem o JSON de diretrizes que orientará a redação do voto na etapa seguinte. O usuário poderá revisar e editar esse JSON antes da redação do voto — preencha-o, portanto, com a sua melhor sugestão, de modo completo e fundamentado.
+
+### motivoGeral[] (opcional, opções: DESERCAO, IRREGULARIDADE_REPRESENTACAO, ILEGITIMIDADE, INTEMPESTIVIDADE, FALTA_DE_INTERESSE_RECURSAL, DESCABIMENTO) - Motivo do Não Conhecimento
 - Quando for o caso de não conhecer por um motivo geral, independente da análise do pedido ou argumento específico, deve ser informado neste campo o identificador do motivo do não conhecimento do recurso.
 - As opções de motivos estão listadas e explicadas no título Verificações Preliminares de Não Conhecimento, acima.
 - Caso haja mais de um motivo geral, informe todos os motivos aplicáveis neste campo, utilizando um array. Preencha este campo com [].
@@ -195,6 +199,23 @@ Quando o recurso tem por objeto decisão proferida em agravo de instrumento que 
 - As opções de motivos estão listadas e explicadas nos títulos Juízo de Mérito e Hipóteses que NÃO configuram julgamento com fundamento em tese, acima. 
 - Caso haja mais de um motivo, informe todos os motivos aplicáveis neste campo, utilizando um array. Caso contrário, preencha este campo com [].
 
+##### fundamentacoes[] - Fundamentações Sugeridas do Pedido
+- Liste sugestões de fundamentação a favor e contra o pedido, para orientar a redação do voto na etapa seguinte.
+- Apresente entre 2 e 4 sugestões de cada tipo (A_FAVOR e CONTRA). Extraia ou sintetize as sugestões a partir das peças (razões recursais, contrarrazões, sentença), do documento marcado como <pesquisa-de-temas> (teses e súmulas aplicáveis) e, se presente, do levantamento analítico do processo — não as invente.
+- O usuário poderá revisar este JSON e alterar as marcações (inclusive o próprio teor das fundamentações) antes da redação do voto; a redação utilizará as fundamentações marcadas como roteiro.
+- Quando o dispositivo do pedido for SUSPENDER, RECURSO_PREJUDICADO ou DESCONSIDERAR, o preenchimento deste campo é opcional (pode permanecer vazio).
+- Para cada sugestão, preencha os campos texto, tipo e checked:
+
+###### Tg_Texto - Texto da Fundamentação
+- A fundamentação, formulada de modo conciso e aplicável ao caso concreto (não uma máxima abstrata).
+
+###### Tipo (opções: A_FAVOR, CONTRA) - Tipo da Fundamentação
+- Tipo: A_FAVOR (fundamentação que sustenta o acolhimento do pedido) ou CONTRA (fundamentação que sustenta o seu desacolhimento).
+
+###### Lg_Selecionada - Selecionada
+- Indicação de que a sugestão deve ser aproveitada na redação do voto.
+- Dentre as sugestões apresentadas, marque com true nas que entender pertinentes e mais importantes: tipicamente, as alinhadas com o dispositivo atribuído ao pedido e as contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque checked=false nas demais. Isso é uma decisão da IA, que poderá ser revista pelo usuário antes da redação do voto.
+
 #### argumentos[] - Argumentos do Pedido
 - Liste os fundamentos jurídicos apresentados para embasar o pedido
 
@@ -213,6 +234,22 @@ Quando o recurso tem por objeto decisão proferida em agravo de instrumento que 
 - As opções de motivos estão listadas e explicadas nos títulos Juízo de Mérito e Hipóteses que NÃO configuram julgamento com fundamento em tese, acima.
 - Caso haja mais de um motivo para o argumento, informe todos os motivos aplicáveis neste campo, utilizando um array. Caso contrário, preencha este campo com [].
 
+##### fundamentacoes[] - Fundamentações Sugeridas do Argumento
+- Apresente, para o argumento, entre 2 e 4 sugestões A_FAVOR e entre 2 e 4 CONTRA, nos mesmos termos do campo fundamentacoes do pedido: cada sugestão com texto, tipo (A_FAVOR ou CONTRA) e checked, extraída ou sintetizada das peças, do documento marcado como <pesquisa-de-temas> e, se presente, do levantamento analítico do processo.
+- Marque checked=true nas sugestões pertinentes, alinhadas com o dispositivo atribuído ao argumento ou contrárias relevantes a serem enfrentadas.
+- Quando o dispositivo do argumento for DESCONSIDERAR (incluindo a hipótese de o pedido ter recebido SUSPENDER, DAR_PROVIMENTO ou NEGAR_PROVIMENTO), o preenchimento deste campo é opcional.
+
+###### Tg_Texto - Texto da Fundamentação
+- A fundamentação, formulada de modo conciso e aplicável ao caso concreto (não uma máxima abstrata).
+
+###### Tipo (opções: A_FAVOR, CONTRA) - Tipo da Fundamentação
+- Tipo: A_FAVOR (fundamentação que sustenta o acolhimento do pedido) ou CONTRA (fundamentação que sustenta o seu desacolhimento).
+
+###### Lg_Selecionada - Selecionada
+- Indicação de que a sugestão deve ser aproveitada na redação do voto.
+- Dentre as sugestões apresentadas, marque com true nas que entender pertinentes e mais importantes: tipicamente, as alinhadas com o dispositivo atribuído ao pedido e as contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque checked=false nas demais. Isso é uma decisão da IA, que poderá ser revista pelo usuário antes da redação do voto.
+
+
 ### Tg_ComandosAdicionais (opcional) - Comandos Adicionais
 - Utilize este campo para informar quaisquer comandos adicionais que sejam necessários para redação do voto, que será feita em seguida, mas que não se encaixem nos campos anteriores. Por exemplo, caso seja necessário desmembrar um pedido ou argumento específico, ou caso haja alguma particularidade relevante para a análise, informe aqui. Se não houver comandos adicionais, deixe este campo em branco.
 
@@ -223,6 +260,9 @@ Quando o recurso tem por objeto decisão proferida em agravo de instrumento que 
 
 Argumentos:{% for a in d.argumentos %}
 {{loop.index}}. {{ a.texto }}{% endfor %}
+
+Fundamentações:{% for f in d.fundamentacoes %}
+{{loop.index}}. {{ "[x]" if f.checked else "[ ]" }} ({{ f.tipo }}) {{ f.texto }}{% endfor %}
     
 {% endfor %}
 {% endif %}
