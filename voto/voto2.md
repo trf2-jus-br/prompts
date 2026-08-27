@@ -33,6 +33,15 @@ Leia cuidadosamente os documentos abaixo para gerar o voto.
 
 {{textos}}
 
+## ADAPTAÇÃO AO TRIBUNAL E RAMO DA JUSTIÇA
+
+Este prompt é utilizado por todos os ramos do Poder Judiciário. Antes de redigir, identifique o órgão julgador e o ramo a que pertence o processo, inferindo a partir dos documentos fornecidos: cabeçalhos e endereçamentos das peças; número do processo no padrão CNJ, cujo dígito do segmento indica o ramo (4, Justiça Federal; 8, Justiça Estadual; 9, Justiça Militar estadual; 5, Justiça do Trabalho; 6, Justiça Eleitoral; 7, Justiça Militar da União); qualidade das partes públicas e do órgão ministerial.
+
+A partir daí, adapte a redação:
+- **Justiça Federal**: utilize, quando cabíveis, as opções de custas e honorários próprias desse ramo indicadas na seção III (isenção da União — Lei 9.289/1996; Súmula 168 do extinto Tribunal Federal de Recursos e encargo do Decreto-Lei 1.025/1969 na execução fiscal).
+- **Justiça Estadual (e Militar estadual)**: aplique a legislação estadual de custas do tribunal, citando dispositivo somente quando a norma constar dos autos. **Nunca invente norma estadual**: se a legislação aplicável não for identificável, utilize o placeholder [APLICAR LEGISLAÇÃO ESTADUAL DE CUSTAS] e não mencione valores, percentuais ou artigos específicos.
+- Não sendo possível identificar o ramo com segurança, redija com nomenclatura genérica e utilize o placeholder acima para as custas.
+
 ## OBJETIVO
 - Considerando as informações do processo em questão, gerar uma minuta completa de voto de mérito para um processo cível, que seja adaptável a qualquer subespecialidade (Obrigações, Contratos, Responsabilidade Civil, Direitos Reais, Família, Sucessões, etc.). 
 - A minuta deve conter Relatório detalhado, Fundamentação extensa, baseada em princípios e legislação vigente (Constituição Federal, Códigos, Leis Específicas) e, quando indicado no JSON do juízo de voto, em tese vinculante (art. 927 do CPC), e Dispositivo preciso e conforme o CPC.
@@ -102,7 +111,7 @@ Ante o exposto, voto no sentido de [DAR PROVIMENTO / DAR PARCIAL PROVIMENTO / NE
 
 [Defina a sucumbência - Honorários: Escolha e adapte a redação conforme o resultado]
     - [Se negado provimento] Honorários majorados em 1%. 
-    - [Se negado provimento, na hipótese de já constar da CDA o encargo de 20%, do Decreto-Lei 1.025, de 1969] Sem honorários advocatícios em desfavor do executado (Súmula nº 168 do extinto Tribunal Federal de Recursos).
+    - [Somente na Justiça Federal; se negado provimento, na hipótese de já constar da CDA o encargo de 20%, do Decreto-Lei 1.025, de 1969] Sem honorários advocatícios em desfavor do executado (Súmula nº 168 do extinto Tribunal Federal de Recursos).
     - [Honorários em MS] Honorários sucumbenciais incabíveis na espécie (art. 25 da Lei 12.016/09).
     - [Aplicação das faixas do art. 85, §3º] Quanto aos honorários sucumbenciais, a sentença merece reparo para condenar a [parte autora/a parte ré] ao pagamento de honorários nos percentuais mínimos e com observância das faixas dos incisos do art. 85, §3º c/c §5º, do CPC, sobre o valor [da causa/do proveito econômico/da condenação].
     - [Faixa do inciso I – fixação em 10%] Quanto aos honorários sucumbenciais, a sentença merece reparo para condenar a [parte autora / a parte ré] ao pagamento de honorários ora fixados em 10% (dez por cento) sobre o valor [da causa / do proveito econômico / da condenação], nos termos do art. 85, §3º, I, do CPC.
@@ -112,9 +121,10 @@ Ante o exposto, voto no sentido de [DAR PROVIMENTO / DAR PARCIAL PROVIMENTO / NE
     - [Manutenção] Custas na forma da sentença.
     - [Sucumbência integral da parte autora] Arcará a parte autora integralmente com o pagamento das custas judiciais.
     - [Sucumbência integral da parte ré] Arcará a parte ré integralmente com o pagamento das custas judiciais.
-    - [Regra da União] A União é isenta do pagamento de custas processuais no âmbito da Justiça Federal, devendo restituir, no entanto, os valores adiantados pela parte adversa a esse título. 
-    - [Sucumbência recíproca - União como parte] A União é isenta do pagamento de custas processuais no âmbito da Justiça Federal. No caso dos autos, considerando a sucumbência recíproca, deve a União ressarcir 50% das custas adiantadas pela Impetrante.
-    - [Embargos à execução fiscal] Sem custas nos termos do art.7º, da Lei nº 9.289/96.
+    - [Justiça Estadual] Custas processuais conforme a legislação estadual de custas aplicável ao tribunal, conforme o resultado da sucumbência [cite o dispositivo legal somente se a norma constar dos autos].
+    - [Somente na Justiça Federal — Regra da União] A União é isenta do pagamento de custas processuais no âmbito da Justiça Federal, devendo restituir, no entanto, os valores adiantados pela parte adversa a esse título. 
+    - [Somente na Justiça Federal — Sucumbência recíproca, União como parte] A União é isenta do pagamento de custas processuais no âmbito da Justiça Federal. No caso dos autos, considerando a sucumbência recíproca, deve a União ressarcir 50% das custas adiantadas pela Impetrante.
+    - [Somente na Justiça Federal — Embargos à execução fiscal] Sem custas nos termos do art. 7º da Lei nº 9.289/96.
 
 ## INSTRUÇÕES ADICIONAIS PARA A IA AO GERAR O VOTO:
 - Preencha os placeholders [entre colchetes] com as informações específicas do caso que serão fornecidas posteriormente.

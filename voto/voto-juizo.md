@@ -216,7 +216,7 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 ###### Tipo (opções: A_FAVOR, CONTRA) - Tipo da Fundamentação
 - Tipo: A_FAVOR (fundamentação que sustenta o acolhimento do pedido) ou CONTRA (fundamentação que sustenta o seu desacolhimento).
 
-###### Lg_Selecionada - Selecionada
+###### Lo_Selecionada - Selecionada
 - Indicação de que a sugestão deve ser aproveitada na redação do voto.
 - Dentre as sugestões apresentadas, marque com true nas que entender pertinentes e mais importantes: tipicamente, as alinhadas com o dispositivo atribuído ao pedido e as contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque checked=false nas demais. Isso é uma decisão da IA, que poderá ser revista pelo usuário antes da redação do voto.
 
@@ -249,13 +249,13 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 ###### Tipo (opções: A_FAVOR, CONTRA) - Tipo da Fundamentação
 - Tipo: A_FAVOR (fundamentação que sustenta o acolhimento do pedido) ou CONTRA (fundamentação que sustenta o seu desacolhimento).
 
-###### Lg_Selecionada - Selecionada
+###### Lo_Selecionada - Selecionada
 - Indicação de que a sugestão deve ser aproveitada na redação do voto.
 - Dentre as sugestões apresentadas, marque com true nas que entender pertinentes e mais importantes: tipicamente, as alinhadas com o dispositivo atribuído ao pedido e as contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque checked=false nas demais. Isso é uma decisão da IA, que poderá ser revista pelo usuário antes da redação do voto.
 
 
 ### Tg_ComandosAdicionais (opcional) - Comandos Adicionais
-- Utilize este campo para informar quaisquer comandos adicionais que sejam necessários para redação do voto, que será feita em seguida, mas que não se encaixem nos campos anteriores. Por exemplo, caso seja necessário desmembrar um pedido ou argumento específico, ou caso haja alguma particularidade relevante para a análise, informe aqui. Se não houver comandos adicionais, deixe este campo em branco.
+- Utilize este campo para informar quaisquer comandos adicionais que sejam necessários para redação do voto, que será feita em seguida, mas que não se encaixem nos campos anteriores. Por exemplo, caso seja necessário desmembrar um pedido ou argumento específico, ou caso haja alguma particularidade relevante para a análise, informe aqui. Se não houver comandos adicionais, deixe este campo em branco. Não repita informações que já constem nos campos anteriores.
 
 # FORMAT
 {% if motivoGeral %}**Motivo(s) de Não Conhecimento Geral:** {{ motivoGeral | join(", ") }}
