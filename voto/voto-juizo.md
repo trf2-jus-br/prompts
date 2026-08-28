@@ -226,22 +226,13 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 ##### texto - Texto do Argumento
 - Esse texto deve ser copiado do documento marcado como <pedidos-do-recurso-e-argumentos>.
 
-##### dispositivo (opções: SUSPENDER, DAR_PROVIMENTO, DAR_PROVIMENTO_PARCIAL, NEGAR_PROVIMENTO, NAO_CONHECER, DESCONSIDERAR, RECURSO_PREJUDICADO) - Dispositivo do Argumento
+##### dispositivo (opções: ACOLHER, REJEITAR, DESCONSIDERAR) - Dispositivo do Argumento
 - Se desejar informar um dispositivo especificamente para o argumento, preencha este campo. Caso contrário, preencha este campo com DESCONSIDERAR.
-- Se o pedido ao qual o argumento pertence tiver o campo dispositivo preenchido com SUSPENDER, DAR_PROVIMENTO ou NEGAR_PROVIMENTO, preencha este campo com DESCONSIDERAR.
-
-##### tema[] (opcional) - Tema do Argumento
-- Caso o campo dispositivo do argumento tenha sido preenchido com SUSPENDER, DAR_PROVIMENTO ou NEGAR_PROVIMENTO com fundamento em tese vinculante, faça conforme acima, mas para o argumento específico, ou deixe em branco.
-
-##### motivo[] (opcional, opções: DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, AUSENCIA_DE_MATERIA) - Motivo do Não Conhecimento
-- Caso o campo dispositivo do argumento tenha sido preenchido com NAO_CONHECER, faça conforme acima, mas para o argumento específico, ou preencha este campo com [].
-- As opções de motivos estão listadas e explicadas nos títulos Juízo de Mérito e Hipóteses que NÃO configuram julgamento com fundamento em tese, acima.
-- Caso haja mais de um motivo para o argumento, informe todos os motivos aplicáveis neste campo, utilizando um array. Caso contrário, preencha este campo com [].
+- Se o pedido ao qual o argumento pertence tiver o campo dispositivo preenchido com ACOLHER, REJEITAR ou DESCONSIDERAR, preencha este campo com DESCONSIDERAR.
 
 ##### fundamentacoes[] - Fundamentações Sugeridas do Argumento
-- Apresente, para o argumento, entre 2 e 4 sugestões A_FAVOR e entre 2 e 4 CONTRA, nos mesmos termos do campo fundamentacoes do pedido: cada sugestão com texto, tipo (A_FAVOR ou CONTRA) e checked, extraída ou sintetizada das peças, do documento marcado como <pesquisa-de-temas> e, se presente, do levantamento analítico do processo.
-- Marque checked=true nas sugestões pertinentes, alinhadas com o dispositivo atribuído ao argumento ou contrárias relevantes a serem enfrentadas.
-- Quando o dispositivo do argumento for DESCONSIDERAR (incluindo a hipótese de o pedido ter recebido SUSPENDER, DAR_PROVIMENTO ou NEGAR_PROVIMENTO), o preenchimento deste campo é opcional.
+- Apresente, para o argumento, entre 1 e 2 sugestões A_FAVOR e entre 1 e 2 CONTRA.
+- As fundamentacoes devem ser extraídas ou sintetizadas das peças, do documento marcado como <voto-pesquisa-de-temas>, do documento marcado como <busca-jurisprudencia> e, se presente, do levantamento analítico do processo. Também podem ser extraídas de fundamentos jurídicos que o usuário tenha identificado e que não constem nos documentos acima. Não as invente.
 
 ###### Tg_Texto - Texto da Fundamentação
 - A fundamentação, formulada de modo conciso e aplicável ao caso concreto (não uma máxima abstrata).
@@ -251,7 +242,7 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 
 ###### Lo_Selecionada - Selecionada
 - Indicação de que a sugestão deve ser aproveitada na redação do voto.
-- Dentre as sugestões apresentadas, marque com true nas que entender pertinentes e mais importantes: tipicamente, as alinhadas com o dispositivo atribuído ao pedido e as contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque checked=false nas demais. Isso é uma decisão da IA, que poderá ser revista pelo usuário antes da redação do voto.
+- Dentre as sugestões apresentadas, marque com true as que entender pertinentes e mais importantes: tipicamente, as alinhadas com o dispositivo atribuído ao pedido e as contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque false nas demais. Isso é uma sugestão da IA, que poderá ser revista pelo usuário antes da redação do voto.
 
 
 ### Tg_ComandosAdicionais (opcional) - Comandos Adicionais
