@@ -1,6 +1,6 @@
 ---
 uuid: 932d8abb-9ad7-46a2-9070-558adca7abd8
-name: Pesquisa de Temas e Súmulas para Voto
+name: Pesquisa de Temas
 description: Pesquise teses e súmulas vinculantes aplicáveis aos pedidos do recurso para fundamentar o juízo de votação de segundo grau.
 sort: 3
 share: oculto

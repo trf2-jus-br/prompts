@@ -120,24 +120,19 @@ Repercussão sobre honorários (art. 85, §§ 2º, 3º, 8º e 11, do CPC); custa
 Responder exatamente na estrutura abaixo, em texto corrido dentro de cada item — **sem frases soltas separadas por travessões, sem listas de uma linha**. Parágrafos completos e encadeados; tabelas apenas onde previstas.
 
 ```
-## ANÁLISE PRÉVIA — [CLASSE E NÚMERO DO PROCESSO]
-
-### 1. IDENTIFICAÇÃO
-[partes, origem, classe, relator, interveniências]
-
-### 2. SÍNTESE DA LIDE
+### SÍNTESE DA LIDE
 [objeto da demanda e defesa, em até dois parágrafos]
 
-### 3. PROVIMENTO RECORRIDO
+### PROVIMENTO RECORRIDO
 [fundamentos determinantes e dispositivo, por capítulo, com indicação do evento]
 
-### 4. RAZÕES RECURSAIS
+### RAZÕES RECURSAIS
 [teses do recorrente]
 
-### 5. CONTRARRAZÕES E PARECER DO MINISTÉRIO PÚBLICO
+### CONTRARRAZÕES E PARECER DO MINISTÉRIO PÚBLICO
 [ou: "Não há nos autos fornecidos."]
 
-### 6. JUÍZO DE ADMISSIBILIDADE
+### JUÍZO DE ADMISSIBILIDADE
 
 | Requisito | Situação | Elemento comprobatório |
 |---|---|---|
@@ -152,15 +147,12 @@ Responder exatamente na estrutura abaixo, em texto corrido dentro de cada item �
 
 **Conclusão parcial:** [o recurso é / não é / é parcialmente admissível, com a justificativa correspondente]
 
-### 7. QUESTÕES DE ORDEM PÚBLICA E PRELIMINARES
+### QUESTÕES DE ORDEM PÚBLICA E PRELIMINARES
 
-### 8. MATÉRIA DEVOLVIDA
+### MATÉRIA DEVOLVIDA
 [capítulos efetivamente devolvidos e capítulos preclusos]
 
-### 9. QUADRO NORMATIVO E JURISPRUDENCIAL
-[dispositivos e precedentes reais; sinalizar as verificações pendentes]
-
-### 10. CONFRONTO DE TESES
+### CONFRONTO DE TESES
 
 | Capítulo | Tese do recorrente | Tese do recorrido / fundamento da decisão | Elemento decisivo nos autos |
 |---|---|---|---|
@@ -176,13 +168,10 @@ Responder exatamente na estrutura abaixo, em texto corrido dentro de cada item �
 | DAR PROVIMENTO | | | |
 | SOBRESTAR o julgamento (tema pendente) | | | |
 
-### 12. SUGESTÃO DO ASSESSOR
-[opinião fundamentada, em um parágrafo, com ressalva expressa de que a decisão cabe ao relator]
-
-### 13. PONTOS DE ATENÇÃO E LACUNAS
-[INFORMAÇÃO NECESSÁRIA: ...]
-[VERIFICAR JURISPRUDÊNCIA: ...]
-[AMBIGUIDADE: ...]
+### PONTOS DE ATENÇÃO E LACUNAS
+[- INFORMAÇÃO NECESSÁRIA: ... (se houver)]
+[- VERIFICAR JURISPRUDÊNCIA: ... (se houver)]
+[- AMBIGUIDADE: ... (se houver)]
 ```
 
 ## REGRAS DE EXTENSÃO E ESTILO

@@ -227,8 +227,9 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 - Esse texto deve ser copiado do documento marcado como <pedidos-do-recurso-e-argumentos>.
 
 ##### dispositivo (opções: ACOLHER, REJEITAR, DESCONSIDERAR) - Dispositivo do Argumento
-- Se desejar informar um dispositivo especificamente para o argumento, preencha este campo. Caso contrário, preencha este campo com DESCONSIDERAR.
-- Se o pedido ao qual o argumento pertence tiver o campo dispositivo preenchido com ACOLHER, REJEITAR ou DESCONSIDERAR, preencha este campo com DESCONSIDERAR.
+- Quando é negado o provimento, então cada um dos argumentos deve ser analisado individualmente, com o dispositivo ACOLHER ou REJEITAR, conforme o caso.
+- Quando é dado provimento integral ao pedido, todos os argumentos devem receber DESCONSIDERAR, pois não há necessidade de enfrentá-los individualmente.
+- Se o pedido for desconsiderado, todos os argumentos devem receber DESCONSIDERAR.
 
 ##### fundamentacoes[] - Fundamentações Sugeridas do Argumento
 - Apresente, para o argumento, entre 1 e 2 sugestões A_FAVOR e entre 1 e 2 CONTRA.

@@ -2,7 +2,7 @@
 uuid: 6fc5240c-cdbd-413e-b9c1-d660ffe178e7
 name: Busca de Jurisprudência
 author: Apoia
-share: BETA_TESTE
+share: oculto
 target: PROCESSO
 mode: JUDICIAL
 ---
@@ -23,7 +23,8 @@ mode: JUDICIAL
 
 ### getPrecedentFullText
 - Obtém o documento completo de um resultado da busca pelo campo "id".
-- Use apenas nos julgados que, depois de lida a ementa, ainda exigirem confirmação (tese inconclusiva, necessidade de transcrever a ementa completa): ler o inteiro teor de tudo é desperdício de chamadas.
+- Regra de citação: NENHUM julgado pode entrar no relatório sem que seu inteiro teor tenha sido lido nesta interação. A leitura do inteiro teor confirma a pertinência real à questão, confere os dados (órgão, relator, data, classe) e garante fidelidade da tese; a leitura da ementa sozinha é triagem, nunca habilita citação.
+- Mesmo assim, não leia o inteiro teor de tudo o que aparecer: restrinja a leitura aos candidatos a citação já filtrados pela triagem de ementas (PASSO 4).
 
 ## PROTOCOLO DE PESQUISA (OBRIGATÓRIO E SEQUENCIAL)
 
@@ -53,32 +54,38 @@ mode: JUDICIAL
   2. Diante de "MUITOS_RESULTADOS", refine: acrescente termos, expressões exatas, exclusões com "não" ou filtros — a meta é ultrapassar o limiar do MUITOS_RESULTADOS e chegar ao status "OK".
   3. Diante de "SEM_RESULTADOS" (ou menos de 10 resultados totalizados), simplifique gradualmente: remova um termo ou uma expressão exata por vez, mantendo o núcleo técnico da questão; se ainda assim pouco, substitua por variação com sinônimos (construídos no PASSO 1, item "sinônimos possíveis").
   4. Encontrado um conjunto "OK" de resultados, PAGINE a consulta final para ler TODAS as ementas do conjunto: repita a mesma chamada com o parâmetro "page" (one-based: page=1 é a primeira, page=2 a segunda, page=3 a terceira etc.) para receber as páginas seguintes de até 10 resultados cada. Regras da paginação:
-     - ESCALADA OBRIGATÓRIA: SEMPRE execute page=2 da consulta final. O corte em 10 é do sistema, não seu: página com 10 resultados NÃO é fim da lista.
+     - ESCALADA OBRIGATÓRIA: SEMPRE execute page=2 da consulta final e, SE a consulta tiver mais de 20 resultados no total, execute também page=3 (3 páginas × 10 resultados = os cerca de 30 pertinentes que o afunilamento admite). O corte em 10 é do sistema, não seu: página com 10 resultados NÃO é fim da lista.
      - Fim real da lista: página vazia (0 resultados) ou página incompleta (menos de 10 resultados).
      - Ao fim de cada página, CONTE quantos resultados da página são pertinentes à questão (respondem, direta ou indiretamente, à pergunta jurídica). Continue paginando enquanto houver pertinentes e o total acumulado de pertinentes for inferior a 30.
      - SE a página não trouxer NENHUM resultado pertinente, ou o total acumulado já tiver passado de 30 pertinentes com muitas páginas pela frente: PARE de paginar e volte ao refinamento (item 2), reiniciando a paginação da nova consulta pelo page=1.
      - Consulta com menos de 10 pertinentes no total pode ser complementada por UMA variação (outra combinação de termos/sinônimos da mesma questão), também paginada até 30 pertinentes ou fim da lista.
   5. ESGOTAMENTO por questão: no máximo 4 rodadas entre refinamento e variação por questão. Esgotadas as 4 rodadas (ou o orçamento global), passe à próxima questão — mas então registre na memória da pesquisa (campo observacao da questão, PASSO 1) o motivo do encerramento precoce.
-  6. Só depois de ler todas as ementas do conjunto relevante, e apenas se ainda houver dúvida relevante sobre a tese de algum julgado promissor, consulte o inteiro teor (PASSO 4).
+  6. Encerrada a leitura das ementas da questão, passe à verificação por inteiro teor dos candidatos à citação (PASSO 4) — ela é obrigatória para todo julgado que irá ao relatório.
 - Se após todas as tentativas no campo "E" a questão não tiver resultado significativo (nada encontrado, ou apenas resultados que não respondem à questão), faça UMA última rodada no campo "I" com a consulta ajustada, seguindo o mesmo ciclo de refinamento. Se ainda assim não houver nada, registre a dificuldade (ex.: "questão sem repertório específico no tribunal configurado") e siga para a próxima questão.
-- Orçamento: até 90 chamadas de getPrecedent e até 10 de getPrecedentFullText por interação (limite geral de ferramentas: 100). Como são possíveis de 2 a 5 questões, isso implica em média 15 a 40 chamadas de busca por questão — e é o esperado gastá-las em refinamento e paginação. Encerrar a interação inteira com menos de 10 chamadas totais de busca é sinal de pesquisa superficial, e não de eficiência: a auditoria do PASSO 3½ detectará a falha.
-- Para cada questão, pesquise as duas direções da controvérsia: julgados que sustentam a tese de uma parte e da outra (FAVORÁVEL/CONTRÁRIA). Não faça pesquisa de mero confirmação. Se após esgotada a meta de leitura de uma questão só houver julgados de um dos lados, faça UMA variação adicional orientada ao lado ausente antes de desistir dele.
+- Orçamento: até 70 chamadas de getPrecedent e até 30 de getPrecedentFullText por interação (limite geral de ferramentas: 100) — o inteiro teor passou a ser etapa obrigatória de verificação de todo citado, então o orçamento foi rebalanceado. Para 2 a 5 questões, isso dá em média 10 a 30 chamadas de busca por questão mais o inteiro teor dos citáveis (em regra 2 a 8 por questão). Encerrar a interação inteira com menos de 10 chamadas totais é sinal de pesquisa superficial, e não de eficiência: a auditoria do PASSO 3½ detectará a falha. Se o orçamento de inteiro teor apertar, reduza o número de julgados citados antes de citar julgado sem verificação.
+- Para cada questão, pesquise as duas direções da controvérsia: julgados que sustentam a tese de uma parte e da outra (FAVORAVEL/CONTRARIA); julgados NEUTRA podem surgir e ser registrados, mas não dispensam a busca das duas direções. Não faça pesquisa de mero confirmação. Se após esgotada a meta de leitura de uma questão só houver julgados de um dos lados, faça UMA variação adicional orientada ao lado ausente antes de desistir dele.
 
 ### PASSO 3½: AUDITORIA OBRIGATÓRIA antes do relatório
 Antes de redigir qualquer coisa (e ainda em silêncio), confira cada item; qualquer "não" exige voltar à pesquisa:
 1. Todas as questões de `questoes[]` tiveram pelo menos uma consulta executada na base?
 2. Cada questão atingiu a meta de leitura mínima de 10 ementas pertinentes (ou teve esgotamento registrado no campo de observação)?
-3. Toda consulta final com status "OK" teve a page=2 executada (ou chegou ao fim real da lista na page=1)?
-4. As duas direções da controvérsia foram pesquisadas para cada questão?
+3. Toda consulta final com status "OK" teve a page=2 executada — e, quando teve mais de 20 resultados, também a page=3 (ou chegou ao fim real da lista antes disso)?
+4. As duas direções da controvérsia foram pesquisadas para cada questão (há julgados FAVORAVEL e CONTRARIA registrados na respectiva questão, quando ambos existirem na base — julgados NEUTRA não contam para esta checagem)?
 5. Os termos listados em `Tx_Termos[]` são exclusivamente strings de searchQuery efetivamente executadas em getPrecedent nesta interação?
 6. O total de chamadas está coerente com a complexidade (poucas chamadas + poucas ementas = pesquisa incompleta)?
+7. TODOS os julgados registrados em `jurisprudencia[]` tiveram o inteiro teor lido (getPrecedentFullText) nesta interação, com a pertinência confirmada?
 
-### PASSO 4: Aprofundamento
-- Lidas todas as ementas da consulta final de cada questão, selecione os julgados cujo inteiro teor ainda valha a pena consultar (tese inconclusiva na ementa, divergência que precisa ser confirmada, necessidade de contexto). Limite: até 10 consultas de inteiro teor no total.
+### PASSO 4: Verificação por inteiro teor (crivo de citação)
+- Encerrada a triagem de ementas de uma questão, monte a lista de CANDIDATOS à citação: todos os julgados pertinentes relevantes, nas direções que existirem (FAVORAVEL/CONTRARIA/NEUTRA).
+- Para CADA candidato, leia o inteiro teor (getPrecedentFullText) ANTES de registrá-lo: confirme a pertinência real à pergunta jurídica, os dados do julgado e a fidelidade da tese. Julgado citado sem inteiro teor lido nesta interação é violação direta do protocolo.
+- Se o inteiro teor desfizer a pertinência sugerida pela ementa, DESCARTE o candidato (e, havendo margem de orçamento, promova outro da lista de triagem, também verificado).
+- Limite: até 30 consultas de inteiro teor no total. Havendo várias questões, verifique primeiro os candidatos mais aderentes à pergunta jurídica, para não esgotar o orçamento com casos periféricos.
 - Dê preferência a acórdãos de colegiado e a precedentes relevantes sobre decisões monocráticas, salvo quando a questão envolver especificamente apreciação monocrática ou da Vice-Presidência.
 
 ### PASSO 5: Relatório
 - Antes de redigir, execute a auditoria do PASSO 3½ e sane qualquer pendência voltando à pesquisa.
+- Seleção por questão: registre em `jurisprudencia[]` da questão TODOS os julgados relevantes confirmados por inteiro teor — não apenas um de cada direção: havendo vários FAVORAVEIS ou vários CONTRARIOS relevantes, inclua todos (em regra 2 a 8 por questão; a meta é cobrir o melhor repertório que a base oferecer, não equilibrar artificialmente os lados). Julgados NEUTRA (relevantes que não penderem para nenhum dos lados) podem ser registrados como tais, mas não substituem nenhuma das duas direções. Não repita o mesmo julgado duas vezes na mesma questão; um julgado pertinente a duas questões diferentes pode figurar em ambas.
+- Ao citar cada julgado no relatório, use o formato renderizado pelo template: [classe], [número do processo], [órgão julgador], Relator(a) [nome], julgado em [data] — e, quando houver, anteceda com a sigla do órgão (ex.: TRF2), registrando a direção (FAVORAVEL/CONTRARIA/NEUTRA).
 - Redija o relatório no formato definido, citando exclusivamente documentos efetivamente retornados pelas ferramentas.
 - REGRAS INEGOCIÁVEIS contra invenção:
   - NUNCA invente julgados, números de processo, relatores, órgãos julgadores, datas, ementas ou teses.
@@ -87,7 +94,6 @@ Antes de redigir qualquer coisa (e ainda em silêncio), confira cada item; qualq
   - Se a busca não encontrar jurisprudência para uma questão, sinalize explicitamente ("não localizada nesta base") — ausência de resultado é um resultado válido. JAMAIS preencha a lacuna com julgados lembrados ou plausíveis.
   - Em caso de dúvida sobre se um dado veio da ferramenta, descarte o julgado.
 - Trabalhe em silêncio durante toda a pesquisa: não mostre ao usuário as buscas intermediárias, os termos testados, os resultados crus ou a paginação. O relatório final é o único output e deve apresentar apenas os julgados citáveis e as questões identificadas.
-- Ao citar cada julgado no relatório, use o formato renderizado pelo template: [classe], [número do processo], [órgão julgador], Relator(a) [nome], julgado em [data] — e, quando houver, anteceda com a sigla do órgão (ex.: TRF2).
 - Diferencie o que foi extraído da ementa lida na busca do que foi confirmado no inteiro teor.
 
 ## LIMITES
@@ -100,9 +106,10 @@ Antes de redigir qualquer coisa (e ainda em silêncio), confira cada item; qualq
 Analise as peças processuais a seguir, identifique as questões centrais controvertidas e execute busca de jurisprudência sobre cada uma delas, seguindo o protocolo de pesquisa.
 
 Requisitos não negociáveis desta execução:
-1. TODAS as questões identificadas devem ter consultas próprias executadas e paginadas (não pare na primeira página de resultados).
-2. A pergunta de auditagem do PASSO 3½ é condição para o relatório: não o redija antes de aprová-la por inteiro.
-3. Trabalhe em silêncio: sem exibir buscas intermediárias ou resultados ao usuário; o relatório final é o único output.
+1. TODAS as questões identificadas devem ter consultas próprias executadas e paginadas até a page=2 (e até a page=3 quando a consulta tiver mais de 20 resultados).
+2. A auditoria do PASSO 3½ é condição para o relatório: não redija nada antes de aprová-la integralmente.
+3. Cada jurisprudência citada deve ficar registrada dentro da questão à qual pertence e somente após a leitura do seu inteiro teor; questão sem julgado relevante fica com jurisprudencia nula (nunca empreste julgados de outra questão).
+4. Trabalhe inteiramente em silêncio: execute TODA a pesquisa (todas as questões, refinamentos, paginação, inteiro teor e auditoria) ANTES de começar a gerar qualquer campo do relatório. Nenhum texto pode ser escrito antes do fim da pesquisa; o relatório final é o único output.
 
 {{textos}}
 
@@ -121,61 +128,74 @@ Requisitos não negociáveis desta execução:
 #### Tx_Observacao (opcional)
 - Breve registro de dificuldades da pesquisa da questão (ex.: "tema sem repertório específico nesta base", "esgotadas 4 rodadas de refinamento"). Use também para justificar encerramento abaixo da meta de leitura do PASSO 3.
 
-### jurisprudencia[] (opcional) - Julgados Encontrados
-- Para cada julgado relevante encontrado nas pesquisas
-- Deixe nulo se não for encontrada nenhuma jurisprudência relevante nas pesquisas
+#### jurisprudencia[] (opcional) - Julgados Encontrados desta Questão
+- Julgados pertinentes exclusivamente a esta questão, entre todos os efetivamente lidos na pesquisa dela.
+- Só podem ser registrados julgados cujo inteiro teor foi lido e confirmou a pertinência (PASSO 4); a leitura da ementa sozinha não habilita a citação.
+- Deixe nulo se nenhuma jurisprudência relevante for encontrada para esta questão (não empreste julgados de outra questão).
 
-#### Tx_Tipo (opções: FAVORAVEL, CONTRARIA)
+##### Tx_Tipo (opções: FAVORAVEL, CONTRARIA, NEUTRA)
+- FAVORAVEL se a tese do julgado sustenta a pretensão da parte proponente do par adversarial (ex.: autora/recorrente); CONTRARIA se sustenta a parte adversa; NEUTRA se o julgado é relevante para a questão mas sua tese não pender para nenhum dos lados (ex.: diretriz procedimental aplicável a ambos). Julgado cuja direção não pôde ser aferida não deve ser registrado.
 
-#### Tx_Sigla (opcional) - Sigla do Órgão
+##### Tx_Sigla (opcional) - Sigla do Órgão
 - Sigla do órgão, se houver.
 
-#### Tx_Classe (opcional) - Classe
+##### Tx_Classe (opcional) - Classe
 - Classe processual, se houver.
 
-#### Tx_Numero (opcional) - Número do Processo
+##### Tx_Numero (opcional) - Número do Processo
 - Número do processo, se houver.
 
-#### Tx_Orgao_Julgador (opcional) - Órgão Julgador
+##### Tx_Orgao_Julgador (opcional) - Órgão Julgador
 - Órgão julgador, se houver.
 
-#### Tx_Relator (opcional) - Relator(a)
+##### Tx_Relator (opcional) - Relator(a)
 - Relator(a), se houver.
 
-#### Dt_Julgamento (opcional) - Data do Julgamento
+##### Dt_Julgamento (opcional) - Data do Julgamento
 - Data do julgamento, se houver.
 
-#### Tg_Tese (opcional) - Tese
+##### Tg_Tese (opcional) - Tese
 - Citar a tese ou fazer um resumo fiel da tese em 1 a 3 linhas, se houver.
 
-#### Tx_Origem_Tese (opcional, opções: EMENTA, INTEIRO_TEOR) - Origem da Tese
-- Informe se foi extraído da ementa lida na busca ou do inteiro teor, se houver.
+##### Tx_Origem_Tese (opcional, opções: EMENTA, INTEIRO_TEOR) - Origem da Tese
+- Como todo julgado citado passou pelo inteiro teor (PASSO 4), informe EMENTA quando a tese transcrita foi extraída da ementa (lida na busca ou no inteiro teor) e INTEIRO_TEOR quando extraída do corpo do acórdão.
 
-#### Tg_Decisao (opcional) - Decisão
-- incluir a decisão completa, ipsislitteris, se houver.
+##### Tg_Decisao (opcional) - Decisão
+- Incluir a decisão completa, ipsislitteris, se houver.
+- Caso o documento traga uma longa decisão, ela deve ser incluída na íntegra.
 
-#### Tg_Ementa (opcional) - Ementa
-- incluir a ementa completa, ipsislitteris, se houver. Se a ementa não foi lida nem na busca nem no inteiro teor, preencha "[ementa não disponível]". Nunca redija ementa de memória.
+##### Tg_Ementa (opcional) - Ementa
+- Incluir a ementa completa, ipsislitteris, se houver. Se a ementa não foi lida nem na busca nem no inteiro teor, preencha "[ementa não disponível]". Nunca redija ementa de memória.
+
+### Tg_Conclusao (opcional) - Conclusão
+- Breve conclusão sobre a pesquisa, se houver. Use para registrar observações gerais sobre a pesquisa, dificuldades encontradas ou lacunas de jurisprudência.
+- Formatar com MarkDown.
 
 
 # FORMAT
-{% for q in questoes %}{% set outerIndex = loop.index %}**Questão {{loop.index}}:** {{ q.Tg_Pergunta }}
+{% for q in questoes %}{% set qi = loop.index %}**Questão {{qi}}:** {{ q.Tg_Pergunta }}
 
 Termos de Busca Inferidos (consultas efetivamente executadas): {% for t in q.Tx_Termos %}
 {{loop.index}}. {{ t }}{% endfor %}
 {% if q.Tx_Observacao %}
 Observação da pesquisa: {{ q.Tx_Observacao }}
 {% endif %}
+{% if not q.jurisprudencia %}
+Jurisprudência não localizada nesta base para esta questão.
+{% else %}{% for j in q.jurisprudencia %}
+**Jurisprudência {{qi}}.{{loop.index}} ({{j.Tx_Tipo}}):** {{ j.Tx_Sigla }}, {{ j.Tx_Classe }}, {{ j.Tx_Numero }}, {{ j.Tx_Orgao_Julgador }}, {{ j.Tx_Relator }}, {{ j.Dt_Julgamento }}
+
+> **Tese {{j.Tx_Origem_Tese}}:** {{j.Tg_Tese}}
+
+> **Decisão:** {{j.Tg_Decisao}}
+
+> **Ementa:** {{j.Tg_Ementa}}
+{% endfor %}{% endif %}
 
 {% endfor %}
 
-{% if not jurisprudencia %}Nenhuma jurisprudência relevante foi localizada nesta base para as questões acima.
-{% endif %}{% for j in jurisprudencia %}{% set outerIndex = loop.index %}**Jurisprudência {{loop.index}} ({{j.Tx_Tipo}}):** {{ j.Tx_Classe }}, {{ j. Tx_Numero }}, {{ j.Tx_Orgao_Julgador }}, {{ j.Tx_Relator }}, {{ j.Dt_Julgamento }}
+{% if Tg_Conclusao %}
+**Conclusão:** 
 
-**Tese {{j.Tx_Origem_Tese}}:** {{j.Tg_Tese}}
-
-**Decisão:** {{j.Tg_Decisao}}
-
-**Ementa:** {{j.Tg_Ementa}}
-   
-{% endfor %}
+{{ Tg_Conclusao }}
+{% endif %}
