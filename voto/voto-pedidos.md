@@ -100,12 +100,12 @@ Identifique os pedidos realizados na peça recursal abaixo:
 
 
 # FORMAT
-{% for d in Pedidos %}{% set outerIndex = loop.index %}**Pedido {= loop.index =} {% if d.Tp_Relacao and d.Tp_Relacao != 'AUTONOMO' %} ({= d.Tp_Relacao | lower =}{% if d.Id_PedidoVinculado %} ao pedido {= d.Id_PedidoVinculado =}{% endif %}){% endif %}:** {% if d.Lo_PedidoDeEfeitoSuspensivo %}[C/ EFEITO SUSPENSIVO] {% endif %}{= d.Tx_Texto =}
+{% for d in Pedidos %}{% set outerIndex = loop.index %}**Pedido {= loop.index =}{% if d.Tp_Relacao and d.Tp_Relacao != 'AUTONOMO' %} ({= d.Tp_Relacao | lower =}{% if d.Id_PedidoVinculado %} ao pedido {= d.Id_PedidoVinculado =}{% endif %}){% endif %}**: {% if d.Lo_PedidoDeEfeitoSuspensivo %}[C/ EFEITO SUSPENSIVO] {% endif %}{= d.Tx_Texto =}
 
 > {= d.Tx_Trecho_Comprobatorio | blockquoteLines =}
 
-Argumentos:{% for a in d.Argumentos %}
-{= loop.index =}. {= a.Tx_Texto =}
+{% for a in d.Argumentos %}
+<p style="margin-left: 2em;"><strong>Argumento {= outerIndex =}.{= loop.index =}</strong>: {= a.Tx_Texto =}</p>
 
 > {= a.Tx_Trecho_Comprobatorio | blockquoteLines =}
 

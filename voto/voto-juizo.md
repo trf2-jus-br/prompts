@@ -252,17 +252,19 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 # FORMAT
 {% if motivoGeral %}**Motivo(s) de Não Conhecimento Geral:** {{ motivoGeral | join(", ") }}
 {% else %}
-{% for d in pedidos %}{% set outerIndex = loop.index %}**Pedido {{loop.index}}:** {{ d.texto }}
+{% for d in pedidos %}**Pedido {{loop.index}}:** {= d.texto =}
+- Dispositivo: {{ d.dispositivo }}{% if d.motivo %}
+- Motivo(s): {{ d.motivo | join(", ") }}{% endif %}{% if d.tema %}
+- Tema(s): {{ d.tema | join(", ") }}{% endif %}
 
-Argumentos:{% for a in d.argumentos %}
-{{loop.index}}. {{ a.texto }}{% endfor %}
+{% if d.argumentos %}Argumentos:{% for a in d.argumentos %}
+{{loop.index}}. {= a.texto =} ({{ a.dispositivo }}){% endfor %}
 
-Fundamentações:{% for f in d.fundamentacoes %}
-{{loop.index}}. {{ "[x]" if f.checked else "[ ]" }} ({{ f.tipo }}) {{ f.texto }}{% endfor %}
-    
-{% endfor %}
+{% endif %}{% if d.fundamentacoes %}Fundamentações:{% for f in d.fundamentacoes %}
+{{loop.index}}. {{ "[x]" if f.Lo_Selecionada else "[ ]" }} ({{ f.Tipo }}) {= f.Tg_Texto =}{% endfor %}
+
+{% endif %}{% endfor %}
 {% endif %}
-
 {% if Tg_ComandosAdicionais %}
-**Comandos Adicionais:** {{ Tg_ComandosAdicionais }}
+**Comandos Adicionais:** {= Tg_ComandosAdicionais =}
 {% endif %}

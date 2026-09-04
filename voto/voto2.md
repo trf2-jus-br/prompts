@@ -105,6 +105,7 @@ A partir daí, adapte a redação:
     - [Reforma Parcial da sentença em MS]: reformar em parte a sentença e conceder, em parte, a segurança, na forma da fundamentação.
 
 ### III. DISPOSITIVO
+- O dispositivo deve ser redigido em um único parágrafo, de forma clara e objetiva, resolvendo todas as questões postas em juízo, conforme o resultado do julgamento. Inclua sucumbência e custas, se houver necessidade, no final do parágrafo. Inicie conforme texto a seguir e adapte a redação conforme o resultado do julgamento:
 
 Ante o exposto, voto no sentido de [DAR PROVIMENTO / DAR PARCIAL PROVIMENTO / NEGAR PROVIMENTO / NÃO CONHECER / SOBRESTAR o julgamento até o trânsito em julgado do(s) Tema(s) [número] / JULGAR PREJUDICADO] à apelação [e à remessa necessária, se for o caso]. [especificar (autor/apelante x ré/apelada) → apenas quando ambos apelaram].
 - [Sobrestamento] Ante o exposto, voto no sentido de sobrestar o julgamento do feito até o trânsito em julgado do [Tema nº X / Temas nºs X e Y], conforme fundamentação.
