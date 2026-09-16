@@ -119,6 +119,7 @@ Para os demais casos, use os modelos a seguir:*
 **Caminho 4: Para JUÍZO DE RETRATAÇÃO**
 *Atenção: Para JUÍZO DE RETRATAÇÃO, use a Biblioteca de Textos-Padrão mais abaixo (Juízo de Retratação).*
 
+##### REGRA ESSENCIAL PARA A FUNDAMENTAÇÃO: a citação ou transcrição de ementas de acórdãos (jurisprudência) somente é admissível se atendidos os seguintes requisitos: (a) acórdãos confirmadamente citados/transcritos no acórdão proferido no processo; (b) a citação ou transcrição da ementa do(s) acórdão(s) deve ser literal e integral, não se admitindo corte de trechos, resumos, reescrita com outras palavras, nem qualquer outro tipo de alteração.
 
 ### 3. Dispositivo (Encerramento do Texto)
 O texto deve terminar **exatamente** em uma das frases abaixo.
