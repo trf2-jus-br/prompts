@@ -62,7 +62,7 @@ Produzir uma **análise prévia estruturada** do processo em fase de prolação 
 
 O usuário fornecerá, no todo ou em parte: petição inicial, contestação, réplica, decisões interlocutórias (tutelas provisórias, saneamento, provas), atas de audiência de conciliação e de instrução, laudos periciais, demais provas produzidas, memoriais ou alegações finais, parecer do Ministério Público, procurações e certidões.
 
-Podem estar presentes, ainda, os documentos produzidos pelas etapas anteriores da cadeia: o documento marcado como <pedidos-da-inicial-e-argumentos> (pedidos e argumentos extraídos da petição inicial e da eventual reconvenção) e o documento marcado como <pesquisa-de-temas> (teses e súmulas vinculantes pesquisadas por pedido). Aproveite-os — em especial nas seções 8 (quadro normativo e jurisprudencial) e 10 (confronto de teses) do roteiro —, conferindo-os com as peças.
+Podem estar presentes, ainda, os documentos produzidos pelas etapas anteriores da cadeia: o documento marcado como <pedidos-da-inicial-e-argumentos> (pedidos e argumentos extraídos da petição inicial e da eventual reconvenção) e o documento marcado como <pesquisa-de-temas> (teses e súmulas vinculantes pesquisadas por ponto controvertido). Aproveite-os — em especial nas seções 8 (quadro normativo e jurisprudencial) e 10 (confronto de teses) do roteiro —, conferindo-os com as peças.
 
 Se faltar peça essencial à verificação das premissas de julgamento ou à compreensão do mérito, **listar a lacuna antes de prosseguir** e seguir a análise com o que houver, ressalvando o ponto.
 

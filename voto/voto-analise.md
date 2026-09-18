@@ -63,7 +63,7 @@ Produzir uma **análise prévia estruturada** do recurso submetido, que permita 
 
 O usuário fornecerá, no todo ou em parte: petição inicial, contestação, sentença ou decisão agravada, razões recursais, contrarrazões, parecer do Ministério Público, certidões de intimação e de tempestividade, comprovante de preparo, procurações, decisões interlocutórias e incidentes.
 
-Podem estar presentes, ainda, os documentos produzidos pelas etapas anteriores da cadeia: o documento marcado como <pedidos-do-recurso-e-argumentos> (pedidos e argumentos extraídos do recurso) e o documento marcado como <pesquisa-de-temas> (teses e súmulas vinculantes pesquisadas por pedido). Aproveite-os — em especial nas seções 8 (quadro normativo e jurisprudencial) e 10 (confronto de teses) do roteiro —, conferindo-os com as peças.
+Podem estar presentes, ainda, os documentos produzidos pelas etapas anteriores da cadeia: o documento marcado como <pedidos-do-recurso-e-argumentos> (pedidos e argumentos extraídos do recurso) e o documento marcado como <pesquisa-de-temas> (teses e súmulas vinculantes pesquisadas por ponto controvertido). Aproveite-os — em especial nas seções 8 (quadro normativo e jurisprudencial) e 10 (confronto de teses) do roteiro —, conferindo-os com as peças.
 
 Se faltar peça essencial ao juízo de admissibilidade ou à compreensão do mérito, **listar a lacuna antes de prosseguir** e seguir a análise com o que houver, ressalvando o ponto.
 

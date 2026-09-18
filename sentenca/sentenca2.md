@@ -13,8 +13,8 @@ context:
   instance: primeiro-grau
 predecessors:
   - path: sentenca-pedidos
-  - path: busca-jurisprudencia
   - path: sentenca-pesquisa-de-temas
+  - path: busca-jurisprudencia
   - path: sentenca-analise
   - path: sentenca-juizo
 successors:
