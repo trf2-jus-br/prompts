@@ -96,6 +96,12 @@ Para cada fundamento jurídico apresentado pelo autor (ou reconvinte) para embas
 ###### Tx_Trecho_Comprobatorio - Trecho Comprobatório
 - Cópia do trecho do texto onde o argumento está formulado. Atenção, o texto comprobatório normalmente vem com indicações incorretas de quebras de linha. Leia o texto e entenda onde deve haver quebra de parágrafo e marque apenas as quebras de parágrafo com \n\n. As demais quebras de linha devem ser omitidas.
 
+### Tg_Questao_Central - Questão Central
+- Estabeleça com clareza a questão central
+
+### Tg_Pontos_Controvertidos[] - Pontos Controvertidos
+- Delimite os pontos controvertidos
+
 ## Tarefa Principal
 
 Identifique os pedidos realizados na petição inicial (e na reconvenção, se houver) nas peças abaixo:
@@ -116,3 +122,11 @@ Identifique os pedidos realizados na petição inicial (e na reconvenção, se h
 {% endfor %}
 
 {% endfor %}
+
+{% if Tg_Questao_Central or Tg_Pontos_Controvertidos %}---{% endif %}
+
+{% if Tg_Questao_Central %}**Questão Central**: {= Tg_Questao_Central =}{% endif %}
+
+{% if Tg_Pontos_Controvertidos %}{% for d in Tg_Pontos_Controvertidos %}**Ponto Controvertido {= loop.index =}**: {= d =}
+
+{% endfor %}{% endif %}
