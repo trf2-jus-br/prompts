@@ -161,13 +161,15 @@ Observação da pesquisa: {{ q.Tx_Observacao }}
 {% if not q.jurisprudencia %}
 Jurisprudência não localizada nesta base para esta questão.
 {% else %}{% for j in q.jurisprudencia %}
-**Jurisprudência {{qi}}.{{loop.index}} - {{"Favorável" if j.Tx_Tipo == "FAVORAVEL" else ("Contrária" if j.Tx_Tipo == "CONTRARIA" else "Neutra")}}:** {{ j.Tx_Sigla }}, {{ j.Tx_Classe }}, {{ j.Tx_Numero }}, {{ j.Tx_Orgao_Julgador }}, {{ j.Tx_Relator }}, {{ j.Dt_Julgamento }}
+**Jurisprudência {{qi}}.{{loop.index}} - {{"Favorável" if j.Tx_Tipo == "FAVORAVEL" else ("Contrária" if j.Tx_Tipo == "CONTRARIA" else "Neutra")}}:**
 
 > **Tese{{" obtida da ementa" if j.Tx_Origem_Tese == "EMENTA" else (" obtida do inteiro teor" if j.Tx_Origem_Tese == "INTEIRO_TEOR" else "")}}:** {{j.Tg_Tese}} 
 
 > **Decisão:** {{j.Tg_Decisao}}
 
 > **Ementa:** {{j.Tg_Ementa}}
+
+> ({{ j.Tx_Sigla }}, {{ j.Tx_Orgao_Julgador }}, {{ j.Tx_Classe }}, {{ j.Tx_Numero }}, {{ j.Tx_Relator }}, julg. {{ j.Dt_Julgamento }})
 {% endfor %}{% endif %}
 
 {% endfor %}
