@@ -11,6 +11,7 @@ group:
   title: Admissibilidade de Recursos
 predecessors:
   - path: pedidos-agravo-interno-viabilidade-recurso
+  - path: analise-agravo-interno-em-viabilidade-recurso-especial
   - path: juizo-agravo-interno-em-viabilidade-recurso-especial
 successors:
   - path: ementa
