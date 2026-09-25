@@ -13,10 +13,6 @@ context:
 
 # PROMPT
 
-Leia atentamente o conteúdo das peças processuais fornecidas abaixo.
-
-{{textos}}
-
 Você leu diversos documentos de um processo judicial em primeiro grau, em fase de prolação de sentença.
 
 Você leu, também, um documento marcado como <pedidos-da-inicial-e-argumentos> que contém os pedidos formulados pelo autor (e pelo reconvinte, quando houver reconvenção) e os argumentos apresentados para embasar cada pedido. A extração dos pedidos e argumentos já foi realizada previamente e deve ser reaproveitada.
@@ -80,7 +76,7 @@ Utilize a seguinte sequência de verificações para analisar:
 
 #### Verificar perempção
 - Óbice que impede o exame do mérito quando o autor dá causa, por 2 (duas) vezes, à extinção do processo por abandono da causa por mais de 30 dias (art. 485, III, do CPC), incidindo a vedação de renovar a mesma ação (art. 485, V, do CPC).
-- caso identificada: extinção sem resolução do mérito pelo motivo *PERECAO*.
+- caso identificada: extinção sem resolução do mérito pelo motivo *PEREMPCAO*.
 
 #### Verificar ilegitimidade de parte
 - Óbice que impede o exame do mérito por ausência de legitimidade para a causa (arts. 17 e 18 do CPC; art. 485, VI, do CPC): falta ao autor legitimidade ativa quando, à luz do direito material aplicável, não é titular da situação jurídica afirmada; falta ao réu legitimidade passiva quando a pretensão deduzida não deveria ser dirigida contra ele. Verifique, antes, a possibilidade de substituição processual do réu ilegítimo (arts. 338 e 339 do CPC): provida a substituição, a ilegitimidade deixa de ser óbice; requirida a substituição e não provida (ou não requerida no prazo), subsiste a extinção.
@@ -167,7 +163,7 @@ Quando a pretensão postulada é integralmente satisfeita no curso do processo �
 
 Os campos abaixo compõem o JSON de diretrizes que orientará a redação da sentença na etapa seguinte. O usuário poderá revisar e editar esse JSON antes da redação da sentença — preencha-o, portanto, com a sua melhor sugestão, de modo completo e fundamentado.
 
-### motivoGeral[] (opcional, opções: COISA_JULGADA, LITISPENDENCIA, PERECAO, ILEGITIMIDADE_DE_PARTE, FALTA_DE_INTERESSE_DE_AGIR, INEPCIA_DA_INICIAL) - Motivo da Extinção sem Resolução do Mérito
+### motivoGeral[] (opcional, opções: COISA_JULGADA, LITISPENDENCIA, PEREMPCAO, ILEGITIMIDADE_DE_PARTE, FALTA_DE_INTERESSE_DE_AGIR, INEPCIA_DA_INICIAL) - Motivo da Extinção sem Resolução do Mérito
 - Quando for o caso de extinção do processo sem resolução do mérito por um motivo que independe da análise do pedido específico, deve ser informado neste campo o identificador do motivo da extinção.
 - As opções de motivos estão listadas e explicadas no título Verificações Preliminares de Extinção sem Resolução do Mérito, acima.
 - Caso haja mais de um motivo geral, informe todos os motivos aplicáveis neste campo, utilizando um array. Preencha este campo com [].

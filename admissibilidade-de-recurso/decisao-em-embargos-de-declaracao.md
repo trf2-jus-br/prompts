@@ -11,7 +11,7 @@ group:
   title: Admissibilidade de Recursos
 predecessors:
   - path: pedidos-viabilidade-recurso
-  - path: pesquisa-de-temas
+  - path: pesquisa-de-temas-recurso
   - path: juizo-viabilidade-recurso
 successors:
   - path: chat

@@ -110,26 +110,11 @@ Analise as peças processuais a seguir, identifique as questões jurídicas cent
 - Só podem ser registrados julgados cujo inteiro teor foi lido e confirmou a pertinência (PASSO 5); a leitura da ementa sozinha não habilita a citação.
 - Deixe nulo se nenhuma jurisprudência relevante for encontrada para esta questão (não empreste julgados de outra questão).
 
+##### Rf_Jurisprudencia - Referência para a Jurisprudência
+- Monte a referência usando `<toolCallId>#/resultados/id:<id-da-jurisprudencia>`.
+
 ##### Tx_Tipo (opções: FAVORAVEL, CONTRARIA, NEUTRA)
 - FAVORAVEL se a tese do julgado sustenta a pretensão da parte proponente do par adversarial (ex.: autora/recorrente); CONTRARIA se sustenta a parte adversa; NEUTRA se o julgado é relevante para a questão mas sua tese não pender para nenhum dos lados (ex.: diretriz procedimental aplicável a ambos). Julgado cuja direção não pôde ser aferida não deve ser registrado.
-
-##### Tx_Sigla (opcional) - Sigla do Órgão
-- Sigla do órgão, se houver.
-
-##### Tx_Classe (opcional) - Classe
-- Classe processual, se houver.
-
-##### Tx_Numero (opcional) - Número do Processo
-- Número do processo, se houver.
-
-##### Tx_Orgao_Julgador (opcional) - Órgão Julgador
-- Órgão julgador, se houver.
-
-##### Tx_Relator (opcional) - Relator(a)
-- Relator(a), se houver.
-
-##### Dt_Julgamento (opcional) - Data do Julgamento
-- Data do julgamento, se houver.
 
 ##### Tg_Tese (opcional) - Tese
 - Citar a tese ou fazer um resumo fiel da tese em 1 a 3 linhas, se houver.
@@ -137,16 +122,9 @@ Analise as peças processuais a seguir, identifique as questões jurídicas cent
 ##### Tx_Origem_Tese (opcional, opções: EMENTA, INTEIRO_TEOR) - Origem da Tese
 - Como todo julgado citado passou pelo inteiro teor (PASSO 5), informe EMENTA quando a tese transcrita foi extraída da ementa (lida na busca ou no inteiro teor) e INTEIRO_TEOR quando extraída do corpo do acórdão.
 
-##### Tg_Decisao (opcional) - Decisão
-- Incluir a decisão completa, ipsislitteris, se houver.
-- Caso o documento traga uma longa decisão, ela deve ser incluída na íntegra.
-
-##### Tg_Ementa (opcional) - Ementa
-- Incluir a ementa completa, ipsislitteris, se houver. Se a ementa não foi lida nem na busca nem no inteiro teor, preencha "[ementa não disponível]". Nunca redija ementa de memória.
-
 ### Tg_Conclusao (opcional) - Conclusão
-- Breve conclusão sobre a pesquisa, se houver. Use para registrar observações gerais sobre a pesquisa, dificuldades encontradas ou lacunas de jurisprudência.
-- Formatar com MarkDown.
+- Parágrafo conclusivo resumindo a importância da jurisprudência encontrada para a procedência ou improcedência dos pedidos como um todo. Também pode registrar observações gerais sobre a pesquisa, dificuldades encontradas ou lacunas de jurisprudência.
+- Destaque em negrito (MarkDown) os pontos mais relevantes.
 
 
 # FORMAT
@@ -164,19 +142,22 @@ Jurisprudência não localizada nesta base para esta questão.
 {% else %}{% for j in q.jurisprudencia %}
 **Jurisprudência {{qi}}.{{loop.index}} - {{"Favorável" if j.Tx_Tipo == "FAVORAVEL" else ("Contrária" if j.Tx_Tipo == "CONTRARIA" else "Neutra")}}:**
 
-> **Tese{{" obtida da ementa" if j.Tx_Origem_Tese == "EMENTA" else (" obtida do inteiro teor" if j.Tx_Origem_Tese == "INTEIRO_TEOR" else "")}}:** {{j.Tg_Tese}} 
+<blockquote>
+<p><strong>Tese{{" obtida da ementa" if j.Tx_Origem_Tese == "EMENTA" else (" obtida do inteiro teor" if j.Tx_Origem_Tese == "INTEIRO_TEOR" else "")}}:</strong> {{j.Tg_Tese}}</p>
 
-> **Decisão:** {{j.Tg_Decisao}}
+<p><strong>{% if j.Rf_Jurisprudencia.campo == 'DECISÃO'%}Decisão{% else %}{~ j.Rf_Jurisprudencia.campo ~}{% endif %}:</strong> {~ j.Rf_Jurisprudencia.texto ~}
 
-> **Ementa:** {{j.Tg_Ementa}}
+<p><strong>Ementa:</strong> {~ j.Rf_Jurisprudencia.ementa | safe ~}
 
-> ({{ j.Tx_Sigla }}, {{ j.Tx_Orgao_Julgador }}, {{ j.Tx_Classe }}, {{ j.Tx_Numero }}, {{ j.Tx_Relator }}, julg. {{ j.Dt_Julgamento }})
+<p>({~ j.Rf_Jurisprudencia.classe ~} Nº {~ j.Rf_Jurisprudencia.numeroProcesso ~}, {~ j.Rf_Jurisprudencia.orgaoJulgador ~}, {~ j.Rf_Jurisprudencia.relator ~}, julg. {~ j.Rf_Jurisprudencia.dataJulgamento ~})</p>
+</blockquote>
+
 {% endfor %}{% endif %}
 
 {% endfor %}
 
 {% if Tg_Conclusao %}
-**Conclusão:** 
+### Conclusão
 
 {{ Tg_Conclusao }}
 {% endif %}

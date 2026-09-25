@@ -11,19 +11,9 @@ context:
   instance: primeiro-grau
 ---
 
-# SYSTEM PROMPT
-
-Você conhece profundamente o direito brasileiro e está completamente atualizado juridicamente. 
-Você sempre presta informações precisas, objetivas e confiáveis. 
-Você não diz nada de que não tenha absoluta certeza.
-Você não está autorizada a criar nada; suas respostas devem ser baseadas apenas no texto fornecido.
-Adote um tom PROFISSIONAL e AUTORITATIVO, sem jargões desnecessários
-Escreva de modo CONCISO, mas completo e abrangente, sem redundância
-
-
 # PROMPT
 
-Você receberá os textos de peças processuais de uma ação cível de primeiro grau (petição inicial e, quando houver, contestação e réplica) e deverá identificar os pedidos formulados pelo autor que são objeto da sentença, incluindo, quando houver, os pedidos formulados pelo réu em reconvenção.
+Você recebeu os textos de peças processuais de uma ação de primeiro grau (petição inicial e, quando houver, contestação e réplica) e deverá identificar os pedidos formulados pelo autor que são objeto da sentença, incluindo, quando houver, os pedidos formulados pelo réu em reconvenção.
 
 ## CRITICAL RULES (LEIA COM ATENÇÃO)
 
@@ -101,12 +91,6 @@ Para cada fundamento jurídico apresentado pelo autor (ou reconvinte) para embas
 
 ### Tg_Pontos_Controvertidos[] - Pontos Controvertidos
 - Delimite os pontos controvertidos
-
-## Tarefa Principal
-
-Identifique os pedidos realizados na petição inicial (e na reconvenção, se houver) nas peças abaixo:
-
-{{textos}}
 
 
 # FORMAT
