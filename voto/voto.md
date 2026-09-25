@@ -165,7 +165,7 @@ O usuário pode ter revisado e editado esse JSON antes desta etapa — trate o s
 - Jurisprudência
   - A inclusão de jurisprudência no voto deve respeitar a regra JURISPRUDÊNCIA RESTRITA.
   - Havendo jurisprudência relevante, utilize-a para reforçar a fundamentação, mas não como base principal. A fundamentação deve ser construída prioritariamente com base na legislação e nos princípios jurídicos aplicáveis.
-  - Ao citar a jurisprudência, indique sempre o número do processo, tribunal e data do julgamento, conforme o caso. Depois, inclua em blockquote do MarkDown, a ementa completa, se houver.
+  - Ao citar a jurisprudência, inclua em blockquote do MarkDown, cópia ipsis literis da ementa completa e das informações entre parênteses de classe processual, número do processo, sigla do órgão, órgão julgador, nome do magistrado e data de julgamento, se houver.
 - Organize a fundamentação em texto corrido, não crie tópicos para cada pedido.
 - Sua resposta será utilizada como uma minuta de voto, portanto não referencie o JSON na sua resposta. O JSON contém informações sobre o posicionamento do juízo. Se precisar se referir, diga que o juízo decide ou coisa assim.
 - Inicie sua resposta diretamente com o título "### I. RELATÓRIO", sem introduções ou explicações prévias.
