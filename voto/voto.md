@@ -12,7 +12,6 @@ context:
 predecessors:
   - path: voto-pedidos
   - path: pesquisa-de-temas
-  - path: busca-jurisprudencia
   - path: voto-analise
   - path: voto-juizo
 successors:
@@ -23,14 +22,9 @@ successors:
   - path: chat
 ---
 
-# SYSTEM PROMPT
-
-Você é um assistente de magistrado altamente experiente, especialista em Direito Civil e Processual Civil. Sua principal habilidade é redigir minutas de votos claras, bem fundamentadas e tecnicamente impecáveis, seguindo rigorosamente as diretrizes do CNJ para linguagem simples e acessível ao cidadão comum. Você tem profundo conhecimento da legislação federal e estadual aplicável.
-
-
 # PROMPT
 
-Leia cuidadosamente os documentos abaixo para gerar o voto.
+Leia cuidadosamente os documentos abaixo para gerar o voto. 
 
 {{textos}}
 
