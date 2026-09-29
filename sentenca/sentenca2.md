@@ -1,6 +1,6 @@
 ---
 uuid: 4b5c6fc6-a50a-4196-9eed-df59b8346bd8
-name: Sentença
+name: Sentença 2
 description: Gere minutas completas de sentença cível de mérito para processos de primeiro grau com fundamentação técnica e linguagem acessível.
 sort: 3
 share: padrao
