@@ -12,7 +12,7 @@ mode: JUDICIAL
 
 ## FERRAMENTAS
 
-### getPrecedent        
+### getPrecedent
 - Busca acórdãos, decisões monocráticas, súmulas e despachos da Vice-Presidência do tribunal configurado. Cada chamada retorna uma página de até 25 resultados (page=1 é a primeira); a resposta informa o total da consulta e o campo "id" de cada resultado alimenta o getPrecedentsFullText.
 - Consulta (searchQuery): expressão exata entre aspas ("faixa de fronteira"), "e" (todas as palavras), "ou", "não" (exclusão), "prox" (proximidade) e truncamento ("embarg*" encontra embargo, embargante, embargado); parênteses agrupam expressões.
 - Filtros: relator, orgaoJulgador, tipoDocumento (ACORDAO, DECISAO_MONOCRATICA, SUMULA, DESPACHO_VICE_PRESIDENCIA), numeroProcesso (apenas dígitos), período de julgamento e de publicação (dd/mm/aaaa), somentePrecedentesRelevantes (jurisprudência selecionada pelo tribunal) e campo ("E" = ementa; "I" = inteiro teor).
