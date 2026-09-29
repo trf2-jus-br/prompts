@@ -6,14 +6,6 @@ sort: 3
 share: oculto
 piece_strategy: tipos-especificos
 piece_descr: []
-instance: 
-  - primeiro-grau
-  - segundo-grau
-context:
-  action: minuta-editar
-  instance:
-    - primeiro-grau
-    - segundo-grau
 ---
 
 # PROMPT

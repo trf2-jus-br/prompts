@@ -3,7 +3,7 @@ uuid: 6fc5240c-cdbd-413e-b9c1-d660ffe178e7
 name: Busca de Jurisprudência
 author: Apoia
 share: oculto
-piece_strategy: mais-relevantes
+piece_strategy: tipos-especificos
 piece_descr: []
 mode: JUDICIAL
 ---
