@@ -12,6 +12,7 @@ context:
 predecessors:
   - path: voto-pedidos
   - path: pesquisa-de-temas
+  - path: busca-jurisprudencia
   - path: voto-analise
   - path: voto-juizo
 successors:
@@ -24,7 +25,7 @@ successors:
 
 # PROMPT
 
-Leia cuidadosamente os documentos abaixo para gerar o voto. 
+Leia cuidadosamente os documentos abaixo para gerar o voto.
 
 {{textos}}
 
