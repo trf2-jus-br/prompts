@@ -44,7 +44,7 @@ A partir daí, adapte a redação:
 - O texto deve fluir naturalmente, sem numeração explícita de parágrafos.
 
 ## REGRAS E DIRETRIZES ESSENCIAIS:
-- JURISPRUDÊNCIA RESTRITA: Sob nenhuma hipótese cite ou se baseie em julgados, súmulas, enunciados ou qualquer precedente jurisprudencial de qualquer tribunal (STF, STJ, etc.), EXCETO os enunciados vinculantes (teses de repercussão geral ou de recursos repetitivos, súmulas vinculantes etc.) indicados no JSON do arquivo marcado com <pedidos> no campo "tema" de cada pedido ou argumento e os constantes nos arquivos marcados com <pesquisa-de-temas> ou <busca-de-jurisprudencia>. Quando o dispositivo indicar julgamento com fundamento em tese (art. 927 do CPC), aplique e cite a tese indicada, integrando o número do tema e a descrição da tese. Fora dessas hipóteses, a fundamentação deve ser puramente legal e principiológica.
+- JURISPRUDÊNCIA RESTRITA: Sob nenhuma hipótese cite ou se baseie em julgados, súmulas, enunciados ou qualquer precedente jurisprudencial de qualquer tribunal (STF, STJ, etc.), EXCETO os enunciados vinculantes (teses de repercussão geral ou de recursos repetitivos, súmulas vinculantes etc.) indicados no JSON do arquivo marcado com <pedidos> no campo "tema" de cada pedido ou argumento e os constantes nos arquivos marcados com <pesquisa-de-temas> ou <busca-jurisprudencia>. Quando o dispositivo indicar julgamento com fundamento em tese (art. 927 do CPC), aplique e cite a tese indicada, integrando o número do tema e a descrição da tese. Fora dessas hipóteses, a fundamentação deve ser puramente legal e principiológica.
 - LINGUAGEM SIMPLES (CNJ): Utilize linguagem direta, clara e concisa. Evite jargões excessivos, latim (exceto termos indispensáveis e consagrados como inaudita altera pars, se estritamente necessário e explicado), e frases excessivamente longas ou complexas. Explique termos técnicos quando seu uso for inevitável. O texto deve ser compreensível por uma pessoa sem formação jurídica. Use frases curtas e parágrafos focados em uma única ideia central. Prefira a voz ativa.
 - FUNDAMENTAÇÃO ROBUSTA E DIDÁTICA: A seção de Fundamentação deve conter parágrafos bem desenvolvidos. Cada parágrafo deve contribuir para a construção lógica da decisão. Explique os conceitos jurídicos e os princípios aplicáveis como se estivesse ensinando a um leigo interessado. Conecte claramente os fatos provados no processo à legislação e aos princípios pertinentes.
 - ESTRUTURA RÍGIDA: Siga a estrutura clássica do voto: Relatório, Fundamentação e Dispositivo.
@@ -155,13 +155,66 @@ O usuário pode ter revisado e editado esse JSON antes desta etapa — trate o s
 - fundamentacoes[] (de cada pedido e argumento): são sugestões de fundamentação a favor e contra. As marcadas com checked=true devem orientar a redação: as alinhadas com o dispositivo sustentam a fundamentação do item; as contrárias marcadas devem ser enfrentadas no corpo do voto (rebaticas ou consideradas, conforme o caso). As marcadas com checked=false podem ser aproveitadas se úteis, mas não são obrigatórias. Escreva pelo menos um parágrafo de fundamentação para cada pedido.
 - Tg_ComandosAdicionais: atenda integralmente aos comandos ali consignados.
 
-### Regras finais
+### COMO INSERIR EMENTA DOS JULGADOS
+
+O bloco <resultados_de_prompts_anteriores> traz o resultado da busca de
+jurisprudência. A ementa de cada julgado está delimitada por marcadores
+(invisíveis na renderização):
+
+- <!--apoia:ementa-1.1--> ... <!--/apoia:ementa-1.1--> — ementa integral do julgado 1.1
+- <!--apoia:ementa-1.2--> ... <!--/apoia:ementa-1.2--> — ementa integral do julgado 1.2
+- (e assim por diante, no padrão N.M)
+
+Quando o seu texto precisar incluir uma ementa:
+
+1. NÃO transcreva, copie, parafraseie ou resuma o conteúdo da ementa.
+2. No ponto exato, em parágrafo próprio, escreva apenas:
+
+   <blockquote><!--apoia:copiar:ementa-N.M--></blockquote>
+
+   substituindo N.M pelo identificador da ementa desejada. O sistema
+   substituirá o comando pelo conteúdo integral e exato da ementa, já dentro
+   do blockquote.
+
+Exemplo: para citar a ementa do julgado 1.2:
+
+A tese firmada no caso está alinhada à jurisprudência dominante, conforme a
+ementa a seguir:
+
+<blockquote><!--apoia:copiar:ementa-1.2--></blockquote>
+
+Regras:
+- Emita o comando como texto plano: sem cercas de código, aspas ou qualquer
+  caractere em volta; a tag <blockquote> envolve o comando diretamente.
+- Use apenas identificadores visíveis no bloco. Comando com identificador
+  inexistente invalida a resposta inteira.
+- O comando é somente para cópia integral da ementa. Análise, distinção ou
+  comentário, escreva você mesmo, no seu próprio texto, antes ou depois do
+  blockquote.
+
+### COMO INSERIR TEMAS DOS TRIBUNAIS SUPERIORES
+
+O bloco <resultados_de_prompts_anteriores> traz o resultado da pesquisa de temas. A tese de cada tema está delimitada por marcadores, conforme exemplo abaixo:
+
+- <!--apoia:tema-stf-rg-123-tese--> ... <!--/apoia:tema-stf-rg-123-tese--> — tese do Tema de Repercussão Geral 123 do STF
+
+Quando o seu texto precisar incluir uma tese:
+
+1. NÃO transcreva, copie, parafraseie ou resuma o conteúdo da tese.
+2. No ponto exato, em parágrafo próprio, escreva apenas:
+
+   <blockquote><!--apoia:copiar:tema-<id>-tese--></blockquote>
+
+   substituindo <id> pelo identificador do tema desejado. O sistema
+   substituirá o comando pelo conteúdo integral e exato da da tese, já dentro
+   do blockquote.
+
+### REGRAS FINAIS
+
 - Este voto deve tratar apenas dos pedidos e argumentos constantes do JSON do arquivo marcado com <pedidos>. Qualquer outro pedido constante das peças deve ser ignorado e não mencionado no voto, nem na fundamentação nem no dispositivo.
 - Jurisprudência
   - A inclusão de jurisprudência no voto deve respeitar a regra JURISPRUDÊNCIA RESTRITA.
   - Havendo jurisprudência relevante, utilize-a para reforçar a fundamentação, mas não como base principal. A fundamentação deve ser construída prioritariamente com base na legislação e nos princípios jurídicos aplicáveis.
-  - Ao citar a jurisprudência, inclua em blockquote do MarkDown, cópia ipsis literis da ementa completa e das informações entre parênteses de classe processual, número do processo, sigla do órgão, órgão julgador, nome do magistrado e data de julgamento, se houver.
 - Organize a fundamentação em texto corrido, não crie tópicos para cada pedido.
 - Sua resposta será utilizada como uma minuta de voto, portanto não referencie o JSON na sua resposta. O JSON contém informações sobre o posicionamento do juízo. Se precisar se referir, diga que o juízo decide ou coisa assim.
 - Inicie sua resposta diretamente com o título "### I. RELATÓRIO", sem introduções ou explicações prévias.
-

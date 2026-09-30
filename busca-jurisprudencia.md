@@ -111,7 +111,7 @@ Analise as peças processuais a seguir, identifique as questões jurídicas cent
 - Deixe nulo se nenhuma jurisprudência relevante for encontrada para esta questão (não empreste julgados de outra questão).
 
 ##### Rf_Jurisprudencia - Referência para a Jurisprudência
-- Monte a referência usando `<toolCallId>#/resultados/id:<id-da-jurisprudencia>`.
+- Monte a referência usando `getPrecedent#/resultados/id:<id-da-jurisprudencia`.
 
 ##### Tx_Tipo (opções: FAVORAVEL, CONTRARIA, NEUTRA)
 - FAVORAVEL se a tese do julgado sustenta a pretensão da parte proponente do par adversarial (ex.: autora/recorrente); CONTRARIA se sustenta a parte adversa; NEUTRA se o julgado é relevante para a questão mas sua tese não pender para nenhum dos lados (ex.: diretriz procedimental aplicável a ambos). Julgado cuja direção não pôde ser aferida não deve ser registrado.
@@ -147,9 +147,7 @@ Jurisprudência não localizada nesta base para esta questão.
 
 <p><strong>{% if j.Rf_Jurisprudencia.campo == 'DECISÃO'%}Decisão{% else %}{~ j.Rf_Jurisprudencia.campo ~}{% endif %}:</strong> {~ j.Rf_Jurisprudencia.texto ~}
 
-<p><strong>Ementa:</strong> {~ j.Rf_Jurisprudencia.ementa | safe ~}
-
-<p>({~ j.Rf_Jurisprudencia.classe ~} Nº {~ j.Rf_Jurisprudencia.numeroProcesso ~}, {~ j.Rf_Jurisprudencia.orgaoJulgador ~}, {~ j.Rf_Jurisprudencia.relator ~}, julg. {~ j.Rf_Jurisprudencia.dataJulgamento ~})</p>
+<p><strong>Ementa:</strong> <!--apoia:ementa-{{qi}}.{{loop.index}}-->{~ j.Rf_Jurisprudencia.ementa | safe ~} ({~ j.Rf_Jurisprudencia.classe ~} Nº {~ j.Rf_Jurisprudencia.numeroProcesso ~}, {~ j.Rf_Jurisprudencia.orgaoJulgador ~}, {~ j.Rf_Jurisprudencia.relator ~}, julg. {~ j.Rf_Jurisprudencia.dataJulgamento ~})<!--/apoia:ementa-{{qi}}.{{loop.index}}--></p>
 </blockquote>
 
 {% endfor %}{% endif %}

@@ -80,7 +80,7 @@ Teses jurídicas e súmulas vinculantes identificadas pela pesquisa com aplicaç
 {% if p.Tg_Analise %}
 {= p.Tg_Analise =}
 {% endif %}{% for t in p.temas %}
-<p style="margin-left: 2em;"><strong>{~ t.Rf_Tema.title ~}</strong> (ID: {~ t.Rf_Tema.id ~}).{% if t.Lo_Tema_Ja_Citado %} Tema já citado{% if t.Nr_Ponto_Primeira_Citacao %} no Ponto Controvertido {= t.Nr_Ponto_Primeira_Citacao =}{% endif %}.{% else %} <strong>Tese:</strong> {~ t.Rf_Tema.data.tese | safe ~} <strong>Situação:</strong> {~ t.Rf_Tema.data.situacao | safe ~}{% if t.Tg_Relevancia_Tema %} <strong>Relevância:</strong> {= t.Tg_Relevancia_Tema =}{% endif %}{% endif %} <strong>Aplicação:</strong> {= t.Tg_Aplicacao_Tema =}</p>
+<p style="margin-left: 2em;"><strong>{~ t.Rf_Tema.title ~}</strong> (ID: {~ t.Rf_Tema.id ~}).{% if t.Lo_Tema_Ja_Citado %} Tema já citado{% if t.Nr_Ponto_Primeira_Citacao %} no Ponto Controvertido {= t.Nr_Ponto_Primeira_Citacao =}{% endif %}.{% else %} <strong>Tese:</strong> <!--apoia:tema-{{t.Rf_Tema.id}}-tese-->{~ t.Rf_Tema.data.tese | safe ~}<!--/apoia:tema-{{t.Rf_Tema.id}}-tese--> <strong>Situação:</strong> {~ t.Rf_Tema.data.situacao | safe ~}{% if t.Tg_Relevancia_Tema %} <strong>Relevância:</strong> {= t.Tg_Relevancia_Tema =}{% endif %}{% endif %} <strong>Aplicação:</strong> {= t.Tg_Aplicacao_Tema =}</p>
 {% endfor %}
 {% endfor %}
 ### Conclusão
