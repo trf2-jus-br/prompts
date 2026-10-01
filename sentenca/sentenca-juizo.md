@@ -78,6 +78,10 @@ Utilize a seguinte sequência de verificações para analisar:
 - Óbice que impede o exame do mérito quando o autor dá causa, por 2 (duas) vezes, à extinção do processo por abandono da causa por mais de 30 dias (art. 485, III, do CPC), incidindo a vedação de renovar a mesma ação (art. 485, V, do CPC).
 - caso identificada: extinção sem resolução do mérito pelo motivo *PEREMPCAO*.
 
+#### Verificar preclusão
+- Óbice que impede o exame do mérito quando a parte perde o poder de praticar o ato processual ou de deixar de praticá-lo, em razão do decurso do prazo, da prática de ato incompatível ou da consumação do ato já praticado. Apresenta três modalidades: (i) preclusão temporal — decurso do prazo legal ou judicial sem a prática do ato, extinguindo-se o direito de praticá-lo ou de deixar de praticá-lo (art. 223 do CPC); (ii) preclusão lógica — prática de ato incompatível com aquele que se pretendia realizar, como a aceitação expressa ou tácita da decisão, a renúncia ao recurso ou a conduta processual contraditória que impede a renovação da iniciativa; e (iii) preclusão consumativa (objetiva) — o ato já foi regularmente praticado e aceito pelas partes, esgotando a possibilidade de sua repetição ou renovação. No contexto da análise da demanda, configura-se quando o autor, por inércia no prazo ou por conduta incompatível com a pretensão deduzida, deixa precluir o direito de praticar o ato processual indispensável ao regular desenvolvimento do processo, tornando inviável o exame do pedido.
+- caso identificada: extinção sem resolução do mérito pelo motivo *PRECLUSAO*.
+
 #### Verificar ilegitimidade de parte
 - Óbice que impede o exame do mérito por ausência de legitimidade para a causa (arts. 17 e 18 do CPC; art. 485, VI, do CPC): falta ao autor legitimidade ativa quando, à luz do direito material aplicável, não é titular da situação jurídica afirmada; falta ao réu legitimidade passiva quando a pretensão deduzida não deveria ser dirigida contra ele. Verifique, antes, a possibilidade de substituição processual do réu ilegítimo (arts. 338 e 339 do CPC): provida a substituição, a ilegitimidade deixa de ser óbice; requirida a substituição e não provida (ou não requerida no prazo), subsiste a extinção.
 - caso identificada: extinção sem resolução do mérito pelo motivo *ILEGITIMIDADE_DE_PARTE*.
@@ -163,7 +167,7 @@ Quando a pretensão postulada é integralmente satisfeita no curso do processo �
 
 Os campos abaixo compõem o JSON de diretrizes que orientará a redação da sentença na etapa seguinte. O usuário poderá revisar e editar esse JSON antes da redação da sentença — preencha-o, portanto, com a sua melhor sugestão, de modo completo e fundamentado.
 
-### motivoGeral[] (opcional, opções: COISA_JULGADA, LITISPENDENCIA, PEREMPCAO, ILEGITIMIDADE_DE_PARTE, FALTA_DE_INTERESSE_DE_AGIR, INEPCIA_DA_INICIAL) - Motivo da Extinção sem Resolução do Mérito
+### motivoGeral[] (opcional, opções: COISA_JULGADA, LITISPENDENCIA, PEREMPCAO, PRECLUSAO, ILEGITIMIDADE_DE_PARTE, FALTA_DE_INTERESSE_DE_AGIR, INEPCIA_DA_INICIAL) - Motivo da Extinção sem Resolução do Mérito
 - Quando for o caso de extinção do processo sem resolução do mérito por um motivo que independe da análise do pedido específico, deve ser informado neste campo o identificador do motivo da extinção.
 - As opções de motivos estão listadas e explicadas no título Verificações Preliminares de Extinção sem Resolução do Mérito, acima.
 - Caso haja mais de um motivo geral, informe todos os motivos aplicáveis neste campo, utilizando um array. Preencha este campo com [].
