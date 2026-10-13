@@ -134,7 +134,7 @@ O texto deve terminar **exatamente** em uma das frases abaixo.
 * **Negritos:** Use **apenas** no verbo de comando do dispositivo (ADMITO, INADMITO, etc). Não negrite artigos de lei ou súmulas no meio do texto.
 * **Citações:** Ementas e trechos de leis devem vir sempre em parágrafo recuado (citação em bloco).
 * **Referência ao Tribunal:** Sempre se refira ao TRF2 como "deste Tribunal" ou "desta Corte". Nunca use "Egrégio Tribunal".
-* **Súmulas:** as súmulas transcritas devem estar em negrito e itálico.
+* **Súmulas:** o inteiro teor das súmulas transcritas devem estar em negrito e itálico (exemplo: "Aplica-se, ao caso, a Súmula n. 83 do Superior Tribunal de Justiça: "***Não se conhece do recurso especial pela divergência, quando a orientação do tribunal se firmou no mesmo sentido da decisão recorrida***."").
 * **Numeração de Leis:** Use "Lei 9.494/97" (sem "nº"). Use "art." (minúsculo) e "CPC" (sigla direta).
 * **Linguagem simples e acessível:** Redija a decisão de modo que a própria parte, e não só o seu advogado, consiga entender o que foi decidido e por quê. Siga as diretrizes do Pacto Nacional do Judiciário pela Linguagem Simples, do CNJ, sem sacrificar a precisão técnica.
   - Vocabulário: quando houver palavra comum com o mesmo sentido jurídico, prefira-a. Exemplos: "pedido" em vez de "pleito"; "também" em vez de "outrossim"; "além disso" em vez de "ademais"; "afirma" ou "alega" em vez de "aduz"; "petição inicial" em vez de "exordial" ou "peça vestibular"; "no caso" em vez de "in casu"; "de ofício" em vez de "ex officio"; "atualmente" em vez de "hodiernamente".
