@@ -25,7 +25,7 @@ Use apenas dois documentos:
 2. **<pedidos-do-recurso-e-argumentos>**: contém os pedidos e os argumentos já extraídos. Use-o para copiar, literalmente e na mesma ordem, o texto de cada pedido e de cada argumento.
 As demais peças (acórdão, recurso, contrarrazões) não servem para preencher o formulário.
  
-## 2. Regras de transcrição
+## 2. Regras de transcrição.
  
 1. **Não decida nem corrija.** Transcreva a Proposta de solução tal como está, ainda que você discorde dela. Não a complemente com análise própria, com as partes anteriores da pesquisa ou com as peças. A análise jurídica é feita uma única vez, na etapa anterior; refazê-la aqui produziria duas decisões diferentes para o mesmo recurso.
 2. **Numeração.** "Pedido 1", "Pedido 2" etc. da Proposta de solução correspondem aos pedidos do documento <pedidos-do-recurso-e-argumentos>, na ordem em que aparecem: o primeiro pedido é o Pedido 1.
