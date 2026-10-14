@@ -8,7 +8,7 @@ piece_strategy: viabilidade-recurso-especial
 ---
 
 # PROMPT
-
+ 
 Leia atentamente o conteúdo das peças processuais fornecidas abaixo.
  
 {{textos}}
@@ -104,7 +104,7 @@ Na seção "Análise dos pedidos", o Argumento 1.1 tem prevalência "contrária 
  
 Preenchimento correto:
 - motivoGeral: [].
-- Pedido 1: dispositivo DESPROVIDO; motivo [MANTEM_FUNDAMENTOS_DECISAO]; fundamentações tiradas dos pontos favoráveis (A_FAVOR) e contrários (CONTRA) dos Argumentos 1.1 e 1.2, com true nas CONTRA que sustentam o Fundamento e na A_FAVOR mais relevante, que a minuta deverá enfrentar. Argumento 1.1: DESPROVIDO, [MANTEM_FUNDAMENTOS_DECISAO]. Argumento 1.2: DESPROVIDO, [MANTEM_FUNDAMENTOS_DECISAO] — indício fraco não leva a PROVIDO.
+- Pedido 1: dispositivo DESPROVIDO; motivo [MANTEM_FUNDAMENTOS_DECISAO]; fundamentações tiradas dos pontos favoráveis (A_FAVOR) e contrários (CONTRA) dos Argumentos 1.1 e 1.2, com true nas CONTRA que sustentam o Fundamento e false em todas as A_FAVOR. Argumento 1.1: DESPROVIDO, [MANTEM_FUNDAMENTOS_DECISAO]. Argumento 1.2: DESPROVIDO, [MANTEM_FUNDAMENTOS_DECISAO] — indício fraco não leva a PROVIDO.
 - Pedido 2: dispositivo DESCONSIDERAR; motivo []; fundamentações vazias; argumentos DESCONSIDERAR.
 - Tg_ComandosAdicionais:
   Encaminhamento: julgamento pelo órgão colegiado
@@ -122,7 +122,7 @@ Preenchimento correto: Pedido 1 com dispositivo PROVIDO e motivo [ACOLHE_FUNDAME
   Multa (art. 1.021, § 4º, do CPC): não se aplica (reconsideração)
   Pedido 1 — providência: afastar o sobrestamento e determinar o prosseguimento do feito
  
-Erros a evitar: usar o parágrafo "Caso não prevaleça..." do Resumo da análise do Agravo Interno para trocar a solução de um pedido; dar PROVIDO a argumento com prevalência "favorável ao agravante, indício fraco"; dar DESCONSIDERAR a argumento de pedido PROVIDO ou DESPROVIDO, o que faria a minuta deixar de enfrentá-lo.
+Erros a evitar: usar o parágrafo "Caso não prevaleça..." do Resumo da análise do Agravo Interno para trocar a solução de um pedido; dar PROVIDO a argumento com prevalência "favorável ao agravante, indício fraco"; dar DESCONSIDERAR a argumento de pedido PROVIDO ou DESPROVIDO, o que faria a minuta deixar de enfrentá-lo; marcar true em sugestão do tipo oposto ao dispositivo (ex.: A_FAVOR em pedido DESPROVIDO), o que faz o formulário parecer contraditório.
  
  
 ## FIELDS READONLY
@@ -161,7 +161,7 @@ Erros a evitar: usar o parágrafo "Caso não prevaleça..." do Resumo da anális
 - Tipo: A_FAVOR (fundamentação que sustenta o provimento do agravo interno) ou CONTRA (fundamentação que sustenta o seu desprovimento, pela manutenção da decisão agravada).
 ###### Lo_Selecionada - Selecionada
 - Indicação de que a sugestão deve ser aproveitada na redação do voto.
-- Marque true nas sugestões alinhadas com o dispositivo que sustentam o Fundamento da Proposta de resultado e nas contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque false nas demais. Isso é uma sugestão da IA, que poderá ser revista pelo usuário antes da redação do voto.
+- Marque true só nas sugestões do tipo alinhado com o dispositivo do pedido que sejam pertinentes ao Fundamento da Proposta de resultado: CONTRA, quando o dispositivo for DESPROVIDO ou NAO_CONHECIDO; A_FAVOR, quando for PROVIDO. Marque false nas demais, inclusive em todas as do tipo oposto: o enfrentamento dos argumentos do agravante já é garantido na redação, que examina cada argumento. Isso é uma sugestão da IA, que poderá ser revista pelo usuário antes da redação do voto.
 #### argumentos[] - Argumentos do Pedido
 - Liste os fundamentos jurídicos apresentados para embasar o pedido
 - Liste todos os argumentos que o documento de pedidos e argumentos do agravo vincula a este pedido, na mesma ordem, sem acrescentar nem omitir.
@@ -182,7 +182,7 @@ Erros a evitar: usar o parágrafo "Caso não prevaleça..." do Resumo da anális
 - Tipo: A_FAVOR (fundamentação que sustenta o provimento do agravo interno) ou CONTRA (fundamentação que sustenta o seu desprovimento, pela manutenção da decisão agravada).
 ###### Lo_Selecionada - Selecionada
 - Indicação de que a sugestão deve ser aproveitada na redação do voto.
-- Marque true nas sugestões alinhadas com o dispositivo atribuído ao argumento e nas contrárias relevantes que deverão ser enfrentadas na fundamentação. Marque false nas demais. Isso é uma sugestão da IA, que poderá ser revista pelo usuário antes da redação do voto.
+- Marque true só nas sugestões do tipo alinhado com o dispositivo do argumento: CONTRA, quando o dispositivo for DESPROVIDO ou NAO_CONHECIDO; A_FAVOR, quando for PROVIDO. Marque false nas demais, inclusive em todas as do tipo oposto. Isso é uma sugestão da IA, que poderá ser revista pelo usuário antes da redação do voto.
 ### Tg_ComandosAdicionais (opcional) - Comandos Adicionais
 - Comandos para a redação da minuta que não cabem nos campos anteriores: encaminhamento, multa, providências, provimento parcial, pedidos prejudicados, observações da análise e avisos [VERIFICAR].
 - Monte este campo conforme a seção 2, item 8, do PROMPT, uma informação por linha. As linhas de Encaminhamento e de Multa estão sempre presentes.
