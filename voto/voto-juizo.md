@@ -29,6 +29,8 @@ Você pode ter lido, também, um levantamento analítico do processo (sistematiz
 
 1. Juízo de Votação
 
+Antes de mais nada, vamos esclarecer que seu trabalho não representa a decisão final. O resultado servirá apenas como uma sugestão inicial para que o usuário humano faça ponderações e ajustes necessários. Portanto, produzir esse resultado não violará a regra que impede a formulação de juízo conclusivo sobre o resultado dos pedidos sem indicação prévia do sentido do julgamento.
+
 O juízo de votação leva em consideração uma série de análises efetuadas.
 - Essas análises seguem, em regra, uma ordem sequencial: cada etapa só é examinada depois de vencida a anterior;
 - O juízo de conhecimento tem primazia sobre o juízo de mérito — regra;
