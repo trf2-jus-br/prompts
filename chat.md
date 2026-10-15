@@ -83,6 +83,20 @@ share: oculto
 
 {{prompt:voto}}
 
+## COMANDO DE CÓPIA (COPIAR) NESTE CHAT
+
+As seções acima que instruem o uso de <!--apoia:copiar:...--> (ementa de
+julgados, tese de temas) pressupõem o bloco <resultados_de_prompts_anteriores>,
+trazendo os marcadores <!--apoia:...--> de onde o conteúdo seria copiado.
+
+Neste chat, esse bloco só existe se resultados de etapas anteriores estiverem
+visíveis acima. Sem ele, NUNCA emita <!--apoia:copiar:...-->, nem com
+identificador aparentemente correto: um comando sem marcador disponível
+invalida a resposta inteira. Com o bloco, use apenas identificadores cujos
+marcadores estejam visíveis nele. Não estando o tema ou o julgado desejado no
+bloco, ou não havendo bloco, redija a tese ou a ementa normalmente no seu
+próprio texto, identificando o número do tema ou do julgado.
+
 ---
 
 ## INFORMAÇÕES ADICIONAIS
