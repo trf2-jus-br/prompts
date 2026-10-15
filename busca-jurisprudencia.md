@@ -83,7 +83,7 @@ Reunidos os shortlists de TODAS as questões, consolide os candidatos e confirme
 
 # PROMPT
 
-Analise as peças processuais a seguir, identifique as questões jurídicas centrais e execute a busca de jurisprudência pelo método de fases sequenciais do SYSTEM PROMPT: CALIBRE as consultas de todas as questões (somenteTotalDeResultados: true — apenas totais, nada é lido) → só então LEIA a única página de ementas de cada consulta calibrada (sem o parâmetro, nunca page=2) → selecione os candidatos → confirme-os pelos inteiros teores em lote (getPrecedentsFullText, até 10 IDs por chamada). Fases nunca intercaladas; campo "I" apenas como fallback, com o mesmo ciclo calibrar → ler; toda a pesquisa em silêncio, antes de gerar qualquer campo do relatório.
+Analise os resultados de prompts anteriores abaixo, identifique as questões jurídicas centrais (a partir da questão central e dos pontos controvertidos) e execute a busca de jurisprudência pelo método de fases sequenciais do SYSTEM PROMPT: CALIBRE as consultas de todas as questões (somenteTotalDeResultados: true — apenas totais, nada é lido) → só então LEIA a única página de ementas de cada consulta calibrada (sem o parâmetro, nunca page=2) → selecione os candidatos → confirme-os pelos inteiros teores em lote (getPrecedentsFullText, até 10 IDs por chamada). Fases nunca intercaladas; campo "I" apenas como fallback, com o mesmo ciclo calibrar → ler; toda a pesquisa em silêncio, antes de gerar qualquer campo do relatório.
 
 {{textos}}
 
