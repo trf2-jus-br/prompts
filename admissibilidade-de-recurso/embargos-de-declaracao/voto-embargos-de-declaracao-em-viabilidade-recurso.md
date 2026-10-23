@@ -4,7 +4,7 @@ name: Voto ou Decisão de Embargos de Declaração em Viabilidade de Recurso
 description: Gere minutas fundamentadas de voto ou decisão em embargos de declaração em decisão de viabilidade de recurso.
 sort: 1
 share: beta-teste
-piece_strategy: embargos-de-declaracao-em-viabilidade-recurso
+piece_strategy: embargos-de-declaracao
 author: Marcus Abraham/TRF2
 group:
   slug: decisao-de-viabilidade

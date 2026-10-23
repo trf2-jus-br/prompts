@@ -12,8 +12,11 @@ context:
 predecessors:
   - path: voto-pedidos
   - path: pesquisa-de-temas
+    optional: true
   - path: busca-jurisprudencia
+    optional: true
   - path: voto-analise
+    optional: true
   - path: voto-juizo
 successors:
   - path: ementa

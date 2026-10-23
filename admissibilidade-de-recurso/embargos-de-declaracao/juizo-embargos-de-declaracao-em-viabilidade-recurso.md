@@ -4,7 +4,7 @@ name: Juízo de Embargos de Declaração em Viabilidade de Recurso
 description: Realize o juízo completo de embargos de declaração em decisão de viabilidade do recurso.
 sort: 3
 share: oculto
-piece_strategy: embargos-de-declaracao-em-viabilidade-recurso
+piece_strategy: embargos-de-declaracao
 ---
 
 # PROMPT

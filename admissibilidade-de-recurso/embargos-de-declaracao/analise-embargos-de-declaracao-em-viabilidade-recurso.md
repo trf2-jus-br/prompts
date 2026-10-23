@@ -4,7 +4,7 @@ name: Análise de Embargos de Declaração em Viabilidade de Recurso
 description: Realize a análise sequencial de verificação preliminar, conformidade e admissibilidade.
 sort: 3
 share: oculto
-piece_strategy: embargos-de-declaracao-em-viabilidade-recurso
+piece_strategy: embargos-de-declaracao
 ---
 
 # SYSTEM PROMPT

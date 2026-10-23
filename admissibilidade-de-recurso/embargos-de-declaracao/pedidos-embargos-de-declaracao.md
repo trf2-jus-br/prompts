@@ -4,7 +4,7 @@ name: Pedidos de Embargos de Declaração
 description: Extraia e decomponha os pedidos e argumentos dos embargos de declaração, opostos contra decisão ou acórdão, de qualquer matéria.
 sort: 3
 share: oculto
-piece_strategy: embargos-de-declaracao-em-viabilidade-recurso
+piece_strategy: embargos-de-declaracao
 ---
 
 # PROMPT

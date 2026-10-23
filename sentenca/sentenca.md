@@ -14,8 +14,11 @@ context:
 predecessors:
   - path: sentenca-pedidos
   - path: pesquisa-de-temas
+    optional: true
   - path: busca-jurisprudencia
+    optional: true
   - path: sentenca-analise
+    optional: true
   - path: sentenca-juizo
 successors:
   - path: linguagem-simples

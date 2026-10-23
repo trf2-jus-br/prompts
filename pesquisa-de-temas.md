@@ -1,6 +1,6 @@
 ---
 uuid: f42ac06a-1311-41db-bf12-6dd5d33509e4
-name: Pesquisa de Temas
+name: Pesquisa de Temas do STF e STJ
 description: Pesquise teses e súmulas vinculantes aplicáveis.
 sort: 3
 share: oculto
