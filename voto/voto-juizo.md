@@ -259,7 +259,7 @@ Os campos abaixo compõem o JSON de diretrizes que orientará a redação do vot
 - Motivo(s): {{ d.motivo | join(", ") }}{% endif %}{% if d.tema %}
 - Tema(s): {{ d.tema | join(", ") }}{% endif %}
 
-{% if d.argumentos %}Argumentos:{% for a in d.argumentos %}
+{% if d.argumentos %}Causas de Pedir:{% for a in d.argumentos %}
 {{loop.index}}. {= a.texto =} ({{ a.dispositivo }}){% endfor %}
 
 {% endif %}{% if d.fundamentacoes %}Fundamentações:{% for f in d.fundamentacoes %}

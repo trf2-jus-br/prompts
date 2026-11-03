@@ -111,7 +111,7 @@ Identifique os pedidos realizados na peça recursal abaixo:
 > {= d.Tx_Trecho_Comprobatorio | blockquoteLines =}
 
 {% for a in d.Argumentos %}
-<p style="margin-left: 2em;"><strong>Argumento {= outerIndex =}.{= loop.index =}</strong>: {= a.Tx_Texto =}</p>
+<p style="margin-left: 2em;"><strong>Causa de Pedir {= outerIndex =}.{= loop.index =}</strong>: {= a.Tx_Texto =}</p>
 
 > {= a.Tx_Trecho_Comprobatorio | blockquoteLines =}
 
