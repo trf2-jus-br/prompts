@@ -605,7 +605,7 @@ A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que a 
 O recurso especial não comporta admissão em razão do óbice da Súmula n. 83 do Superior Tribunal de Justiça: "Não se conhece do recurso especial pela divergência, quando a orientação do tribunal se firmou no mesmo sentido da decisão recorrida."
 Embora o recurso tenha sido interposto exclusivamente com fundamento na alínea 'a' do permissivo constitucional, o óbice da Súmula n. 83 do Superior Tribunal de Justiça a ele se aplica igualmente. A jurisprudência do Superior Tribunal de Justiça é firme no sentido de que o enunciado sumular incide tanto sobre a alínea 'c' quanto sobre a alínea 'a', sendo suficiente para obstar o recurso especial quando a pretensão da parte recorrente contrariar o entendimento consolidado do Superior Tribunal de Justiça sobre a interpretação da lei federal invocada.
 No caso, o acórdão recorrido está em plena consonância com a jurisprudência dominante do Superior Tribunal de Justiça sobre {{temaDaControversia - ex: "a incidência de correção monetária sobre benefícios previdenciários" / "os requisitos para configuração da responsabilidade civil do Estado por omissão"}}, conforme se infere dos seguintes precedentes:
-{{precedentesCitados - transcrever os precedentes do STJ indicados pelo usuário}}
+[pular uma linha e deixar em branco, para que o usuário insira os precedentes manualmente]
 Portanto, a irresignação recursal não comporta acolhimento, visto que a tese defendida pela parte recorrente contraria entendimento pacificado no âmbito do Superior Tribunal de Justiça, sendo inviável o processamento do apelo especial.
 ```
 
