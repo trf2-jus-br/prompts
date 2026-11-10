@@ -1,6 +1,6 @@
 ---
 uuid: 9e06c319-dcef-4f87-a717-0f7bc48c13ff
-name: Voto ou Decisão de Agravo Interno em Viabilidade de Recurso
+name: Voto ou Decisão de Agravo Interno (RE/REsp)
 description: Gere minutas fundamentadas de voto em agravo interno em decisão de viabilidade de recurso especial.
 sort: 1
 share: beta-teste

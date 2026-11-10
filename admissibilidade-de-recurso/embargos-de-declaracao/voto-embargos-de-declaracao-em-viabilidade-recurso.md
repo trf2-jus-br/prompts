@@ -1,6 +1,6 @@
 ---
 uuid: b37d591b-1133-4056-801b-7cf9663ee674
-name: Voto ou Decisão de Embargos de Declaração em Viabilidade de Recurso
+name: Voto ou Decisão em Embargos de Declaração (RE/REsp)
 description: Gere minutas fundamentadas de voto ou decisão em embargos de declaração em decisão de viabilidade de recurso.
 sort: 1
 share: beta-teste
