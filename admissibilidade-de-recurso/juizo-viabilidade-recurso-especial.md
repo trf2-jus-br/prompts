@@ -61,6 +61,7 @@ Variantes equivalentes: "não admitir" = inadmitir; "negativa de seguimento" = n
 - Fundamento constitucional autônomo não impugnado → FUNDAMENTO_CONSTITUCIONAL_AUTONOMO
 - Deficiência de fundamentação → DEFICIENCIA_FUNDAMENTACAO
 - Fundamento autônomo não impugnado → FUNDAMENTO_AUTONOMO
+- Ausência de preliminar de relevância → AUSENCIA_PRELIMINAR_RELEVANCIA
 - Falta de cotejo analítico → FALTA_DE_COTEJO_ANALITICO
 - Ausência de comprovação do dissídio → AUSENCIA_COMPROVACAO_DISSIDIO
 - Reexame fático-probatório → FATICA_PROBATORIA
@@ -70,6 +71,7 @@ Variantes equivalentes: "não admitir" = inadmitir; "negativa de seguimento" = n
 - Atos normativos infralegais → ATOS_NORMATIVOS_INFRALEGAIS
 - Direito local → DIREITO_LOCAL
 - Questão exclusivamente constitucional → QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL
+Atenção: apesar do nome, "Ausência de preliminar de relevância" é óbice de cada pedido (tabela 3.3), e não óbice preliminar do recurso (tabela 3.2).
 ## 4. Checagens antes de responder
  
 Confira cada ponto. Quando algum falhar, não resolva por conta própria: faça o que está indicado e registre o aviso em Tg_ComandosAdicionais, sempre iniciado por [VERIFICAR], para que o assessor decida.
@@ -126,7 +128,7 @@ Erro a evitar: usar o parágrafo "Caso não prevaleça..." do Resumo da análise
 - Quando o dispositivo for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO, informe os identificadores dos temas indicados para este pedido na Proposta de solução (trecho "Tema(s)").
 - O identificador tem o formato "stj-rr-123" ou "stf-rg-456" e é copiado só do trecho "Tema(s)" da linha deste pedido na Proposta de solução. Não o procure nas partes anteriores da pesquisa nem o monte a partir do número do tema.
 - Nos demais dispositivos, deixe este campo em branco.
-##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
+##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, AUSENCIA_PRELIMINAR_RELEVANCIA, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
 - Quando o dispositivo for INADIMITIR, informe, em array, o código de cada óbice indicado para este pedido na Proposta de solução (trecho "Óbices"), convertido pela tabela 3.3 do PROMPT, ainda que seja um só.
 - Nos demais dispositivos, preencha este campo com [].
 #### argumentos[] - Argumentos do Pedido
@@ -138,7 +140,7 @@ Erro a evitar: usar o parágrafo "Caso não prevaleça..." do Resumo da análise
 - Repita o dispositivo do pedido a que o argumento pertence, inclusive quando for SUSPENDER, NEGAR_SEGUIMENTO ou ENCAMINHAR_PARA_RETRATACAO.
 ##### tema[] (opcional) - Tema do Argumento
 - Repita os temas do pedido a que o argumento pertence. Se o pedido não tiver tema, deixe este campo em branco.
-##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
+##### motivo[] (opcional, opções: AUSENCIA_PREQUESTIONAMENTO, FUNDAMENTO_CONSTITUCIONAL_AUTONOMO, DEFICIENCIA_FUNDAMENTACAO, FUNDAMENTO_AUTONOMO, AUSENCIA_PRELIMINAR_RELEVANCIA, FALTA_DE_COTEJO_ANALITICO, AUSENCIA_COMPROVACAO_DISSIDIO, FATICA_PROBATORIA, CONFORMIDADE_JURISPRUDENCIA, CONFORMIDADE_JURISPRUDENCIA_AUSENCIA_OMISSAO, CLAUSULA_CONTRATUAL, ATOS_NORMATIVOS_INFRALEGAIS, DIREITO_LOCAL, QUESTAO_EXCLUSIVAMENTE_CONSTITUCIONAL) - Motivo da Inadmissão
 - Repita, no mesmo array, todos os motivos do pedido a que o argumento pertence, ainda que seja um só. Se o pedido tiver motivo [], preencha este campo com [].
 ### Tg_ComandosAdicionais (opcional) - Comandos Adicionais
 - Transcreva aqui todo o conteúdo após "Observações para a redação:" na Proposta de solução, inclusive subitens (por exemplo, necessidade de desmembrar um pedido, fonte da conformidade com a jurisprudência ou [VERIFICAR] pendente).
@@ -154,7 +156,6 @@ Argumentos:{% for a in d.argumentos %}
     
 {% endfor %}
 {% endif %}
- 
 {% if Tg_ComandosAdicionais %}
 **Comandos Adicionais:** {{ Tg_ComandosAdicionais }}
 {% endif %}
